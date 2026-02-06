@@ -1,0 +1,624 @@
+{
+  "domain": "www.yaqo.net",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 16,
+    "switcherNames": [
+      "content",
+      "rain",
+      "clash",
+      "acebet",
+      "raingg",
+      "youtube",
+      "kick",
+      "tossdaplayer",
+      "tiktokdievas",
+      "stepbrovic",
+      "chevvy",
+      "hatedkid",
+      "mdk",
+      "necropiw",
+      "flopsent",
+      "bojca"
+    ],
+    "layoutType": null,
+    "generatedAt": "2026-01-24T18:29:56.322Z"
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [
+    {
+      "keyword": "content",
+      "type": "href-relative",
+      "priority": 95,
+      "coordinates": {
+        "x": 960,
+        "y": 379.1875
+      },
+      "source": "href-relative",
+      "href": "/content",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "rain",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 801.2265625,
+        "y": 53
+      },
+      "source": "text",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "clash",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 959.9921875,
+        "y": 53
+      },
+      "source": "text",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "acebet",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 1118.7578125,
+        "y": 53
+      },
+      "source": "text",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "raingg",
+      "type": "image-button",
+      "priority": 75,
+      "coordinates": {
+        "x": 801.2265625,
+        "y": 53
+      },
+      "source": "image",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "youtube",
+      "type": "image-button",
+      "priority": 75,
+      "coordinates": {
+        "x": 960,
+        "y": 379.1875
+      },
+      "source": "image",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "kick",
+      "type": "image-button",
+      "priority": 75,
+      "coordinates": {
+        "x": 1038,
+        "y": 1441.1875
+      },
+      "source": "image",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "tossdaplayer",
+      "type": "innerHTML-match",
+      "priority": 65,
+      "coordinates": {
+        "x": 818.25,
+        "y": 540.1875
+      },
+      "source": "innerHTML",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "tiktokdievas",
+      "type": "innerHTML-match",
+      "priority": 65,
+      "coordinates": {
+        "x": 818.25,
+        "y": 607.1875
+      },
+      "source": "innerHTML",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "stepbrovic",
+      "type": "innerHTML-match",
+      "priority": 65,
+      "coordinates": {
+        "x": 818.25,
+        "y": 674.1875
+      },
+      "source": "innerHTML",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "chevvy",
+      "type": "innerHTML-match",
+      "priority": 65,
+      "coordinates": {
+        "x": 818.25,
+        "y": 741.1875
+      },
+      "source": "innerHTML",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "hatedkid",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "mdk",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "necropiw",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "flopsent",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "bojca",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    }
+  ],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [
+      {
+        "keyword": "rain",
+        "action": "click",
+        "selector": "[data-site=\"rain\"], [data-load-mode=\"rain\"]",
+        "coordinates": {
+          "x": 801.2265625,
+          "y": 53
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "clash",
+        "action": "click",
+        "selector": "[data-site=\"clash\"], [data-load-mode=\"clash\"]",
+        "coordinates": {
+          "x": 959.9921875,
+          "y": 53
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "acebet",
+        "action": "click",
+        "selector": "[data-site=\"acebet\"], [data-load-mode=\"acebet\"]",
+        "coordinates": {
+          "x": 1118.7578125,
+          "y": 53
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "raingg",
+        "action": "click",
+        "selector": "[data-site=\"raingg\"], [data-load-mode=\"raingg\"]",
+        "coordinates": {
+          "x": 801.2265625,
+          "y": 53
+        },
+        "type": "image-button"
+      },
+      {
+        "keyword": "youtube",
+        "action": "click",
+        "selector": "[data-site=\"youtube\"], [data-load-mode=\"youtube\"]",
+        "coordinates": {
+          "x": 960,
+          "y": 379.1875
+        },
+        "type": "image-button"
+      },
+      {
+        "keyword": "kick",
+        "action": "click",
+        "selector": "[data-site=\"kick\"], [data-load-mode=\"kick\"]",
+        "coordinates": {
+          "x": 1038,
+          "y": 1441.1875
+        },
+        "type": "image-button"
+      },
+      {
+        "keyword": "tossdaplayer",
+        "action": "click",
+        "selector": "[data-site=\"tossdaplayer\"], [data-load-mode=\"tossdaplayer\"]",
+        "coordinates": {
+          "x": 818.25,
+          "y": 540.1875
+        },
+        "type": "innerHTML-match"
+      },
+      {
+        "keyword": "tiktokdievas",
+        "action": "click",
+        "selector": "[data-site=\"tiktokdievas\"], [data-load-mode=\"tiktokdievas\"]",
+        "coordinates": {
+          "x": 818.25,
+          "y": 607.1875
+        },
+        "type": "innerHTML-match"
+      },
+      {
+        "keyword": "stepbrovic",
+        "action": "click",
+        "selector": "[data-site=\"stepbrovic\"], [data-load-mode=\"stepbrovic\"]",
+        "coordinates": {
+          "x": 818.25,
+          "y": 674.1875
+        },
+        "type": "innerHTML-match"
+      },
+      {
+        "keyword": "chevvy",
+        "action": "click",
+        "selector": "[data-site=\"chevvy\"], [data-load-mode=\"chevvy\"]",
+        "coordinates": {
+          "x": 818.25,
+          "y": 741.1875
+        },
+        "type": "innerHTML-match"
+      },
+      {
+        "keyword": "hatedkid",
+        "action": "click",
+        "selector": "[data-site=\"hatedkid\"], [data-load-mode=\"hatedkid\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "mdk",
+        "action": "click",
+        "selector": "[data-site=\"mdk\"], [data-load-mode=\"mdk\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "necropiw",
+        "action": "click",
+        "selector": "[data-site=\"necropiw\"], [data-load-mode=\"necropiw\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "flopsent",
+        "action": "click",
+        "selector": "[data-site=\"flopsent\"], [data-load-mode=\"flopsent\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "bojca",
+        "action": "click",
+        "selector": "[data-site=\"bojca\"], [data-load-mode=\"bojca\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      }
+    ],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "switcherConfig": {
+      "discoveredAt": "2026-01-24T18:29:56.322Z",
+      "mainLeaderboardUrl": "https://www.yaqo.net",
+      "navigationMethod": "mixed",
+      "urlPattern": null,
+      "allSwitchers": [
+        {
+          "keyword": "content",
+          "type": "href-relative",
+          "selector": null,
+          "coordinates": {
+            "x": 960,
+            "y": 379.1875
+          },
+          "priority": 95,
+          "source": "href-relative",
+          "href": "/content",
+          "isActive": false
+        },
+        {
+          "keyword": "rain",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 801.2265625,
+            "y": 53
+          },
+          "priority": 85,
+          "source": "text",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "clash",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 959.9921875,
+            "y": 53
+          },
+          "priority": 85,
+          "source": "text",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "acebet",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 1118.7578125,
+            "y": 53
+          },
+          "priority": 85,
+          "source": "text",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "raingg",
+          "type": "image-button",
+          "selector": null,
+          "coordinates": {
+            "x": 801.2265625,
+            "y": 53
+          },
+          "priority": 75,
+          "source": "image",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "youtube",
+          "type": "image-button",
+          "selector": null,
+          "coordinates": {
+            "x": 960,
+            "y": 379.1875
+          },
+          "priority": 75,
+          "source": "image",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "kick",
+          "type": "image-button",
+          "selector": null,
+          "coordinates": {
+            "x": 1038,
+            "y": 1441.1875
+          },
+          "priority": 75,
+          "source": "image",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "tossdaplayer",
+          "type": "innerHTML-match",
+          "selector": null,
+          "coordinates": {
+            "x": 818.25,
+            "y": 540.1875
+          },
+          "priority": 65,
+          "source": "innerHTML",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "tiktokdievas",
+          "type": "innerHTML-match",
+          "selector": null,
+          "coordinates": {
+            "x": 818.25,
+            "y": 607.1875
+          },
+          "priority": 65,
+          "source": "innerHTML",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "stepbrovic",
+          "type": "innerHTML-match",
+          "selector": null,
+          "coordinates": {
+            "x": 818.25,
+            "y": 674.1875
+          },
+          "priority": 65,
+          "source": "innerHTML",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "chevvy",
+          "type": "innerHTML-match",
+          "selector": null,
+          "coordinates": {
+            "x": 818.25,
+            "y": 741.1875
+          },
+          "priority": 65,
+          "source": "innerHTML",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "hatedkid",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "mdk",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "necropiw",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "flopsent",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "bojca",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        }
+      ],
+      "dropdownInfo": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-24T18:29:55.993Z",
+  "updatedAt": "2026-01-24T18:29:56.323Z"
+}

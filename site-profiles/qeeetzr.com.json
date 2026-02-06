@@ -1,0 +1,573 @@
+{
+  "domain": "qeeetzr.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 16,
+    "switcherNames": [
+      "shuffle",
+      "csbattle",
+      "queetzr",
+      "bonuses",
+      "diamond",
+      "gamdom",
+      "clash",
+      "clashgg",
+      "csgoempire",
+      "empire",
+      "csgoluck",
+      "rain",
+      "skinrave",
+      "csgold",
+      "bsite",
+      "admin"
+    ],
+    "layoutType": null,
+    "generatedAt": "2026-01-24T20:10:52.181Z"
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [
+    {
+      "keyword": "shuffle",
+      "type": "button",
+      "priority": 80,
+      "coordinates": {
+        "x": 906.28125,
+        "y": 137
+      },
+      "source": "image",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "csbattle",
+      "type": "button",
+      "priority": 80,
+      "coordinates": {
+        "x": 1033.6796875,
+        "y": 137
+      },
+      "source": "image",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "queetzr",
+      "type": "innerHTML-match",
+      "priority": 65,
+      "coordinates": {
+        "x": 959.9921875,
+        "y": 40
+      },
+      "source": "innerHTML",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "bonuses",
+      "type": "innerHTML-match",
+      "priority": 65,
+      "coordinates": {
+        "x": 1098.65625,
+        "y": 40
+      },
+      "source": "innerHTML",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "diamond",
+      "type": "innerHTML-match",
+      "priority": 65,
+      "coordinates": {
+        "x": 959.9921875,
+        "y": 233
+      },
+      "source": "innerHTML",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "gamdom",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "clash",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "clashgg",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "csgoempire",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "empire",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "csgoluck",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "rain",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "skinrave",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "csgold",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "bsite",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "admin",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    }
+  ],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [
+      {
+        "keyword": "shuffle",
+        "action": "click",
+        "selector": "[data-site=\"shuffle\"], [data-load-mode=\"shuffle\"]",
+        "coordinates": {
+          "x": 906.28125,
+          "y": 137
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "csbattle",
+        "action": "click",
+        "selector": "[data-site=\"csbattle\"], [data-load-mode=\"csbattle\"]",
+        "coordinates": {
+          "x": 1033.6796875,
+          "y": 137
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "queetzr",
+        "action": "click",
+        "selector": "[data-site=\"queetzr\"], [data-load-mode=\"queetzr\"]",
+        "coordinates": {
+          "x": 959.9921875,
+          "y": 40
+        },
+        "type": "innerHTML-match"
+      },
+      {
+        "keyword": "bonuses",
+        "action": "click",
+        "selector": "[data-site=\"bonuses\"], [data-load-mode=\"bonuses\"]",
+        "coordinates": {
+          "x": 1098.65625,
+          "y": 40
+        },
+        "type": "innerHTML-match"
+      },
+      {
+        "keyword": "diamond",
+        "action": "click",
+        "selector": "[data-site=\"diamond\"], [data-load-mode=\"diamond\"]",
+        "coordinates": {
+          "x": 959.9921875,
+          "y": 233
+        },
+        "type": "innerHTML-match"
+      },
+      {
+        "keyword": "gamdom",
+        "action": "click",
+        "selector": "[data-site=\"gamdom\"], [data-load-mode=\"gamdom\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "clash",
+        "action": "click",
+        "selector": "[data-site=\"clash\"], [data-load-mode=\"clash\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "clashgg",
+        "action": "click",
+        "selector": "[data-site=\"clashgg\"], [data-load-mode=\"clashgg\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "csgoempire",
+        "action": "click",
+        "selector": "[data-site=\"csgoempire\"], [data-load-mode=\"csgoempire\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "empire",
+        "action": "click",
+        "selector": "[data-site=\"empire\"], [data-load-mode=\"empire\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "csgoluck",
+        "action": "click",
+        "selector": "[data-site=\"csgoluck\"], [data-load-mode=\"csgoluck\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "rain",
+        "action": "click",
+        "selector": "[data-site=\"rain\"], [data-load-mode=\"rain\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "skinrave",
+        "action": "click",
+        "selector": "[data-site=\"skinrave\"], [data-load-mode=\"skinrave\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "csgold",
+        "action": "click",
+        "selector": "[data-site=\"csgold\"], [data-load-mode=\"csgold\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "bsite",
+        "action": "click",
+        "selector": "[data-site=\"bsite\"], [data-load-mode=\"bsite\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "admin",
+        "action": "click",
+        "selector": "[data-site=\"admin\"], [data-load-mode=\"admin\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      }
+    ],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "switcherConfig": {
+      "discoveredAt": "2026-01-24T20:10:52.181Z",
+      "mainLeaderboardUrl": "https://qeeetzr.com",
+      "navigationMethod": "click-based",
+      "urlPattern": null,
+      "allSwitchers": [
+        {
+          "keyword": "shuffle",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 906.28125,
+            "y": 137
+          },
+          "priority": 80,
+          "source": "image",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "csbattle",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 1033.6796875,
+            "y": 137
+          },
+          "priority": 80,
+          "source": "image",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "queetzr",
+          "type": "innerHTML-match",
+          "selector": null,
+          "coordinates": {
+            "x": 959.9921875,
+            "y": 40
+          },
+          "priority": 65,
+          "source": "innerHTML",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "bonuses",
+          "type": "innerHTML-match",
+          "selector": null,
+          "coordinates": {
+            "x": 1098.65625,
+            "y": 40
+          },
+          "priority": 65,
+          "source": "innerHTML",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "diamond",
+          "type": "innerHTML-match",
+          "selector": null,
+          "coordinates": {
+            "x": 959.9921875,
+            "y": 233
+          },
+          "priority": 65,
+          "source": "innerHTML",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "gamdom",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "clash",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "clashgg",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "csgoempire",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "empire",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "csgoluck",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "rain",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "skinrave",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "csgold",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "bsite",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "admin",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        }
+      ],
+      "dropdownInfo": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-24T18:28:35.541Z",
+  "updatedAt": "2026-01-24T20:10:52.181Z"
+}

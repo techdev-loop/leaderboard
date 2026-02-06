@@ -1,0 +1,295 @@
+{
+  "domain": "devlrewards.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 5,
+    "switcherNames": [
+      "predictions",
+      "featurewagerleaderboard",
+      "community",
+      "kick",
+      "live"
+    ],
+    "layoutType": null,
+    "generatedAt": "2026-01-24T20:24:53.674Z"
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [
+    {
+      "keyword": "predictions",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 875.53125,
+        "y": 41
+      },
+      "source": "text",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "featurewagerleaderboard",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 1073.3671875,
+        "y": 41
+      },
+      "source": "image-filename",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "community",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 1269.609375,
+        "y": 41
+      },
+      "source": "text",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "kick",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 1646.03125,
+        "y": 41
+      },
+      "source": "text",
+      "isActive": true,
+      "opacity": 1
+    },
+    {
+      "keyword": "live",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 1850.75,
+        "y": 1038.5
+      },
+      "source": "text",
+      "isActive": true,
+      "opacity": 1
+    }
+  ],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [
+      {
+        "keyword": "predictions",
+        "action": "click",
+        "selector": "[data-site=\"predictions\"], [data-load-mode=\"predictions\"]",
+        "coordinates": {
+          "x": 875.53125,
+          "y": 41
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "featurewagerleaderboard",
+        "action": "click",
+        "selector": "[data-site=\"featurewagerleaderboard\"], [data-load-mode=\"featurewagerleaderboard\"]",
+        "coordinates": {
+          "x": 1073.3671875,
+          "y": 41
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "community",
+        "action": "click",
+        "selector": "[data-site=\"community\"], [data-load-mode=\"community\"]",
+        "coordinates": {
+          "x": 1269.609375,
+          "y": 41
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "kick",
+        "action": "click",
+        "selector": "[data-site=\"kick\"], [data-load-mode=\"kick\"]",
+        "coordinates": {
+          "x": 1646.03125,
+          "y": 41
+        },
+        "type": "button"
+      },
+      {
+        "keyword": "live",
+        "action": "click",
+        "selector": "[data-site=\"live\"], [data-load-mode=\"live\"]",
+        "coordinates": {
+          "x": 1850.75,
+          "y": 1038.5
+        },
+        "type": "button"
+      }
+    ],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "switcherConfig": {
+      "discoveredAt": "2026-01-24T20:24:53.674Z",
+      "mainLeaderboardUrl": "https://devlrewards.com",
+      "navigationMethod": "click-based",
+      "urlPattern": null,
+      "allSwitchers": [
+        {
+          "keyword": "predictions",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 875.53125,
+            "y": 41
+          },
+          "priority": 85,
+          "source": "text",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "featurewagerleaderboard",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 1073.3671875,
+            "y": 41
+          },
+          "priority": 85,
+          "source": "image-filename",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "community",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 1269.609375,
+            "y": 41
+          },
+          "priority": 85,
+          "source": "text",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "kick",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 1646.03125,
+            "y": 41
+          },
+          "priority": 85,
+          "source": "text",
+          "href": null,
+          "isActive": true
+        },
+        {
+          "keyword": "live",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 1850.75,
+            "y": 1038.5
+          },
+          "priority": 85,
+          "source": "text",
+          "href": null,
+          "isActive": true
+        }
+      ],
+      "dropdownInfo": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [
+    {
+      "name": "predictions",
+      "reason": "retry_exhausted",
+      "lastChecked": "2026-01-24T20:35:16.999Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T20:35:16.999Z"
+    }
+  ],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-24T20:24:53.338Z",
+  "updatedAt": "2026-01-24T20:35:16.999Z"
+}

@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Environment and secrets (never commit)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.pem
+
+# Build / output
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temp
+logs/
+*.log
+tmp/
+temp/
+.temp/
+.cache/
+
+# Test and coverage
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# Prisma
+prisma/migrations/**/migration_lock.toml
+
+# Scraper: results and runtime data
+lbscraper/results/current/*.json
+lbscraper/results/logs/
+lbscraper/data/
+lbscraper/debug/*.png
+lbscraper/debug/*.html
+lbscraper/debug/*.json
+lbscraper/**/temp-ocr-*.png
+lbscraper/eng.traineddata
+
+# Scraper: keep structure (optional – remove if you want to ignore entire dirs)
+!lbscraper/results/previous/.gitkeep
+
+# Nest / TypeScript
+*.tsbuildinfo
+
+# Misc
+*.rar
+*.zip
+*.tar.gz
+node_modules

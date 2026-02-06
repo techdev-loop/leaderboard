@@ -1,0 +1,2669 @@
+[
+  {
+    "domain": "3dhaxx.com",
+    "leaderboard": "rain",
+    "url": "https://3dhaxx.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "no_podium",
+      "wager_label": "Wagered",
+      "prize_label": "",
+      "rank1_username": "Just-",
+      "rank1_wager": 837.37,
+      "rank1_prize": null,
+      "confidence": 98,
+      "learnedAt": "2026-02-01T07:52:25.500Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "Just- (1499.08)",
+        "wager": 1,
+        "prize": 0
+      },
+      {
+        "rank": 2,
+        "username": "enemy- (926.51)",
+        "wager": 2,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "Neopix- (274.25)",
+        "wager": 3,
+        "prize": 0
+      },
+      {
+        "rank": 4,
+        "username": "Lennox77- (185.27)",
+        "wager": 4,
+        "prize": 0
+      },
+      {
+        "rank": 5,
+        "username": "hbzv2171- (138.33)",
+        "wager": 5,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "absosut- (112.63)",
+        "wager": 6,
+        "prize": 0
+      },
+      {
+        "rank": 7,
+        "username": "MehrAnzeigen- (19.28)",
+        "wager": 7,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "Kroettt- (15.74)",
+        "wager": 8,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "Lobbi- (4.64)",
+        "wager": 9,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "D1fficult- (0.17)",
+        "wager": 10,
+        "prize": 0
+      }
+    ],
+    "entryCount": 10,
+    "method": "geometric",
+    "confidence": 27,
+    "error": null,
+    "screenshot": "3dhaxx.com-rain.png"
+  },
+  {
+    "domain": "augustrewards.com",
+    "leaderboard": "clash",
+    "url": "https://augustrewards.com/leaderboard/yeet",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Reward",
+      "rank1_username": "Mar***",
+      "rank1_wager": 573200,
+      "rank1_prize": 5000,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:45:53.670Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "Mar***",
+        "wager": 573200,
+        "prize": 5000
+      },
+      {
+        "rank": 2,
+        "username": "hid***",
+        "wager": 94819,
+        "prize": 2500
+      },
+      {
+        "rank": 3,
+        "username": "hid***",
+        "wager": 20752.21,
+        "prize": 1250
+      },
+      {
+        "rank": 4,
+        "username": "Mid***********",
+        "wager": 12100.55,
+        "prize": 500
+      },
+      {
+        "rank": 5,
+        "username": "Reo*",
+        "wager": 3920.57,
+        "prize": 300
+      },
+      {
+        "rank": 6,
+        "username": "fle***",
+        "wager": 3460.56,
+        "prize": 200
+      },
+      {
+        "rank": 7,
+        "username": "yur*****",
+        "wager": 3258.44,
+        "prize": 100
+      },
+      {
+        "rank": 8,
+        "username": "Bel*******",
+        "wager": 2962.5,
+        "prize": 50
+      },
+      {
+        "rank": 9,
+        "username": "clo***",
+        "wager": 2000,
+        "prize": 50
+      },
+      {
+        "rank": 10,
+        "username": "Mih*****",
+        "wager": 1516.16,
+        "prize": 50
+      }
+    ],
+    "entryCount": 10,
+    "method": "markdown",
+    "confidence": 95,
+    "error": null,
+    "screenshot": "augustrewards.com-clash.png"
+  },
+  {
+    "domain": "betjuicy.com",
+    "leaderboard": "roobet",
+    "url": "https://www.betjuicy.com/leaderboard/raingg",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "Prize",
+      "rank1_username": "YA****02",
+      "rank1_wager": 295931.24,
+      "rank1_prize": 33000,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:41:31.781Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "Ya****02",
+        "wager": 26324.31,
+        "prize": 33000
+      },
+      {
+        "rank": 2,
+        "username": "Ha*****23",
+        "wager": 20522.92,
+        "prize": 16500
+      },
+      {
+        "rank": 3,
+        "username": "da*********88",
+        "wager": 12833.8,
+        "prize": 8250
+      },
+      {
+        "rank": 4,
+        "username": "Be****36",
+        "wager": 12788.73,
+        "prize": 5625
+      },
+      {
+        "rank": 5,
+        "username": "CA*****E2",
+        "wager": 11228.8,
+        "prize": 3750
+      },
+      {
+        "rank": 6,
+        "username": "Ro****81",
+        "wager": 8810.54,
+        "prize": 3750
+      },
+      {
+        "rank": 7,
+        "username": "He***nm",
+        "wager": 7920.3,
+        "prize": 1875
+      },
+      {
+        "rank": 8,
+        "username": "ma***n6",
+        "wager": 7314.72,
+        "prize": 750
+      },
+      {
+        "rank": 9,
+        "username": "hi***66",
+        "wager": 7307.3,
+        "prize": 750
+      },
+      {
+        "rank": 10,
+        "username": "sl**ty",
+        "wager": 7271.68,
+        "prize": 750
+      }
+    ],
+    "entryCount": 10,
+    "method": "markdown",
+    "confidence": 65,
+    "error": null,
+    "screenshot": "betjuicy.com-roobet.png"
+  },
+  {
+    "domain": "birb.bet",
+    "leaderboard": "csgobig",
+    "url": "https://birb.bet/leaderboards",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "Prize",
+      "rank1_username": "j****0",
+      "rank1_wager": 60727.49,
+      "rank1_prize": 1700,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:46:16.291Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "T****y",
+        "wager": 1866.88,
+        "prize": 1700
+      },
+      {
+        "rank": 1,
+        "username": "T****y",
+        "wager": 2,
+        "prize": 0
+      },
+      {
+        "rank": 2,
+        "username": "Z*****g",
+        "wager": 215.25,
+        "prize": 1000
+      },
+      {
+        "rank": 2,
+        "username": "Z*****g",
+        "wager": 1,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "PLAYER",
+        "wager": 4,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "0",
+        "wager": 500,
+        "prize": 0
+      }
+    ],
+    "entryCount": 6,
+    "method": "markdown",
+    "confidence": 57,
+    "error": null,
+    "screenshot": "birb.bet-csgobig.png"
+  },
+  {
+    "domain": "blaffsen.com",
+    "leaderboard": "rustmagic",
+    "url": "https://blaffsen.com/leaderboard/rustmagic",
+    "visionConfig": {
+      "column_order": "prize_before_wager",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "佰露****",
+      "rank1_wager": 21794.5,
+      "rank1_prize": 750,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:54:01.234Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "blaffsen.com-rustmagic.png"
+  },
+  {
+    "domain": "botboibets.com",
+    "leaderboard": "csgowin",
+    "url": "https://botboibets.com/leaderboard/stake-combined",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": null,
+      "rank1_username": "Lux****",
+      "rank1_wager": 809940.39,
+      "rank1_prize": null,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:49:08.114Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "17% complete",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 1,
+        "username": "Lux****",
+        "wager": 809940.39,
+        "prize": 8000
+      },
+      {
+        "rank": 2,
+        "username": "Sig**********",
+        "wager": 317334.88,
+        "prize": 3900
+      },
+      {
+        "rank": 3,
+        "username": "Ang*******",
+        "wager": 296041.67,
+        "prize": 2100
+      },
+      {
+        "rank": 4,
+        "username": "Bee********",
+        "wager": 75763.37,
+        "prize": 0
+      },
+      {
+        "rank": 5,
+        "username": "Sha**********",
+        "wager": 68205.74,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "cha*******",
+        "wager": 55532.1,
+        "prize": 0
+      },
+      {
+        "rank": 7,
+        "username": "Slo**********",
+        "wager": 50523.52,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "Max***",
+        "wager": 30644.3,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "Mir****",
+        "wager": 30568.98,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "Why*****",
+        "wager": 29144.97,
+        "prize": 0
+      },
+      {
+        "rank": 11,
+        "username": "Bri*****",
+        "wager": 25194.54,
+        "prize": 0
+      },
+      {
+        "rank": 12,
+        "username": "Fen***",
+        "wager": 24348.44,
+        "prize": 0
+      },
+      {
+        "rank": 13,
+        "username": "Zuc********",
+        "wager": 21283.24,
+        "prize": 0
+      },
+      {
+        "rank": 14,
+        "username": "Mac*******",
+        "wager": 19750.37,
+        "prize": 0
+      },
+      {
+        "rank": 15,
+        "username": "jsd**",
+        "wager": 18119.89,
+        "prize": 0
+      },
+      {
+        "rank": 16,
+        "username": "Bat********",
+        "wager": 17252.78,
+        "prize": 0
+      },
+      {
+        "rank": 17,
+        "username": "pic*******",
+        "wager": 16710.01,
+        "prize": 0
+      },
+      {
+        "rank": 18,
+        "username": "klp****",
+        "wager": 16692.86,
+        "prize": 0
+      },
+      {
+        "rank": 19,
+        "username": "the**********",
+        "wager": 16179.54,
+        "prize": 0
+      },
+      {
+        "rank": 20,
+        "username": "mid***",
+        "wager": 14907.14,
+        "prize": 0
+      },
+      {
+        "rank": 21,
+        "username": "kel********",
+        "wager": 11453.65,
+        "prize": 0
+      },
+      {
+        "rank": 22,
+        "username": "Ano****",
+        "wager": 10563.5,
+        "prize": 0
+      },
+      {
+        "rank": 23,
+        "username": "iDo****",
+        "wager": 10558.47,
+        "prize": 0
+      },
+      {
+        "rank": 24,
+        "username": "Osb*****",
+        "wager": 10202.77,
+        "prize": 0
+      },
+      {
+        "rank": 25,
+        "username": "Sac**********",
+        "wager": 9435.16,
+        "prize": 0
+      },
+      {
+        "rank": 26,
+        "username": "Mat******",
+        "wager": 8400.82,
+        "prize": 0
+      },
+      {
+        "rank": 27,
+        "username": "Har********",
+        "wager": 8294.07,
+        "prize": 0
+      },
+      {
+        "rank": 28,
+        "username": "Wil******",
+        "wager": 8051.49,
+        "prize": 0
+      },
+      {
+        "rank": 29,
+        "username": "Far*******",
+        "wager": 7826.37,
+        "prize": 0
+      },
+      {
+        "rank": 30,
+        "username": "Big****",
+        "wager": 7801.36,
+        "prize": 0
+      },
+      {
+        "rank": 31,
+        "username": "Adv*********",
+        "wager": 7672.34,
+        "prize": 0
+      },
+      {
+        "rank": 32,
+        "username": "Wen*********",
+        "wager": 7623.01,
+        "prize": 0
+      },
+      {
+        "rank": 33,
+        "username": "Tbo********",
+        "wager": 7445.43,
+        "prize": 0
+      },
+      {
+        "rank": 34,
+        "username": "Red********",
+        "wager": 7114.13,
+        "prize": 0
+      },
+      {
+        "rank": 35,
+        "username": "Ret*****",
+        "wager": 6559.43,
+        "prize": 0
+      },
+      {
+        "rank": 36,
+        "username": "hof********",
+        "wager": 6138.43,
+        "prize": 0
+      },
+      {
+        "rank": 37,
+        "username": "Goa*****",
+        "wager": 6107.67,
+        "prize": 0
+      },
+      {
+        "rank": 38,
+        "username": "FUL*********",
+        "wager": 5940.64,
+        "prize": 0
+      },
+      {
+        "rank": 39,
+        "username": "Asi*********",
+        "wager": 5819.62,
+        "prize": 0
+      },
+      {
+        "rank": 40,
+        "username": "xDu*******",
+        "wager": 5786.25,
+        "prize": 0
+      },
+      {
+        "rank": 41,
+        "username": "Avi********",
+        "wager": 5750,
+        "prize": 0
+      },
+      {
+        "rank": 42,
+        "username": "Bri********",
+        "wager": 5727.59,
+        "prize": 0
+      },
+      {
+        "rank": 43,
+        "username": "sch****",
+        "wager": 5713.83,
+        "prize": 0
+      },
+      {
+        "rank": 44,
+        "username": "67a********",
+        "wager": 5560.21,
+        "prize": 0
+      },
+      {
+        "rank": 45,
+        "username": "Izz***",
+        "wager": 5401.4,
+        "prize": 0
+      },
+      {
+        "rank": 46,
+        "username": "Gen***",
+        "wager": 5170.38,
+        "prize": 0
+      },
+      {
+        "rank": 47,
+        "username": "Mav*********",
+        "wager": 5074.73,
+        "prize": 0
+      },
+      {
+        "rank": 48,
+        "username": "bum***********",
+        "wager": 4900.01,
+        "prize": 0
+      },
+      {
+        "rank": 49,
+        "username": "mak*******",
+        "wager": 4800.29,
+        "prize": 0
+      },
+      {
+        "rank": 50,
+        "username": "Coe***********",
+        "wager": 4770.69,
+        "prize": 0
+      },
+      {
+        "rank": 51,
+        "username": "vox******",
+        "wager": 4747.85,
+        "prize": 0
+      },
+      {
+        "rank": 52,
+        "username": "nfs******",
+        "wager": 4603.61,
+        "prize": 0
+      },
+      {
+        "rank": 53,
+        "username": "dat******",
+        "wager": 4593.1,
+        "prize": 0
+      },
+      {
+        "rank": 54,
+        "username": "oyo********",
+        "wager": 4489.64,
+        "prize": 0
+      },
+      {
+        "rank": 55,
+        "username": "mam******",
+        "wager": 4486.01,
+        "prize": 0
+      },
+      {
+        "rank": 56,
+        "username": "Nan*****",
+        "wager": 4448.12,
+        "prize": 0
+      },
+      {
+        "rank": 57,
+        "username": "cha*******",
+        "wager": 4445.6,
+        "prize": 0
+      },
+      {
+        "rank": 58,
+        "username": "ble*********",
+        "wager": 4413.14,
+        "prize": 0
+      },
+      {
+        "rank": 59,
+        "username": "bas*****",
+        "wager": 4403.22,
+        "prize": 0
+      },
+      {
+        "rank": 60,
+        "username": "epl****",
+        "wager": 4391.86,
+        "prize": 0
+      },
+      {
+        "rank": 61,
+        "username": "noo******",
+        "wager": 4375,
+        "prize": 0
+      },
+      {
+        "rank": 62,
+        "username": "klo**********",
+        "wager": 4368.66,
+        "prize": 0
+      },
+      {
+        "rank": 63,
+        "username": "orn*******",
+        "wager": 4360.2,
+        "prize": 0
+      },
+      {
+        "rank": 64,
+        "username": "lar********",
+        "wager": 4357.2,
+        "prize": 0
+      },
+      {
+        "rank": 65,
+        "username": "Abu****",
+        "wager": 4351.61,
+        "prize": 0
+      },
+      {
+        "rank": 66,
+        "username": "dov******",
+        "wager": 4344.06,
+        "prize": 0
+      },
+      {
+        "rank": 67,
+        "username": "sos*******",
+        "wager": 4334.45,
+        "prize": 0
+      },
+      {
+        "rank": 68,
+        "username": "spo********",
+        "wager": 4328.8,
+        "prize": 0
+      },
+      {
+        "rank": 69,
+        "username": "cre*********",
+        "wager": 4323.23,
+        "prize": 0
+      },
+      {
+        "rank": 70,
+        "username": "bab******",
+        "wager": 4321.23,
+        "prize": 0
+      },
+      {
+        "rank": 71,
+        "username": "aah******",
+        "wager": 4313,
+        "prize": 0
+      },
+      {
+        "rank": 72,
+        "username": "pav******",
+        "wager": 4308.44,
+        "prize": 0
+      },
+      {
+        "rank": 73,
+        "username": "yap*********",
+        "wager": 4308.25,
+        "prize": 0
+      },
+      {
+        "rank": 74,
+        "username": "kra********",
+        "wager": 4302,
+        "prize": 0
+      },
+      {
+        "rank": 75,
+        "username": "pac*********",
+        "wager": 4298.2,
+        "prize": 0
+      },
+      {
+        "rank": 76,
+        "username": "kar*******",
+        "wager": 4298.06,
+        "prize": 0
+      },
+      {
+        "rank": 77,
+        "username": "Gai*********",
+        "wager": 4292.43,
+        "prize": 0
+      },
+      {
+        "rank": 78,
+        "username": "bor******",
+        "wager": 4270.45,
+        "prize": 0
+      },
+      {
+        "rank": 79,
+        "username": "spe*********",
+        "wager": 4268.28,
+        "prize": 0
+      },
+      {
+        "rank": 80,
+        "username": "pyt*********",
+        "wager": 4255.93,
+        "prize": 0
+      },
+      {
+        "rank": 81,
+        "username": "dai*****",
+        "wager": 4255.37,
+        "prize": 0
+      },
+      {
+        "rank": 82,
+        "username": "obi**********",
+        "wager": 4248.45,
+        "prize": 0
+      },
+      {
+        "rank": 83,
+        "username": "naw********",
+        "wager": 4245.76,
+        "prize": 0
+      },
+      {
+        "rank": 84,
+        "username": "Kri*********",
+        "wager": 4245.28,
+        "prize": 0
+      },
+      {
+        "rank": 85,
+        "username": "LAG*****",
+        "wager": 4240.01,
+        "prize": 0
+      },
+      {
+        "rank": 86,
+        "username": "gri********",
+        "wager": 4239.98,
+        "prize": 0
+      },
+      {
+        "rank": 87,
+        "username": "met******",
+        "wager": 4238.81,
+        "prize": 0
+      },
+      {
+        "rank": 88,
+        "username": "Pol******",
+        "wager": 4224.48,
+        "prize": 0
+      },
+      {
+        "rank": 89,
+        "username": "din******",
+        "wager": 4208.84,
+        "prize": 0
+      },
+      {
+        "rank": 90,
+        "username": "bay***********",
+        "wager": 4207.3,
+        "prize": 0
+      },
+      {
+        "rank": 91,
+        "username": "pra********",
+        "wager": 4198.75,
+        "prize": 0
+      },
+      {
+        "rank": 92,
+        "username": "ham*****",
+        "wager": 4191.51,
+        "prize": 0
+      },
+      {
+        "rank": 93,
+        "username": "dim********",
+        "wager": 4177.85,
+        "prize": 0
+      },
+      {
+        "rank": 94,
+        "username": "rat******",
+        "wager": 4164.18,
+        "prize": 0
+      },
+      {
+        "rank": 95,
+        "username": "vit*********",
+        "wager": 4161.35,
+        "prize": 0
+      },
+      {
+        "rank": 96,
+        "username": "jih*********",
+        "wager": 4148.54,
+        "prize": 0
+      },
+      {
+        "rank": 97,
+        "username": "bei**********",
+        "wager": 4148.2,
+        "prize": 0
+      },
+      {
+        "rank": 98,
+        "username": "rol******",
+        "wager": 4131.22,
+        "prize": 0
+      },
+      {
+        "rank": 99,
+        "username": "bre******",
+        "wager": 4131,
+        "prize": 0
+      },
+      {
+        "rank": 100,
+        "username": "gre******",
+        "wager": 4129.82,
+        "prize": 0
+      }
+    ],
+    "entryCount": 101,
+    "method": "markdown",
+    "confidence": 65,
+    "error": null,
+    "screenshot": "botboibets.com-csgowin.png"
+  },
+  {
+    "domain": "c8ncel.bet",
+    "leaderboard": "juice",
+    "url": "https://c8ncel.bet/leaderboards/csgold",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "no_podium",
+      "wager_label": "Wagered",
+      "prize_label": null,
+      "rank1_username": null,
+      "rank1_wager": null,
+      "rank1_prize": null,
+      "confidence": 20,
+      "learnedAt": "2026-02-01T07:52:02.582Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "0",
+        "wager": 750,
+        "prize": 0
+      },
+      {
+        "rank": 2,
+        "username": "0",
+        "wager": 325,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "0",
+        "wager": 200,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "DAY",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 21,
+        "username": "SEC",
+        "wager": 0,
+        "prize": 0
+      }
+    ],
+    "entryCount": 5,
+    "method": "markdown",
+    "confidence": 66,
+    "error": null,
+    "screenshot": "c8ncel.bet-juice.png"
+  },
+  {
+    "domain": "camperzzrewards.com",
+    "leaderboard": "upgrader",
+    "url": "https://camperzzrewards.com/leaderboard/csgowin/previous",
+    "visionConfig": {
+      "column_order": "prize_before_wager",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "Biko",
+      "rank1_wager": 2776.46,
+      "rank1_prize": 125,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:53:39.022Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "Biko",
+        "wager": 2776.46,
+        "prize": 125
+      },
+      {
+        "rank": 2,
+        "username": "Antaniukasas",
+        "wager": 2291.76,
+        "prize": 50
+      },
+      {
+        "rank": 3,
+        "username": "ghxst",
+        "wager": 1912.62,
+        "prize": 25
+      },
+      {
+        "rank": 4,
+        "username": "gothlike",
+        "wager": 186.9,
+        "prize": 25
+      },
+      {
+        "rank": 5,
+        "username": "Shiler",
+        "wager": 178.02,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "JewperzzFatPig",
+        "wager": 113.47,
+        "prize": 0
+      },
+      {
+        "rank": 7,
+        "username": "petryla",
+        "wager": 56.59,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "p1mk",
+        "wager": 1.02,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "GEORGEFLOYD911",
+        "wager": 0.4,
+        "prize": 0
+      }
+    ],
+    "entryCount": 9,
+    "method": "dom",
+    "confidence": 72,
+    "error": null,
+    "screenshot": "camperzzrewards.com-upgrader.png"
+  },
+  {
+    "domain": "cheesy.gg",
+    "leaderboard": "chicken",
+    "url": "https://cheesy.gg/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "XP",
+      "prize_label": "REWARD",
+      "rank1_username": "Babypero",
+      "rank1_wager": 1911,
+      "rank1_prize": 500,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:46:47.375Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "cheesy.gg-chicken.png"
+  },
+  {
+    "domain": "codeshury.com",
+    "leaderboard": "upgrader",
+    "url": "https://codeshury.com/leaderboard/upgrader",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "code BOAT KiCKimboat",
+      "rank1_wager": 3826.11,
+      "rank1_prize": 250,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:47:10.055Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "code BOAT KICKimboat",
+        "wager": 3826.11,
+        "prize": 250
+      },
+      {
+        "rank": 2,
+        "username": "Klokko",
+        "wager": 2553.08,
+        "prize": 130
+      },
+      {
+        "rank": 3,
+        "username": "thejunespirit",
+        "wager": 1992.82,
+        "prize": 70
+      },
+      {
+        "rank": 4,
+        "username": "Unpredictable",
+        "wager": 813.96,
+        "prize": 25
+      },
+      {
+        "rank": 5,
+        "username": "Imneverlose",
+        "wager": 267.75,
+        "prize": 25
+      },
+      {
+        "rank": 6,
+        "username": "Jack123",
+        "wager": 218.51,
+        "prize": 0
+      },
+      {
+        "rank": 7,
+        "username": "Luca",
+        "wager": 199.25,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "UseCodeJack",
+        "wager": 197.61,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "CALYPSO",
+        "wager": 46.93,
+        "prize": 0
+      }
+    ],
+    "entryCount": 9,
+    "method": "markdown",
+    "confidence": 95,
+    "error": null,
+    "screenshot": "codeshury.com-upgrader.png"
+  },
+  {
+    "domain": "codesilkk.com",
+    "leaderboard": "csgowin",
+    "url": "https://codesilkk.com/leaderboards",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "REWARD",
+      "rank1_username": "Waiting...",
+      "rank1_wager": null,
+      "rank1_prize": 75,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:58:42.313Z"
+    },
+    "entries": [
+      {
+        "rank": 2,
+        "username": "Waiting...",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "WageredPrize",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 4,
+        "username": "N/A",
+        "wager": 0,
+        "prize": 0
+      }
+    ],
+    "entryCount": 3,
+    "method": "markdown",
+    "confidence": 65,
+    "error": null,
+    "screenshot": "codesilkk.com-csgowin.png"
+  },
+  {
+    "domain": "craaze-leaderboards.com",
+    "leaderboard": "csgowin",
+    "url": "https://craaze-leaderboards.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "Deathbreaker8Ksubs",
+      "rank1_wager": 5048.07,
+      "rank1_prize": 500,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:54:45.305Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "craaze-leaderboards.com-csgowin.png"
+  },
+  {
+    "domain": "darkrewards.com",
+    "leaderboard": "rustmagic",
+    "url": "https://darkrewards.com/leaderboard/rustmagic",
+    "visionConfig": {
+      "column_order": "prize_before_wager",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "wo**",
+      "rank1_wager": 1621.74,
+      "rank1_prize": 550,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:55:10.090Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "WO**",
+        "wager": 1621.74,
+        "prize": 550
+      },
+      {
+        "rank": 2,
+        "username": "🍪**********",
+        "wager": 1379.48,
+        "prize": 315
+      },
+      {
+        "rank": 3,
+        "username": "@b************",
+        "wager": 1262,
+        "prize": 215
+      },
+      {
+        "rank": 4,
+        "username": "da**",
+        "wager": 1099.34,
+        "prize": 60
+      },
+      {
+        "rank": 5,
+        "username": "罗克*",
+        "wager": 516.79,
+        "prize": 40
+      },
+      {
+        "rank": 6,
+        "username": "mi******",
+        "wager": 372.24,
+        "prize": 25
+      },
+      {
+        "rank": 7,
+        "username": "Sx*****",
+        "wager": 323.46,
+        "prize": 15
+      },
+      {
+        "rank": 8,
+        "username": "ka*******",
+        "wager": 290.26,
+        "prize": 10
+      },
+      {
+        "rank": 9,
+        "username": "na******",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "0",
+        "wager": 246.05,
+        "prize": 10
+      },
+      {
+        "rank": 11,
+        "username": "G9******",
+        "wager": 226.22,
+        "prize": 0
+      },
+      {
+        "rank": 12,
+        "username": "Ma*********",
+        "wager": 171.36,
+        "prize": 0
+      },
+      {
+        "rank": 13,
+        "username": "Ne********",
+        "wager": 146.14,
+        "prize": 0
+      },
+      {
+        "rank": 14,
+        "username": "ai******",
+        "wager": 117.05,
+        "prize": 0
+      },
+      {
+        "rank": 15,
+        "username": "42*********",
+        "wager": 98.09,
+        "prize": 0
+      }
+    ],
+    "entryCount": 15,
+    "method": "markdown",
+    "confidence": 95,
+    "error": null,
+    "screenshot": "darkrewards.com-rustmagic.png"
+  },
+  {
+    "domain": "dustintfp.com",
+    "leaderboard": "csgobig",
+    "url": "https://dustintfp.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "was*********",
+      "rank1_wager": 28327.04,
+      "rank1_prize": 2500,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:47:37.704Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "Player",
+        "wager": 4,
+        "prize": 0
+      },
+      {
+        "rank": 1,
+        "username": "Gig****",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 1,
+        "username": "Glo************",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 1,
+        "username": "td9**",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 2,
+        "username": "EVA*******",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "Mat*****",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "nut******",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "min**",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 4,
+        "username": "✪******",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 5,
+        "username": "Sca********",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "lit***********",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 7,
+        "username": "mak*********",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "vrt*",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "Gla*****",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "Pix******",
+        "wager": 0,
+        "prize": 0
+      }
+    ],
+    "entryCount": 15,
+    "method": "markdown",
+    "confidence": 50,
+    "error": null,
+    "screenshot": "dustintfp.com-csgobig.png"
+  },
+  {
+    "domain": "fortunate.gg",
+    "leaderboard": "csgogem",
+    "url": "https://fortunate.gg/leaderboards",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "TOTAL WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "l*****e",
+      "rank1_wager": 145591.55,
+      "rank1_prize": 4250,
+      "confidence": 98,
+      "learnedAt": "2026-02-01T07:56:29.703Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "G****i",
+        "wager": 173.79,
+        "prize": 225
+      },
+      {
+        "rank": 2,
+        "username": "D*****n",
+        "wager": 153.58,
+        "prize": 100
+      },
+      {
+        "rank": 3,
+        "username": "Avatar",
+        "wager": 4,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "T***3",
+        "wager": 83.44,
+        "prize": 0
+      },
+      {
+        "rank": 7,
+        "username": "M***X",
+        "wager": 43.04,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "S***z",
+        "wager": 23.16,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "J***y",
+        "wager": 15.21,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "K***r",
+        "wager": 11,
+        "prize": 0
+      },
+      {
+        "rank": 11,
+        "username": "H*****s",
+        "wager": 9.93,
+        "prize": 0
+      },
+      {
+        "rank": 12,
+        "username": "b*****k",
+        "wager": 4.92,
+        "prize": 0
+      },
+      {
+        "rank": 13,
+        "username": "s****y",
+        "wager": 2.65,
+        "prize": 0
+      },
+      {
+        "rank": 14,
+        "username": "h*****l",
+        "wager": 1.41,
+        "prize": 0
+      },
+      {
+        "rank": 15,
+        "username": "m***w",
+        "wager": 0.44,
+        "prize": 0
+      }
+    ],
+    "entryCount": 13,
+    "method": "markdown",
+    "confidence": 64,
+    "error": null,
+    "screenshot": "fortunate.gg-csgogem.png"
+  },
+  {
+    "domain": "frequencybenders.com",
+    "leaderboard": "shuffle",
+    "url": "https://frequencybenders.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "UK**************ER",
+      "rank1_wager": 637528.65,
+      "rank1_prize": 2200,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:48:05.229Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "Au*****dd",
+        "wager": 166820,
+        "prize": 0
+      },
+      {
+        "rank": 2,
+        "username": "Un***********er",
+        "wager": 77942.36,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "8d****ks",
+        "wager": 26141.75,
+        "prize": 0
+      },
+      {
+        "rank": 4,
+        "username": "be*******61",
+        "wager": 19815.38,
+        "prize": 0
+      },
+      {
+        "rank": 5,
+        "username": "Be******05",
+        "wager": 14735.35,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "xe*****on",
+        "wager": 10233.55,
+        "prize": 0
+      },
+      {
+        "rank": 7,
+        "username": "Re***********ed",
+        "wager": 7818.01,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "Li**************rd",
+        "wager": 6530.34,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "je************ey",
+        "wager": 3256.73,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "Sa****ak",
+        "wager": 1579.89,
+        "prize": 0
+      }
+    ],
+    "entryCount": 10,
+    "method": "api",
+    "confidence": 65,
+    "error": null,
+    "screenshot": "frequencybenders.com-shuffle.png"
+  },
+  {
+    "domain": "goatgambles.com",
+    "leaderboard": "rain",
+    "url": "https://www.goatgambles.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "**u",
+      "rank1_wager": 12785.15,
+      "rank1_prize": 600,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:45:13.026Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "**u",
+        "wager": 13543.46,
+        "prize": 600
+      },
+      {
+        "rank": 2,
+        "username": "***iv2",
+        "wager": 9875.94,
+        "prize": 400
+      },
+      {
+        "rank": 3,
+        "username": "****ess",
+        "wager": 1692.68,
+        "prize": 200
+      },
+      {
+        "rank": 4,
+        "username": "***********5@gmail.com",
+        "wager": 1586.96,
+        "prize": 120
+      },
+      {
+        "rank": 5,
+        "username": "******ꌗꌩꌩؤؤ",
+        "wager": 1387.2,
+        "prize": 70
+      },
+      {
+        "rank": 6,
+        "username": "Nr",
+        "wager": 769.07,
+        "prize": 40
+      },
+      {
+        "rank": 7,
+        "username": "******ethLab",
+        "wager": 762.02,
+        "prize": 30
+      },
+      {
+        "rank": 8,
+        "username": "*******ken_DK",
+        "wager": 717.3,
+        "prize": 20
+      },
+      {
+        "rank": 9,
+        "username": "*******omdonex",
+        "wager": 526.23,
+        "prize": 10
+      },
+      {
+        "rank": 10,
+        "username": "******ptain",
+        "wager": 224.39,
+        "prize": 10
+      }
+    ],
+    "entryCount": 10,
+    "method": "markdown",
+    "confidence": 65,
+    "error": null,
+    "screenshot": "goatgambles.com-rain.png"
+  },
+  {
+    "domain": "griffrewards.com",
+    "leaderboard": "csgogem",
+    "url": "https://griffrewards.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "k*****k",
+      "rank1_wager": 3548.23,
+      "rank1_prize": 650,
+      "confidence": 92,
+      "learnedAt": "2026-02-01T07:52:54.541Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "griffrewards.com-csgogem.png"
+  },
+  {
+    "domain": "headed.gg",
+    "leaderboard": "bsite",
+    "url": "https://headed.gg/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "left_to_right",
+      "wager_label": "WAGERED",
+      "prize_label": "Prize",
+      "rank1_username": "Ev***",
+      "rank1_wager": 415.72,
+      "rank1_prize": 350,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:55:36.481Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "headed.gg-bsite.png"
+  },
+  {
+    "domain": "helloryrewards.com",
+    "leaderboard": "csgowin",
+    "url": "https://helloryrewards.com/leaderboard/csgowin",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": null,
+      "rank1_username": "****",
+      "rank1_wager": 0,
+      "rank1_prize": null,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:56:00.555Z"
+    },
+    "entries": [
+      {
+        "rank": 2,
+        "username": "****",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "Rakeback for Highrollers",
+        "wager": 1,
+        "prize": 2
+      },
+      {
+        "rank": 9,
+        "username": "DAY",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "SEC",
+        "wager": 0,
+        "prize": 0
+      }
+    ],
+    "entryCount": 4,
+    "method": "markdown",
+    "confidence": 66,
+    "error": null,
+    "screenshot": "helloryrewards.com-csgowin.png"
+  },
+  {
+    "domain": "htg.bet",
+    "leaderboard": "csgoroll",
+    "url": "https://htg.bet/leaderboard/csgowin/monthly",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Reward",
+      "rank1_username": "Mcdonald's Manager",
+      "rank1_wager": 24630.29,
+      "rank1_prize": 500,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:53:17.637Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "htg.bet-csgoroll.png"
+  },
+  {
+    "domain": "hydrarewards.com",
+    "leaderboard": "packdraw",
+    "url": "https://hydrarewards.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Reward",
+      "rank1_username": "g******wt",
+      "rank1_wager": 13652.734,
+      "rank1_prize": 4500,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:56:54.655Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "hydrarewards.com-packdraw.png"
+  },
+  {
+    "domain": "ilovemav.com",
+    "leaderboard": "luxdrop",
+    "url": "https://ilovemav.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "no_podium",
+      "wager_label": "Not visible",
+      "prize_label": "Not visible",
+      "rank1_username": "Not visible",
+      "rank1_wager": null,
+      "rank1_prize": null,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:42:54.534Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "ilovemav.com-luxdrop.png"
+  },
+  {
+    "domain": "jonkennleaderboard.com",
+    "leaderboard": "csbattle",
+    "url": "https://jonkennleaderboard.com/leaderboard/bcgame",
+    "visionConfig": {
+      "column_order": "prize_before_wager",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "Prize",
+      "rank1_username": "S**********",
+      "rank1_wager": 8349.94,
+      "rank1_prize": 1500,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:40:51.821Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "S**********",
+        "wager": 8354.49,
+        "prize": 500
+      },
+      {
+        "rank": 2,
+        "username": "m*********",
+        "wager": 6270.77,
+        "prize": 500
+      },
+      {
+        "rank": 3,
+        "username": "s*****",
+        "wager": 5614.59,
+        "prize": 250
+      },
+      {
+        "rank": 4,
+        "username": "p*****************",
+        "wager": 4065.42,
+        "prize": 250
+      },
+      {
+        "rank": 5,
+        "username": "L************",
+        "wager": 2679.87,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "****************",
+        "wager": 2451.4,
+        "prize": 0
+      },
+      {
+        "rank": 7,
+        "username": "G******",
+        "wager": 1340.2,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "n******",
+        "wager": 1028.9,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "A********",
+        "wager": 855.11,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "R*****",
+        "wager": 747.22,
+        "prize": 0
+      }
+    ],
+    "entryCount": 10,
+    "method": "api",
+    "confidence": 75,
+    "error": null,
+    "screenshot": "jonkennleaderboard.com-csbattle.png"
+  },
+  {
+    "domain": "joonxo.com",
+    "leaderboard": "csgowin",
+    "url": "https://joonxo.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "Prize",
+      "rank1_username": "QQBOOGIE",
+      "rank1_wager": 17754.81,
+      "rank1_prize": 1400,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:51:08.287Z"
+    },
+    "entries": [],
+    "entryCount": 0,
+    "method": null,
+    "confidence": 0,
+    "error": null,
+    "screenshot": "joonxo.com-csgowin.png"
+  },
+  {
+    "domain": "karmacf.com",
+    "leaderboard": "hunt",
+    "url": "https://karmacf.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "no_podium",
+      "wager_label": "N/A",
+      "prize_label": "N/A",
+      "rank1_username": "N/A",
+      "rank1_wager": 0,
+      "rank1_prize": 0,
+      "confidence": 85,
+      "learnedAt": "2026-02-01T07:57:38.596Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "[Super] Le Bandit",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 2,
+        "username": "[Super] Power Pops",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 3,
+        "username": "Gems Bonanza",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 4,
+        "username": "Fruit Party",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 6,
+        "username": "Blade & Fangs",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "Milky Ways",
+        "wager": 28.32,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "[Super] Clumsy Cowboys",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "[Super] Duck Hunters",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 11,
+        "username": "[Super] Octo Attack",
+        "wager": 0,
+        "prize": 0
+      },
+      {
+        "rank": 13,
+        "username": "Sweet Rush Bonanza",
+        "wager": 38.1,
+        "prize": 0
+      },
+      {
+        "rank": 15,
+        "username": "[Super] SixSixSix",
+        "wager": 0,
+        "prize": 0
+      }
+    ],
+    "entryCount": 11,
+    "method": "markdown",
+    "confidence": 77,
+    "error": null,
+    "screenshot": "karmacf.com-hunt.png"
+  },
+  {
+    "domain": "lighta.gg",
+    "leaderboard": "hypedrop",
+    "url": "https://lighta.gg/leaderboard/csgowin",
+    "visionConfig": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "DEPOSITED",
+      "prize_label": "Prize",
+      "rank1_username": "j***********n",
+      "rank1_wager": 140760.544,
+      "rank1_prize": 7000,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:51:41.037Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "[***********n",
+        "wager": 141141.095,
+        "prize": 7000
+      },
+      {
+        "rank": 2,
+        "username": "M****y",
+        "wager": 98276.877,
+        "prize": 4000
+      },
+      {
+        "rank": 3,
+        "username": "M****y",
+        "wager": 141141.095,
+        "prize": 2500
+      },
+      {
+        "rank": 4,
+        "username": "M****y",
+        "wager": 141141.095,
+        "prize": 2500
+      },
+      {
+        "rank": 5,
+        "username": "r**********a",
+        "wager": 48328.637,
+        "prize": 2500
+      },
+      {
+        "rank": 6,
+        "username": "J**n",
+        "wager": 37.2457181,
+        "prize": 1000
+      },
+      {
+        "rank": 7,
+        "username": "e**c",
+        "wager": 345001200,
+        "prize": 800
+      },
+      {
+        "rank": 8,
+        "username": "J******7",
+        "wager": 24.0022851,
+        "prize": 700
+      },
+      {
+        "rank": 9,
+        "username": "R***********K",
+        "wager": 20687.5187,
+        "prize": 600
+      },
+      {
+        "rank": 10,
+        "username": "H********9",
+        "wager": 16429.7036,
+        "prize": 500
+      },
+      {
+        "rank": 11,
+        "username": "❄******\uddca",
+        "wager": 15771.3355,
+        "prize": 400
+      },
+      {
+        "rank": 12,
+        "username": "P**o",
+        "wager": 14657.8824,
+        "prize": 350
+      },
+      {
+        "rank": 13,
+        "username": "c****s",
+        "wager": 14422.06635,
+        "prize": 250
+      },
+      {
+        "rank": 14,
+        "username": "B*******s",
+        "wager": 14393.73525,
+        "prize": 0
+      },
+      {
+        "rank": 15,
+        "username": "M********S",
+        "wager": 12512.63415,
+        "prize": 150
+      }
+    ],
+    "entryCount": 15,
+    "method": "dom",
+    "confidence": 55,
+    "error": null,
+    "screenshot": "lighta.gg-hypedrop.png"
+  },
+  {
+    "domain": "middlemoonrewards.com",
+    "leaderboard": "rustmagic",
+    "url": "https://middlemoonrewards.com/leaderboard",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": null,
+      "rank1_username": "zelty",
+      "rank1_wager": null,
+      "rank1_prize": null,
+      "confidence": 85,
+      "learnedAt": "2026-02-01T07:58:08.162Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "zelty",
+        "wager": 13176.37,
+        "prize": 250
+      },
+      {
+        "rank": 2,
+        "username": "伝説のたぬき",
+        "wager": 2077.01,
+        "prize": 125
+      },
+      {
+        "rank": 3,
+        "username": "Shots",
+        "wager": 1492.11,
+        "prize": 75
+      },
+      {
+        "rank": 4,
+        "username": "Ali@bandit",
+        "wager": 1003.62,
+        "prize": 0
+      },
+      {
+        "rank": 5,
+        "username": "SANTA PICOLO",
+        "wager": 735.53,
+        "prize": 0
+      },
+      {
+        "rank": 8,
+        "username": "cjhumhum25",
+        "wager": 666.92,
+        "prize": 0
+      },
+      {
+        "rank": 9,
+        "username": "zoidbot",
+        "wager": 637.17,
+        "prize": 0
+      },
+      {
+        "rank": 10,
+        "username": "Ice Bear",
+        "wager": 579.79,
+        "prize": 0
+      },
+      {
+        "rank": 35,
+        "username": "BeniQ",
+        "wager": 1002.24,
+        "prize": 0
+      }
+    ],
+    "entryCount": 9,
+    "method": "markdown",
+    "confidence": 84,
+    "error": null,
+    "screenshot": "middlemoonrewards.com-rustmagic.png"
+  },
+  {
+    "domain": "mimegamba.com",
+    "leaderboard": "upgrader",
+    "url": "https://mimegamba.com/leaderboards",
+    "visionConfig": {
+      "column_order": "wager_only",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "ero***",
+      "rank1_wager": 1697.89,
+      "rank1_prize": 100,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:59:13.641Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "ero***",
+        "wager": 1697.89,
+        "prize": 100
+      },
+      {
+        "rank": 2,
+        "username": "god***",
+        "wager": 1394.67,
+        "prize": 75
+      },
+      {
+        "rank": 3,
+        "username": "Hol***",
+        "wager": 692.8,
+        "prize": 50
+      },
+      {
+        "rank": 4,
+        "username": "voi***",
+        "wager": 470.46,
+        "prize": 30
+      },
+      {
+        "rank": 5,
+        "username": "bab***",
+        "wager": 468.12,
+        "prize": 20
+      },
+      {
+        "rank": 6,
+        "username": "Fll***",
+        "wager": 318.22,
+        "prize": 15
+      },
+      {
+        "rank": 7,
+        "username": "dam***",
+        "wager": 244.83,
+        "prize": 10
+      },
+      {
+        "rank": 8,
+        "username": "Mar***",
+        "wager": 152.73,
+        "prize": 152.73
+      },
+      {
+        "rank": 9,
+        "username": "Myr***",
+        "wager": 150.62,
+        "prize": 150.62
+      },
+      {
+        "rank": 10,
+        "username": "Stp***",
+        "wager": 147.23,
+        "prize": 147.23
+      },
+      {
+        "rank": 11,
+        "username": "prd***",
+        "wager": 135.42,
+        "prize": 135.42
+      },
+      {
+        "rank": 12,
+        "username": "pro***",
+        "wager": 106.2,
+        "prize": 106.2
+      },
+      {
+        "rank": 13,
+        "username": "unk***",
+        "wager": 98.54,
+        "prize": 98.54
+      },
+      {
+        "rank": 14,
+        "username": "Tem***",
+        "wager": 85.56,
+        "prize": 85.56
+      },
+      {
+        "rank": 15,
+        "username": "CHI***",
+        "wager": 76.44,
+        "prize": 76.44
+      },
+      {
+        "rank": 16,
+        "username": "El ***",
+        "wager": 66.15,
+        "prize": 66.15
+      },
+      {
+        "rank": 18,
+        "username": "Usm***",
+        "wager": 42.26,
+        "prize": 42.26
+      },
+      {
+        "rank": 19,
+        "username": "Sma***",
+        "wager": 38.37,
+        "prize": 38.37
+      },
+      {
+        "rank": 20,
+        "username": "Goj***",
+        "wager": 25.12,
+        "prize": 25.12
+      },
+      {
+        "rank": 21,
+        "username": "COD***",
+        "wager": 20.68,
+        "prize": 20.68
+      },
+      {
+        "rank": 22,
+        "username": "k0m***",
+        "wager": 17.54,
+        "prize": 17.54
+      },
+      {
+        "rank": 23,
+        "username": "The***",
+        "wager": 12.73,
+        "prize": 12.73
+      },
+      {
+        "rank": 24,
+        "username": "pan***",
+        "wager": 10.82,
+        "prize": 10.82
+      },
+      {
+        "rank": 25,
+        "username": "kup***",
+        "wager": 9.51,
+        "prize": 9.51
+      },
+      {
+        "rank": 26,
+        "username": "Gol***",
+        "wager": 8.37,
+        "prize": 8.37
+      },
+      {
+        "rank": 27,
+        "username": "Sau***",
+        "wager": 6.21,
+        "prize": 6.21
+      },
+      {
+        "rank": 28,
+        "username": "not***",
+        "wager": 5.4,
+        "prize": 5.4
+      },
+      {
+        "rank": 29,
+        "username": "Lma***",
+        "wager": 5.4,
+        "prize": 5.4
+      },
+      {
+        "rank": 30,
+        "username": "BKA***",
+        "wager": 5.15,
+        "prize": 5.15
+      },
+      {
+        "rank": 31,
+        "username": "des***",
+        "wager": 0.75,
+        "prize": 0.75
+      },
+      {
+        "rank": 32,
+        "username": "cha***",
+        "wager": 0.3,
+        "prize": 0.3
+      },
+      {
+        "rank": 33,
+        "username": "For***",
+        "wager": 0.02,
+        "prize": 0.02
+      },
+      {
+        "rank": 59,
+        "username": "SEC",
+        "wager": 0,
+        "prize": 0
+      }
+    ],
+    "entryCount": 33,
+    "method": "markdown",
+    "confidence": 41,
+    "error": null,
+    "screenshot": "mimegamba.com-upgrader.png"
+  },
+  {
+    "domain": "muta.bet",
+    "leaderboard": "shuffle",
+    "url": "https://muta.bet/leaderboard/shuffle",
+    "visionConfig": {
+      "column_order": "prize_before_wager",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Reward",
+      "rank1_username": "br*****tz",
+      "rank1_wager": 1666619,
+      "rank1_prize": 3700,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:49:53.349Z"
+    },
+    "entries": [
+      {
+        "rank": 1,
+        "username": "br*******tz",
+        "wager": 1666166.19,
+        "prize": 3700
+      },
+      {
+        "rank": 1,
+        "username": "br*******tz",
+        "wager": 3700,
+        "prize": 1666166.19
+      },
+      {
+        "rank": 2,
+        "username": "Sh**********re",
+        "wager": 745518.33,
+        "prize": 2200
+      },
+      {
+        "rank": 2,
+        "username": "Sh**********re",
+        "wager": 2200,
+        "prize": 745518.33
+      },
+      {
+        "rank": 3,
+        "username": "NO****NT",
+        "wager": 640823.74,
+        "prize": 1500
+      },
+      {
+        "rank": 3,
+        "username": "NO****NT",
+        "wager": 1500,
+        "prize": 640823.74
+      },
+      {
+        "rank": 4,
+        "username": "Bo******er",
+        "wager": 492011.31,
+        "prize": 1000
+      },
+      {
+        "rank": 5,
+        "username": "Tr*******eo",
+        "wager": 479571.71,
+        "prize": 750
+      },
+      {
+        "rank": 6,
+        "username": "Ar******ro",
+        "wager": 392160.94,
+        "prize": 500
+      },
+      {
+        "rank": 7,
+        "username": "ki******at",
+        "wager": 236417.66,
+        "prize": 400
+      },
+      {
+        "rank": 8,
+        "username": "yo*******no",
+        "wager": 144686.33,
+        "prize": 250
+      },
+      {
+        "rank": 9,
+        "username": "mu*********es",
+        "wager": 58605.29,
+        "prize": 175
+      },
+      {
+        "rank": 10,
+        "username": "LE*********KE",
+        "wager": 44393.92,
+        "prize": 125
+      },
+      {
+        "rank": 11,
+        "username": "bu*********21",
+        "wager": 40350.29,
+        "prize": 100
+      },
+      {
+        "rank": 12,
+        "username": "ro******nt",
+        "wager": 30478.82,
+        "prize": 75
+      },
+      {
+        "rank": 13,
+        "username": "Ca**************CS",
+        "wager": 28008.76,
+        "prize": 50
+      },
+      {
+        "rank": 14,
+        "username": "ug*******as",
+        "wager": 24763.44,
+        "prize": 45
+      },
+      {
+        "rank": 15,
+        "username": "Ed******92",
+        "wager": 24598.13,
+        "prize": 40
+      },
+      {
+        "rank": 16,
+        "username": "ai**********mi",
+        "wager": 21720,
+        "prize": 30
+      },
+      {
+        "rank": 17,
+        "username": "Bu**********MC",
+        "wager": 18615.64,
+        "prize": 25
+      },
+      {
+        "rank": 18,
+        "username": "ka***ku",
+        "wager": 17211.61,
+        "prize": 20
+      },
+      {
+        "rank": 19,
+        "username": "Yu*******ax",
+        "wager": 12953.4,
+        "prize": 15
+      },
+      {
+        "rank": 20,
+        "username": "se********ba",
+        "wager": 12650.71,
+        "prize": 10
+      }
+    ],
+    "entryCount": 23,
+    "method": "markdown",
+    "confidence": 95,
+    "error": null,
+    "screenshot": "muta.bet-shuffle.png"
+  }
+]

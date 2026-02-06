@@ -1,0 +1,1112 @@
+[
+  {
+    "site": "wrewards",
+    "url": "https://wrewards.com/leaderboards",
+    "type": "button-based",
+    "phases": {},
+    "leaderboards": [],
+    "totalCost": 0,
+    "errors": [
+      "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://wrewards.com/leaderboards\", waiting until \"networkidle\"\n"
+    ]
+  },
+  {
+    "site": "devlrewards",
+    "url": "https://devlrewards.com/leaderboard",
+    "type": "button-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-devlrewards-discovery-1769925818036.png",
+        "response": {
+          "tabs_found": [
+            "Rainbet",
+            "Packdraw"
+          ],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "Rainbet",
+          "total_tabs_visible": 2,
+          "notes": "There are two Rainbet tabs visible - one labeled 'WAGER' and one labeled 'RAFFLES', plus one Packdraw tab labeled 'WAGER'. The Rainbet WAGER tab appears to be currently active based on the displayed leaderboard content."
+        },
+        "cost": 0.007953000000000002,
+        "elapsed": 4885
+      }
+    },
+    "leaderboards": [
+      {
+        "name": "Rainbet",
+        "screenshots": [
+          "vision-teach-devlrewards-Rainbet-1769925825614.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 8,
+          "max_rank_visible": 8,
+          "has_more_below": true,
+          "has_pagination": false,
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "confidence": 95,
+          "notes": "Top 3 displayed as podium cards with #1 center (gold trophy), #2 left (silver), #3 right (bronze). Ranks 4-8 shown in table format below. Table columns show WAGERED before PRIZE from left to right."
+        },
+        "extraction": {
+          "entries": [
+            {
+              "rank": 1,
+              "username": "Z*****o",
+              "wager": 306230,
+              "prize": 2000
+            },
+            {
+              "rank": 2,
+              "username": "Je*****11",
+              "wager": 208610,
+              "prize": 1200
+            },
+            {
+              "rank": 3,
+              "username": "Vi*******05",
+              "wager": 163700,
+              "prize": 800
+            },
+            {
+              "rank": 4,
+              "username": "K**1",
+              "wager": 136770,
+              "prize": 300
+            },
+            {
+              "rank": 5,
+              "username": "b***",
+              "wager": 101760,
+              "prize": 200
+            },
+            {
+              "rank": 6,
+              "username": "ap*****ay",
+              "wager": 57760,
+              "prize": 50
+            },
+            {
+              "rank": 7,
+              "username": "Ta****8",
+              "wager": 53470,
+              "prize": 50
+            },
+            {
+              "rank": 8,
+              "username": "Th****el",
+              "wager": 53320,
+              "prize": 50
+            }
+          ],
+          "total_extracted": 8,
+          "confidence": 98
+        },
+        "cost": 0.018966
+      },
+      {
+        "name": "Packdraw",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      }
+    ],
+    "totalCost": 0.026919000000000005,
+    "errors": []
+  },
+  {
+    "site": "goatgambles",
+    "url": "https://goatgambles.com/leaderboard",
+    "type": "button-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-goatgambles-discovery-1769925844121.png",
+        "response": {
+          "tabs_found": [
+            "RAIN.gg",
+            "CSGOGEM",
+            "ROOBET",
+            "CLASH.gg",
+            "CSGOWIN",
+            "CSGOCLICK"
+          ],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "RAIN.gg",
+          "total_tabs_visible": 6,
+          "notes": "The page shows gambling site logos as clickable tabs in the top section. RAIN.gg appears to be the currently active tab as it's displaying the 'FUNKYGOAT WEEKLY LEADERBOARD' for Rain.gg. There's a 'Show Previous Leaderboards' button but no 'Show More' for current entries."
+        },
+        "cost": 0.008601,
+        "elapsed": 5882
+      }
+    },
+    "leaderboards": [
+      {
+        "name": "RAIN.gg",
+        "screenshots": [
+          "vision-teach-goatgambles-RAIN.gg-1769925852378.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "confidence": 95,
+          "notes": "Top 3 displayed as podium cards with #1 in center position, followed by table format for ranks 4-10. Clear column headers show WAGERED before PRIZE in the table section."
+        },
+        "extraction": {
+          "entries": [
+            {
+              "rank": 1,
+              "username": "***u",
+              "wager": 12776,
+              "prize": 600
+            },
+            {
+              "rank": 2,
+              "username": "***nyz",
+              "wager": 7285,
+              "prize": 400
+            },
+            {
+              "rank": 3,
+              "username": "****ess",
+              "wager": 1640,
+              "prize": 200
+            },
+            {
+              "rank": 4,
+              "username": "*********5@gmail.com",
+              "wager": 1420,
+              "prize": 120
+            },
+            {
+              "rank": 5,
+              "username": "****3Vyj",
+              "wager": 1387,
+              "prize": 70
+            },
+            {
+              "rank": 6,
+              "username": "****ubLab",
+              "wager": 762,
+              "prize": 40
+            },
+            {
+              "rank": 7,
+              "username": "**Nr",
+              "wager": 546,
+              "prize": 30
+            },
+            {
+              "rank": 8,
+              "username": "******omdonex",
+              "wager": 517,
+              "prize": 20
+            },
+            {
+              "rank": 9,
+              "username": "*****ken_DK",
+              "wager": 493,
+              "prize": 10
+            },
+            {
+              "rank": 10,
+              "username": "****ptain",
+              "wager": 224,
+              "prize": 10
+            }
+          ],
+          "total_extracted": 10,
+          "confidence": 95
+        },
+        "cost": 0.019466999999999998
+      },
+      {
+        "name": "CSGOGEM",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      },
+      {
+        "name": "ROOBET",
+        "screenshots": [
+          "vision-teach-goatgambles-ROOBET-1769925870719.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 20,
+          "max_rank_visible": 20,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "confidence": 95,
+          "notes": "Top 3 shown as podium cards with #1 in center and larger, ranks 4-20 shown in table format with PLACE, USERS, WAGERED, PRIZE columns"
+        },
+        "extraction": null,
+        "cost": 0.025791
+      }
+    ],
+    "totalCost": 0.053859,
+    "errors": []
+  },
+  {
+    "site": "paxgambles",
+    "url": "https://paxgambles.com/leaderboard",
+    "type": "url-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-paxgambles-discovery-1769925894309.png",
+        "response": {
+          "tabs_found": [
+            "DiceBlox",
+            "Cases.gg",
+            "AceBet"
+          ],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "DiceBlox",
+          "total_tabs_visible": 3,
+          "notes": "Three casino site tabs are visible at the top - DiceBlox (currently active and highlighted in white), Cases.gg (grayed out), and AceBet (grayed out). There's also a 'PREVIOUS LEADERBOARD' button below the main heading. The leaderboard shows positions 4-10 with no visible show more option."
+        },
+        "cost": 0.008238,
+        "elapsed": 6060
+      }
+    },
+    "leaderboards": [
+      {
+        "name": "DiceBlox",
+        "screenshots": [
+          "vision-teach-paxgambles-DiceBlox-1769925903069.png"
+        ],
+        "structure": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "left_to_right",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "confidence": 95,
+          "notes": "Top 3 shown as individual cards with left-to-right layout, ranks 4-10 shown in table format. Table headers show 'Reward' before 'Wagered'. Podium shows positions 1, 2, 3 from left to right with Jkgr6777 ($300), Magging ($500), and Lurker_99YT ($160)."
+        },
+        "extraction": {
+          "entries": [
+            {
+              "rank": 1,
+              "username": "Magging",
+              "wager": 3566381.6,
+              "prize": 500
+            },
+            {
+              "rank": 2,
+              "username": "Jkgr6777",
+              "wager": 2795202,
+              "prize": 300
+            },
+            {
+              "rank": 3,
+              "username": "Lurker_99YT",
+              "wager": 1089699,
+              "prize": 160
+            },
+            {
+              "rank": 4,
+              "username": "CLAUploader6983",
+              "wager": 811680,
+              "prize": 20
+            },
+            {
+              "rank": 5,
+              "username": "foxzaayy",
+              "wager": 587763.8,
+              "prize": 20
+            },
+            {
+              "rank": 6,
+              "username": "Melkerking0808",
+              "wager": 260981.2,
+              "prize": 0
+            },
+            {
+              "rank": 7,
+              "username": "lofstrand1",
+              "wager": 215174,
+              "prize": 0
+            },
+            {
+              "rank": 8,
+              "username": "Anonymous",
+              "wager": 154084,
+              "prize": 0
+            },
+            {
+              "rank": 9,
+              "username": "Vinzyrt",
+              "wager": 136285.6,
+              "prize": 0
+            },
+            {
+              "rank": 10,
+              "username": "yummy",
+              "wager": 121055.4,
+              "prize": 0
+            }
+          ],
+          "total_extracted": 10,
+          "confidence": 98
+        },
+        "cost": 0.020871
+      },
+      {
+        "name": "Cases.gg",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      },
+      {
+        "name": "AceBet",
+        "screenshots": [
+          "vision-teach-paxgambles-AceBet-1769925923932.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "podium_ranks_visible": [
+            2,
+            1,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "confidence": 90,
+          "notes": "Top 3 shown as cards with #1 in center (higher position), #2 on left, #3 on right. Remaining ranks 4-10 shown as table rows. Table headers show Prize before Wagered, but only wagered amounts are displayed in the visible data."
+        },
+        "extraction": null,
+        "cost": 0.023676000000000003
+      }
+    ],
+    "totalCost": 0.052785000000000006,
+    "errors": []
+  },
+  {
+    "site": "ilovemav",
+    "url": "https://www.ilovemav.com/leaderboards",
+    "type": "button-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-ilovemav-discovery-1769925945235.png",
+        "response": {
+          "tabs_found": [
+            "Stake",
+            "Roobet",
+            "Shuffle"
+          ],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "Stake",
+          "total_tabs_visible": 3,
+          "notes": "Three leaderboard tabs are visible at the top of the page. Stake appears to be the currently active tab (highlighted in purple/blue). The other two tabs (Roobet and Shuffle) appear darker/inactive. This is an ILOVEMAV leaderboards page showing a $5,000 prize pool competition."
+        },
+        "cost": 0.008094,
+        "elapsed": 4846
+      }
+    },
+    "leaderboards": [
+      {
+        "name": "Stake",
+        "screenshots": [
+          "vision-teach-ilovemav-Stake-1769925953033.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "confidence": 90,
+          "notes": "Mixed format with top 3 displayed as cards showing both wager and prize amounts, followed by a table format for ranks 4-10. Table has columns for Rank, Player, Wagered, and Prize in that order."
+        },
+        "extraction": {
+          "entries": [
+            {
+              "rank": 1,
+              "username": "j***j***",
+              "wager": 63800.51,
+              "prize": 2500
+            },
+            {
+              "rank": 2,
+              "username": "k***k***",
+              "wager": 8260.65,
+              "prize": 1000
+            },
+            {
+              "rank": 3,
+              "username": "p***************",
+              "wager": 3536.67,
+              "prize": 500
+            },
+            {
+              "rank": 4,
+              "username": "g***j***",
+              "wager": 2269.11,
+              "prize": 300
+            },
+            {
+              "rank": 5,
+              "username": "j***j***",
+              "wager": 1334.85,
+              "prize": 250
+            },
+            {
+              "rank": 6,
+              "username": "z***",
+              "wager": 1087.13,
+              "prize": 150
+            },
+            {
+              "rank": 7,
+              "username": "j***j***j***",
+              "wager": 989.33,
+              "prize": 120
+            },
+            {
+              "rank": 8,
+              "username": "k***j***",
+              "wager": 812.87,
+              "prize": 90
+            },
+            {
+              "rank": 9,
+              "username": "a***a***",
+              "wager": 538.48,
+              "prize": 60
+            },
+            {
+              "rank": 10,
+              "username": "z***",
+              "wager": 492.12,
+              "prize": 30
+            }
+          ],
+          "total_extracted": 10,
+          "confidence": 95
+        },
+        "cost": 0.019983
+      },
+      {
+        "name": "Roobet",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      },
+      {
+        "name": "Shuffle",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      }
+    ],
+    "totalCost": 0.028077,
+    "errors": []
+  },
+  {
+    "site": "spencerrewards",
+    "url": "https://spencerrewards.com/leaderboard",
+    "type": "url-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-spencerrewards-discovery-1769925972002.png",
+        "response": {
+          "tabs_found": [
+            "PackDraw",
+            "RUST MAGIC",
+            "Upgrader",
+            "CSGO LUCK",
+            "Juice",
+            "ROSTAKE"
+          ],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "PackDraw",
+          "total_tabs_visible": 6,
+          "notes": "PackDraw is currently active with a white/highlighted background, showing a $1,000 IMSPENCERRR leaderboard. There's also a 'Previous Leaderboard' button visible below the main content."
+        },
+        "cost": 0.007998000000000002,
+        "elapsed": 5322
+      }
+    },
+    "leaderboards": [
+      {
+        "name": "PackDraw",
+        "screenshots": [
+          "vision-teach-spencerrewards-PackDraw-1769925979711.png"
+        ],
+        "structure": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "left_to_right",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "confidence": 95,
+          "notes": "Layout shows top 3 as cards in left-to-right order (#1, #2, #3), then ranks 4-10 in table format. Table headers show 'Reward' column before 'Wagered' column."
+        },
+        "extraction": null,
+        "cost": 0.023751
+      },
+      {
+        "name": "RUST MAGIC",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      },
+      {
+        "name": "Upgrader",
+        "screenshots": [
+          "vision-teach-spencerrewards-Upgrader-1769925999892.png"
+        ],
+        "structure": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "left_to_right",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "confidence": 95,
+          "notes": "Mixed format with top 3 shown as cards in left-to-right order, followed by a table for ranks 4-10. Prize column appears before Wagered column in the table section."
+        },
+        "extraction": null,
+        "cost": 0.022083
+      }
+    ],
+    "totalCost": 0.053832,
+    "errors": []
+  },
+  {
+    "site": "ravengambles",
+    "url": "https://ravengambles.com/leaderboard",
+    "type": "button-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-ravengambles-discovery-1769926020328.png",
+        "response": {
+          "tabs_found": [
+            "csgoele",
+            "CS500",
+            "CSGOWIN",
+            "Hellcase",
+            "Empire",
+            "Shock"
+          ],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "CS500",
+          "total_tabs_visible": 6,
+          "notes": "This appears to be a CSGOBets leaderboard page with 6 gambling site logos/tabs at the top. CS500 appears to be the active tab based on the leaderboard title mentioning 'CSGOBets under Code RAVENOP'. The leaderboard shows top 3 players with their wagered amounts and rewards."
+        },
+        "cost": 0.008298,
+        "elapsed": 5165
+      }
+    },
+    "leaderboards": [
+      {
+        "name": "csgoele",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      },
+      {
+        "name": "CS500",
+        "screenshots": [
+          "vision-teach-ravengambles-CS500-1769926027999.png"
+        ],
+        "structure": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "WAGERED",
+          "prize_label": "REWARD",
+          "confidence": 95,
+          "notes": "Clear podium layout with #1 in center (larger), #2 on left, #3 on right. Below podium is a table format with REWARD column before WAGERED column. Total wagered amounts shown for podium entries, individual rewards shown for table entries."
+        },
+        "extraction": null,
+        "cost": 0.024201
+      },
+      {
+        "name": "CSGOWIN",
+        "screenshots": [
+          "vision-teach-ravengambles-CSGOWIN-1769926048905.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "WAGERED",
+          "prize_label": "REWARD",
+          "confidence": 95,
+          "notes": "Podium shows #2 (maxeman251) on left, #1 (Oxygen) in center with gold frame and crown, #3 (User168032) on right. Below is a table format with columns PLACE, USER, REWARD, WAGERED from left to right, showing ranks #4-10"
+        },
+        "extraction": {
+          "entries": [
+            {
+              "rank": 1,
+              "username": "Oxygen",
+              "wager": 1554.65,
+              "prize": 500
+            },
+            {
+              "rank": 2,
+              "username": "maxeman251",
+              "wager": 778.76,
+              "prize": 300
+            },
+            {
+              "rank": 3,
+              "username": "User168032",
+              "wager": 371.51,
+              "prize": 150
+            },
+            {
+              "rank": 4,
+              "username": "anispex",
+              "wager": 340.91,
+              "prize": 25
+            },
+            {
+              "rank": 5,
+              "username": "Aerington",
+              "wager": 189.39,
+              "prize": 25
+            },
+            {
+              "rank": 6,
+              "username": "zuhangJimmy",
+              "wager": 68.94,
+              "prize": 0
+            },
+            {
+              "rank": 7,
+              "username": "Ryan4512",
+              "wager": 32,
+              "prize": 0
+            },
+            {
+              "rank": 8,
+              "username": "windsurfpermsinger",
+              "wager": 16.24,
+              "prize": 0
+            },
+            {
+              "rank": 9,
+              "username": "Axle",
+              "wager": 5.08,
+              "prize": 0
+            },
+            {
+              "rank": 10,
+              "username": "Isrrg",
+              "wager": 3.56,
+              "prize": 0
+            }
+          ],
+          "total_extracted": 10,
+          "confidence": 98
+        },
+        "cost": 0.020088
+      }
+    ],
+    "totalCost": 0.052587,
+    "errors": []
+  },
+  {
+    "site": "tanskidegen",
+    "url": "https://www.tanskidegen.com/leaderboards",
+    "type": "button-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-tanskidegen-discovery-1769926067286.png",
+        "response": {
+          "tabs_found": [
+            "BANDIT",
+            "CSGOWIN",
+            "CSGOGEM",
+            "ACEBET"
+          ],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "BANDIT",
+          "total_tabs_visible": 4,
+          "notes": "The BANDIT tab appears to be currently active as it shows a 'BanditCamp Scraps Leaderboard' with player rankings displayed below. The other three tabs (CSGOWIN, CSGOGEM, ACEBET) are visible but inactive."
+        },
+        "cost": 0.007998,
+        "elapsed": 4868
+      }
+    },
+    "leaderboards": [
+      {
+        "name": "BANDIT",
+        "screenshots": [
+          "vision-teach-tanskidegen-BANDIT-1769926074520.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "podium_ranks_visible": [
+            2,
+            1,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "confidence": 95,
+          "notes": "Mixed format with podium cards for top 3 (#2, #1, #3 from left to right) and table rows for ranks #4-#10. Table shows WAGERED column before PRIZE column."
+        },
+        "extraction": {
+          "entries": [
+            {
+              "rank": 1,
+              "username": "p***********_",
+              "wager": 78658.38,
+              "prize": 1600
+            },
+            {
+              "rank": 2,
+              "username": "D************my",
+              "wager": 22193.17,
+              "prize": 800
+            },
+            {
+              "rank": 3,
+              "username": "J**********ve",
+              "wager": 18262.99,
+              "prize": 600
+            },
+            {
+              "rank": 4,
+              "username": "k***ME",
+              "wager": 14293.09,
+              "prize": 360
+            },
+            {
+              "rank": 5,
+              "username": "N**********de",
+              "wager": 6649.76,
+              "prize": 240
+            },
+            {
+              "rank": 6,
+              "username": "k***us",
+              "wager": 5504.58,
+              "prize": 140
+            },
+            {
+              "rank": 7,
+              "username": "M****er",
+              "wager": 5120.46,
+              "prize": 80
+            },
+            {
+              "rank": 8,
+              "username": "f***or",
+              "wager": 4199.01,
+              "prize": 40
+            },
+            {
+              "rank": 9,
+              "username": "N***en",
+              "wager": 3329.94,
+              "prize": 20
+            },
+            {
+              "rank": 10,
+              "username": "S*mi",
+              "wager": 1983.35,
+              "prize": 20
+            }
+          ],
+          "total_extracted": 10,
+          "confidence": 98
+        },
+        "cost": 0.019941
+      },
+      {
+        "name": "CSGOWIN",
+        "screenshots": [
+          "vision-teach-tanskidegen-CSGOWIN-1769926092720.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "confidence": 95,
+          "notes": "Podium shows top 3 in card format (#1, #2, #3 left to right), followed by table format for ranks 4-10. In table rows, WAGERED column appears before PRIZE column consistently."
+        },
+        "extraction": null,
+        "cost": 0.020436
+      },
+      {
+        "name": "CSGOGEM",
+        "screenshots": [
+          "vision-teach-tanskidegen-CSGOGEM-1769926110789.png"
+        ],
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "podium_ranks_visible": [
+            2,
+            1,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "confidence": 95,
+          "notes": "Podium shows top 3 in cards format with #2, #1, #3 layout (left to right), followed by table format for ranks 4-10. WAGERED column appears before PRIZE column in the table section."
+        },
+        "extraction": null,
+        "cost": 0.024036000000000002
+      }
+    ],
+    "totalCost": 0.072411,
+    "errors": []
+  },
+  {
+    "site": "adukes",
+    "url": "https://adukes.com/leaderboard",
+    "type": "url-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-adukes-discovery-1769926132051.png",
+        "response": {
+          "tabs_found": [],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "PackDraw",
+          "total_tabs_visible": 0,
+          "notes": "This appears to be a single PackDraw leaderboard page with no visible tabs for switching between different gambling sites. The PackDraw logo is shown at the top indicating this is the current/only leaderboard being displayed. There are some buttons like 'PREVIOUS LEADERBOARD', 'VIP RETURNS', 'MONTHLY WAGER GOALS', and 'SLOT CHALLENGES' but these are not tabs for switching between different casino leaderboards."
+        },
+        "cost": 0.008286,
+        "elapsed": 5233
+      }
+    },
+    "leaderboards": [],
+    "totalCost": 0.008286,
+    "errors": []
+  },
+  {
+    "site": "rwrds",
+    "url": "https://rwrds.gg/leaderboard",
+    "type": "url-based",
+    "phases": {
+      "discovery": {
+        "screenshot": "vision-teach-rwrds-discovery-1769926146213.png",
+        "response": {
+          "tabs_found": [
+            "CLASH.gg",
+            "Ungrader",
+            "CSGOWIN",
+            "CASES",
+            "AGEBET"
+          ],
+          "has_dropdown": false,
+          "dropdown_location": null,
+          "has_show_more": false,
+          "show_more_text": null,
+          "current_active_tab": "CLASH.gg",
+          "total_tabs_visible": 5,
+          "notes": "The CLASH.gg tab appears to be currently active (highlighted in orange/yellow). The page shows a 'New Challenge - CLASH.GG' section and displays a leaderboard with top players. The tabs are located in the top navigation bar."
+        },
+        "cost": 0.008049,
+        "elapsed": 5182
+      }
+    },
+    "leaderboards": [
+      {
+        "name": "CLASH.gg",
+        "screenshots": [
+          "vision-teach-rwrds-CLASH.gg-1769926154424.png"
+        ],
+        "structure": null,
+        "extraction": null,
+        "cost": 0.027588
+      },
+      {
+        "name": "Ungrader",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      },
+      {
+        "name": "CSGOWIN",
+        "screenshots": [],
+        "structure": null,
+        "extraction": null,
+        "cost": 0,
+        "error": "Could not click tab"
+      },
+      {
+        "name": "CASES",
+        "screenshots": [
+          "vision-teach-rwrds-CASES-1769926181056.png"
+        ],
+        "structure": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "podium_ranks_visible": [
+            1,
+            2,
+            3
+          ],
+          "entry_format": "mixed",
+          "visible_entry_count": 10,
+          "max_rank_visible": 10,
+          "has_more_below": false,
+          "has_pagination": false,
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "confidence": 95,
+          "notes": "Top 3 shown as podium cards with #1 in center (tallest), #2 on left, #3 on right. Ranks 4-10 shown in table format below with Prize column before Wagered column"
+        },
+        "extraction": null,
+        "cost": 0.021687
+      }
+    ],
+    "totalCost": 0.05732400000000001,
+    "errors": []
+  }
+]

@@ -1,0 +1,363 @@
+{
+  "domain": "paxgambles.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 9,
+    "switcherNames": [
+      "kick",
+      "diceblox",
+      "cases",
+      "acebet",
+      "rain",
+      "spade",
+      "nofilter",
+      "default",
+      "tos"
+    ],
+    "layoutType": null,
+    "generatedAt": "2026-01-24T18:26:48.237Z"
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [
+    {
+      "keyword": "kick",
+      "type": "image-button",
+      "priority": 75,
+      "coordinates": {
+        "x": 1342.5,
+        "y": 1977.96875
+      },
+      "source": "image",
+      "isActive": false,
+      "opacity": 1
+    },
+    {
+      "keyword": "diceblox",
+      "type": "deep-scan",
+      "priority": 55,
+      "coordinates": {
+        "x": 960,
+        "y": 401.0859375
+      },
+      "source": "deep-scan",
+      "element": {
+        "tag": "a",
+        "classes": "prev-lb-btn"
+      }
+    },
+    {
+      "keyword": "cases",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "acebet",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "rain",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "spade",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "nofilter",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "default",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    },
+    {
+      "keyword": "tos",
+      "type": "script-detected",
+      "priority": 50,
+      "coordinates": null,
+      "source": "data-attribute",
+      "requiresSpecialHandling": true
+    }
+  ],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [
+      {
+        "keyword": "kick",
+        "action": "click",
+        "selector": "[data-site=\"kick\"], [data-load-mode=\"kick\"]",
+        "coordinates": {
+          "x": 1342.5,
+          "y": 1977.96875
+        },
+        "type": "image-button"
+      },
+      {
+        "keyword": "diceblox",
+        "action": "click",
+        "selector": "[data-site=\"diceblox\"], [data-load-mode=\"diceblox\"]",
+        "coordinates": {
+          "x": 960,
+          "y": 401.0859375
+        },
+        "type": "deep-scan"
+      },
+      {
+        "keyword": "cases",
+        "action": "click",
+        "selector": "[data-site=\"cases\"], [data-load-mode=\"cases\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "acebet",
+        "action": "click",
+        "selector": "[data-site=\"acebet\"], [data-load-mode=\"acebet\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "rain",
+        "action": "click",
+        "selector": "[data-site=\"rain\"], [data-load-mode=\"rain\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "spade",
+        "action": "click",
+        "selector": "[data-site=\"spade\"], [data-load-mode=\"spade\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "nofilter",
+        "action": "click",
+        "selector": "[data-site=\"nofilter\"], [data-load-mode=\"nofilter\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "default",
+        "action": "click",
+        "selector": "[data-site=\"default\"], [data-load-mode=\"default\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      },
+      {
+        "keyword": "tos",
+        "action": "click",
+        "selector": "[data-site=\"tos\"], [data-load-mode=\"tos\"]",
+        "coordinates": null,
+        "type": "script-detected"
+      }
+    ],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "switcherConfig": {
+      "discoveredAt": "2026-01-24T18:26:48.237Z",
+      "mainLeaderboardUrl": "https://paxgambles.com/leaderboard/diceblox",
+      "navigationMethod": "click-based",
+      "urlPattern": "/leaderboard/{SITE}",
+      "allSwitchers": [
+        {
+          "keyword": "kick",
+          "type": "image-button",
+          "selector": null,
+          "coordinates": {
+            "x": 1342.5,
+            "y": 1977.96875
+          },
+          "priority": 75,
+          "source": "image",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "diceblox",
+          "type": "deep-scan",
+          "selector": null,
+          "coordinates": {
+            "x": 960,
+            "y": 401.0859375
+          },
+          "priority": 55,
+          "source": "deep-scan",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "cases",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "acebet",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "rain",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "spade",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "nofilter",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "default",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        },
+        {
+          "keyword": "tos",
+          "type": "script-detected",
+          "selector": null,
+          "coordinates": null,
+          "priority": 50,
+          "source": "data-attribute",
+          "href": null,
+          "isActive": false
+        }
+      ],
+      "dropdownInfo": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-24T18:26:47.897Z",
+  "updatedAt": "2026-01-24T18:26:48.238Z"
+}

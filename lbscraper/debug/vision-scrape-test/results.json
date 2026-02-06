@@ -1,0 +1,48 @@
+[
+  {
+    "site": "paxgambles",
+    "url": "https://paxgambles.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "diceblox",
+        "screenshot": "paxgambles-diceblox-1770199743210.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "rank1": {
+            "username": "Magging",
+            "wager": 3611283.6,
+            "prize": 500
+          }
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "username": "Magqing",
+            "wager": 3611283.6,
+            "prize": 500
+          },
+          "matchesVision": true
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "confidence": 95,
+          "rank1": {
+            "username": "Magqing",
+            "wager": 3611283.6,
+            "prize": 500
+          },
+          "matchesVision": true
+        },
+        "comparison": {
+          "status": "✅ MATCH",
+          "improved": false,
+          "isSwapped": false
+        }
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,3027 @@
+[
+  {
+    "site": "crunchyrewards.com",
+    "url": "http://crunchyrewards.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "stake",
+        "screenshot": "crunchyrewards-stake-1769931623387.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "no_podium",
+          "wager_label": null,
+          "prize_label": null,
+          "rank1_username": null,
+          "rank1_wager": null,
+          "rank1_prize": null,
+          "confidence": 100
+        },
+        "before": {
+          "entries": 0,
+          "method": "none"
+        },
+        "after": {
+          "entries": 0,
+          "method": "none",
+          "matchesVision": false
+        },
+        "status": "💀 NO DATA"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "jonkennleaderboard.com",
+    "url": "https://jonkennleaderboard.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "csbattle",
+        "screenshot": "jonkennleaderboard-csbattle-1769931643628.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "Prize",
+          "rank1_username": "S**********",
+          "rank1_wager": 8349.94,
+          "rank1_prize": 1500,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 10,
+          "method": "dom",
+          "rank1": {
+            "rank": 1,
+            "username": "S**********",
+            "wager": 8349.94,
+            "prize": 500,
+            "_fusion": {
+              "sources": [
+                "api",
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "api",
+                  "confidence": 90
+                },
+                "rank": {
+                  "source": "api",
+                  "confidence": 90
+                },
+                "wager": {
+                  "source": "api",
+                  "confidence": 90
+                },
+                "prize": {
+                  "source": "dom",
+                  "confidence": 90
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "api",
+          "rank1": {
+            "rank": 1,
+            "username": "S**********",
+            "wager": 8349.94,
+            "prize": 500,
+            "_fusion": {
+              "sources": [
+                "api",
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "rank": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "wager": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "prize": {
+                  "source": "dom",
+                  "confidence": 70
+                }
+              }
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "betjuicy.com",
+    "url": "http://betjuicy.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "roobet",
+        "screenshot": "betjuicy-roobet-1769931677915.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "Prize",
+          "rank1_username": "YA****02",
+          "rank1_wager": 295931.24,
+          "rank1_prize": 33000,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Ya****02",
+            "wager": 25931.24,
+            "prize": 33000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Ya****02",
+            "wager": 25931.24,
+            "prize": 33000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "scrapesgambles.com",
+    "url": "https://scrapesgambles.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "stake",
+        "screenshot": "scrapesgambles-stake-1769931701212.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": null,
+          "rank1_username": null,
+          "rank1_wager": 0,
+          "rank1_prize": 2500,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 0,
+          "method": "none"
+        },
+        "after": {
+          "entries": 0,
+          "method": "none",
+          "matchesVision": false
+        },
+        "status": "💀 NO DATA"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "vinnyvh.com",
+    "url": "https://vinnyvh.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "clash",
+        "screenshot": "vinnyvh-clash-1769931721805.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "rank1_username": "CattleFrighten50",
+          "rank1_wager": 355.55,
+          "rank1_prize": 175,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 8,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "CattleFrighten50",
+            "wager": 355.55,
+            "prize": 175,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 8,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "CattleFrighten50",
+            "wager": 355.55,
+            "prize": 175,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "ravengambles.com",
+    "url": "https://ravengambles.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "csgobig",
+        "screenshot": "ravengambles-csgobig-1769931743335.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "TOTAL WAGERED",
+          "prize_label": "PRIZE",
+          "rank1_username": "******V3",
+          "rank1_wager": 98317.27,
+          "rank1_prize": 4000,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 8,
+          "method": "markdown",
+          "rank1": {
+            "rank": 3,
+            "username": "*********si",
+            "wager": 1,
+            "prize": 4,
+            "tier": null,
+            "source": "markdown-header",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 8,
+          "method": "markdown",
+          "rank1": {
+            "rank": 3,
+            "username": "*********si",
+            "wager": 1,
+            "prize": 4,
+            "tier": null,
+            "source": "markdown-header",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "ilovemav.com",
+    "url": "https://www.ilovemav.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "luxdrop",
+        "screenshot": "ilovemav-luxdrop-1769931765139.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "no_podium",
+          "wager_label": "Not visible",
+          "prize_label": "Not visible",
+          "rank1_username": "Not visible",
+          "rank1_wager": null,
+          "rank1_prize": null,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 11,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "H***r***",
+            "wager": 63800.51,
+            "prize": 2500,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 11,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "H***r***",
+            "wager": 63800.51,
+            "prize": 2500,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "spencerrewards.com",
+    "url": "https://spencerrewards.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "packdraw",
+        "screenshot": "spencerrewards-packdraw-1769931787707.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "rank1_username": "col***********",
+          "rank1_wager": 11534.96,
+          "rank1_prize": 450,
+          "confidence": 98
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "col***********",
+            "wager": 11534.96,
+            "prize": 450,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "col***********",
+            "wager": 11534.96,
+            "prize": 450,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "paxgambles.com",
+    "url": "https://paxgambles.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "diceblox",
+        "screenshot": "paxgambles-diceblox-1769931807910.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "rank1_username": "Magging",
+          "rank1_wager": 4811469,
+          "rank1_prize": 250,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Magqing",
+            "wager": 4811469,
+            "prize": 250,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Magqing",
+            "wager": 4811469,
+            "prize": 250,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "rwrds.gg",
+    "url": "https://rwrds.gg/leaderboard",
+    "leaderboards": [
+      {
+        "name": "upgrader",
+        "screenshot": "rwrds-upgrader-1769931834754.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "left_to_right",
+          "wager_label": "Wager",
+          "prize_label": "Prize",
+          "rank1_username": "1st",
+          "rank1_wager": 10000,
+          "rank1_prize": 100,
+          "confidence": 85
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Christian",
+            "wager": 55119.73,
+            "prize": 600,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Christian",
+            "wager": 55119.73,
+            "prize": 600,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "tanskidegen.com",
+    "url": "https://www.tanskidegen.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "tanskidegen-csgowin-1769931858755.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "p*******es",
+          "rank1_wager": 12698.88,
+          "rank1_prize": 1000,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 11,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "P********es",
+            "wager": 12698.88,
+            "prize": 1000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 11,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "P********es",
+            "wager": 12698.88,
+            "prize": 1000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "wahy.gg",
+    "url": "https://wahy.gg/leaderboard",
+    "leaderboards": [
+      {
+        "name": "csgogem",
+        "screenshot": "wahy-csgogem-1769931881505.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": null,
+          "rank1_username": "t****",
+          "rank1_wager": 28926.28,
+          "rank1_prize": null,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "t*******",
+            "wager": 28076.28,
+            "prize": 0,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "t*******",
+            "wager": 28076.28,
+            "prize": 0,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "goatgambles.com",
+    "url": "https://goatgambles.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "rain",
+        "screenshot": "goatgambles-rain-1769931904983.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "**u",
+          "rank1_wager": 12785.15,
+          "rank1_prize": 600,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "**u",
+            "wager": 12785.15,
+            "prize": 600,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "**u",
+            "wager": 12785.15,
+            "prize": 600,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "adukes.com",
+    "url": "https://adukes.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "chips",
+        "screenshot": "adukes-chips-1769931926499.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "no_podium",
+          "wager_label": "Monthly Wager",
+          "prize_label": "Prize",
+          "rank1_username": "",
+          "rank1_wager": 10000,
+          "rank1_prize": 20,
+          "confidence": 92
+        },
+        "before": {
+          "entries": 0,
+          "method": "none"
+        },
+        "after": {
+          "entries": 0,
+          "method": "none",
+          "matchesVision": false
+        },
+        "status": "💀 NO DATA"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "augustrewards.com",
+    "url": "https://augustrewards.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "clash",
+        "screenshot": "augustrewards-clash-1769931945566.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "rank1_username": "Mar***",
+          "rank1_wager": 573200,
+          "rank1_prize": 5000,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Mar***",
+            "wager": 573200,
+            "prize": 5000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Mar***",
+            "wager": 573200,
+            "prize": 5000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "birb.bet",
+    "url": "https://birb.bet/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgobig",
+        "screenshot": "birb-csgobig-1769931967895.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "Prize",
+          "rank1_username": "j****0",
+          "rank1_wager": 60727.49,
+          "rank1_prize": 1700,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 13,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "j****O",
+            "wager": 60727.49,
+            "prize": 1700,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 13,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "j****O",
+            "wager": 60727.49,
+            "prize": 1700,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "cheesy.gg",
+    "url": "https://www.cheesy.gg/leaderboards",
+    "leaderboards": [
+      {
+        "name": "chicken",
+        "screenshot": "cheesy-chicken-1769931994918.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "XP",
+          "prize_label": "REWARD",
+          "rank1_username": "Babypero",
+          "rank1_wager": 1911,
+          "rank1_prize": 500,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Babyperc",
+            "wager": 687,
+            "prize": 50,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "wager": {
+                  "source": "dom",
+                  "confidence": 88
+                },
+                "prize": {
+                  "source": "dom",
+                  "confidence": 88
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Babyperc",
+            "wager": 687,
+            "prize": 50,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 70
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 70
+                },
+                "wager": {
+                  "source": "dom",
+                  "confidence": 68
+                },
+                "prize": {
+                  "source": "dom",
+                  "confidence": 68
+                }
+              }
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "codeshury.com",
+    "url": "https://codeshury.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "upgrader",
+        "screenshot": "codeshury-upgrader-1769932021269.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "code BOAT KiCKimboat",
+          "rank1_wager": 3826.11,
+          "rank1_prize": 250,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 9,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "code BOAT KICKimboat",
+            "wager": 3826.11,
+            "prize": 250,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 9,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "code BOAT KICKimboat",
+            "wager": 3826.11,
+            "prize": 250,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "dustintfp.com",
+    "url": "https://www.dustintfp.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "csgobig",
+        "screenshot": "dustintfp-csgobig-1769932046947.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "rank1_username": "was*********",
+          "rank1_wager": 28327.04,
+          "rank1_prize": 2500,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Player",
+            "wager": 4,
+            "prize": 0,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Player",
+            "wager": 4,
+            "prize": 0,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "frequencybenders.com",
+    "url": "https://frequencybenders.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "shuffle",
+        "screenshot": "frequencybenders-shuffle-1769932076891.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "rank1_username": "UK**************ER",
+          "rank1_wager": 637528.65,
+          "rank1_prize": 2200,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 10,
+          "method": "api",
+          "rank1": {
+            "rank": 1,
+            "username": "Au*****dd",
+            "wager": 166820,
+            "prize": 0,
+            "source": "api",
+            "_fusion": {
+              "sources": [
+                "api"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "api",
+          "rank1": {
+            "rank": 1,
+            "username": "Au*****dd",
+            "wager": 166820,
+            "prize": 0,
+            "source": "api",
+            "_fusion": {
+              "sources": [
+                "api"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "jammmyslots.com",
+    "url": "https://jammmyslots.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "raingg",
+        "screenshot": "jammmyslots-raingg-1769932099319.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "no_podium",
+          "wager_label": "Loading",
+          "prize_label": "N/A",
+          "rank1_username": "Loading",
+          "rank1_wager": 0,
+          "rank1_prize": 0,
+          "confidence": 10
+        },
+        "before": {
+          "entries": 0,
+          "method": "none"
+        },
+        "after": {
+          "entries": 0,
+          "method": "none",
+          "matchesVision": false
+        },
+        "status": "💀 NO DATA"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "botboibets.com",
+    "url": "https://botboibets.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "botboibets-csgowin-1769932130772.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": null,
+          "rank1_username": "Lux****",
+          "rank1_wager": 809940.39,
+          "rank1_prize": null,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 101,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Lux****",
+            "wager": 809940.39,
+            "prize": 8000,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 101,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Lux****",
+            "wager": 809940.39,
+            "prize": 8000,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "kushbox.vip",
+    "url": "https://kushbox.vip/leaderboard",
+    "leaderboards": [
+      {
+        "name": "default",
+        "screenshot": "kushbox-default-1769932157959.png",
+        "vision": {
+          "column_order": "no_columns_visible",
+          "podium_layout": "no_podium",
+          "wager_label": "not_visible",
+          "prize_label": "not_visible",
+          "rank1_username": "not_visible",
+          "rank1_wager": null,
+          "rank1_prize": null,
+          "confidence": 0
+        },
+        "before": {
+          "entries": 0,
+          "method": "none"
+        },
+        "after": {
+          "entries": 0,
+          "method": "none",
+          "matchesVision": false
+        },
+        "status": "💀 NO DATA"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "muta.bet",
+    "url": "https://muta.bet/leaderboard",
+    "leaderboards": [
+      {
+        "name": "shuffle",
+        "screenshot": "muta-shuffle-1769932181294.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "rank1_username": "br*****tz",
+          "rank1_wager": 1666619,
+          "rank1_prize": 3700,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 23,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "br*******tz",
+            "wager": 1666166.19,
+            "prize": 3700,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 23,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "br*******tz",
+            "wager": 1666166.19,
+            "prize": 3700,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "rywards.gg",
+    "url": "https://www.rywards.gg/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgogem",
+        "screenshot": "rywards-csgogem-1769932206450.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "d****D",
+          "rank1_wager": 78640.63,
+          "rank1_prize": 1000,
+          "confidence": 98
+        },
+        "before": {
+          "entries": 14,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "d****D",
+            "wager": 78640.63,
+            "prize": 1000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 14,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "d****D",
+            "wager": 78640.63,
+            "prize": 1000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "therosarz.live",
+    "url": "https://www.therosarz.live/leaderboard",
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "therosarz-csgowin-1769932230015.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "N****e",
+          "rank1_wager": 9478.79,
+          "rank1_prize": 350,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 12,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "N****e",
+            "wager": 9478.79,
+            "prize": 350,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "wager": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "prize": {
+                  "source": "markdown",
+                  "confidence": 90
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 12,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "N****e",
+            "wager": 9478.79,
+            "prize": 350,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "wager": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "prize": {
+                  "source": "markdown",
+                  "confidence": 100
+                }
+              }
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "joonxo.com",
+    "url": "https://www.joonxo.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "joonxo-csgowin-1769932256573.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "Prize",
+          "rank1_username": "QQBOOGIE",
+          "rank1_wager": 17754.81,
+          "rank1_prize": 1400,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "QQBOOGIE",
+            "wager": 17754.81,
+            "prize": 1400,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "QQBOOGIE",
+            "wager": 17754.81,
+            "prize": 1400,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "lighta.gg",
+    "url": "https://lighta.gg/leaderboard",
+    "leaderboards": [
+      {
+        "name": "hypedrop",
+        "screenshot": "lighta-hypedrop-1769932287957.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "DEPOSITED",
+          "prize_label": "Prize",
+          "rank1_username": "j***********n",
+          "rank1_wager": 140760.544,
+          "rank1_prize": 7000,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 14,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "M****y",
+            "wager": 1,
+            "prize": 2500,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "wager": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "prize": {
+                  "source": "dom",
+                  "confidence": 90
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 15,
+          "method": "dom",
+          "rank1": {
+            "rank": 1,
+            "username": "[***********n",
+            "wager": 140760.544,
+            "prize": 7000,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "dom",
+                  "confidence": 100
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 70
+                },
+                "wager": {
+                  "source": "dom",
+                  "confidence": 100
+                },
+                "prize": {
+                  "source": "dom",
+                  "confidence": 100
+                }
+              }
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "c8ncel.bet",
+    "url": "https://c8ncel.bet/leaderboards",
+    "leaderboards": [
+      {
+        "name": "juice",
+        "screenshot": "c8ncel-juice-1769932314969.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "no_podium",
+          "wager_label": "Wagered",
+          "prize_label": null,
+          "rank1_username": null,
+          "rank1_wager": null,
+          "rank1_prize": null,
+          "confidence": 20
+        },
+        "before": {
+          "entries": 4,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "0",
+            "wager": 750,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 4,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "0",
+            "wager": 750,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "3dhaxx.com",
+    "url": "http://3dhaxx.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "rain",
+        "screenshot": "3dhaxx-rain-1769932337241.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "no_podium",
+          "wager_label": "Wagered",
+          "prize_label": "",
+          "rank1_username": "Just-",
+          "rank1_wager": 837.37,
+          "rank1_prize": null,
+          "confidence": 98
+        },
+        "before": {
+          "entries": 10,
+          "method": "geometric",
+          "rank1": {
+            "rank": 1,
+            "username": "Just- (837.37)",
+            "wager": 1,
+            "prize": 0,
+            "source": "geometric-list",
+            "_fusion": {
+              "sources": [
+                "geometric"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "geometric",
+          "rank1": {
+            "rank": 1,
+            "username": "Just- (837.37)",
+            "wager": 1,
+            "prize": 0,
+            "source": "geometric-list",
+            "_fusion": {
+              "sources": [
+                "geometric"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "griffrewards.com",
+    "url": "https://www.griffrewards.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgogem",
+        "screenshot": "griffrewards-csgogem-1769932362637.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "k*****k",
+          "rank1_wager": 3548.23,
+          "rank1_prize": 650,
+          "confidence": 92
+        },
+        "before": {
+          "entries": 10,
+          "method": "api",
+          "rank1": {
+            "rank": 1,
+            "username": "k****k",
+            "wager": 3548.23,
+            "prize": 650,
+            "_fusion": {
+              "sources": [
+                "api",
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "api",
+                  "confidence": 90
+                },
+                "rank": {
+                  "source": "api",
+                  "confidence": 90
+                },
+                "wager": {
+                  "source": "api",
+                  "confidence": 90
+                },
+                "prize": {
+                  "source": "api",
+                  "confidence": 90
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 10,
+          "method": "api",
+          "rank1": {
+            "rank": 1,
+            "username": "k****k",
+            "wager": 3548.23,
+            "prize": 650,
+            "_fusion": {
+              "sources": [
+                "api",
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "rank": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "wager": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "prize": {
+                  "source": "api",
+                  "confidence": 100
+                }
+              }
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "htg.bet",
+    "url": "https://htg.bet/leaderboard",
+    "leaderboards": [
+      {
+        "name": "csgoroll",
+        "screenshot": "htg-csgoroll-1769932388845.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "rank1_username": "Mcdonald's Manager",
+          "rank1_wager": 24630.29,
+          "rank1_prize": 500,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Mcdonald's Manager",
+            "wager": 24630.29,
+            "prize": 500,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Mcdonald's Manager",
+            "wager": 24630.29,
+            "prize": 500,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "camperzzrewards.com",
+    "url": "https://camperzzrewards.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "upgrader",
+        "screenshot": "camperzzrewards-upgrader-1769932411206.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "rank1_username": "Biko",
+          "rank1_wager": 2776.46,
+          "rank1_prize": 125,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 9,
+          "method": "dom",
+          "rank1": {
+            "rank": 1,
+            "username": "Biko",
+            "wager": 2776.46,
+            "prize": 125,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom",
+                "geometric"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "dom",
+                  "confidence": 90
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 89
+                },
+                "wager": {
+                  "source": "dom",
+                  "confidence": 90
+                },
+                "prize": {
+                  "source": "dom",
+                  "confidence": 90
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 9,
+          "method": "dom",
+          "rank1": {
+            "rank": 1,
+            "username": "Biko",
+            "wager": 2776.46,
+            "prize": 125,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom",
+                "geometric"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "wager": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "prize": {
+                  "source": "dom",
+                  "confidence": 100
+                }
+              }
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "blaffsen.com",
+    "url": "https://blaffsen.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "rustmagic",
+        "screenshot": "blaffsen-rustmagic-1769932433301.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "佰露****",
+          "rank1_wager": 21794.5,
+          "rank1_prize": 750,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "伝説****",
+            "wager": 21704.5,
+            "prize": 750,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "伝説****",
+            "wager": 21704.5,
+            "prize": 750,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "nerogambles.com",
+    "url": "https://www.nerogambles.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "nerogambles-csgowin-1769932452658.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "no_podium",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "rank1_username": null,
+          "rank1_wager": null,
+          "rank1_prize": null,
+          "confidence": 100
+        },
+        "before": {
+          "entries": 0,
+          "method": "none"
+        },
+        "after": {
+          "entries": 0,
+          "method": "none",
+          "matchesVision": false
+        },
+        "status": "💀 NO DATA"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "craaze-leaderboards.com",
+    "url": "https://www.craaze-leaderboards.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "craaze-leaderboards-csgowin-1769932474790.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "Deathbreaker8Ksubs",
+          "rank1_wager": 5048.07,
+          "rank1_prize": 500,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 18,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Rank #1",
+            "wager": 5048.07,
+            "prize": 500,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 18,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "Rank #1",
+            "wager": 5048.07,
+            "prize": 500,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "darkrewards.com",
+    "url": "https://darkrewards.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "rustmagic",
+        "screenshot": "darkrewards-rustmagic-1769932500166.png",
+        "vision": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "rank1_username": "wo**",
+          "rank1_wager": 1621.74,
+          "rank1_prize": 550,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "WO**",
+            "wager": 1621.74,
+            "prize": 550,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "WO**",
+            "wager": 1621.74,
+            "prize": 550,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "headed.gg",
+    "url": "https://www.headed.gg/leaderboards",
+    "leaderboards": [
+      {
+        "name": "bsite",
+        "screenshot": "headed-bsite-1769932526737.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "wager_label": "WAGERED",
+          "prize_label": "Prize",
+          "rank1_username": "Ev***",
+          "rank1_wager": 415.72,
+          "rank1_prize": 350,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 3,
+          "method": "dom",
+          "rank1": {
+            "rank": 1,
+            "username": "mr***..",
+            "wager": 750,
+            "prize": 0,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 83
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 83
+                },
+                "wager": {
+                  "source": "markdown",
+                  "confidence": 83
+                },
+                "prize": {
+                  "source": "none",
+                  "confidence": 0
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 3,
+          "method": "dom",
+          "rank1": {
+            "rank": 1,
+            "username": "mr***..",
+            "wager": 750,
+            "prize": 0,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "dom"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 63
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 63
+                },
+                "wager": {
+                  "source": "markdown",
+                  "confidence": 63
+                },
+                "prize": {
+                  "source": "none",
+                  "confidence": 0
+                }
+              }
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "helloryrewards.com",
+    "url": "https://helloryrewards.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "helloryrewards-csgowin-1769932551901.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": null,
+          "rank1_username": "****",
+          "rank1_wager": 0,
+          "rank1_prize": null,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 4,
+          "method": "markdown",
+          "rank1": {
+            "rank": 2,
+            "username": "****",
+            "wager": 0,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 4,
+          "method": "markdown",
+          "rank1": {
+            "rank": 2,
+            "username": "****",
+            "wager": 0,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "fortunate.gg",
+    "url": "https://fortunate.gg/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgogem",
+        "screenshot": "fortunate-csgogem-1769932578294.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "TOTAL WAGERED",
+          "prize_label": "PRIZE",
+          "rank1_username": "l*****e",
+          "rank1_wager": 145591.55,
+          "rank1_prize": 4250,
+          "confidence": 98
+        },
+        "before": {
+          "entries": 13,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "K***r",
+            "wager": 33286.29,
+            "prize": 625,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 13,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "K***r",
+            "wager": 33286.29,
+            "prize": 625,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "hydrarewards.com",
+    "url": "https://www.hydrarewards.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "packdraw",
+        "screenshot": "hydrarewards-packdraw-1769932605430.png",
+        "vision": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "rank1_username": "g******wt",
+          "rank1_wager": 13652.734,
+          "rank1_prize": 4500,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 19,
+          "method": "api",
+          "rank1": {
+            "rank": 1,
+            "username": "gray_newt",
+            "wager": 13652.73360493579,
+            "prize": 4500,
+            "_fusion": {
+              "sources": [
+                "api",
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "api",
+                  "confidence": 95
+                },
+                "rank": {
+                  "source": "api",
+                  "confidence": 95
+                },
+                "wager": {
+                  "source": "api",
+                  "confidence": 95
+                },
+                "prize": {
+                  "source": "markdown",
+                  "confidence": 89
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 19,
+          "method": "api",
+          "rank1": {
+            "rank": 1,
+            "username": "gray_newt",
+            "wager": 13652.73360493579,
+            "prize": 4500,
+            "_fusion": {
+              "sources": [
+                "api",
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "rank": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "wager": {
+                  "source": "api",
+                  "confidence": 100
+                },
+                "prize": {
+                  "source": "markdown",
+                  "confidence": 100
+                }
+              }
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "karmacf.com",
+    "url": "https://karmacf.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "hunt",
+        "screenshot": "karmacf-hunt-1769932647930.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "no_podium",
+          "wager_label": "N/A",
+          "prize_label": "N/A",
+          "rank1_username": "N/A",
+          "rank1_wager": 0,
+          "rank1_prize": 0,
+          "confidence": 85
+        },
+        "before": {
+          "entries": 11,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "[Super] Le Bandit",
+            "wager": 0,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 11,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "[Super] Le Bandit",
+            "wager": 0,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "middlemoonrewards.com",
+    "url": "https://www.middlemoonrewards.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "rustmagic",
+        "screenshot": "middlemoonrewards-rustmagic-1769932678992.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": null,
+          "rank1_username": "zelty",
+          "rank1_wager": null,
+          "rank1_prize": null,
+          "confidence": 85
+        },
+        "before": {
+          "entries": 9,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "zelty",
+            "wager": 13176.37,
+            "prize": 250,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 9,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "zelty",
+            "wager": 13176.37,
+            "prize": 250,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "luddze.com",
+    "url": "https://luddze.com/leaderboard",
+    "leaderboards": [],
+    "errors": [
+      "Navigation failed: page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://luddze.com/leaderboard\nCall log:\n  - navigating to \"https://luddze.com/leaderboard\", waiting until \"networkidle\"\n"
+    ]
+  },
+  {
+    "site": "codesilkk.com",
+    "url": "https://codesilkk.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "codesilkk-csgowin-1769932710351.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "REWARD",
+          "rank1_username": "Waiting...",
+          "rank1_wager": null,
+          "rank1_prize": 75,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 3,
+          "method": "markdown",
+          "rank1": {
+            "rank": 2,
+            "username": "Waiting...",
+            "wager": 0,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 3,
+          "method": "markdown",
+          "rank1": {
+            "rank": 2,
+            "username": "Waiting...",
+            "wager": 0,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "mimegamba.com",
+    "url": "https://mimegamba.com/leaderboards",
+    "leaderboards": [
+      {
+        "name": "upgrader",
+        "screenshot": "mimegamba-upgrader-1769932743319.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "rank1_username": "ero***",
+          "rank1_wager": 1697.89,
+          "rank1_prize": 100,
+          "confidence": 95
+        },
+        "before": {
+          "entries": 29,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "SEC",
+            "wager": 470.46,
+            "prize": 30,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "geometric"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "wager": {
+                  "source": "geometric",
+                  "confidence": 52
+                },
+                "prize": {
+                  "source": "geometric",
+                  "confidence": 52
+                }
+              }
+            }
+          }
+        },
+        "after": {
+          "entries": 30,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "ero***",
+            "wager": 1697.89,
+            "prize": 100,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "geometric"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "wager": {
+                  "source": "markdown",
+                  "confidence": 100
+                },
+                "prize": {
+                  "source": "markdown",
+                  "confidence": 100
+                }
+              }
+            }
+          },
+          "matchesVision": true
+        },
+        "status": "✅ MATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "harryrewards.com",
+    "url": "https://harryrewards.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "rain",
+        "screenshot": "harryrewards-rain-1769932762152.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "no_podium",
+          "wager_label": "N/A",
+          "prize_label": "N/A",
+          "rank1_username": "N/A",
+          "rank1_wager": null,
+          "rank1_prize": null,
+          "confidence": 0
+        },
+        "before": {
+          "entries": 0,
+          "method": "none"
+        },
+        "after": {
+          "entries": 0,
+          "method": "none",
+          "matchesVision": false
+        },
+        "status": "💀 NO DATA"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "phazecs.com",
+    "url": "https://phazecs.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "bsite",
+        "screenshot": "phazecs-bsite-1769932782975.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "WAGERED",
+          "prize_label": null,
+          "rank1_username": "****",
+          "rank1_wager": 0,
+          "rank1_prize": null,
+          "confidence": 90
+        },
+        "before": {
+          "entries": 3,
+          "method": "markdown",
+          "rank1": {
+            "rank": 2,
+            "username": "****",
+            "wager": 0,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 3,
+          "method": "markdown",
+          "rank1": {
+            "rank": 2,
+            "username": "****",
+            "wager": 0,
+            "prize": 0,
+            "source": "markdown-list",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "viscorewards.com",
+    "url": "https://viscorewards.com/leaderboard",
+    "leaderboards": [
+      {
+        "name": "default",
+        "screenshot": "viscorewards-default-1769932802617.png",
+        "vision": {
+          "column_order": "no_data",
+          "podium_layout": "no_podium",
+          "wager_label": "N/A",
+          "prize_label": "N/A",
+          "rank1_username": "N/A",
+          "rank1_wager": 0,
+          "rank1_prize": 0,
+          "confidence": 0
+        },
+        "before": {
+          "entries": 0,
+          "method": "none"
+        },
+        "after": {
+          "entries": 0,
+          "method": "none",
+          "matchesVision": false
+        },
+        "status": "💀 NO DATA"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "site": "rickashay.gg",
+    "url": "https://www.rickashay.gg/leaderboards",
+    "leaderboards": [
+      {
+        "name": "rain",
+        "screenshot": "rickashay-rain-1769932827171.png",
+        "vision": {
+          "column_order": "wager_only",
+          "podium_layout": "center_first",
+          "wager_label": "N/A",
+          "prize_label": "N/A",
+          "rank1_username": "N/A",
+          "rank1_wager": 0,
+          "rank1_prize": 0,
+          "confidence": 85
+        },
+        "before": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "F********st",
+            "wager": 285536.58,
+            "prize": 4000,
+            "source": "markdown-podium",
+            "_fusion": {
+              "sources": [
+                "markdown"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "single_source"
+            }
+          }
+        },
+        "after": {
+          "entries": 15,
+          "method": "markdown",
+          "rank1": {
+            "rank": 1,
+            "username": "F********st",
+            "wager": 285536.58,
+            "prize": 4000,
+            "_fusion": {
+              "sources": [
+                "markdown",
+                "geometric"
+              ],
+              "agreementScore": 0,
+              "verificationStatus": "disputed",
+              "fieldSources": {
+                "username": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "rank": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "wager": {
+                  "source": "markdown",
+                  "confidence": 90
+                },
+                "prize": {
+                  "source": "markdown",
+                  "confidence": 90
+                }
+              }
+            }
+          },
+          "matchesVision": false
+        },
+        "status": "⚠️ MISMATCH"
+      }
+    ],
+    "errors": []
+  }
+]
