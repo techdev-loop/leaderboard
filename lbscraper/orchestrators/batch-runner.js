@@ -212,6 +212,17 @@ async function processSite(site, config, keywords) {
       result.error = orchResult.errors.join('; ');
     }
 
+    // Save to results/current for every site (same as single-site mode) so all sites have output
+    try {
+      const currentDir = config.paths?.currentResultsDir || path.join(__dirname, '..', 'results', 'current');
+      fs.mkdirSync(currentDir, { recursive: true });
+      const resultsPath = path.join(currentDir, `${site.domain}.json`);
+      fs.writeFileSync(resultsPath, JSON.stringify(orchResult, null, 2));
+      log('BATCH', `Saved to ${resultsPath}`);
+    } catch (saveErr) {
+      log('ERR', `Failed to save JSON for ${site.domain}: ${saveErr.message}`);
+    }
+
     // Save to database if we have results
     if (result.success) {
       try {
@@ -276,7 +287,9 @@ async function runBatch(options = {}) {
   setupShutdownHandlers();
   initLogging(production);
 
-  const config = buildLegacyConfig(path.join(configDir, '..'));
+  // basePath must be the lbscraper root (parent of orchestrators) so paths.websites, paths.currentResultsDir resolve correctly
+  const basePath = path.isAbsolute(configDir) ? path.join(configDir, '..') : path.resolve(configDir, '..');
+  const config = buildLegacyConfig(basePath);
   config.production = { enabled: production };
 
   const keywords = loadKeywords(config.paths.keywords);
@@ -364,12 +377,14 @@ async function runBatch(options = {}) {
     results: allResults
   };
 
-  // Save summary
-  const summaryPath = path.join(configDir, '..', 'data', 'batch-summary.json');
+  // Save summary (ensure data dir exists)
+  const dataDir = path.join(configDir, '..', 'data');
+  fs.mkdirSync(dataDir, { recursive: true });
+  const summaryPath = path.join(dataDir, 'batch-summary.json');
   fs.writeFileSync(summaryPath, JSON.stringify(summary, null, 2));
 
   // TEMPORARY: Generate detailed report for batch testing
-  const reportPath = path.join(configDir, '..', 'data', `batch-report-${new Date().toISOString().replace(/[:.]/g, '-')}.txt`);
+  const reportPath = path.join(dataDir, `batch-report-${new Date().toISOString().replace(/[:.]/g, '-')}.txt`);
   const successfulSites = allResults.filter(r => r.success);
   const failedSites = allResults.filter(r => !r.success && !r.timedOut);
   const timedOutSites = allResults.filter(r => r.timedOut);

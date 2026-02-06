@@ -438,6 +438,7 @@ function saveCache(cachePath, cache) {
 
 /**
  * Load websites from websites.txt file
+ * Only returns valid http/https URLs so batch runs don't break on malformed lines.
  */
 function loadWebsites(websitesPath) {
   try {
@@ -454,14 +455,28 @@ function loadWebsites(websitesPath) {
       log('BATCH', `Created template websites.txt - please add URLs and run again`);
       return [];
     }
-    
+
     const content = fs.readFileSync(websitesPath, 'utf8');
-    const urls = content
+    const raw = content
       .split('\n')
       .map(line => line.trim())
       .filter(line => line && !line.startsWith('#'));
-    
-    log('BATCH', `Loaded ${urls.length} URLs from websites.txt`);
+
+    const urls = raw.filter(line => {
+      try {
+        const u = new URL(line);
+        return u.protocol === 'http:' || u.protocol === 'https:';
+      } catch (_) {
+        log('BATCH', `Skipping invalid URL: ${line.substring(0, 60)}${line.length > 60 ? '...' : ''}`);
+        return false;
+      }
+    });
+
+    if (urls.length < raw.length) {
+      log('BATCH', `Filtered ${raw.length - urls.length} invalid URL(s), ${urls.length} valid`);
+    } else {
+      log('BATCH', `Loaded ${urls.length} URLs from websites.txt`);
+    }
     return urls;
   } catch (err) {
     log('ERR', `Failed to load websites.txt: ${err.message}`);

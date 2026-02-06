@@ -90,8 +90,14 @@ async function fuseExtractionResults(input, strategies, options = {}) {
       continue;
     }
 
-    // Skip OCR when we already have any usable result (OCR is expensive and can throw in Node worker)
+    // Skip OCR in Node.js: Tesseract worker throws "fetch failed" (uncatchable) and crashes the process.
+    // OCR is only reliable in browser; in Node we skip it so batch runs complete.
     if (strategy.name === 'ocr') {
+      const inNode = typeof window === 'undefined';
+      if (inNode) {
+        log('FUSION', 'Strategy ocr: skipped (disabled in Node.js to avoid Tesseract worker crash)');
+        continue;
+      }
       const hasGoodResult = Object.values(strategyResults).some(
         r => r.entries.length >= 2 && (r.confidence || 0) >= 65
       );
