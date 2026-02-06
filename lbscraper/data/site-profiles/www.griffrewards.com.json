@@ -1,0 +1,134 @@
+{
+  "domain": "www.griffrewards.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.017537999999999998,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:33:25.138Z",
+    "lastVerifiedAt": "2026-01-26T13:33:25.138Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 100
+  },
+  "layoutFingerprint": {
+    "hash": "ae6ae82fed2289bf",
+    "switcherCount": 1,
+    "switcherNames": [
+      "chicken"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:33:25.142Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.griffrewards.com/leaderboards",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T15:28:18.368Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows 404 error with 'LOST IN SPACE' message",
+      "addedAt": "2026-01-26T13:33:25.137Z"
+    },
+    {
+      "text": "Chicken mascot with Santa hat indicates Christmas theme",
+      "addedAt": "2026-01-26T13:33:25.137Z"
+    },
+    {
+      "text": "URL path '/leaderboard/chicken' suggests this should be chicken casino leaderboard",
+      "addedAt": "2026-01-26T13:33:25.137Z"
+    },
+    {
+      "text": "Navigation shows 'LEADERBOARDS' and 'STREAM' options in header",
+      "addedAt": "2026-01-26T13:33:25.137Z"
+    },
+    {
+      "text": "Footer contains 'THE GRIND', 'QUICK LINKS', 'JOIN US' sections",
+      "addedAt": "2026-01-26T13:33:25.137Z"
+    },
+    {
+      "text": "'RETURN HOME' button available to navigate back",
+      "addedAt": "2026-01-26T13:33:25.137Z"
+    },
+    {
+      "text": "No leaderboard content or casino switchers visible on this error page",
+      "addedAt": "2026-01-26T13:33:25.137Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:33:14.787Z",
+  "updatedAt": "2026-01-31T15:28:18.368Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:33:14.787Z"
+}

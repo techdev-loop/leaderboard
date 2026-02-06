@@ -1,0 +1,18 @@
+{
+  "id": "1f43fe57-d903-49c3-a54a-bfa3472769e0",
+  "results": [],
+  "errors": [
+    "No entries for csgowin",
+    "Click failed for stake: undefined",
+    "No entries for hunt"
+  ],
+  "metadata": {
+    "domain": "botboibets.com",
+    "startedAt": "2026-02-03T08:56:29.507Z",
+    "completedAt": "2026-02-03T08:57:28.281Z",
+    "leaderboardsDiscovered": 3,
+    "leaderboardsScraped": 0,
+    "strategiesUsed": []
+  },
+  "warnings": []
+}

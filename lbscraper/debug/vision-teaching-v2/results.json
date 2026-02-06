@@ -1,0 +1,489 @@
+[
+  {
+    "site": "devlrewards",
+    "url": "https://devlrewards.com/leaderboard",
+    "switchersFound": [
+      "rainbet",
+      "packdraw"
+    ],
+    "leaderboards": [
+      {
+        "name": "rainbet",
+        "screenshot": "teach-v2-devlrewards-rainbet-1769927451126.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 4,
+          "confidence": 95,
+          "notes": "Top 3 displayed as podium cards with center-first layout (#1 center, #2 left, #3 right), followed by table format below. In podium cards, wagered amount shown above prize amount. Table headers show WAGERED before PRIZE columns."
+        },
+        "cost": 0.008823000000000001,
+        "error": null
+      },
+      {
+        "name": "packdraw",
+        "screenshot": "teach-v2-devlrewards-packdraw-1769927459078.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 8,
+          "confidence": 98,
+          "notes": "Mixed layout with podium cards for top 3 (center-first arrangement) and table format below. In table section, WAGERED column comes before PRIZE column. Top 3 show individual wagered amounts and prize amounts in card format."
+        },
+        "cost": 0.008718,
+        "error": null
+      }
+    ],
+    "cost": 0.017541,
+    "errors": []
+  },
+  {
+    "site": "goatgambles",
+    "url": "https://goatgambles.com/leaderboard",
+    "switchersFound": [
+      "rain",
+      "roobet",
+      "clash",
+      "csgowin",
+      "csgoluck",
+      "csgogem"
+    ],
+    "leaderboards": [
+      {
+        "name": "rain",
+        "screenshot": "teach-v2-goatgambles-rain-1769927471934.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 4,
+          "confidence": 95,
+          "notes": "Top 3 displayed as cards in podium format with #1 in center (larger), #2 left, #3 right. Below shows table format starting from rank 4 with columns: PLACE, USERS, WAGERED, PRIZE"
+        },
+        "cost": 0.008778000000000001,
+        "error": null
+      },
+      {
+        "name": "roobet",
+        "screenshot": "teach-v2-goatgambles-roobet-1769927480150.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 8,
+          "confidence": 98,
+          "notes": "Top 3 displayed as individual cards with #1 in center (larger) flanked by #2 and #3. Below is a traditional table format with columns: Place, Users, Wagered, Prize. Clear mixed layout design."
+        },
+        "cost": 0.008703,
+        "error": null
+      },
+      {
+        "name": "clash",
+        "screenshot": "teach-v2-goatgambles-clash-1769927487447.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "no_podium",
+          "entry_format": "table",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 7,
+          "confidence": 95,
+          "notes": "Table format with columns PLACE, USERS, WAGERED, PRIZE. Shows entries 4-10, suggesting top 3 are displayed elsewhere (possibly above in a podium format not visible in this section). Timer countdown visible at top."
+        },
+        "cost": 0.008748,
+        "error": null
+      }
+    ],
+    "cost": 0.026229000000000002,
+    "errors": []
+  },
+  {
+    "site": "paxgambles",
+    "url": "https://paxgambles.com/leaderboard",
+    "switchersFound": [
+      "diceblox"
+    ],
+    "leaderboards": [
+      {
+        "name": "diceblox",
+        "screenshot": "teach-v2-paxgambles-diceblox-1769927499617.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 7,
+          "confidence": 95,
+          "notes": "Top 3 displayed as cards with #1 center/larger, #2 left, #3 right. Remaining entries shown in table format with Place, User, Reward, Wagered columns. Note that in the table section, Reward comes before Wagered (prize_before_wager), but in podium cards Wagered is shown before prize amount."
+        },
+        "cost": 0.009168,
+        "error": null
+      }
+    ],
+    "cost": 0.009168,
+    "errors": []
+  },
+  {
+    "site": "ilovemav",
+    "url": "https://www.ilovemav.com/leaderboards",
+    "switchersFound": [
+      "luxdrop",
+      "chicken",
+      "shock"
+    ],
+    "leaderboards": [
+      {
+        "name": "luxdrop",
+        "screenshot": "teach-v2-ilovemav-luxdrop-1769927511741.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "cards",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "has_scrollable_container": false,
+          "visible_entries_approx": 3,
+          "confidence": 95,
+          "notes": "Clear podium layout with #1 center (largest), #2 left, #3 right. Each entry shows WAGERED amount above PRIZE amount in individual card format."
+        },
+        "cost": 0.008523000000000001,
+        "error": null
+      },
+      {
+        "name": "chicken",
+        "screenshot": "teach-v2-ilovemav-chicken-1769927519015.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "cards",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "has_scrollable_container": false,
+          "visible_entries_approx": 3,
+          "confidence": 95,
+          "notes": "Clear podium layout with #1 (IMN) in center position larger than #2 (PEP) on left and #3 (CHI) on right. Each user has individual card format showing WAGERED amount first, then PRIZE amount below. Only top 3 positions visible in this view."
+        },
+        "cost": 0.008973,
+        "error": null
+      },
+      {
+        "name": "shock",
+        "screenshot": "teach-v2-ilovemav-shock-1769927526971.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 6,
+          "confidence": 95,
+          "notes": "Mixed format with podium cards for top 3 (center-first layout with #1 WOLFY in center, #2 XSUMA67 on left, #3 WHYCOD on right) and table format below showing columns: RANK, PLAYER, WAGERED, PRIZE"
+        },
+        "cost": 0.008973,
+        "error": null
+      }
+    ],
+    "cost": 0.026469,
+    "errors": []
+  },
+  {
+    "site": "spencerrewards",
+    "url": "https://spencerrewards.com/leaderboard",
+    "switchersFound": [
+      "packdraw"
+    ],
+    "leaderboards": [
+      {
+        "name": "packdraw",
+        "screenshot": "teach-v2-spencerrewards-packdraw-1769927539811.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "has_scrollable_container": false,
+          "visible_entries_approx": 7,
+          "confidence": 95,
+          "notes": "Top 3 displayed as individual cards with left-to-right layout (#2, #1, #3), followed by table format for positions #4-7. In table, Reward column comes before Wagered column, but in cards the wagered amount is shown first, then prize amount below it."
+        },
+        "cost": 0.008958,
+        "error": null
+      }
+    ],
+    "cost": 0.008958,
+    "errors": []
+  },
+  {
+    "site": "ravengambles",
+    "url": "https://ravengambles.com/leaderboard",
+    "switchersFound": [
+      "csgobig",
+      "csgoroll",
+      "csgowin",
+      "packdraw",
+      "empire",
+      "shock"
+    ],
+    "leaderboards": [
+      {
+        "name": "csgobig",
+        "screenshot": "teach-v2-ravengambles-csgobig-1769927551737.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "TOTAL WAGERED",
+          "prize_label": "PRIZE",
+          "has_scrollable_container": false,
+          "visible_entries_approx": 4,
+          "confidence": 95,
+          "notes": "Top 3 shown as individual cards with #1 in center and larger, #2 left, #3 right. Below that is a table format starting with #4. In the podium cards, wager amount is shown above prize amount. Table below shows REWARD column before WAGERED column (left to right order)."
+        },
+        "cost": 0.009048,
+        "error": null
+      },
+      {
+        "name": "csgoroll",
+        "screenshot": "teach-v2-ravengambles-csgoroll-1769927560255.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "WAGERED",
+          "prize_label": "REWARD",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 8,
+          "confidence": 90,
+          "notes": "Top 3 displayed as podium cards with #1 center (1500 prize), #2 left (800 prize), #3 right (400 prize). Below is a table format with columns PLACE, USER, REWARD, WAGERED from left to right. Mixed layout combining podium cards for top 3 and table rows for remaining positions."
+        },
+        "cost": 0.009138,
+        "error": null
+      },
+      {
+        "name": "csgowin",
+        "screenshot": "teach-v2-ravengambles-csgowin-1769927568213.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "entry_format": "table",
+          "wager_label": "WAGERED",
+          "prize_label": "REWARD",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 7,
+          "confidence": 95,
+          "notes": "Clear table format with PLACE, USER, REWARD, and WAGERED columns. Podium section at top shows positions 1-3 left to right with prize amounts. Main leaderboard starts from position #4 with consistent row formatting."
+        },
+        "cost": 0.008778000000000001,
+        "error": null
+      }
+    ],
+    "cost": 0.026964000000000002,
+    "errors": []
+  },
+  {
+    "site": "tanskidegen",
+    "url": "https://www.tanskidegen.com/leaderboards",
+    "switchersFound": [
+      "csgowin",
+      "csgogem",
+      "acebet",
+      "banditcamp"
+    ],
+    "leaderboards": [
+      {
+        "name": "csgowin",
+        "screenshot": "teach-v2-tanskidegen-csgowin-1769927579510.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 6,
+          "confidence": 95,
+          "notes": "Top 3 displayed as individual cards with #1 in center position (larger), #2 left, #3 right. Remaining positions shown as horizontal table rows below. In both formats, Wagered appears before Prize."
+        },
+        "cost": 0.008673,
+        "error": null
+      },
+      {
+        "name": "csgogem",
+        "screenshot": "teach-v2-tanskidegen-csgogem-1769927586900.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "left_to_right",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 9,
+          "confidence": 95,
+          "notes": "Top 3 displayed as cards in left-to-right order (#2, #1, #3), remaining entries shown as horizontal rows with WAGERED appearing before PRIZE in the right side. Mixed format combining podium cards and list rows."
+        },
+        "cost": 0.008748,
+        "error": null
+      },
+      {
+        "name": "acebet",
+        "screenshot": "teach-v2-tanskidegen-acebet-1769927594851.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "no_podium",
+          "entry_format": "cards",
+          "wager_label": "WAGERED",
+          "prize_label": "PRIZE",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 7,
+          "confidence": 98,
+          "notes": "Card-based layout with rank numbers #4-#10 visible, each entry shows WAGERED amount on left and PRIZE on right, starting from rank 4 suggests top 3 may be displayed differently above the visible area"
+        },
+        "cost": 0.008718,
+        "error": null
+      }
+    ],
+    "cost": 0.026139,
+    "errors": []
+  },
+  {
+    "site": "adukes",
+    "url": "https://adukes.com/leaderboard",
+    "switchersFound": [
+      "chips"
+    ],
+    "leaderboards": [
+      {
+        "name": "chips",
+        "screenshot": "teach-v2-adukes-chips-1769927608471.png",
+        "structure": {
+          "column_order": "wager_before_prize",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Reward",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 6,
+          "confidence": 95,
+          "notes": "Top 3 displayed as individual cards with #1 in center position (larger), #2 left, #3 right. Below that is a table format showing positions #4-6+ with columns: Place, User, Reward, Wagered. Mixed format combines podium cards for top 3 with table rows for remaining positions."
+        },
+        "cost": 0.009048,
+        "error": null
+      }
+    ],
+    "cost": 0.009048,
+    "errors": []
+  },
+  {
+    "site": "rwrds",
+    "url": "https://rwrds.gg/leaderboard",
+    "switchersFound": [
+      "upgrader",
+      "csgowin",
+      "cases",
+      "acebet",
+      "clashgg"
+    ],
+    "leaderboards": [
+      {
+        "name": "upgrader",
+        "screenshot": "teach-v2-rwrds-upgrader-1769927623136.png",
+        "structure": {
+          "column_order": "unknown",
+          "podium_layout": "left_to_right",
+          "entry_format": "cards",
+          "wager_label": null,
+          "prize_label": null,
+          "has_scrollable_container": false,
+          "visible_entries_approx": 3,
+          "confidence": 90,
+          "notes": "This shows a podium-style layout with 1st, 2nd, 3rd place cards arranged left-to-right, displaying prize amounts (150, 100, 50 Gems). No actual leaderboard entries or user data visible - only the prize structure for top 3 positions. Text mentions wagering 20,000 as requirement but no wager column structure shown."
+        },
+        "cost": 0.009108000000000002,
+        "error": null
+      },
+      {
+        "name": "csgowin",
+        "screenshot": "teach-v2-rwrds-csgowin-1769927632117.png",
+        "structure": {
+          "column_order": "wager_only",
+          "podium_layout": "left_to_right",
+          "entry_format": "cards",
+          "wager_label": "Wagered",
+          "prize_label": null,
+          "has_scrollable_container": false,
+          "visible_entries_approx": 3,
+          "confidence": 90,
+          "notes": "Shows top 3 positions in card format with left-to-right layout. Only wager amounts are displayed, no prize column visible. Prize information is shown separately at the top (1st: 150 Gems, 2nd: 100 Gems, 3rd: 50 Gems) but not in the individual player cards."
+        },
+        "cost": 0.009048,
+        "error": null
+      },
+      {
+        "name": "cases",
+        "screenshot": "teach-v2-rwrds-cases-1769927640509.png",
+        "structure": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "has_scrollable_container": true,
+          "visible_entries_approx": 4,
+          "confidence": 95,
+          "notes": "Clear podium display with #1 center and larger, #2 left, #3 right. Below podium is a table format starting with rank #4. In table headers, Prize column comes before Wagered column."
+        },
+        "cost": 0.008658,
+        "error": null
+      }
+    ],
+    "cost": 0.026814000000000004,
+    "errors": []
+  },
+  {
+    "site": "wahy",
+    "url": "https://wahy.gg/leaderboard",
+    "switchersFound": [
+      "csgogem"
+    ],
+    "leaderboards": [
+      {
+        "name": "csgogem",
+        "screenshot": "teach-v2-wahy-csgogem-1769927653185.png",
+        "structure": {
+          "column_order": "prize_before_wager",
+          "podium_layout": "center_first",
+          "entry_format": "mixed",
+          "wager_label": "Wagered",
+          "prize_label": "Prize",
+          "has_scrollable_container": false,
+          "visible_entries_approx": 3,
+          "confidence": 95,
+          "notes": "Top 3 shown as individual cards in podium format with #1 center/larger, #2 left, #3 right. Below podium is table header with Place|User|Prize|Wagered columns where Prize comes before Wagered. Mixed format with podium cards above and table structure below."
+        },
+        "cost": 0.008943,
+        "error": null
+      }
+    ],
+    "cost": 0.008943,
+    "errors": []
+  }
+]

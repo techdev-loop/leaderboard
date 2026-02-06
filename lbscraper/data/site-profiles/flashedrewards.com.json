@@ -1,0 +1,142 @@
+{
+  "domain": "flashedrewards.com",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.094746,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:47:21.831Z",
+    "lastVerifiedAt": "2026-01-26T13:47:21.831Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 100
+  },
+  "layoutFingerprint": {
+    "hash": "0d6b294e7bd120bd",
+    "switcherCount": 1,
+    "switcherNames": [
+      "gamba"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:47:21.834Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://flashedrewards.com/leaderboard/splits",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:44:01.321Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page displays '404 - PAGE NOT FOUND' error",
+      "addedAt": "2026-01-26T13:47:21.830Z"
+    },
+    {
+      "text": "URL suggests this should be a clash leaderboard page",
+      "addedAt": "2026-01-26T13:47:21.830Z"
+    },
+    {
+      "text": "Site appears to be 'FLASHED' based on header",
+      "addedAt": "2026-01-26T13:47:21.830Z"
+    },
+    {
+      "text": "No leaderboard content is visible",
+      "addedAt": "2026-01-26T13:47:21.830Z"
+    },
+    {
+      "text": "No site switchers or navigation elements present",
+      "addedAt": "2026-01-26T13:47:21.830Z"
+    },
+    {
+      "text": "Current page shows 404 error for /leaderboard/clash",
+      "addedAt": "2026-01-26T13:47:49.123Z"
+    },
+    {
+      "text": "Page header shows 'LEADERBOARD' suggesting leaderboards exist on this site",
+      "addedAt": "2026-01-26T13:47:49.123Z"
+    },
+    {
+      "text": "URL path suggests site may have leaderboards for different casinos",
+      "addedAt": "2026-01-26T13:47:49.123Z"
+    },
+    {
+      "text": "Need to navigate to main leaderboard page to find available options",
+      "addedAt": "2026-01-26T13:47:49.123Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:34:19.419Z",
+  "updatedAt": "2026-01-31T16:44:01.321Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:47:13.770Z"
+}

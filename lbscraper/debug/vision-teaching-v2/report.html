@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vision Teaching v2 Results</title>
+  <style>
+    body { font-family: system-ui; margin: 20px; background: #0a0a15; color: #e0e0e0; }
+    h1 { color: #00d4ff; }
+    .summary { background: #1a1a2e; padding: 20px; border-radius: 10px; margin-bottom: 20px; border: 1px solid #00d4ff; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 15px; }
+    .stat { text-align: center; background: #0a0a15; padding: 15px; border-radius: 8px; }
+    .stat-value { font-size: 2em; color: #00ff88; font-weight: bold; }
+    .stat-label { color: #888; }
+
+    .site { background: #1a1a2e; margin: 15px 0; border-radius: 10px; overflow: hidden; }
+    .site-header { background: #0f3460; padding: 15px; }
+    .site-name { font-size: 1.3em; color: #00d4ff; margin: 0; }
+    .site-meta { color: #888; font-size: 0.9em; margin-top: 5px; }
+    .site-body { padding: 15px; }
+
+    .lb { background: #0a0a15; padding: 15px; margin: 10px 0; border-radius: 8px; border-left: 3px solid #00d4ff; }
+    .lb-name { color: #fff; font-weight: bold; margin-bottom: 10px; }
+    .lb-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 10px 0; }
+    .lb-item { background: #1a1a2e; padding: 10px; border-radius: 5px; }
+    .lb-label { color: #888; font-size: 0.8em; }
+    .lb-value { color: #00ff88; font-weight: bold; }
+
+    .screenshot { max-width: 100%; max-height: 400px; border: 1px solid #333; border-radius: 5px; margin-top: 10px; cursor: pointer; }
+    .error { color: #ff4444; }
+    .warning { color: #ffaa00; }
+
+    .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 1000; align-items: center; justify-content: center; }
+    .modal.active { display: flex; }
+    .modal img { max-width: 95%; max-height: 95%; }
+    .modal-close { position: absolute; top: 20px; right: 30px; color: #fff; font-size: 40px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>🎓 Vision Teaching v2 - Structure Analysis</h1>
+
+  <div class="summary">
+    <h2 style="margin-top: 0; color: #00d4ff;">Summary</h2>
+    <div class="summary-grid">
+      <div class="stat">
+        <div class="stat-value">10</div>
+        <div class="stat-label">Sites</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">21/21</div>
+        <div class="stat-label">LBs Analyzed</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">30</div>
+        <div class="stat-label">Switchers Found</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">$0.1863</div>
+        <div class="stat-label">Total Cost</div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ devlrewards</h3>
+      <div class="site-meta">
+        https://devlrewards.com/leaderboard | Switchers: rainbet, packdraw | Cost: $0.0175
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ rainbet</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as podium cards with center-first layout (#1 center, #2 left, #3 right), followed by table format below. In podium cards, wagered amount shown above prize amount. Table headers show WAGERED before PRIZE columns.</p>
+        
+        <img class="screenshot" src="teach-v2-devlrewards-rainbet-1769927451126.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ packdraw</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Mixed layout with podium cards for top 3 (center-first arrangement) and table format below. In table section, WAGERED column comes before PRIZE column. Top 3 show individual wagered amounts and prize amounts in card format.</p>
+        
+        <img class="screenshot" src="teach-v2-devlrewards-packdraw-1769927459078.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ goatgambles</h3>
+      <div class="site-meta">
+        https://goatgambles.com/leaderboard | Switchers: rain, roobet, clash, csgowin, csgoluck, csgogem | Cost: $0.0262
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ rain</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as cards in podium format with #1 in center (larger), #2 left, #3 right. Below shows table format starting from rank 4 with columns: PLACE, USERS, WAGERED, PRIZE</p>
+        
+        <img class="screenshot" src="teach-v2-goatgambles-rain-1769927471934.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ roobet</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as individual cards with #1 in center (larger) flanked by #2 and #3. Below is a traditional table format with columns: Place, Users, Wagered, Prize. Clear mixed layout design.</p>
+        
+        <img class="screenshot" src="teach-v2-goatgambles-roobet-1769927480150.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ clash</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">no_podium</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">table</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">WAGERED</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">PRIZE</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Table format with columns PLACE, USERS, WAGERED, PRIZE. Shows entries 4-10, suggesting top 3 are displayed elsewhere (possibly above in a podium format not visible in this section). Timer countdown visible at top.</p>
+        
+        <img class="screenshot" src="teach-v2-goatgambles-clash-1769927487447.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ paxgambles</h3>
+      <div class="site-meta">
+        https://paxgambles.com/leaderboard | Switchers: diceblox | Cost: $0.0092
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ diceblox</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Reward</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as cards with #1 center/larger, #2 left, #3 right. Remaining entries shown in table format with Place, User, Reward, Wagered columns. Note that in the table section, Reward comes before Wagered (prize_before_wager), but in podium cards Wagered is shown before prize amount.</p>
+        
+        <img class="screenshot" src="teach-v2-paxgambles-diceblox-1769927499617.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ ilovemav</h3>
+      <div class="site-meta">
+        https://www.ilovemav.com/leaderboards | Switchers: luxdrop, chicken, shock | Cost: $0.0265
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ luxdrop</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">cards</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">WAGERED</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">PRIZE</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value ">No</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Clear podium layout with #1 center (largest), #2 left, #3 right. Each entry shows WAGERED amount above PRIZE amount in individual card format.</p>
+        
+        <img class="screenshot" src="teach-v2-ilovemav-luxdrop-1769927511741.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ chicken</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">cards</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">WAGERED</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">PRIZE</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value ">No</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Clear podium layout with #1 (IMN) in center position larger than #2 (PEP) on left and #3 (CHI) on right. Each user has individual card format showing WAGERED amount first, then PRIZE amount below. Only top 3 positions visible in this view.</p>
+        
+        <img class="screenshot" src="teach-v2-ilovemav-chicken-1769927519015.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ shock</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">WAGERED</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">PRIZE</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Mixed format with podium cards for top 3 (center-first layout with #1 WOLFY in center, #2 XSUMA67 on left, #3 WHYCOD on right) and table format below showing columns: RANK, PLAYER, WAGERED, PRIZE</p>
+        
+        <img class="screenshot" src="teach-v2-ilovemav-shock-1769927526971.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ spencerrewards</h3>
+      <div class="site-meta">
+        https://spencerrewards.com/leaderboard | Switchers: packdraw | Cost: $0.0090
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ packdraw</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">left_to_right</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Reward</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value ">No</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as individual cards with left-to-right layout (#2, #1, #3), followed by table format for positions #4-7. In table, Reward column comes before Wagered column, but in cards the wagered amount is shown first, then prize amount below it.</p>
+        
+        <img class="screenshot" src="teach-v2-spencerrewards-packdraw-1769927539811.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ ravengambles</h3>
+      <div class="site-meta">
+        https://ravengambles.com/leaderboard | Switchers: csgobig, csgoroll, csgowin, packdraw, empire, shock | Cost: $0.0270
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ csgobig</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">TOTAL WAGERED</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">PRIZE</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value ">No</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 shown as individual cards with #1 in center and larger, #2 left, #3 right. Below that is a table format starting with #4. In the podium cards, wager amount is shown above prize amount. Table below shows REWARD column before WAGERED column (left to right order).</p>
+        
+        <img class="screenshot" src="teach-v2-ravengambles-csgobig-1769927551737.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ csgoroll</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">WAGERED</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">REWARD</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as podium cards with #1 center (1500 prize), #2 left (800 prize), #3 right (400 prize). Below is a table format with columns PLACE, USER, REWARD, WAGERED from left to right. Mixed layout combining podium cards for top 3 and table rows for remaining positions.</p>
+        
+        <img class="screenshot" src="teach-v2-ravengambles-csgoroll-1769927560255.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ csgowin</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">left_to_right</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">table</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">WAGERED</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">REWARD</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Clear table format with PLACE, USER, REWARD, and WAGERED columns. Podium section at top shows positions 1-3 left to right with prize amounts. Main leaderboard starts from position #4 with consistent row formatting.</p>
+        
+        <img class="screenshot" src="teach-v2-ravengambles-csgowin-1769927568213.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ tanskidegen</h3>
+      <div class="site-meta">
+        https://www.tanskidegen.com/leaderboards | Switchers: csgowin, csgogem, acebet, banditcamp | Cost: $0.0261
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ csgowin</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as individual cards with #1 in center position (larger), #2 left, #3 right. Remaining positions shown as horizontal table rows below. In both formats, Wagered appears before Prize.</p>
+        
+        <img class="screenshot" src="teach-v2-tanskidegen-csgowin-1769927579510.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ csgogem</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">left_to_right</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as cards in left-to-right order (#2, #1, #3), remaining entries shown as horizontal rows with WAGERED appearing before PRIZE in the right side. Mixed format combining podium cards and list rows.</p>
+        
+        <img class="screenshot" src="teach-v2-tanskidegen-csgogem-1769927586900.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ acebet</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">no_podium</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">cards</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">WAGERED</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">PRIZE</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Card-based layout with rank numbers #4-#10 visible, each entry shows WAGERED amount on left and PRIZE on right, starting from rank 4 suggests top 3 may be displayed differently above the visible area</p>
+        
+        <img class="screenshot" src="teach-v2-tanskidegen-acebet-1769927594851.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ adukes</h3>
+      <div class="site-meta">
+        https://adukes.com/leaderboard | Switchers: chips | Cost: $0.0090
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ chips</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_before_prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Reward</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 displayed as individual cards with #1 in center position (larger), #2 left, #3 right. Below that is a table format showing positions #4-6+ with columns: Place, User, Reward, Wagered. Mixed format combines podium cards for top 3 with table rows for remaining positions.</p>
+        
+        <img class="screenshot" src="teach-v2-adukes-chips-1769927608471.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ rwrds</h3>
+      <div class="site-meta">
+        https://rwrds.gg/leaderboard | Switchers: upgrader, csgowin, cases, acebet, clashgg | Cost: $0.0268
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ upgrader</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">unknown</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">left_to_right</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">cards</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">none</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">none</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value ">No</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: This shows a podium-style layout with 1st, 2nd, 3rd place cards arranged left-to-right, displaying prize amounts (150, 100, 50 Gems). No actual leaderboard entries or user data visible - only the prize structure for top 3 positions. Text mentions wagering 20,000 as requirement but no wager column structure shown.</p>
+        
+        <img class="screenshot" src="teach-v2-rwrds-upgrader-1769927623136.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ csgowin</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">wager_only</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">left_to_right</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">cards</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">none</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value ">No</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Shows top 3 positions in card format with left-to-right layout. Only wager amounts are displayed, no prize column visible. Prize information is shown separately at the top (1st: 150 Gems, 2nd: 100 Gems, 3rd: 50 Gems) but not in the individual player cards.</p>
+        
+        <img class="screenshot" src="teach-v2-rwrds-csgowin-1769927632117.png" onclick="openModal(this.src)" />
+      </div>
+      
+      <div class="lb">
+        <div class="lb-name">✅ cases</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">prize_before_wager</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value warning">Yes ⚠️</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Clear podium display with #1 center and larger, #2 left, #3 right. Below podium is a table format starting with rank #4. In table headers, Prize column comes before Wagered column.</p>
+        
+        <img class="screenshot" src="teach-v2-rwrds-cases-1769927640509.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site">
+    <div class="site-header">
+      <h3 class="site-name">✅ wahy</h3>
+      <div class="site-meta">
+        https://wahy.gg/leaderboard | Switchers: csgogem | Cost: $0.0089
+      </div>
+    </div>
+    <div class="site-body">
+      
+
+      
+      <div class="lb">
+        <div class="lb-name">✅ csgogem</div>
+        
+        <div class="lb-grid">
+          <div class="lb-item">
+            <div class="lb-label">Column Order</div>
+            <div class="lb-value">prize_before_wager</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Podium Layout</div>
+            <div class="lb-value">center_first</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Format</div>
+            <div class="lb-value">mixed</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Wager Label</div>
+            <div class="lb-value">Wagered</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Prize Label</div>
+            <div class="lb-value">Prize</div>
+          </div>
+          <div class="lb-item">
+            <div class="lb-label">Scrollable?</div>
+            <div class="lb-value ">No</div>
+          </div>
+        </div>
+        <p style="color: #888; font-style: italic;">Notes: Top 3 shown as individual cards in podium format with #1 center/larger, #2 left, #3 right. Below podium is table header with Place|User|Prize|Wagered columns where Prize comes before Wagered. Mixed format with podium cards above and table structure below.</p>
+        
+        <img class="screenshot" src="teach-v2-wahy-csgogem-1769927653185.png" onclick="openModal(this.src)" />
+      </div>
+      
+    </div>
+  </div>
+  
+
+  <div class="modal" id="modal" onclick="closeModal()">
+    <span class="modal-close">&times;</span>
+    <img id="modal-img" />
+  </div>
+
+  <script>
+    function openModal(src) { document.getElementById('modal-img').src = src; document.getElementById('modal').classList.add('active'); }
+    function closeModal() { document.getElementById('modal').classList.remove('active'); }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+  </script>
+</body>
+</html>

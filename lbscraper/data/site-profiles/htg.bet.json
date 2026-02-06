@@ -1,0 +1,164 @@
+{
+  "domain": "htg.bet",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.016137,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:33:04.458Z",
+    "lastVerifiedAt": "2026-01-26T13:33:04.458Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 100
+  },
+  "layoutFingerprint": {
+    "hash": "a5a5970b398d0ba5",
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:33:04.461Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://htg.bet/leaderboard/csgowin/monthly",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T15:38:56.326Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csgoroll": {
+        "navigation": {
+          "url": null,
+          "method": "vision-learned"
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "visionConfig": {
+            "column_order": "wager_before_prize",
+            "podium_layout": "center_first",
+            "wager_label": "Wagered",
+            "prize_label": "Reward",
+            "rank1_username": "Mcdonald's Manager",
+            "rank1_wager": 24630.29,
+            "rank1_prize": 500,
+            "confidence": 95,
+            "learnedAt": "2026-02-01T07:53:17.637Z"
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 15,
+          "hasPrizes": true,
+          "visionValidated": true
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:53:17.638Z",
+          "lastUpdatedAt": "2026-02-01T07:53:17.638Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T07:53:17.638Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page displays '404 - PAGE NOT FOUND' error message",
+      "addedAt": "2026-01-26T13:33:04.457Z"
+    },
+    {
+      "text": "The page header shows 'HTG' logo and 'LEADERBOARD' text",
+      "addedAt": "2026-01-26T13:33:04.457Z"
+    },
+    {
+      "text": "URL suggests this should be a csgowin monthly leaderboard at htg.bet",
+      "addedAt": "2026-01-26T13:33:04.457Z"
+    },
+    {
+      "text": "No leaderboard content is visible - just error page",
+      "addedAt": "2026-01-26T13:33:04.457Z"
+    },
+    {
+      "text": "Dark theme with centered error message",
+      "addedAt": "2026-01-26T13:33:04.457Z"
+    },
+    {
+      "text": "Error text: 'The page you are looking for does not exist'",
+      "addedAt": "2026-01-26T13:33:04.457Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:32:56.028Z",
+  "updatedAt": "2026-02-01T07:53:17.638Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:32:56.028Z"
+}

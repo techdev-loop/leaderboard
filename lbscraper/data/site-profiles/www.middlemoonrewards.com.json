@@ -1,0 +1,145 @@
+{
+  "domain": "www.middlemoonrewards.com",
+  "status": "learning",
+  "attempts": 2,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.12003899999999999,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.middlemoonrewards.com/leaderboards",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:17:47.240Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Found a leaderboard page for 'Middle Moon' rewards system",
+      "addedAt": "2026-01-26T13:40:04.268Z"
+    },
+    {
+      "text": "Page shows countdown timer indicating leaderboard ends soon (all zeros currently)",
+      "addedAt": "2026-01-26T13:40:04.268Z"
+    },
+    {
+      "text": "Leaderboard table structure is visible with headers: PLACE, USER, WAGERED, PRIZE",
+      "addedAt": "2026-01-26T13:40:04.268Z"
+    },
+    {
+      "text": "The leaderboard appears to be empty or data hasn't loaded yet",
+      "addedAt": "2026-01-26T13:40:04.268Z"
+    },
+    {
+      "text": "No obvious site switchers visible on current view",
+      "addedAt": "2026-01-26T13:40:04.268Z"
+    },
+    {
+      "text": "Need to explore more to see if there's actual leaderboard data or multiple leaderboards",
+      "addedAt": "2026-01-26T13:40:04.268Z"
+    },
+    {
+      "text": "Page shows MiddleMoon Rewards leaderboard page",
+      "addedAt": "2026-01-26T13:40:16.877Z"
+    },
+    {
+      "text": "Space-themed background with planet imagery",
+      "addedAt": "2026-01-26T13:40:16.877Z"
+    },
+    {
+      "text": "Header contains navigation with 'Leaderboards' and 'Rewards'",
+      "addedAt": "2026-01-26T13:40:16.877Z"
+    },
+    {
+      "text": "Main content area appears mostly empty - may need scrolling or interaction",
+      "addedAt": "2026-01-26T13:40:16.877Z"
+    },
+    {
+      "text": "Page has loaded but leaderboard content not visible in current viewport",
+      "addedAt": "2026-01-26T13:40:16.877Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:38:54.002Z",
+  "updatedAt": "2026-01-31T16:17:47.240Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:39:05.532Z"
+}

@@ -1,0 +1,209 @@
+{
+  "domain": "pandagamblez.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "hunt": {
+        "navigation": {
+          "url": "https://pandagamblez.com/leaderboard/upgrader",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T05:53:48.715Z",
+          "lastUpdatedAt": "2026-02-01T05:53:48.715Z"
+        }
+      },
+      "upgrader": {
+        "navigation": {
+          "url": "https://pandagamblez.com/leaderboard/upgrader",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "url-specified",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T05:53:39.230Z",
+          "lastUpdatedAt": "2026-02-01T05:53:39.230Z"
+        }
+      },
+      "clash": {
+        "navigation": {
+          "url": "https://pandagamblez.com/leaderboard/clash",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 7,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T05:54:06.477Z",
+          "lastUpdatedAt": "2026-02-01T05:54:06.477Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T05:54:06.477Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-02-01T05:51:12.740Z",
+  "updatedAt": "2026-02-01T05:54:06.477Z"
+}

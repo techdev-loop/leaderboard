@@ -1,0 +1,214 @@
+{
+  "domain": "solomonrewards.gg",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "chicken": {
+        "navigation": {
+          "url": "https://www.solomonrewards.gg/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 12,
+          "hasPrizes": true,
+          "prizePositions": [
+            4
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-31T16:36:50.658Z",
+          "lastUpdatedAt": "2026-01-31T16:36:50.658Z"
+        }
+      },
+      "shuffle": {
+        "navigation": {
+          "url": "https://www.solomonrewards.gg/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": false,
+          "prizePositions": []
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-31T16:37:00.722Z",
+          "lastUpdatedAt": "2026-01-31T16:37:00.722Z"
+        }
+      },
+      "skinrave": {
+        "navigation": {
+          "url": "https://www.solomonrewards.gg/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "markdown",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            3,
+            4,
+            5
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.9,
+          "sourcesUsed": [
+            "api",
+            "markdown"
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-31T16:37:11.306Z",
+          "lastUpdatedAt": "2026-01-31T16:37:11.306Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-01-31T16:37:11.306Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-31T16:36:26.792Z",
+  "updatedAt": "2026-01-31T16:37:11.306Z"
+}

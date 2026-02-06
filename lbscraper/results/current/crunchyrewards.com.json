@@ -1,0 +1,17 @@
+{
+  "id": "c6078514-cb10-4771-bf63-e3eafdd4affc",
+  "results": [],
+  "errors": [
+    "No entries for stake",
+    "Click failed for bsite: undefined"
+  ],
+  "metadata": {
+    "domain": "crunchyrewards.com",
+    "startedAt": "2026-02-01T05:02:07.546Z",
+    "completedAt": "2026-02-01T05:02:43.515Z",
+    "leaderboardsDiscovered": 2,
+    "leaderboardsScraped": 0,
+    "strategiesUsed": []
+  },
+  "warnings": []
+}

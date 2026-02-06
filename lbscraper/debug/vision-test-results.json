@@ -1,0 +1,415 @@
+[
+  {
+    "site": "spencerrewards-chips",
+    "url": "https://spencerrewards.com/leaderboard/chips",
+    "success": true,
+    "entries": 8,
+    "structure": {
+      "column_order": "prize_before_wager",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 5
+    },
+    "confidence": 95,
+    "elapsed": 7648,
+    "cost": 0.01182,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "hay***",
+        "wager": 1438746.65,
+        "prize": 3500
+      },
+      {
+        "rank": 2,
+        "username": "eth***",
+        "wager": 2385991.43,
+        "prize": 5500
+      },
+      {
+        "rank": 3,
+        "username": "oso***********",
+        "wager": 211712.44,
+        "prize": 2500
+      },
+      {
+        "rank": 4,
+        "username": "Ace*******",
+        "wager": 205070,
+        "prize": 1500
+      },
+      {
+        "rank": 5,
+        "username": "Piy*******",
+        "wager": 122038.21,
+        "prize": 750
+      }
+    ],
+    "notes": "Clear podium display for top 3 with larger cards, then list format below. Column headers show 'Reward' before 'Wagered'"
+  },
+  {
+    "site": "goatgambles",
+    "url": "https://goatgambles.com/leaderboard",
+    "success": true,
+    "entries": 4,
+    "structure": {
+      "column_order": "wager_before_prize",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 1
+    },
+    "confidence": 95,
+    "elapsed": 6051,
+    "cost": 0.010110000000000001,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "***iv2",
+        "wager": 7285.78,
+        "prize": 400
+      },
+      {
+        "rank": 2,
+        "username": "**u",
+        "wager": 12776.51,
+        "prize": 600
+      },
+      {
+        "rank": 3,
+        "username": "****ess",
+        "wager": 1640.46,
+        "prize": 200
+      },
+      {
+        "rank": 4,
+        "username": "**********6@gmail.com",
+        "wager": 1420.26,
+        "prize": 120
+      }
+    ],
+    "notes": "Clear podium layout for top 3 positions with profile pictures and larger cards. Table format starts at rank 4 with columns for PLACE, USERS, WAGERED, PRIZE. All values clearly visible."
+  },
+  {
+    "site": "paxgambles",
+    "url": "https://paxgambles.com/leaderboard",
+    "success": true,
+    "entries": 7,
+    "structure": {
+      "column_order": "prize_before_wager",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 4
+    },
+    "confidence": 95,
+    "elapsed": 8274,
+    "cost": 0.01188,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "Maqqing",
+        "wager": 3565381.6,
+        "prize": 500
+      },
+      {
+        "rank": 2,
+        "username": "Jkgr5777",
+        "wager": 2795702,
+        "prize": 300
+      },
+      {
+        "rank": 3,
+        "username": "Lurker_99YT",
+        "wager": 1089699,
+        "prize": 160
+      },
+      {
+        "rank": 4,
+        "username": "CLAUploader6983",
+        "wager": 811680,
+        "prize": 20
+      },
+      {
+        "rank": 5,
+        "username": "foxzaayy",
+        "wager": 587763.8,
+        "prize": 20
+      }
+    ],
+    "notes": "Clear podium display for top 3 with wager amounts and prizes. List format shows Place, User, Reward, Wagered columns for ranks 4-7. Some entries show $0 prize (ranks 6-7)."
+  },
+  {
+    "site": "tanskidegen",
+    "url": "https://www.tanskidegen.com/leaderboards",
+    "success": true,
+    "entries": 6,
+    "structure": {
+      "column_order": "wager_before_prize",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 3
+    },
+    "confidence": 95,
+    "elapsed": 6668,
+    "cost": 0.010875,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "P***********...",
+        "wager": 76659.36,
+        "prize": 1600
+      },
+      {
+        "rank": 2,
+        "username": "D***********my",
+        "wager": 22193.17,
+        "prize": 900
+      },
+      {
+        "rank": 3,
+        "username": "J***********ye",
+        "wager": 18252.89,
+        "prize": 600
+      },
+      {
+        "rank": 4,
+        "username": "K****ME",
+        "wager": 14239.09,
+        "prize": 360
+      },
+      {
+        "rank": 5,
+        "username": "N***********de",
+        "wager": 9306.91,
+        "prize": 240
+      }
+    ],
+    "notes": "Clear podium display for top 3 with wagered amounts and prizes clearly labeled. Ranks 4-6 shown in list format with WAGERED and PRIZE columns visible."
+  },
+  {
+    "site": "ravengambles",
+    "url": "https://ravengambles.com/leaderboard",
+    "success": true,
+    "entries": 4,
+    "structure": {
+      "column_order": "wager_before_prize",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 1
+    },
+    "confidence": 95,
+    "elapsed": 5640,
+    "cost": 0.009825,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "*******v9",
+        "wager": 98317.27,
+        "prize": 4000
+      },
+      {
+        "rank": 2,
+        "username": "*******ds",
+        "wager": 68508.94,
+        "prize": 2000
+      },
+      {
+        "rank": 3,
+        "username": "*******sj",
+        "wager": 59268.01,
+        "prize": 1200
+      },
+      {
+        "rank": 4,
+        "username": "*en",
+        "wager": 52580.09,
+        "prize": 900
+      }
+    ],
+    "notes": "Clear podium display for top 3 with TOTAL WAGERED and PRIZE clearly shown. One additional entry visible in table format below with REWARD and WAGERED columns."
+  },
+  {
+    "site": "wahy",
+    "url": "https://wahy.gg/leaderboard",
+    "success": true,
+    "entries": 3,
+    "structure": {
+      "column_order": "prize_before_wager",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 0
+    },
+    "confidence": 95,
+    "elapsed": 6181,
+    "cost": 0.009645,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "t*****",
+        "wager": 27566.54,
+        "prize": 5000
+      },
+      {
+        "rank": 2,
+        "username": "M**",
+        "wager": 7964.52,
+        "prize": 2500
+      },
+      {
+        "rank": 3,
+        "username": "2****",
+        "wager": 2992.36,
+        "prize": 1250
+      }
+    ],
+    "notes": "Clear podium display with 3 positions. Column headers show 'Prize' before 'Wagered'. Prize amounts appear to include bonus amounts (e.g., '5,000+800'). Only podium entries are visible, no list format entries shown."
+  },
+  {
+    "site": "adukes",
+    "url": "https://adukes.com/leaderboard",
+    "success": true,
+    "entries": 6,
+    "structure": {
+      "column_order": "wager_before_prize",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 3
+    },
+    "confidence": 95,
+    "elapsed": 9374,
+    "cost": 0.011040000000000001,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "Deg*******",
+        "wager": 1369.62,
+        "prize": 500
+      },
+      {
+        "rank": 2,
+        "username": "Nic****",
+        "wager": 127698.33,
+        "prize": 800
+      },
+      {
+        "rank": 3,
+        "username": "Hxt******",
+        "wager": 67000.44,
+        "prize": 350
+      },
+      {
+        "rank": 4,
+        "username": "Tru**",
+        "wager": 26556.11,
+        "prize": 250
+      },
+      {
+        "rank": 5,
+        "username": "Dad*****",
+        "wager": 20419.02,
+        "prize": 200
+      }
+    ],
+    "notes": "Clear podium display for top 3 with different layout, followed by table format. Column headers show 'Reward' before 'Wagered' but data placement follows standard pattern with prizes clearly marked with $ symbols."
+  },
+  {
+    "site": "rwrds",
+    "url": "https://rwrds.gg/leaderboard",
+    "success": true,
+    "entries": 0,
+    "structure": {
+      "column_order": "unknown",
+      "has_podium": false,
+      "podium_count": 0,
+      "list_entries_visible": 0
+    },
+    "confidence": 95,
+    "elapsed": 4982,
+    "cost": 0.00837,
+    "sampleEntries": [],
+    "notes": "This screenshot shows a leaderboard challenge announcement page rather than actual leaderboard results. It displays prize tiers (1st: 150 Gems, 2nd: 100 Gems, 3rd: 50 Gems) and requirements to participate (race to wager 20,000), but no player entries or current standings are visible."
+  },
+  {
+    "site": "ilovemav",
+    "url": "https://www.ilovemav.com/leaderboards",
+    "success": true,
+    "entries": 3,
+    "structure": {
+      "column_order": "wager_before_prize",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 0
+    },
+    "confidence": 95,
+    "elapsed": 6160,
+    "cost": 0.009420000000000001,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "H****p***",
+        "wager": 63800.51,
+        "prize": 2500
+      },
+      {
+        "rank": 2,
+        "username": "M**A***",
+        "wager": 8260.63,
+        "prize": 1000
+      },
+      {
+        "rank": 3,
+        "username": "R******D********",
+        "wager": 2526.67,
+        "prize": 500
+      }
+    ],
+    "notes": "Clear podium display with 3 positions. Each card shows username, wagered amount, and prize amount. No additional list entries visible below the podium."
+  },
+  {
+    "site": "augustrewards",
+    "url": "https://augustrewards.com/leaderboard",
+    "success": true,
+    "entries": 7,
+    "structure": {
+      "column_order": "prize_before_wager",
+      "has_podium": true,
+      "podium_count": 3,
+      "list_entries_visible": 4
+    },
+    "confidence": 95,
+    "elapsed": 7675,
+    "cost": 0.011535,
+    "sampleEntries": [
+      {
+        "rank": 1,
+        "username": "Mar***",
+        "wager": 573300,
+        "prize": 5000
+      },
+      {
+        "rank": 2,
+        "username": "hid***",
+        "wager": 94819,
+        "prize": 2500
+      },
+      {
+        "rank": 3,
+        "username": "hid***",
+        "wager": 20752.21,
+        "prize": 1250
+      },
+      {
+        "rank": 4,
+        "username": "Mid***",
+        "wager": 12100.55,
+        "prize": 500
+      },
+      {
+        "rank": 5,
+        "username": "Reo*",
+        "wager": 3920.57,
+        "prize": 300
+      }
+    ],
+    "notes": "Clear podium display for top 3 with different card layout, followed by table format for ranks 4-7. Headers show 'Reward' before 'Wagered' confirming prize_before_wager order."
+  }
+]

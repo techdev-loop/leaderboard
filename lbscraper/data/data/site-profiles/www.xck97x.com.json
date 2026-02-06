@@ -1,0 +1,289 @@
+{
+  "domain": "www.xck97x.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "roobet": {
+        "navigation": {
+          "url": "https://www.xck97x.com/leaderboards/roobet",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "markdown",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 18,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 1,
+          "sourcesUsed": [
+            "api",
+            "markdown"
+          ]
+        },
+        "stats": {
+          "successCount": 5,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T04:07:18.662Z",
+          "lastUpdatedAt": "2026-02-01T04:07:18.662Z"
+        }
+      },
+      "lootbox": {
+        "navigation": {
+          "url": "https://www.xck97x.com/leaderboards/lootbox",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "url-specified",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 13,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 5,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T04:06:58.072Z",
+          "lastUpdatedAt": "2026-02-01T04:06:58.072Z"
+        }
+      },
+      "packdraw": {
+        "navigation": {
+          "url": "https://www.xck97x.com/leaderboards/packdraw",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "markdown",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 18,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 1,
+          "sourcesUsed": [
+            "api",
+            "markdown"
+          ]
+        },
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T04:07:39.188Z",
+          "lastUpdatedAt": "2026-02-01T04:07:39.188Z"
+        }
+      },
+      "csgold": {
+        "navigation": {
+          "url": "https://www.xck97x.com/leaderboards/csgold",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 2,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T04:07:58.791Z",
+          "lastUpdatedAt": "2026-02-01T04:07:58.791Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T04:07:58.791Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-02-01T04:01:58.709Z",
+  "updatedAt": "2026-02-01T04:07:58.791Z"
+}

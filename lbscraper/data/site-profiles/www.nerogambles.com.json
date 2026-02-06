@@ -1,0 +1,215 @@
+{
+  "domain": "www.nerogambles.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.06448799999999999,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:35:41.665Z",
+    "lastVerifiedAt": "2026-01-26T13:35:50.360Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "05e80a0ca9e76c64",
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:35:50.363Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.nerogambles.com/leaderboard/rain",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T15:54:42.787Z"
+  },
+  "switchers": [
+    {
+      "name": "csgowin",
+      "selector": "[data-testid='csgowin-card'], .csgowin-card, a[href*='csgowin']",
+      "coordinates": {
+        "x": 395,
+        "y": 427
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "csgowin",
+        "CSGOWIN",
+        "CSGOWin"
+      ]
+    },
+    {
+      "name": "chicken",
+      "selector": "[data-testid='chicken-card'], .chicken-card, a[href*='chicken']",
+      "coordinates": {
+        "x": 727,
+        "y": 427
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "chicken",
+        "CHICKEN",
+        "Chicken.gg"
+      ]
+    },
+    {
+      "name": "rainbet",
+      "selector": "[data-testid='rainbet-card'], .rainbet-card, a[href*='rainbet']",
+      "coordinates": {
+        "x": 1059,
+        "y": 427
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "rainbet",
+        "RAINBET",
+        "Rainbet"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container, .leaderboard-table, .rankings",
+    "entrySelector": ".leaderboard-entry, .rank-item, tr:not(:first-child)",
+    "fields": {
+      "rank": ".rank, .position, td:first-child",
+      "username": ".username, .player-name, td:nth-child(2)",
+      "wager": ".wager, .wagered, .amount, td:nth-child(3)",
+      "prize": ".prize, .reward, .payout, td:nth-child(4)"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page displays '404' error message in center of screen",
+      "addedAt": "2026-01-26T13:35:41.662Z"
+    },
+    {
+      "text": "No leaderboard content is visible",
+      "addedAt": "2026-01-26T13:35:41.662Z"
+    },
+    {
+      "text": "Navigation shows 'Leaderboards' tab but page content failed to load",
+      "addedAt": "2026-01-26T13:35:41.662Z"
+    },
+    {
+      "text": "URL suggests this should be Rain casino leaderboard page",
+      "addedAt": "2026-01-26T13:35:41.662Z"
+    },
+    {
+      "text": "Site appears to be Nero REWARDS affiliate platform",
+      "addedAt": "2026-01-26T13:35:41.662Z"
+    },
+    {
+      "text": "Single leaderboard for CSGOWin affiliate tracking",
+      "addedAt": "2026-01-26T13:35:47.841Z"
+    },
+    {
+      "text": "Leaderboard has ended - countdown timer shows 00:00:00:00",
+      "addedAt": "2026-01-26T13:35:47.841Z"
+    },
+    {
+      "text": "Table headers visible: RANK, PLAYER, WAGERED, PRIZE",
+      "addedAt": "2026-01-26T13:35:47.841Z"
+    },
+    {
+      "text": "No visible entries in the table - likely empty due to ended status",
+      "addedAt": "2026-01-26T13:35:47.841Z"
+    },
+    {
+      "text": "Navigation shows 'Leaderboards' as active page",
+      "addedAt": "2026-01-26T13:35:47.841Z"
+    },
+    {
+      "text": "Site uses Nero REWARDS branding",
+      "addedAt": "2026-01-26T13:35:47.841Z"
+    },
+    {
+      "text": "URL pattern suggests '/leaderboards/xfun' but title shows 'NERO CSGOWIN LEADERBOARD'",
+      "addedAt": "2026-01-26T13:35:47.841Z"
+    },
+    {
+      "text": "This is a leaderboard selection page, not the actual leaderboards",
+      "addedAt": "2026-01-26T13:35:50.358Z"
+    },
+    {
+      "text": "Shows 3 casino options: CSGOWin, Chicken.gg, and Rainbet",
+      "addedAt": "2026-01-26T13:35:50.358Z"
+    },
+    {
+      "text": "Each card has a 'Join Leaderboard' button that likely navigates to the actual leaderboard",
+      "addedAt": "2026-01-26T13:35:50.358Z"
+    },
+    {
+      "text": "The scraper needs to click through to each individual leaderboard to get the data",
+      "addedAt": "2026-01-26T13:35:50.358Z"
+    },
+    {
+      "text": "Layout is clean with card-based selection interface",
+      "addedAt": "2026-01-26T13:35:50.358Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:35:34.024Z",
+  "updatedAt": "2026-01-31T15:54:42.787Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:35:34.471Z"
+}

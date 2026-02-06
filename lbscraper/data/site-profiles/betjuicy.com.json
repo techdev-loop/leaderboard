@@ -1,0 +1,302 @@
+{
+  "domain": "betjuicy.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.betjuicy.com/leaderboard/csgogem",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T14:20:53.578Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "roobet": {
+        "navigation": {
+          "url": "https://www.betjuicy.com/leaderboard/roobet",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 8,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:21:11.823Z",
+          "lastUpdatedAt": "2026-02-04T14:21:11.823Z"
+        }
+      },
+      "csgoroll": {
+        "navigation": {
+          "url": "https://www.betjuicy.com/leaderboard/csgoroll",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 9,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:21:45.362Z",
+          "lastUpdatedAt": "2026-02-04T14:21:45.362Z"
+        }
+      },
+      "raingg": {
+        "navigation": {
+          "url": "https://www.betjuicy.com/leaderboard/raingg",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 8,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:22:01.644Z",
+          "lastUpdatedAt": "2026-02-04T14:22:01.644Z"
+        }
+      },
+      "csgogem": {
+        "navigation": {
+          "url": "https://www.betjuicy.com/leaderboard/csgogem",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 3,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 6,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:36:34.096Z",
+          "lastUpdatedAt": "2026-02-04T11:36:34.096Z"
+        }
+      },
+      "packdraw": {
+        "navigation": {
+          "url": "https://www.betjuicy.com/leaderboard/packdraw",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 6,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:21:28.867Z",
+          "lastUpdatedAt": "2026-02-04T14:21:28.867Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T14:22:01.644Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T05:59:14.644Z",
+  "updatedAt": "2026-02-04T14:22:01.644Z"
+}

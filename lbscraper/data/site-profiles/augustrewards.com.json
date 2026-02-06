@@ -1,0 +1,457 @@
+{
+  "domain": "augustrewards.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.024059999999999998,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:26:45.792Z",
+    "lastVerifiedAt": "2026-01-26T13:26:45.792Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "5b2c8d900a685012",
+    "switcherCount": 2,
+    "switcherNames": [
+      "rain"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:26:45.795Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://augustrewards.com/leaderboard/yeet",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T11:22:23.010Z"
+  },
+  "switchers": [
+    {
+      "name": "yeet",
+      "selector": "img[alt*='yeet']",
+      "coordinates": {
+        "x": 306,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "yeet"
+      ]
+    },
+    {
+      "name": "csgoroll",
+      "selector": "img[alt*='csgoroll']",
+      "coordinates": {
+        "x": 474,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "csgoroll",
+        "csgo"
+      ]
+    },
+    {
+      "name": "raingg",
+      "selector": "img[alt*='raingg'], img[alt*='rain']",
+      "coordinates": {
+        "x": 643,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "raingg",
+        "rain"
+      ]
+    },
+    {
+      "name": "csgogem",
+      "selector": "img[alt*='csgogem']",
+      "coordinates": {
+        "x": 812,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "csgogem",
+        "gem"
+      ]
+    },
+    {
+      "name": "upgrader",
+      "selector": "img[alt*='upgrader']",
+      "coordinates": {
+        "x": 980,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "upgrader"
+      ]
+    },
+    {
+      "name": "csgowin",
+      "selector": "img[alt*='csgowin']",
+      "coordinates": {
+        "x": 1149,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "csgowin"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container, [class*='leaderboard'], main, .content",
+    "entrySelector": ".entry, .row, .item, [class*='entry'], [class*='player']",
+    "fields": {
+      "rank": ".rank, .position, .place, [class*='rank'], [class*='position']",
+      "username": ".username, .player, .name, [class*='username'], [class*='player'], [class*='name']",
+      "wager": ".wager, .amount, .bet, [class*='wager'], [class*='amount'], [class*='bet']",
+      "prize": ".prize, .reward, .win, [class*='prize'], [class*='reward'], [class*='win']"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://augustrewards.com/api/leaderboard/{casino_name}",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "clash": {
+        "navigation": {
+          "url": "https://augustrewards.com/leaderboard/yeet",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 4,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:23:36.252Z",
+          "lastUpdatedAt": "2026-02-04T11:23:36.252Z"
+        }
+      },
+      "csgoroll": {
+        "navigation": {
+          "url": "https://augustrewards.com/leaderboard/csgoroll",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 12,
+          "hasPrizes": true,
+          "prizePositions": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 4,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:22:35.784Z",
+          "lastUpdatedAt": "2026-02-04T11:22:35.784Z"
+        }
+      },
+      "csgowin": {
+        "navigation": {
+          "url": "https://augustrewards.com/leaderboard/csgowin",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 9,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 4,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:22:46.643Z",
+          "lastUpdatedAt": "2026-02-04T11:22:46.643Z"
+        }
+      },
+      "upgrader": {
+        "navigation": {
+          "url": "https://augustrewards.com/leaderboard/upgrader",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 4,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:22:57.600Z",
+          "lastUpdatedAt": "2026-02-04T11:22:57.600Z"
+        }
+      },
+      "csgogem": {
+        "navigation": {
+          "url": "https://augustrewards.com/leaderboard/csgogem",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 4,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:23:08.114Z",
+          "lastUpdatedAt": "2026-02-04T11:23:08.114Z"
+        }
+      },
+      "rain": {
+        "navigation": {
+          "url": "https://augustrewards.com/leaderboard/rain",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 4,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:23:18.469Z",
+          "lastUpdatedAt": "2026-02-04T11:23:18.469Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T11:23:36.252Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows 'No active leaderboard right now' - this is correct behavior",
+      "addedAt": "2026-01-26T13:26:45.790Z"
+    },
+    {
+      "text": "Six casino site switchers are clearly visible in the header bar",
+      "addedAt": "2026-01-26T13:26:45.790Z"
+    },
+    {
+      "text": "Current selection appears to be RainGG (highlighted in center)",
+      "addedAt": "2026-01-26T13:26:45.790Z"
+    },
+    {
+      "text": "Previous leaderboard button suggests historical data exists",
+      "addedAt": "2026-01-26T13:26:45.790Z"
+    },
+    {
+      "text": "Site uses Code AUGUST promotion system",
+      "addedAt": "2026-01-26T13:26:45.790Z"
+    },
+    {
+      "text": "Leaderboard updates every 15min according to displayed text",
+      "addedAt": "2026-01-26T13:26:45.790Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:26:31.736Z",
+  "updatedAt": "2026-02-04T11:23:36.252Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:26:31.735Z"
+}

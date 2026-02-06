@@ -1,0 +1,377 @@
+{
+  "domain": "www.joonxo.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.051015,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:31:39.399Z",
+    "lastVerifiedAt": "2026-01-26T13:32:29.144Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 100
+  },
+  "layoutFingerprint": {
+    "hash": "a5a5970b398d0ba5",
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:32:29.147Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.joonxo.com/leaderboards",
+    "authRequired": false,
+    "discoveredAt": "2026-02-03T08:49:09.946Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csgowin": {
+        "navigation": {
+          "url": "https://www.joonxo.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T08:49:24.431Z",
+          "lastUpdatedAt": "2026-02-03T08:49:24.431Z"
+        }
+      },
+      "gamba": {
+        "navigation": {
+          "url": "https://www.joonxo.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T08:49:37.547Z",
+          "lastUpdatedAt": "2026-02-03T08:49:37.547Z"
+        }
+      },
+      "csgobig": {
+        "navigation": {
+          "url": "https://www.joonxo.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T08:50:47.488Z",
+          "lastUpdatedAt": "2026-02-03T08:50:47.488Z"
+        }
+      },
+      "clash": {
+        "navigation": {
+          "url": "https://www.joonxo.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 2,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T08:50:06.782Z",
+          "lastUpdatedAt": "2026-02-03T08:50:06.782Z"
+        }
+      },
+      "csgostake": {
+        "navigation": {
+          "url": "https://www.joonxo.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 2,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T08:50:35.697Z",
+          "lastUpdatedAt": "2026-02-03T08:50:35.697Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-03T08:50:47.488Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page displays a 404 error with 'This page could not be found' message",
+      "addedAt": "2026-01-26T13:31:39.398Z"
+    },
+    {
+      "text": "The URL /leaderboard/clash appears to be invalid for this domain",
+      "addedAt": "2026-01-26T13:31:39.398Z"
+    },
+    {
+      "text": "Only visible elements are a logo and 'Join Discord' button",
+      "addedAt": "2026-01-26T13:31:39.398Z"
+    },
+    {
+      "text": "No gambling or leaderboard content is present",
+      "addedAt": "2026-01-26T13:31:39.398Z"
+    },
+    {
+      "text": "This appears to be a generic Next.js 404 error page",
+      "addedAt": "2026-01-26T13:31:39.398Z"
+    },
+    {
+      "text": "Page displays clear 404 error with text 'This page could not be found.'",
+      "addedAt": "2026-01-26T13:32:03.866Z"
+    },
+    {
+      "text": "No leaderboard content is visible on the page",
+      "addedAt": "2026-01-26T13:32:03.866Z"
+    },
+    {
+      "text": "Only visible elements are the site logo and a Discord join button",
+      "addedAt": "2026-01-26T13:32:03.866Z"
+    },
+    {
+      "text": "The URL suggests this should be a CSGOStake leaderboard page",
+      "addedAt": "2026-01-26T13:32:03.866Z"
+    },
+    {
+      "text": "Page appears to be completely broken/non-functional",
+      "addedAt": "2026-01-26T13:32:03.866Z"
+    },
+    {
+      "text": "Page shows a 404 error with message 'This page could not be found'",
+      "addedAt": "2026-01-26T13:32:29.143Z"
+    },
+    {
+      "text": "No leaderboard content is visible on the page",
+      "addedAt": "2026-01-26T13:32:29.143Z"
+    },
+    {
+      "text": "Only visible elements are a Discord join button and the 404 error message",
+      "addedAt": "2026-01-26T13:32:29.143Z"
+    },
+    {
+      "text": "The URL path '/leaderboard/csgobig' suggests this was meant to be a csgobig casino leaderboard",
+      "addedAt": "2026-01-26T13:32:29.143Z"
+    },
+    {
+      "text": "Site appears to be www.joonxo.com but the specific leaderboard page doesn't exist",
+      "addedAt": "2026-01-26T13:32:29.143Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:16:34.755Z",
+  "updatedAt": "2026-02-03T08:50:47.488Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:32:20.204Z"
+}

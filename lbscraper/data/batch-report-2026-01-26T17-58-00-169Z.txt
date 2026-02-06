@@ -1,0 +1,28 @@
+════════════════════════════════════════════════════════════════════════════════
+                         BATCH SCRAPE REPORT
+════════════════════════════════════════════════════════════════════════════════
+Run ID: MKVGXJKW
+Completed: 2026-01-26T17:58:00.169Z
+Duration: 2m 13s
+
+SUMMARY:
+  Total Sites: 1
+  Successful: 1
+  Failed: 0
+  Timed Out: 0
+  Total Leaderboards Extracted: 1
+
+════════════════════════════════════════════════════════════════════════════════
+✅ SUCCESSFUL SITES (1)
+════════════════════════════════════════════════════════════════════════════════
+
+jonkennleaderboard.com (1 leaderboards, 133s)
+  URL: https://jonkennleaderboard.com
+  DB: 1 snapshots, 10 entries
+  - bcgame: 10 entries, 85% confidence (api)
+
+DATABASE TOTALS: 1 snapshots, 10 entries saved
+
+════════════════════════════════════════════════════════════════════════════════
+                           END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

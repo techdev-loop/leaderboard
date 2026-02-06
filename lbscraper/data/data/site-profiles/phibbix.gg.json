@@ -1,0 +1,144 @@
+{
+  "domain": "phibbix.gg",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "clash": {
+        "navigation": {
+          "url": "https://phibbix.gg/leaderboard/menace",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "markdown"
+            ],
+            "prize": [
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 3,
+          "hasPrizes": false,
+          "prizePositions": []
+        },
+        "crossValidation": {
+          "overallAgreement": 0.3333333333333333,
+          "sourcesUsed": [
+            "markdown",
+            "geometric"
+          ]
+        },
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-31T19:14:20.310Z",
+          "lastUpdatedAt": "2026-01-31T19:14:20.310Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-01-31T19:14:20.310Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-31T19:11:51.091Z",
+  "updatedAt": "2026-01-31T19:14:20.310Z"
+}

@@ -1,0 +1,245 @@
+{
+  "domain": "darkrewards.com",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.10639799999999999,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:36:53.899Z",
+    "lastVerifiedAt": "2026-01-26T13:36:53.899Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 85
+  },
+  "layoutFingerprint": {
+    "hash": "c32744d45c2792c3",
+    "switcherCount": 1,
+    "switcherNames": [
+      "rustmagic"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:36:53.902Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://darkrewards.com/leaderboard/rustmagic",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:02:54.277Z"
+  },
+  "switchers": [
+    {
+      "name": "rustmagic",
+      "selector": "img[alt*='rustmagic'], img[src*='rustmagic']",
+      "coordinates": {
+        "x": 475,
+        "y": 118
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "rustmagic",
+        "rust",
+        "magic"
+      ]
+    },
+    {
+      "name": "upgrader",
+      "selector": "img[alt*='upgrader'], img[src*='upgrader']",
+      "coordinates": {
+        "x": 643,
+        "y": 118
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "upgrader"
+      ]
+    },
+    {
+      "name": "daddyskins",
+      "selector": "img[alt*='daddyskins'], img[src*='daddy']",
+      "coordinates": {
+        "x": 811,
+        "y": 118
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "daddyskins",
+        "daddy",
+        "skins"
+      ]
+    },
+    {
+      "name": "csgowin",
+      "selector": "img[alt*='csgowin'], img[src*='csgo']",
+      "coordinates": {
+        "x": 979,
+        "y": 118
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "csgowin",
+        "csgo",
+        "win"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container, .leaderboard-entries, [class*='leaderboard']",
+    "entrySelector": ".entry, .player, .leaderboard-item, tr, [class*='rank']",
+    "fields": {
+      "rank": ".rank, .position, [class*='rank'], td:first-child",
+      "username": ".username, .player-name, .name, [class*='name'], [class*='user']",
+      "wager": ".wager, .amount, .bet, [class*='wager'], [class*='amount']",
+      "prize": ".prize, .reward, .win, [class*='prize'], [class*='reward']"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://darkrewards.com/api/leaderboard/{casino}",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "rustmagic": {
+        "navigation": {
+          "url": null,
+          "method": "vision-learned"
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "visionConfig": {
+            "column_order": "prize_before_wager",
+            "podium_layout": "center_first",
+            "wager_label": "Wagered",
+            "prize_label": "Prize",
+            "rank1_username": "wo**",
+            "rank1_wager": 1621.74,
+            "rank1_prize": 550,
+            "confidence": 95,
+            "learnedAt": "2026-02-01T07:55:10.090Z"
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 15,
+          "hasPrizes": true,
+          "visionValidated": true
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:55:10.091Z",
+          "lastUpdatedAt": "2026-02-01T07:55:10.091Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T07:55:10.091Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Leaderboard is currently paused with 'Paused!' message",
+      "addedAt": "2026-01-26T13:36:53.898Z"
+    },
+    {
+      "text": "Four casino switcher buttons visible at top: RustMagic, Upgrader, DaddySkins, CSGOWin",
+      "addedAt": "2026-01-26T13:36:53.898Z"
+    },
+    {
+      "text": "RustMagic appears to be the currently selected tab",
+      "addedAt": "2026-01-26T13:36:53.898Z"
+    },
+    {
+      "text": "Page shows '$1,250 CODE HASAN07 LEADERBOARD!' heading",
+      "addedAt": "2026-01-26T13:36:53.898Z"
+    },
+    {
+      "text": "Has 'PREVIOUS LEADERBOARD' button suggesting historical data",
+      "addedAt": "2026-01-26T13:36:53.898Z"
+    },
+    {
+      "text": "API endpoint pattern confirmed from scraperFindings",
+      "addedAt": "2026-01-26T13:36:53.898Z"
+    },
+    {
+      "text": "Page shows 'Paused!' at the top",
+      "addedAt": "2026-01-26T13:37:29.843Z"
+    },
+    {
+      "text": "Dark background with some game images at bottom",
+      "addedAt": "2026-01-26T13:37:29.843Z"
+    },
+    {
+      "text": "Can see three game images with class 'clash-image'",
+      "addedAt": "2026-01-26T13:37:29.843Z"
+    },
+    {
+      "text": "API response shows countdown data for rustmagic",
+      "addedAt": "2026-01-26T13:37:29.843Z"
+    },
+    {
+      "text": "Page appears to be in a paused/inactive state",
+      "addedAt": "2026-01-26T13:37:29.843Z"
+    },
+    {
+      "text": "Need to activate or interact with the page to see leaderboard content",
+      "addedAt": "2026-01-26T13:37:29.843Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:36:38.512Z",
+  "updatedAt": "2026-02-01T07:55:10.091Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:36:38.523Z"
+}

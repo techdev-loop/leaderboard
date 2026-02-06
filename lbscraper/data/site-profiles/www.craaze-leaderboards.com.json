@@ -1,0 +1,229 @@
+{
+  "domain": "www.craaze-leaderboards.com",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.10980899999999998,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:35:49.658Z",
+    "lastVerifiedAt": "2026-01-26T13:35:50.052Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "ec56cdbb35306595",
+    "switcherCount": 3,
+    "switcherNames": [
+      "csgowin",
+      "stake",
+      "upgrader"
+    ],
+    "layoutType": "podium-only",
+    "generatedAt": "2026-01-26T13:35:50.055Z",
+    "entryCount": 0,
+    "hasPodium": true,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.craaze-leaderboards.com/leaderboards/upgrader",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T15:59:17.815Z"
+  },
+  "switchers": [
+    {
+      "name": "csgostake",
+      "selector": "button:contains('View Leaderboard')",
+      "coordinates": {
+        "x": 436,
+        "y": 450
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "csgostake",
+        "stake",
+        "csgo"
+      ]
+    },
+    {
+      "name": "csgowin",
+      "selector": "button:contains('View Leaderboard')",
+      "coordinates": {
+        "x": 727,
+        "y": 450
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "csgowin",
+        "win",
+        "csgo"
+      ]
+    },
+    {
+      "name": "razed",
+      "selector": "button:contains('View Leaderboard')",
+      "coordinates": {
+        "x": 1018,
+        "y": 450
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "razed"
+      ]
+    },
+    {
+      "name": "upgrader",
+      "selector": "button:contains('View Leaderboard')",
+      "coordinates": {
+        "x": 436,
+        "y": 656
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "upgrader"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container",
+    "entrySelector": ".leaderboard-entry",
+    "fields": {
+      "rank": ".rank",
+      "username": ".username",
+      "wager": ".wager-amount",
+      "prize": ".prize-amount"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Clear podium-style leaderboard with 3 visible entries",
+      "addedAt": "2026-01-26T13:35:49.656Z"
+    },
+    {
+      "text": "Gold medal (1st), silver medal (2nd), bronze medal (3rd) styling",
+      "addedAt": "2026-01-26T13:35:49.656Z"
+    },
+    {
+      "text": "Each card shows rank, username, wagered amount, and prize",
+      "addedAt": "2026-01-26T13:35:49.656Z"
+    },
+    {
+      "text": "Timer countdown visible at bottom indicating active competition",
+      "addedAt": "2026-01-26T13:35:49.656Z"
+    },
+    {
+      "text": "Single casino site (CSGOWin) - no switcher buttons visible",
+      "addedAt": "2026-01-26T13:35:49.656Z"
+    },
+    {
+      "text": "This is a landing page showing 4 casino partner cards",
+      "addedAt": "2026-01-26T13:35:50.051Z"
+    },
+    {
+      "text": "Each card has a 'View Leaderboard' button that likely leads to individual leaderboards",
+      "addedAt": "2026-01-26T13:35:50.051Z"
+    },
+    {
+      "text": "Prize pools are shown: CSGOStake (2,000 + Free Battles), CSGOWin (1,000), Razed (2,000), Upgrader (700)",
+      "addedAt": "2026-01-26T13:35:50.051Z"
+    },
+    {
+      "text": "Winner counts shown: CSGOStake (10), CSGOWin (10), Razed (10), Upgrader (5)",
+      "addedAt": "2026-01-26T13:35:50.051Z"
+    },
+    {
+      "text": "This is not the actual leaderboard data but rather navigation to different casino leaderboards",
+      "addedAt": "2026-01-26T13:35:50.051Z"
+    },
+    {
+      "text": "Found CSGOStake leaderboard with top 3 entries visible",
+      "addedAt": "2026-01-26T13:36:12.494Z"
+    },
+    {
+      "text": "Rank #1: ★*******s with 29411.52 wagered, 1000 prize",
+      "addedAt": "2026-01-26T13:36:12.494Z"
+    },
+    {
+      "text": "Rank #2: S*******8 with 4815.27 wagered, 500 prize",
+      "addedAt": "2026-01-26T13:36:12.494Z"
+    },
+    {
+      "text": "Rank #3: Z*****PL with 1353.05 wagered, 250 prize",
+      "addedAt": "2026-01-26T13:36:12.494Z"
+    },
+    {
+      "text": "Total prize pool shows 2,000",
+      "addedAt": "2026-01-26T13:36:12.494Z"
+    },
+    {
+      "text": "Countdown timer shows 02:05:23:57 remaining",
+      "addedAt": "2026-01-26T13:36:12.494Z"
+    },
+    {
+      "text": "Need to scroll to see if more entries exist below",
+      "addedAt": "2026-01-26T13:36:12.494Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:35:34.286Z",
+  "updatedAt": "2026-01-31T15:59:17.815Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:35:37.828Z"
+}

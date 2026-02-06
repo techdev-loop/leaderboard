@@ -1,0 +1,177 @@
+{
+  "domain": "hustlehouse.bet",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.10916999999999999,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": "https://hustlehouse.bet/plunder/#",
+    "authRequired": false,
+    "discoveredAt": "2026-02-01T07:08:15.602Z"
+  },
+  "switchers": [
+    {
+      "type": "tab",
+      "options": [
+        "Leaderboard",
+        "Past Winners"
+      ],
+      "location": ".leaderboard-tabs",
+      "current": "Past Winners"
+    }
+  ],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    },
+    "currentFindings": {
+      "site": "skinrave",
+      "leaderboards": {
+        "expired": {
+          "entryCount": 7,
+          "topPrizes": [
+            360,
+            250,
+            150
+          ],
+          "wagerRange": [
+            113255,
+            271539.1
+          ]
+        }
+      }
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Currently viewing expired/past leaderboard data",
+      "addedAt": "2026-01-25T01:48:15.500Z"
+    },
+    {
+      "text": "Need to check current 'Leaderboard' tab for active data",
+      "addedAt": "2026-01-25T01:48:15.500Z"
+    },
+    {
+      "text": "API endpoints exist for both current and past data",
+      "addedAt": "2026-01-25T01:48:15.500Z"
+    },
+    {
+      "text": "Wager amounts are in expected range ($100K-$271K)",
+      "addedAt": "2026-01-25T01:48:15.500Z"
+    },
+    {
+      "text": "Prize structure follows typical pattern (360, 250, 150)",
+      "addedAt": "2026-01-25T01:48:15.500Z"
+    },
+    {
+      "text": "Usernames are partially censored with ***",
+      "addedAt": "2026-01-25T01:48:15.500Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [
+    {
+      "name": "hunt",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-25T01:46:20.685Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-25T01:46:20.685Z"
+    },
+    {
+      "name": "cases",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-25T01:46:21.584Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-25T01:46:21.584Z"
+    }
+  ],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": "2026-01-25T01:45:56.748Z",
+  "lastVisualVerification": {
+    "llmSwitcherCount": 0,
+    "llmSwitchers": [],
+    "domSwitcherCount": 5,
+    "additionalFound": 0,
+    "missingFromLlm": [
+      "skinrave",
+      "daddyskins",
+      "plunder",
+      "hunt",
+      "cases"
+    ],
+    "confidence": 85,
+    "notes": "This appears to be a homepage/landing page rather than a leaderboard page. The visible elements (SKINRAVE, PLUNDER.GG, etc.) appear to be general navigation buttons for different website sections rather than casino site switchers. No clear leaderboard interface or site switching functionality is visible."
+  },
+  "createdAt": "2026-01-25T01:44:58.901Z",
+  "updatedAt": "2026-02-01T07:08:15.602Z"
+}

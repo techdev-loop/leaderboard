@@ -1,0 +1,1038 @@
+{
+  "id": "f46da1f7-be22-4260-91b3-32e9a9c7e716",
+  "results": [
+    {
+      "id": "33958bd9-edc2-43cf-bf5b-3e113c3aaf94",
+      "extractionId": "f46da1f7-be22-4260-91b3-32e9a9c7e716",
+      "name": "chicken",
+      "url": "https://www.cheesy.gg/leaderboards",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 10,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Babyperc",
+          "wager": 1165,
+          "prize": 50,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 88
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 88
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 2,
+          "username": "Animus",
+          "wager": 662,
+          "prize": 40,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 88
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 88
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 3,
+          "username": "GiveMaxWin",
+          "wager": 194,
+          "prize": 0,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 88
+              },
+              "prize": {
+                "source": "none",
+                "confidence": 0
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 4,
+          "username": "!ajex14701ajex14701",
+          "wager": 1165,
+          "prize": 50,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 5,
+          "username": "!BiggestPercBiggestPerc",
+          "wager": 662,
+          "prize": 40,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 6,
+          "username": "!cruzewastedcruzewasted",
+          "wager": 354,
+          "prize": 30,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 7,
+          "username": "!GregChGregCh",
+          "wager": 320,
+          "prize": 20,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 8,
+          "username": "!shanotoootshanotooot",
+          "wager": 314,
+          "prize": 15,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 9,
+          "username": "!HugaiGoatHugaiGoat",
+          "wager": 226,
+          "prize": 10,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        },
+        {
+          "rank": 10,
+          "username": "!iambaigiambaig",
+          "wager": 194,
+          "prize": 5,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:00.997Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 260,
+      "totalWagered": 5256,
+      "confidence": 64,
+      "scrapedAt": "2026-02-03T08:59:00.997Z"
+    },
+    {
+      "id": "a5c0cb30-7fad-4084-b970-f994bd37a783",
+      "extractionId": "f46da1f7-be22-4260-91b3-32e9a9c7e716",
+      "name": "packdraw",
+      "url": "https://www.cheesy.gg/leaderboards",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 9,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "bigmac_05",
+          "wager": 143.47,
+          "prize": 40.26,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 88
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        },
+        {
+          "rank": 2,
+          "username": "Rexi",
+          "wager": 97,
+          "prize": 21.33,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 88
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        },
+        {
+          "rank": 3,
+          "username": "sNIfy",
+          "wager": 61.96,
+          "prize": 0,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "none",
+                "confidence": 0
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        },
+        {
+          "rank": 4,
+          "username": "!beersolbeersol",
+          "wager": 40.26,
+          "prize": 60,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        },
+        {
+          "rank": 6,
+          "username": "!baigzbaigz",
+          "wager": 15.21,
+          "prize": 30,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        },
+        {
+          "rank": 7,
+          "username": "!Greg123Greg123",
+          "wager": 14.99,
+          "prize": 20,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        },
+        {
+          "rank": 8,
+          "username": "!champcschampcs",
+          "wager": 5.59,
+          "prize": 15,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        },
+        {
+          "rank": 9,
+          "username": "!AnimusAnimus",
+          "wager": 5.36,
+          "prize": 10,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        },
+        {
+          "rank": 10,
+          "username": "!SerbiaUltra1SerbiaUltra1",
+          "wager": 5.34,
+          "prize": 5,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:25.782Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 201.59,
+      "totalWagered": 389.17999999999995,
+      "confidence": 64,
+      "scrapedAt": "2026-02-03T08:59:25.782Z"
+    },
+    {
+      "id": "f46e356e-e166-41e7-9bb9-9e6a09a15369",
+      "extractionId": "f46da1f7-be22-4260-91b3-32e9a9c7e716",
+      "name": "juice",
+      "url": "https://www.cheesy.gg/leaderboards",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 10,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "NoLimiT",
+          "wager": 975.81,
+          "prize": 30,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 85
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 2,
+          "username": "bigmac_05",
+          "wager": 770.58,
+          "prize": 0,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "none",
+                "confidence": 0
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 3,
+          "username": "-_^Animus^_-",
+          "wager": 541.16,
+          "prize": 0,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "none",
+                "confidence": 0
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 4,
+          "username": "!ZyemasterZyemaster",
+          "wager": 323.97,
+          "prize": 30,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 5,
+          "username": "!GregGreg",
+          "wager": 233.51,
+          "prize": 20,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 6,
+          "username": "!cruzeycruzey",
+          "wager": 210.29,
+          "prize": 15,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 7,
+          "username": "!TKOTGDENITKOTGDENI",
+          "wager": 173.85,
+          "prize": 10,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 8,
+          "username": "!MoneyHighMoneyHigh",
+          "wager": 139.58,
+          "prize": 5,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 9,
+          "username": "!HennyWHennyW",
+          "wager": 126.23,
+          "prize": 5,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        },
+        {
+          "rank": 10,
+          "username": "!ClateLbClateLb",
+          "wager": 102.53,
+          "prize": 5,
+          "source": "markdown-table",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T08:59:40.794Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 120,
+      "totalWagered": 3597.5099999999998,
+      "confidence": 63,
+      "scrapedAt": "2026-02-03T08:59:40.794Z"
+    }
+  ],
+  "errors": [
+    "No entries for gamba",
+    "No entries for raingg"
+  ],
+  "metadata": {
+    "domain": "www.cheesy.gg",
+    "startedAt": "2026-02-03T08:58:32.771Z",
+    "completedAt": "2026-02-03T08:59:56.228Z",
+    "leaderboardsDiscovered": 5,
+    "leaderboardsScraped": 3,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": [
+    {
+      "leaderboard": "chicken",
+      "issues": [
+        "Duplicate wagers: 3 wager values appear multiple times (possible extraction error)"
+      ]
+    },
+    {
+      "leaderboard": "packdraw",
+      "issues": [
+        "Absurd prize/wager ratio: 5 entries have prize > wager (likely extraction error)"
+      ]
+    }
+  ]
+}

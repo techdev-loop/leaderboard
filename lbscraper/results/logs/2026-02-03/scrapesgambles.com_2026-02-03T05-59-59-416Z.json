@@ -1,0 +1,132 @@
+{
+  "id": "87181fec-9141-4e09-a7fb-d7d33e6e5794",
+  "results": [
+    {
+      "id": "d247b5ac-8100-4acd-b769-cf0913d19a1b",
+      "extractionId": "87181fec-9141-4e09-a7fb-d7d33e6e5794",
+      "name": "stake",
+      "url": "https://scrapesgambles.com/leaderboard",
+      "type": "current",
+      "source": "dom",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "ban*********",
+          "wager": 3748.11,
+          "prize": 2500,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T05:59:59.415Z"
+        },
+        {
+          "rank": 2,
+          "username": "pen***********",
+          "wager": 2779.13,
+          "prize": 750,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T05:59:59.415Z"
+        },
+        {
+          "rank": 3,
+          "username": "tha***********",
+          "wager": 2337.65,
+          "prize": 500,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T05:59:59.415Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 3750,
+      "totalWagered": 8864.89,
+      "confidence": 100,
+      "scrapedAt": "2026-02-03T05:59:59.415Z"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "domain": "scrapesgambles.com",
+    "startedAt": "2026-02-03T05:59:31.706Z",
+    "completedAt": "2026-02-03T05:59:59.415Z",
+    "leaderboardsDiscovered": 1,
+    "leaderboardsScraped": 1,
+    "strategiesUsed": [
+      "dom"
+    ]
+  },
+  "warnings": []
+}

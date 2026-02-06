@@ -1,0 +1,426 @@
+{
+  "domain": "rwrds.gg",
+  "status": "learning",
+  "attempts": 2,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.14645400000000003,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:23:40.370Z",
+    "lastVerifiedAt": "2026-01-26T13:23:43.642Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 85
+  },
+  "layoutFingerprint": {
+    "hash": "115e5d91f6949d9a",
+    "switcherCount": 5,
+    "switcherNames": [
+      "clash",
+      "upgrader",
+      "csgowin",
+      "cases",
+      "acebet"
+    ],
+    "layoutType": "table-only",
+    "generatedAt": "2026-01-26T13:23:45.198Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://rwrds.gg/leaderboard/clash",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T11:16:39.447Z"
+  },
+  "switchers": [
+    {
+      "name": "clash",
+      "selector": "img[alt*='clash' i], .casino-button:contains('clash'), [data-casino='clash']",
+      "coordinates": {
+        "x": 494,
+        "y": 190
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "clash",
+        "clashgg"
+      ]
+    },
+    {
+      "name": "upgrader",
+      "selector": "img[alt*='upgrader' i], .casino-button:contains('upgrader'), [data-casino='upgrader']",
+      "coordinates": {
+        "x": 611,
+        "y": 190
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "upgrader"
+      ]
+    },
+    {
+      "name": "csgowin",
+      "selector": "img[alt*='csgowin' i], .casino-button:contains('csgowin'), [data-casino='csgowin']",
+      "coordinates": {
+        "x": 728,
+        "y": 190
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "csgowin"
+      ]
+    },
+    {
+      "name": "cases",
+      "selector": "img[alt*='cases' i], .casino-button:contains('cases'), [data-casino='cases']",
+      "coordinates": {
+        "x": 845,
+        "y": 190
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "cases",
+        "casesgg"
+      ]
+    },
+    {
+      "name": "acebet",
+      "selector": "img[alt*='acebet' i], .casino-button:contains('acebet'), [data-casino='acebet']",
+      "coordinates": {
+        "x": 962,
+        "y": 190
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "acebet"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-entries, .leaderboard-table, .podium-container",
+    "entrySelector": ".leaderboard-entry, .leaderboard-row, .podium-entry",
+    "fields": {
+      "rank": ".rank, .position, [data-rank]",
+      "username": ".username, .player, .name",
+      "wager": ".wager, .wagered, .amount",
+      "prize": ".prize, .reward, .payout"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://rwrds.gg/api/leaderboard/{casino}",
+    "prizesEndpoint": "https://rwrds.gg/api/countdown/{casino}",
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "upgrader": {
+        "navigation": {
+          "url": null,
+          "method": "vision-learned"
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "visionConfig": {
+            "column_order": "prize_before_wager",
+            "podium_layout": "left_to_right",
+            "wager_label": "Wager",
+            "prize_label": "Prize",
+            "rank1_username": "1st",
+            "rank1_wager": 10000,
+            "rank1_prize": 100,
+            "confidence": 85,
+            "learnedAt": "2026-02-01T07:44:04.435Z"
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "visionValidated": true
+        },
+        "stats": {
+          "successCount": 2,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:44:04.435Z",
+          "lastUpdatedAt": "2026-02-01T07:44:04.435Z"
+        }
+      },
+      "cases": {
+        "navigation": {
+          "url": "https://rwrds.gg/leaderboard/cases",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "markdown"
+            ],
+            "prize": [
+              "markdown"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.3333333333333333,
+          "sourcesUsed": [
+            "markdown",
+            "geometric"
+          ]
+        },
+        "stats": {
+          "successCount": 5,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:17:09.708Z",
+          "lastUpdatedAt": "2026-02-04T11:17:09.708Z"
+        }
+      },
+      "clashgg": {
+        "navigation": {
+          "url": "https://rwrds.gg/leaderboard/clash",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 11,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 5,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:17:29.829Z",
+          "lastUpdatedAt": "2026-02-04T11:17:29.829Z"
+        }
+      },
+      "clash": {
+        "navigation": {
+          "url": "https://rwrds.gg/leaderboard/clash",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "url-specified",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 11,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 4,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:16:50.453Z",
+          "lastUpdatedAt": "2026-02-04T11:16:50.453Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T11:17:29.829Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Need to click other casino switchers to find active leaderboards",
+      "addedAt": "2026-01-26T13:23:42.568Z"
+    },
+    {
+      "text": "Layout suggests table-based leaderboard display when active",
+      "addedAt": "2026-01-26T13:23:42.568Z"
+    },
+    {
+      "text": "Page shows 'Code BOMAYE Leaderboard' with paused status",
+      "addedAt": "2026-01-26T13:23:43.642Z"
+    },
+    {
+      "text": "5 casino switcher buttons visible in header area",
+      "addedAt": "2026-01-26T13:23:43.642Z"
+    },
+    {
+      "text": "Current leaderboard (csgowin) is paused, showing 'Paused!' message",
+      "addedAt": "2026-01-26T13:23:43.642Z"
+    },
+    {
+      "text": "Total prize pool shows 500 (likely coins/tokens)",
+      "addedAt": "2026-01-26T13:23:43.642Z"
+    },
+    {
+      "text": "Previous Leaderboard button suggests there are historical leaderboards",
+      "addedAt": "2026-01-26T13:23:43.642Z"
+    },
+    {
+      "text": "Site uses dark theme with casino logos as switchers",
+      "addedAt": "2026-01-26T13:23:43.642Z"
+    },
+    {
+      "text": "Site shows 'Code BOMAYE Leaderboard' with $500 total prize pool",
+      "addedAt": "2026-01-26T13:23:43.830Z"
+    },
+    {
+      "text": "Current leaderboard (CSGOWin) is paused/inactive",
+      "addedAt": "2026-01-26T13:23:43.830Z"
+    },
+    {
+      "text": "5 casino switcher buttons visible at top with logos",
+      "addedAt": "2026-01-26T13:23:43.830Z"
+    },
+    {
+      "text": "Site has clean dark theme layout",
+      "addedAt": "2026-01-26T13:23:43.830Z"
+    },
+    {
+      "text": "Previous/Join buttons present but leaderboard data unavailable",
+      "addedAt": "2026-01-26T13:23:43.830Z"
+    },
+    {
+      "text": "API endpoint detected but returns no leaderboard data due to paused status",
+      "addedAt": "2026-01-26T13:23:43.830Z"
+    },
+    {
+      "text": "Page shows 'Code BOMAYE Leaderboard' with total prize pool of 500",
+      "addedAt": "2026-01-26T13:23:45.199Z"
+    },
+    {
+      "text": "Leaderboard is currently paused - no entries visible",
+      "addedAt": "2026-01-26T13:23:45.199Z"
+    },
+    {
+      "text": "5 casino switcher buttons visible at top: Clash, Upgrader, CSGOWin, Cases, AceBet",
+      "addedAt": "2026-01-26T13:23:45.199Z"
+    },
+    {
+      "text": "CSGOWin appears to be the currently selected casino",
+      "addedAt": "2026-01-26T13:23:45.199Z"
+    },
+    {
+      "text": "Previous Leaderboard and Join Now buttons are present",
+      "addedAt": "2026-01-26T13:23:45.199Z"
+    },
+    {
+      "text": "API endpoint pattern suggests leaderboard data should be available at /api/leaderboard/{casino}",
+      "addedAt": "2026-01-26T13:23:45.199Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:05:53.821Z",
+  "updatedAt": "2026-02-04T11:17:29.829Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:23:28.675Z"
+}

@@ -1,0 +1,3225 @@
+════════════════════════════════════════════════════════════════════════════════
+                         BATCH SCRAPE REPORT
+════════════════════════════════════════════════════════════════════════════════
+Run ID: MKURA8M4
+Completed: 2026-01-26T07:51:46.294Z
+Duration: 113m 57s
+
+SUMMARY:
+  Total Sites: 652
+  Successful: 297
+  Failed: 355
+  Timed Out: 0
+  Total Leaderboards Extracted: 528
+
+════════════════════════════════════════════════════════════════════════════════
+✅ SUCCESSFUL SITES (297)
+════════════════════════════════════════════════════════════════════════════════
+
+betjuicy.com (6 leaderboards, 84s)
+  URL: http://betjuicy.com/leaderboard
+  - roobet: 7 entries, 85% confidence (markdown)
+  - packdraw: 14 entries, 68% confidence (markdown)
+  - csgoroll: 13 entries, 68% confidence (markdown)
+  - raingg: 14 entries, 68% confidence (markdown)
+  - csgogem: 14 entries, 68% confidence (markdown)
+  - rain: 14 entries, 68% confidence (markdown)
+
+betjuicy.com (6 leaderboards, 86s)
+  URL: http://betjuicy.com/leaderboard/csgogem
+  - roobet: 7 entries, 85% confidence (markdown)
+  - packdraw: 14 entries, 68% confidence (markdown)
+  - csgoroll: 13 entries, 68% confidence (markdown)
+  - raingg: 14 entries, 68% confidence (markdown)
+  - csgogem: 14 entries, 68% confidence (markdown)
+  - rain: 14 entries, 68% confidence (markdown)
+
+betjuicy.com (6 leaderboards, 84s)
+  URL: http://betjuicy.com/leaderboard/roobet
+  - roobet: 14 entries, 68% confidence (markdown)
+  - packdraw: 14 entries, 68% confidence (markdown)
+  - csgoroll: 13 entries, 68% confidence (markdown)
+  - raingg: 14 entries, 68% confidence (markdown)
+  - csgogem: 14 entries, 68% confidence (markdown)
+  - rain: 14 entries, 68% confidence (markdown)
+
+betjuicy.com (6 leaderboards, 84s)
+  URL: http://betjuicy.com/leaderboard/packdraw
+  - roobet: 14 entries, 68% confidence (markdown)
+  - packdraw: 14 entries, 68% confidence (markdown)
+  - csgoroll: 13 entries, 68% confidence (markdown)
+  - raingg: 14 entries, 68% confidence (markdown)
+  - csgogem: 14 entries, 68% confidence (markdown)
+  - rain: 14 entries, 68% confidence (markdown)
+
+betjuicy.com (6 leaderboards, 84s)
+  URL: http://betjuicy.com/leaderboard/csgoroll
+  - roobet: 14 entries, 68% confidence (markdown)
+  - packdraw: 14 entries, 68% confidence (markdown)
+  - csgoroll: 13 entries, 68% confidence (markdown)
+  - raingg: 14 entries, 68% confidence (markdown)
+  - csgogem: 14 entries, 68% confidence (markdown)
+  - rain: 14 entries, 68% confidence (markdown)
+
+betjuicy.com (6 leaderboards, 84s)
+  URL: http://betjuicy.com/leaderboard/raingg
+  - roobet: 14 entries, 68% confidence (markdown)
+  - packdraw: 14 entries, 68% confidence (markdown)
+  - csgoroll: 13 entries, 68% confidence (markdown)
+  - raingg: 14 entries, 68% confidence (markdown)
+  - csgogem: 14 entries, 68% confidence (markdown)
+  - rain: 14 entries, 68% confidence (markdown)
+
+vinnyvh.com (1 leaderboards, 21s)
+  URL: https://vinnyvh.com/leaderboard
+  - rain: 3 entries, 80% confidence (markdown)
+
+vinnyvh.com (1 leaderboards, 21s)
+  URL: https://vinnyvh.com/leaderboard/csgold
+  - rain: 3 entries, 80% confidence (markdown)
+
+www.ilovemav.com (3 leaderboards, 37s)
+  URL: https://www.ilovemav.com/leaderboards
+  - luxdrop: 14 entries, 85% confidence (markdown)
+  - chicken: 11 entries, 84% confidence (markdown)
+  - shock: 14 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 85s)
+  URL: https://spencerrewards.com/leaderboard
+  - packdraw: 3 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 85s)
+  URL: https://spencerrewards.com/leaderboard/chips
+  - packdraw: 3 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 85s)
+  URL: https://spencerrewards.com/leaderboard/packdraw
+  - packdraw: 3 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 85s)
+  URL: https://spencerrewards.com/leaderboard/rustmagic
+  - packdraw: 3 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 85s)
+  URL: https://spencerrewards.com/leaderboard/upgrader
+  - packdraw: 3 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 84s)
+  URL: https://spencerrewards.com/leaderboard/csgoluck
+  - packdraw: 3 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 84s)
+  URL: https://spencerrewards.com/leaderboard/juice
+  - packdraw: 3 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 84s)
+  URL: https://spencerrewards.com/leaderboard/rostake
+  - packdraw: 3 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+rwrds.gg (3 leaderboards, 70s)
+  URL: https://rwrds.gg/leaderboard/clash
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+rwrds.gg (3 leaderboards, 70s)
+  URL: https://rwrds.gg/leaderboard/upgrader
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+rwrds.gg (3 leaderboards, 70s)
+  URL: https://rwrds.gg/leaderboard/csgowin
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+rwrds.gg (3 leaderboards, 70s)
+  URL: https://rwrds.gg/leaderboard/cases
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+rwrds.gg (3 leaderboards, 70s)
+  URL: https://rwrds.gg/leaderboard/acebet
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+rwrds.gg (3 leaderboards, 70s)
+  URL: https://rwrds.gg/leaderboard
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+www.tanskidegen.com (3 leaderboards, 71s)
+  URL: https://www.tanskidegen.com/leaderboards
+  - csgowin: 10 entries, 85% confidence (api)
+  - csgogem: 20 entries, 90% confidence (api)
+  - splits: 31 entries, 90% confidence (api)
+
+wahy.gg (1 leaderboards, 21s)
+  URL: https://wahy.gg/leaderboard/csgogem
+  - rain: 5 entries, 78% confidence (markdown)
+
+wahy.gg (1 leaderboards, 21s)
+  URL: https://wahy.gg/leaderboard/clash
+  - rain: 8 entries, 82% confidence (markdown)
+
+wahy.gg (1 leaderboards, 21s)
+  URL: https://wahy.gg/leaderboard/upgrader
+  - rain: 10 entries, 85% confidence (markdown)
+
+wahy.gg (1 leaderboards, 21s)
+  URL: https://wahy.gg/leaderboard
+  - rain: 5 entries, 78% confidence (markdown)
+
+adukes.com (1 leaderboards, 22s)
+  URL: https://adukes.com/leaderboard
+  - chips: 10 entries, 85% confidence (markdown)
+
+adukes.com (1 leaderboards, 22s)
+  URL: https://adukes.com/leaderboard/chips
+  - chips: 10 entries, 85% confidence (markdown)
+
+adukes.com (1 leaderboards, 21s)
+  URL: https://adukes.com/leaderboard/packdraw
+  - chips: 10 entries, 85% confidence (markdown)
+
+augustrewards.com (1 leaderboards, 21s)
+  URL: https://augustrewards.com/leaderboard/yeet
+  - rain: 10 entries, 85% confidence (markdown)
+
+augustrewards.com (1 leaderboards, 22s)
+  URL: https://augustrewards.com/leaderboard/csgoroll
+  - rain: 10 entries, 85% confidence (markdown)
+
+augustrewards.com (1 leaderboards, 21s)
+  URL: https://augustrewards.com/leaderboard/csgogem
+  - rain: 3 entries, 76% confidence (markdown)
+
+augustrewards.com (1 leaderboards, 21s)
+  URL: https://augustrewards.com/leaderboard/upgrader
+  - rain: 10 entries, 85% confidence (markdown)
+
+augustrewards.com (1 leaderboards, 21s)
+  URL: https://augustrewards.com/leaderboard/csgowin
+  - rain: 9 entries, 85% confidence (markdown)
+
+augustrewards.com (1 leaderboards, 21s)
+  URL: https://augustrewards.com/leaderboard
+  - rain: 10 entries, 85% confidence (markdown)
+
+birb.bet (1 leaderboards, 22s)
+  URL: https://birb.bet/leaderboards
+  - bsite: 6 entries, 79% confidence (markdown)
+
+www.cheesy.gg (3 leaderboards, 38s)
+  URL: https://www.cheesy.gg/leaderboards
+  - chicken: 24 entries, 84% confidence (dom)
+  - packdraw: 5 entries, 82% confidence (markdown)
+  - juice: 17 entries, 100% confidence (markdown)
+
+codeshury.com (2 leaderboards, 49s)
+  URL: https://codeshury.com/leaderboard/upgrader
+  - upgrader: 9 entries, 85% confidence (markdown)
+  - csgold: 8 entries, 82% confidence (markdown)
+
+codeshury.com (2 leaderboards, 49s)
+  URL: https://codeshury.com/leaderboard/csgold
+  - upgrader: 9 entries, 85% confidence (markdown)
+  - csgold: 8 entries, 82% confidence (markdown)
+
+codeshury.com (2 leaderboards, 49s)
+  URL: https://codeshury.com/leaderboard
+  - upgrader: 9 entries, 85% confidence (markdown)
+  - csgold: 8 entries, 82% confidence (markdown)
+
+frequencybenders.com (4 leaderboards, 60s)
+  URL: https://frequencybenders.com/leaderboard
+  - shuffle: 10 entries, 85% confidence (api)
+  - rustmagic: 10 entries, 85% confidence (api)
+  - clash: 10 entries, 85% confidence (api)
+  - upgrader: 9 entries, 85% confidence (api)
+
+jammmyslots.com (2 leaderboards, 92s)
+  URL: https://jammmyslots.com/leaderboard/csgowin
+  - skinfans: 8 entries, 81% confidence (api)
+  - csgowin: 6 entries, 77% confidence (api)
+
+jammmyslots.com (2 leaderboards, 92s)
+  URL: https://jammmyslots.com/leaderboard/skinfans
+  - skinfans: 8 entries, 81% confidence (api)
+  - csgowin: 6 entries, 77% confidence (api)
+
+jammmyslots.com (2 leaderboards, 92s)
+  URL: https://jammmyslots.com/leaderboard/winovo
+  - skinfans: 8 entries, 81% confidence (api)
+  - csgowin: 6 entries, 77% confidence (api)
+
+jammmyslots.com (2 leaderboards, 92s)
+  URL: https://jammmyslots.com/leaderboard/upgrader
+  - skinfans: 8 entries, 81% confidence (api)
+  - csgowin: 6 entries, 77% confidence (api)
+
+jammmyslots.com (2 leaderboards, 92s)
+  URL: https://jammmyslots.com/leaderboard
+  - skinfans: 8 entries, 81% confidence (api)
+  - csgowin: 6 entries, 77% confidence (api)
+
+jammmyslots.com (1 leaderboards, 91s)
+  URL: https://jammmyslots.com/leaderboard/csgowin/7739f26b-c985-4e56-acac-4a5d783817ff
+  - csgowin: 6 entries, 77% confidence (api)
+
+jammmyslots.com (1 leaderboards, 91s)
+  URL: https://jammmyslots.com/leaderboard/skinfans/f0dc05e5-b261-426c-abf5-316d75bc4289
+  - csgowin: 6 entries, 77% confidence (api)
+
+muta.bet (2 leaderboards, 50s)
+  URL: https://muta.bet/leaderboard/shuffle
+  - shuffle: 22 entries, 85% confidence (markdown)
+  - packdraw: 9 entries, 85% confidence (markdown)
+
+muta.bet (2 leaderboards, 50s)
+  URL: https://muta.bet/leaderboard/packdraw
+  - shuffle: 22 entries, 85% confidence (markdown)
+  - packdraw: 9 entries, 85% confidence (markdown)
+
+muta.bet (2 leaderboards, 49s)
+  URL: https://muta.bet/leaderboard
+  - shuffle: 22 entries, 85% confidence (markdown)
+  - packdraw: 9 entries, 85% confidence (markdown)
+
+www.joonxo.com (3 leaderboards, 91s)
+  URL: https://www.joonxo.com/leaderboards
+  - csgowin: 10 entries, 85% confidence (markdown)
+  - gamba: 10 entries, 85% confidence (markdown)
+  - rain: 10 entries, 85% confidence (markdown)
+
+lighta.gg (1 leaderboards, 52s)
+  URL: https://lighta.gg/leaderboard/hypedrop
+  - csgowin: 24 entries, 65% confidence (dom)
+
+lighta.gg (1 leaderboards, 52s)
+  URL: https://lighta.gg/leaderboard/menace
+  - csgowin: 24 entries, 65% confidence (dom)
+
+lighta.gg (1 leaderboards, 52s)
+  URL: https://lighta.gg/leaderboard/csgowin
+  - csgowin: 24 entries, 65% confidence (dom)
+
+htg.bet (1 leaderboards, 22s)
+  URL: https://htg.bet/leaderboard/csgoroll
+  - rain: 8 entries, 82% confidence (markdown)
+
+htg.bet (1 leaderboards, 23s)
+  URL: https://htg.bet/leaderboard/skinrave
+  - rain: 11 entries, 84% confidence (markdown)
+
+htg.bet (1 leaderboards, 22s)
+  URL: https://htg.bet/leaderboard/roobet
+  - rain: 10 entries, 85% confidence (markdown)
+
+htg.bet (1 leaderboards, 22s)
+  URL: https://htg.bet/leaderboard/csgowin
+  - rain: 10 entries, 85% confidence (markdown)
+
+htg.bet (1 leaderboards, 21s)
+  URL: https://htg.bet/leaderboard/csgobig
+  - rain: 3 entries, 74% confidence (markdown)
+
+htg.bet (1 leaderboards, 22s)
+  URL: https://htg.bet/leaderboard
+  - rain: 8 entries, 82% confidence (markdown)
+
+camperzzrewards.com (5 leaderboards, 96s)
+  URL: https://camperzzrewards.com/leaderboard/rustmagic
+  - upgrader: 4 entries, 66% confidence (dom)
+  - csgowin: 4 entries, 61% confidence (dom)
+  - rustmagic: 7 entries, 100% confidence (markdown)
+  - shuffle: 7 entries, 100% confidence (markdown)
+  - juice: 7 entries, 100% confidence (markdown)
+
+camperzzrewards.com (5 leaderboards, 96s)
+  URL: https://camperzzrewards.com/leaderboard/upgrader
+  - upgrader: 4 entries, 66% confidence (dom)
+  - csgowin: 4 entries, 61% confidence (dom)
+  - rustmagic: 7 entries, 100% confidence (markdown)
+  - shuffle: 7 entries, 100% confidence (markdown)
+  - juice: 7 entries, 100% confidence (markdown)
+
+camperzzrewards.com (5 leaderboards, 96s)
+  URL: https://camperzzrewards.com/leaderboard/csgowin
+  - upgrader: 4 entries, 66% confidence (dom)
+  - csgowin: 4 entries, 61% confidence (dom)
+  - rustmagic: 7 entries, 100% confidence (markdown)
+  - shuffle: 7 entries, 100% confidence (markdown)
+  - juice: 7 entries, 100% confidence (markdown)
+
+camperzzrewards.com (5 leaderboards, 96s)
+  URL: https://camperzzrewards.com/leaderboard/rustmagic/previous
+  - upgrader: 4 entries, 66% confidence (dom)
+  - csgowin: 4 entries, 61% confidence (dom)
+  - rustmagic: 7 entries, 100% confidence (markdown)
+  - shuffle: 7 entries, 100% confidence (markdown)
+  - juice: 7 entries, 100% confidence (markdown)
+
+camperzzrewards.com (5 leaderboards, 96s)
+  URL: https://camperzzrewards.com/leaderboard/upgrader/previous
+  - upgrader: 4 entries, 66% confidence (dom)
+  - csgowin: 4 entries, 61% confidence (dom)
+  - rustmagic: 7 entries, 100% confidence (markdown)
+  - shuffle: 7 entries, 100% confidence (markdown)
+  - juice: 7 entries, 100% confidence (markdown)
+
+camperzzrewards.com (5 leaderboards, 94s)
+  URL: https://camperzzrewards.com/leaderboard/csgowin/previous
+  - upgrader: 4 entries, 66% confidence (dom)
+  - csgowin: 4 entries, 61% confidence (dom)
+  - rustmagic: 7 entries, 100% confidence (markdown)
+  - shuffle: 7 entries, 100% confidence (markdown)
+  - juice: 7 entries, 100% confidence (markdown)
+
+blaffsen.com (1 leaderboards, 22s)
+  URL: https://blaffsen.com/leaderboard/rustmagic
+  - rain: 8 entries, 82% confidence (markdown)
+
+blaffsen.com (1 leaderboards, 21s)
+  URL: https://blaffsen.com/leaderboard/upgrader
+  - rain: 10 entries, 85% confidence (markdown)
+
+blaffsen.com (1 leaderboards, 21s)
+  URL: https://blaffsen.com/leaderboard/juice
+  - rain: 4 entries, 76% confidence (markdown)
+
+blaffsen.com (1 leaderboards, 22s)
+  URL: https://blaffsen.com/leaderboard
+  - rain: 8 entries, 82% confidence (markdown)
+
+www.nerogambles.com (1 leaderboards, 22s)
+  URL: https://www.nerogambles.com/leaderboards/xfun
+  - bsite: 8 entries, 63% confidence (markdown)
+
+www.nerogambles.com (1 leaderboards, 23s)
+  URL: https://www.nerogambles.com/leaderboards/chickengg
+  - bsite: 5 entries, 83% confidence (markdown)
+
+www.nerogambles.com (1 leaderboards, 21s)
+  URL: https://www.nerogambles.com/leaderboards/rainbet
+  - bsite: 4 entries, 85% confidence (markdown)
+
+www.craaze-leaderboards.com (1 leaderboards, 23s)
+  URL: https://www.craaze-leaderboards.com/leaderboards/razed
+  - bsite: 12 entries, 75% confidence (markdown)
+
+darkrewards.com (1 leaderboards, 21s)
+  URL: https://darkrewards.com/leaderboard/upgrader
+  - rain: 10 entries, 85% confidence (markdown)
+
+darkrewards.com (1 leaderboards, 21s)
+  URL: https://darkrewards.com/leaderboard/daddyskins
+  - rain: 6 entries, 85% confidence (markdown)
+
+darkrewards.com (1 leaderboards, 21s)
+  URL: https://darkrewards.com/leaderboard/csgowin
+  - rain: 7 entries, 82% confidence (markdown)
+
+www.hydrarewards.com (1 leaderboards, 103s)
+  URL: https://www.hydrarewards.com/leaderboards
+  - clashgg: 26 entries, 73% confidence (api)
+
+www.hydrarewards.com (1 leaderboards, 104s)
+  URL: https://www.hydrarewards.com/leaderboards/clashgg
+  - clashgg: 26 entries, 73% confidence (api)
+
+www.hydrarewards.com (1 leaderboards, 104s)
+  URL: https://www.hydrarewards.com/leaderboards/csbattle
+  - clashgg: 26 entries, 73% confidence (api)
+
+www.hydrarewards.com (1 leaderboards, 104s)
+  URL: https://www.hydrarewards.com/leaderboards/packdraw
+  - clashgg: 7 entries, 85% confidence (markdown)
+
+www.hydrarewards.com (1 leaderboards, 103s)
+  URL: https://www.hydrarewards.com/leaderboards/csgowin
+  - clashgg: 7 entries, 85% confidence (markdown)
+
+www.hydrarewards.com (1 leaderboards, 103s)
+  URL: https://www.hydrarewards.com/leaderboards/csgoroll
+  - clashgg: 7 entries, 85% confidence (markdown)
+
+karmacf.com (1 leaderboards, 46s)
+  URL: https://karmacf.com/leaderboard
+  - rain: 9 entries, 85% confidence (markdown)
+
+luddze.com (1 leaderboards, 20s)
+  URL: https://luddze.com/leaderboard?site=csgoroll
+  - rain: 14 entries, 66% confidence (api)
+
+codesilkk.com (4 leaderboards, 49s)
+  URL: https://codesilkk.com/leaderboards
+  - clash: 10 entries, 85% confidence (markdown)
+  - csgowin: 17 entries, 70% confidence (markdown)
+  - rustclash: 10 entries, 85% confidence (markdown)
+  - bandit: 10 entries, 85% confidence (markdown)
+
+mimegamba.com (1 leaderboards, 22s)
+  URL: https://mimegamba.com/leaderboards
+  - bsite: 12 entries, 85% confidence (markdown)
+
+primarygamba.com (1 leaderboards, 15s)
+  URL: https://primarygamba.com/leaderboards
+  - gamba: 3 entries, 47% confidence (geometric)
+
+n4n4rewards.com (2 leaderboards, 39s)
+  URL: https://n4n4rewards.com/leaderboard
+  - clashgg: 20 entries, 100% confidence (dom)
+  - rustclash: 29 entries, 70% confidence (markdown)
+
+www.z4ntu.xyz (2 leaderboards, 23s)
+  URL: https://www.z4ntu.xyz/leaderboard
+  - clash: 30 entries, 73% confidence (api)
+  - chips: 10 entries, 85% confidence (markdown)
+
+bcx91.gg (1 leaderboards, 23s)
+  URL: https://bcx91.gg/leaderboard/csgoroll
+  - rain: 7 entries, 83% confidence (markdown)
+
+bcx91.gg (1 leaderboards, 22s)
+  URL: https://bcx91.gg/leaderboard/chicken
+  - rain: 5 entries, 83% confidence (markdown)
+
+bcx91.gg (1 leaderboards, 23s)
+  URL: https://bcx91.gg/leaderboard/skinrave
+  - rain: 19 entries, 85% confidence (markdown)
+
+bcx91.gg (1 leaderboards, 22s)
+  URL: https://bcx91.gg/leaderboard/shock
+  - rain: 10 entries, 85% confidence (markdown)
+
+bcx91.gg (1 leaderboards, 23s)
+  URL: https://bcx91.gg/leaderboard
+  - rain: 7 entries, 83% confidence (markdown)
+
+flashedrewards.com (1 leaderboards, 31s)
+  URL: https://flashedrewards.com/leaderboard
+  - splits: 6 entries, 85% confidence (markdown)
+
+flashedrewards.com (1 leaderboards, 31s)
+  URL: https://flashedrewards.com/leaderboard/splits
+  - splits: 6 entries, 85% confidence (markdown)
+
+boyka.gg (1 leaderboards, 21s)
+  URL: https://boyka.gg/leaderboard
+  - rain: 10 entries, 85% confidence (markdown)
+
+boyka.gg (1 leaderboards, 21s)
+  URL: https://boyka.gg/leaderboard/upgrader
+  - rain: 10 entries, 85% confidence (markdown)
+
+boyka.gg (1 leaderboards, 21s)
+  URL: https://boyka.gg/leaderboard/daddyskins
+  - rain: 4 entries, 85% confidence (markdown)
+
+papasrewards.gg (4 leaderboards, 49s)
+  URL: https://papasrewards.gg/leaderboard
+  - clash: 3 entries, 80% confidence (markdown)
+  - rustclash: 3 entries, 80% confidence (markdown)
+  - csgobig: 3 entries, 100% confidence (geometric)
+  - csgoluck: 3 entries, 80% confidence (markdown)
+
+papasrewards.gg (4 leaderboards, 49s)
+  URL: https://papasrewards.gg/leaderboard/clash
+  - clash: 3 entries, 80% confidence (markdown)
+  - rustclash: 3 entries, 80% confidence (markdown)
+  - csgobig: 3 entries, 100% confidence (geometric)
+  - csgoluck: 3 entries, 80% confidence (markdown)
+
+papasrewards.gg (4 leaderboards, 49s)
+  URL: https://papasrewards.gg/leaderboard/rustclash
+  - clash: 3 entries, 80% confidence (markdown)
+  - rustclash: 3 entries, 80% confidence (markdown)
+  - csgobig: 3 entries, 100% confidence (geometric)
+  - csgoluck: 3 entries, 80% confidence (markdown)
+
+papasrewards.gg (4 leaderboards, 49s)
+  URL: https://papasrewards.gg/leaderboard/csgobig
+  - clash: 3 entries, 80% confidence (markdown)
+  - rustclash: 3 entries, 80% confidence (markdown)
+  - csgobig: 3 entries, 100% confidence (geometric)
+  - csgoluck: 3 entries, 80% confidence (markdown)
+
+papasrewards.gg (4 leaderboards, 48s)
+  URL: https://papasrewards.gg/leaderboard/csgoluck
+  - clash: 3 entries, 80% confidence (markdown)
+  - rustclash: 3 entries, 80% confidence (markdown)
+  - csgobig: 3 entries, 100% confidence (geometric)
+  - csgoluck: 3 entries, 80% confidence (markdown)
+
+addicted.gg (1 leaderboards, 21s)
+  URL: https://addicted.gg/leaderboard/csgoroll
+  - rain: 3 entries, 80% confidence (markdown)
+
+addicted.gg (1 leaderboards, 22s)
+  URL: https://addicted.gg/leaderboard/rain
+  - rain: 10 entries, 85% confidence (markdown)
+
+svenskdrama.com (1 leaderboards, 21s)
+  URL: https://svenskdrama.com/leaderboard/csgoroll
+  - rain: 7 entries, 81% confidence (markdown)
+
+svenskdrama.com (1 leaderboards, 21s)
+  URL: https://svenskdrama.com/leaderboard
+  - rain: 7 entries, 81% confidence (markdown)
+
+julsy.gg (1 leaderboards, 24s)
+  URL: https://julsy.gg/leaderboard/csgoroll
+  - rain: 8 entries, 83% confidence (markdown)
+
+julsy.gg (1 leaderboards, 23s)
+  URL: https://julsy.gg/leaderboard/rain
+  - rain: 3 entries, 80% confidence (markdown)
+
+julsy.gg (1 leaderboards, 24s)
+  URL: https://julsy.gg/leaderboard
+  - rain: 8 entries, 83% confidence (markdown)
+
+guap.gg (1 leaderboards, 21s)
+  URL: https://guap.gg/leaderboard
+  - rain: 4 entries, 76% confidence (markdown)
+
+guap.gg (1 leaderboards, 21s)
+  URL: https://guap.gg/leaderboard/banditcamp
+  - rain: 4 entries, 76% confidence (markdown)
+
+benny.gg (3 leaderboards, 37s)
+  URL: https://benny.gg/leaderboard
+  - packdraw: 16 entries, 94% confidence (markdown)
+  - shuffle: 29 entries, 85% confidence (markdown)
+  - hunt: 10 entries, 85% confidence (markdown)
+
+pikas.gg (1 leaderboards, 21s)
+  URL: https://pikas.gg/leaderboard/csbattle
+  - rain: 8 entries, 82% confidence (markdown)
+
+pikas.gg (1 leaderboards, 21s)
+  URL: https://pikas.gg/leaderboard
+  - rain: 8 entries, 82% confidence (markdown)
+
+robzn.gg (1 leaderboards, 21s)
+  URL: https://robzn.gg/leaderboard/big
+  - rain: 4 entries, 76% confidence (markdown)
+
+robzn.gg (1 leaderboards, 23s)
+  URL: https://robzn.gg/leaderboard/rain
+  - rain: 3 entries, 80% confidence (markdown)
+
+robzn.gg (1 leaderboards, 22s)
+  URL: https://robzn.gg/leaderboard/csgoroll
+  - rain: 12 entries, 85% confidence (markdown)
+
+robzn.gg (1 leaderboards, 22s)
+  URL: https://robzn.gg/leaderboard/hypedrop
+  - rain: 10 entries, 85% confidence (markdown)
+
+robzn.gg (1 leaderboards, 21s)
+  URL: https://robzn.gg/leaderboard/csbattle
+  - rain: 4 entries, 76% confidence (markdown)
+
+robzn.gg (1 leaderboards, 21s)
+  URL: https://robzn.gg/leaderboard/shock
+  - rain: 10 entries, 85% confidence (markdown)
+
+robzn.gg (1 leaderboards, 21s)
+  URL: https://robzn.gg/leaderboard
+  - rain: 4 entries, 76% confidence (markdown)
+
+cliffordgambles.com (2 leaderboards, 35s)
+  URL: https://cliffordgambles.com/leaderboard/rustclash
+  - clash: 10 entries, 85% confidence (markdown)
+  - rustclash: 10 entries, 85% confidence (markdown)
+
+cliffordgambles.com (2 leaderboards, 35s)
+  URL: https://cliffordgambles.com/leaderboard/rustmagic
+  - clash: 10 entries, 85% confidence (markdown)
+  - rustclash: 10 entries, 85% confidence (markdown)
+
+beefygambles.gg (1 leaderboards, 19s)
+  URL: https://beefygambles.gg/leaderboard/csgold
+  - rain: 3 entries, 80% confidence (markdown)
+
+beefygambles.gg (1 leaderboards, 20s)
+  URL: https://beefygambles.gg/leaderboard/daddyskins
+  - rain: 7 entries, 85% confidence (markdown)
+
+rekzrewards.com (1 leaderboards, 22s)
+  URL: https://rekzrewards.com/leaderboard
+  - rain: 10 entries, 85% confidence (markdown)
+
+rekzrewards.com (1 leaderboards, 22s)
+  URL: https://rekzrewards.com/leaderboard/metaspins
+  - rain: 10 entries, 85% confidence (markdown)
+
+rekzrewards.com (1 leaderboards, 21s)
+  URL: https://rekzrewards.com/leaderboard/upgrader
+  - rain: 10 entries, 85% confidence (markdown)
+
+trendyallin.gg (1 leaderboards, 22s)
+  URL: https://trendyallin.gg/leaderboard
+  - rain: 14 entries, 100% confidence (markdown)
+
+trendyallin.gg (1 leaderboards, 22s)
+  URL: https://trendyallin.gg/leaderboard/roobet
+  - rain: 14 entries, 100% confidence (markdown)
+
+trendyallin.gg (1 leaderboards, 21s)
+  URL: https://trendyallin.gg/leaderboard/packdraw
+  - rain: 15 entries, 85% confidence (markdown)
+
+flyerempyre.tv (1 leaderboards, 30s)
+  URL: https://flyerempyre.tv/leaderboard
+  - shuffle: 10 entries, 85% confidence (markdown)
+
+flyerempyre.tv (1 leaderboards, 30s)
+  URL: https://flyerempyre.tv/leaderboard/shuffle
+  - shuffle: 10 entries, 85% confidence (markdown)
+
+sametreward.com (1 leaderboards, 21s)
+  URL: https://sametreward.com/leaderboard/daddyskins
+  - rain: 8 entries, 85% confidence (markdown)
+
+sametreward.com (1 leaderboards, 21s)
+  URL: https://sametreward.com/leaderboard
+  - rain: 8 entries, 85% confidence (markdown)
+
+banksy.gg (1 leaderboards, 22s)
+  URL: https://banksy.gg/leaderboard
+  - rain: 15 entries, 85% confidence (markdown)
+
+banksy.gg (1 leaderboards, 22s)
+  URL: https://banksy.gg/leaderboard/stake
+  - rain: 15 entries, 85% confidence (markdown)
+
+rainsrewards.gg (1 leaderboards, 40s)
+  URL: https://rainsrewards.gg/leaderboards/packdraw
+  - packdraw: 6 entries, 84% confidence (markdown)
+
+rainsrewards.gg (1 leaderboards, 40s)
+  URL: https://rainsrewards.gg/leaderboards/rustclash
+  - packdraw: 6 entries, 84% confidence (markdown)
+
+rainsrewards.gg (1 leaderboards, 40s)
+  URL: https://rainsrewards.gg/leaderboards/rustmagic
+  - packdraw: 6 entries, 84% confidence (markdown)
+
+suckaa.gg (1 leaderboards, 22s)
+  URL: https://suckaa.gg/leaderboard/lootbox
+  - rain: 10 entries, 85% confidence (markdown)
+
+suckaa.gg (1 leaderboards, 22s)
+  URL: https://suckaa.gg/leaderboard
+  - rain: 10 entries, 85% confidence (markdown)
+
+deadfoool.gg (3 leaderboards, 61s)
+  URL: https://deadfoool.gg/leaderboard/skinrave
+  - skinrave: 10 entries, 85% confidence (markdown)
+  - acebet: 10 entries, 85% confidence (markdown)
+  - daddyskins: 9 entries, 85% confidence (markdown)
+
+deadfoool.gg (3 leaderboards, 61s)
+  URL: https://deadfoool.gg/leaderboard/daddyskins
+  - skinrave: 10 entries, 85% confidence (markdown)
+  - acebet: 10 entries, 85% confidence (markdown)
+  - daddyskins: 9 entries, 85% confidence (markdown)
+
+deadfoool.gg (3 leaderboards, 61s)
+  URL: https://deadfoool.gg/leaderboard
+  - skinrave: 10 entries, 85% confidence (markdown)
+  - acebet: 10 entries, 85% confidence (markdown)
+  - daddyskins: 9 entries, 85% confidence (markdown)
+
+slax.tv (1 leaderboards, 19s)
+  URL: https://slax.tv/leaderboard/daddyskins
+  - rain: 10 entries, 85% confidence (markdown)
+
+oeg.gg (1 leaderboards, 23s)
+  URL: https://oeg.gg/leaderboard/roobet
+  - rain: 20 entries, 85% confidence (markdown)
+
+oeg.gg (1 leaderboards, 23s)
+  URL: https://oeg.gg/leaderboard/packdraw
+  - rain: 20 entries, 85% confidence (markdown)
+
+oeg.gg (1 leaderboards, 23s)
+  URL: https://oeg.gg/leaderboard
+  - rain: 20 entries, 85% confidence (markdown)
+
+compbros.com (1 leaderboards, 21s)
+  URL: https://compbros.com/leaderboard/rainbet
+  - rain: 10 entries, 85% confidence (markdown)
+
+compbros.com (1 leaderboards, 21s)
+  URL: https://compbros.com/leaderboard/csgogem
+  - rain: 8 entries, 82% confidence (markdown)
+
+compbros.com (1 leaderboards, 21s)
+  URL: https://compbros.com/leaderboard/clash
+  - rain: 8 entries, 82% confidence (markdown)
+
+judista.com (1 leaderboards, 22s)
+  URL: https://judista.com/leaderboard/roobet
+  - rain: 10 entries, 85% confidence (markdown)
+
+judista.com (1 leaderboards, 22s)
+  URL: https://judista.com/leaderboard/packdraw
+  - rain: 10 entries, 85% confidence (markdown)
+
+judista.com (1 leaderboards, 22s)
+  URL: https://judista.com/leaderboard
+  - rain: 10 entries, 85% confidence (markdown)
+
+joshbets.gg (1 leaderboards, 22s)
+  URL: https://joshbets.gg/leaderboard/packdraw
+  - rain: 10 entries, 85% confidence (markdown)
+
+joshbets.gg (1 leaderboards, 22s)
+  URL: https://joshbets.gg/leaderboard/hypedrop
+  - rain: 8 entries, 85% confidence (markdown)
+
+levrewards.com (1 leaderboards, 21s)
+  URL: https://levrewards.com/leaderboard/diceblox
+  - rain: 10 entries, 85% confidence (markdown)
+
+levrewards.com (1 leaderboards, 21s)
+  URL: https://levrewards.com/leaderboard/packdraw
+  - rain: 10 entries, 85% confidence (markdown)
+
+levrewards.com (1 leaderboards, 21s)
+  URL: https://levrewards.com/leaderboard/rustbattle
+  - rain: 8 entries, 81% confidence (markdown)
+
+levrewards.com (1 leaderboards, 21s)
+  URL: https://levrewards.com/leaderboard/csbattle
+  - rain: 8 entries, 81% confidence (markdown)
+
+levrewards.com (1 leaderboards, 21s)
+  URL: https://levrewards.com/leaderboard/csgowin
+  - rain: 8 entries, 81% confidence (markdown)
+
+solacerewards.com (3 leaderboards, 45s)
+  URL: https://solacerewards.com/leaderboard
+  - packdraw: 10 entries, 81% confidence (markdown)
+  - rainbet: 19 entries, 82% confidence (markdown)
+  - rain: 19 entries, 82% confidence (markdown)
+
+oracorin.com (1 leaderboards, 21s)
+  URL: https://oracorin.com/leaderboard/skinrave
+  - rain: 5 entries, 79% confidence (markdown)
+
+oracorin.com (1 leaderboards, 21s)
+  URL: https://oracorin.com/leaderboard/upgrader
+  - rain: 10 entries, 85% confidence (markdown)
+
+oracorin.com (1 leaderboards, 21s)
+  URL: https://oracorin.com/leaderboard/csgold
+  - rain: 9 entries, 84% confidence (markdown)
+
+oracorin.com (1 leaderboards, 21s)
+  URL: https://oracorin.com/leaderboard/daddyskins
+  - rain: 3 entries, 81% confidence (markdown)
+
+oracorin.com (1 leaderboards, 21s)
+  URL: https://oracorin.com/leaderboard/acebet
+  - rain: 10 entries, 85% confidence (markdown)
+
+oracorin.com (1 leaderboards, 21s)
+  URL: https://oracorin.com/leaderboard
+  - rain: 5 entries, 79% confidence (markdown)
+
+kaoz.gg (1 leaderboards, 21s)
+  URL: https://kaoz.gg/leaderboard/upgrader
+  - rain: 10 entries, 85% confidence (markdown)
+
+kaoz.gg (1 leaderboards, 21s)
+  URL: https://kaoz.gg/leaderboard/skinrave
+  - rain: 6 entries, 79% confidence (markdown)
+
+kaoz.gg (1 leaderboards, 21s)
+  URL: https://kaoz.gg/leaderboard/csgold
+  - rain: 5 entries, 78% confidence (markdown)
+
+kaoz.gg (1 leaderboards, 21s)
+  URL: https://kaoz.gg/leaderboard
+  - rain: 10 entries, 85% confidence (markdown)
+
+zackwinrewards.com (1 leaderboards, 21s)
+  URL: https://zackwinrewards.com/leaderboard/chips
+  - rain: 10 entries, 85% confidence (markdown)
+
+zackwinrewards.com (1 leaderboards, 21s)
+  URL: https://zackwinrewards.com/leaderboard/clash
+  - rain: 7 entries, 82% confidence (markdown)
+
+zackwinrewards.com (1 leaderboards, 21s)
+  URL: https://zackwinrewards.com/leaderboard/upgrader
+  - rain: 4 entries, 85% confidence (markdown)
+
+zackwinrewards.com (1 leaderboards, 21s)
+  URL: https://zackwinrewards.com/leaderboard
+  - rain: 10 entries, 85% confidence (markdown)
+
+kermieet.com (1 leaderboards, 31s)
+  URL: https://kermieet.com/leaderboard/shuffle
+  - shuffle: 10 entries, 85% confidence (markdown)
+
+kermieet.com (1 leaderboards, 31s)
+  URL: https://kermieet.com/leaderboard/thrill
+  - shuffle: 10 entries, 85% confidence (markdown)
+
+kermieet.com (1 leaderboards, 31s)
+  URL: https://kermieet.com/leaderboard
+  - shuffle: 10 entries, 85% confidence (markdown)
+
+hdgameful.com (1 leaderboards, 21s)
+  URL: https://hdgameful.com/leaderboard
+  - bsite: 12 entries, 100% confidence (api)
+
+papahonch.tv (1 leaderboards, 31s)
+  URL: https://papahonch.tv/leaderboard/shuffle
+  - shuffle: 15 entries, 85% confidence (markdown)
+
+papahonch.tv (1 leaderboards, 31s)
+  URL: https://papahonch.tv/leaderboard
+  - shuffle: 15 entries, 85% confidence (markdown)
+
+hellcatrazrewards.gg (1 leaderboards, 31s)
+  URL: https://hellcatrazrewards.gg/leaderboard/chips
+  - chips: 12 entries, 85% confidence (markdown)
+
+rumleren.com (3 leaderboards, 34s)
+  URL: https://rumleren.com/leaderboards
+  - csbattle: 5 entries, 75% confidence (api)
+  - packdraw: 10 entries, 85% confidence (api)
+  - shock: 10 entries, 85% confidence (api)
+
+lowlimit.gg (1 leaderboards, 22s)
+  URL: https://lowlimit.gg/leaderboard/stake
+  - rain: 10 entries, 85% confidence (markdown)
+
+lowlimit.gg (1 leaderboards, 22s)
+  URL: https://lowlimit.gg/leaderboard
+  - rain: 10 entries, 85% confidence (markdown)
+
+rubengambles.com (1 leaderboards, 23s)
+  URL: https://rubengambles.com/leaderboards
+  - bsite: 14 entries, 90% confidence (api)
+
+qrbet.gg (1 leaderboards, 22s)
+  URL: https://qrbet.gg/leaderboard
+  - bsite: 12 entries, 100% confidence (api)
+
+qrbet.gg (1 leaderboards, 22s)
+  URL: https://qrbet.gg/leaderboard/clash
+  - bsite: 12 entries, 100% confidence (api)
+
+qrbet.gg (1 leaderboards, 22s)
+  URL: https://qrbet.gg/leaderboard/csbattle
+  - bsite: 7 entries, 100% confidence (api)
+
+www.betsecret.gg (4 leaderboards, 71s)
+  URL: https://www.betsecret.gg/leaderboards
+  - csgogem: 20 entries, 90% confidence (api)
+  - packdraw: 8 entries, 85% confidence (markdown)
+  - csgowin: 6 entries, 79% confidence (api)
+  - rustmagic: 13 entries, 90% confidence (api)
+
+www.99xrewards.com (1 leaderboards, 15s)
+  URL: https://www.99xrewards.com/leaderboards
+  - stake: 13 entries, 100% confidence (api)
+
+www.refbot.ai (1 leaderboards, 30s)
+  URL: https://www.refbot.ai/leaderboards/packdraw
+  - packdraw: 15 entries, 85% confidence (markdown)
+
+www.refbot.ai (1 leaderboards, 29s)
+  URL: https://www.refbot.ai/leaderboards/raingg
+  - packdraw: 15 entries, 85% confidence (markdown)
+
+www.refbot.ai (1 leaderboards, 29s)
+  URL: https://www.refbot.ai/leaderboards
+  - packdraw: 15 entries, 85% confidence (markdown)
+
+www.refbot.ai (1 leaderboards, 29s)
+  URL: https://www.refbot.ai/leaderboards/csbattle
+  - packdraw: 15 entries, 85% confidence (markdown)
+
+www.refbot.ai (1 leaderboards, 30s)
+  URL: https://www.refbot.ai/leaderboards/clashgg
+  - packdraw: 15 entries, 85% confidence (markdown)
+
+www.refbot.ai (1 leaderboards, 27s)
+  URL: https://www.refbot.ai/leaderboards/csgogem
+  - packdraw: 15 entries, 85% confidence (markdown)
+
+jackedgambles.com (1 leaderboards, 21s)
+  URL: https://jackedgambles.com/leaderboard
+  - bsite: 53 entries, 71% confidence (api)
+
+obierewards.gg (3 leaderboards, 59s)
+  URL: https://obierewards.gg/leaderboards
+  - rain: 19 entries, 94% confidence (markdown)
+  - shuffle: 14 entries, 100% confidence (markdown)
+  - hunt: 17 entries, 73% confidence (markdown)
+
+obierewards.gg (3 leaderboards, 57s)
+  URL: https://obierewards.gg/leaderboards/shuffle
+  - rain: 19 entries, 94% confidence (markdown)
+  - shuffle: 24 entries, 100% confidence (markdown)
+  - hunt: 17 entries, 73% confidence (markdown)
+
+snackyrewards.com (2 leaderboards, 182s)
+  URL: https://snackyrewards.com/leaderboards
+  - rustmagic: 30 entries, 68% confidence (api)
+  - upgrader: 23 entries, 85% confidence (markdown)
+
+www.sexyboom.net (1 leaderboards, 22s)
+  URL: https://www.sexyboom.net/leaderboards/csgogem
+  - bsite: 20 entries, 90% confidence (api)
+
+www.sexyboom.net (1 leaderboards, 21s)
+  URL: https://www.sexyboom.net/leaderboards/acebet
+  - bsite: 12 entries, 85% confidence (markdown)
+
+www.sexyboom.net (1 leaderboards, 21s)
+  URL: https://www.sexyboom.net/leaderboards/upgrader
+  - bsite: 10 entries, 85% confidence (markdown)
+
+www.yahyarewards.com (1 leaderboards, 21s)
+  URL: https://www.yahyarewards.com/leaderboards/menace
+  - bsite: 11 entries, 83% confidence (api)
+
+www.yahyarewards.com (1 leaderboards, 20s)
+  URL: https://www.yahyarewards.com/leaderboards/upgrader
+  - bsite: 11 entries, 85% confidence (markdown)
+
+pyrexx.gg (2 leaderboards, 42s)
+  URL: https://pyrexx.gg/leaderboard/rainbet
+  - rainbet: 5 entries, 82% confidence (markdown)
+  - rain: 5 entries, 82% confidence (markdown)
+
+pyrexx.gg (2 leaderboards, 42s)
+  URL: https://pyrexx.gg/leaderboard/rain
+  - rainbet: 5 entries, 82% confidence (markdown)
+  - rain: 5 entries, 82% confidence (markdown)
+
+www.rustgangrewards.com (1 leaderboards, 22s)
+  URL: https://www.rustgangrewards.com/leaderboards/csgoempire
+  - bsite: 14 entries, 78% confidence (api)
+
+www.rustgangrewards.com (1 leaderboards, 21s)
+  URL: https://www.rustgangrewards.com/leaderboards/csgogem
+  - bsite: 4 entries, 78% confidence (markdown)
+
+krim.bet (2 leaderboards, 27s)
+  URL: https://krim.bet/leaderboard
+  - roobet: 31 entries, 100% confidence (api)
+  - packdraw: 31 entries, 100% confidence (api)
+
+www.trophierewards.com (3 leaderboards, 52s)
+  URL: https://www.trophierewards.com/leaderboards
+  - bandit: 4 entries, 79% confidence (markdown)
+  - rustmagic: 12 entries, 90% confidence (api)
+  - banditcamp: 4 entries, 79% confidence (markdown)
+
+www.princerewards.com (1 leaderboards, 63s)
+  URL: https://www.princerewards.com/leaderboards/rainbet
+  - rainbet: 11 entries, 85% confidence (markdown)
+
+www.xck97x.com (2 leaderboards, 66s)
+  URL: https://www.xck97x.com/leaderboards
+  - roobet: 81 entries, 100% confidence (markdown)
+  - lootbox: 14 entries, 85% confidence (markdown)
+
+www.xck97x.com (2 leaderboards, 66s)
+  URL: https://www.xck97x.com/leaderboards/roobet
+  - roobet: 81 entries, 100% confidence (markdown)
+  - lootbox: 14 entries, 85% confidence (markdown)
+
+www.xck97x.com (2 leaderboards, 66s)
+  URL: https://www.xck97x.com/leaderboards/packdraw
+  - roobet: 81 entries, 100% confidence (markdown)
+  - lootbox: 14 entries, 85% confidence (markdown)
+
+www.xck97x.com (2 leaderboards, 66s)
+  URL: https://www.xck97x.com/leaderboards/csgold
+  - roobet: 81 entries, 100% confidence (markdown)
+  - lootbox: 14 entries, 85% confidence (markdown)
+
+www.xck97x.com (2 leaderboards, 66s)
+  URL: https://www.xck97x.com/leaderboards/lootbox
+  - roobet: 81 entries, 100% confidence (markdown)
+  - lootbox: 14 entries, 85% confidence (markdown)
+
+www.lmbrewards.com (1 leaderboards, 20s)
+  URL: https://www.lmbrewards.com/leaderboards/earnlab
+  - bsite: 9 entries, 85% confidence (markdown)
+
+www.swimwaregambles.com (1 leaderboards, 22s)
+  URL: https://www.swimwaregambles.com/leaderboards
+  - clash: 9 entries, 100% confidence (dom)
+
+bomayerewards.com (3 leaderboards, 69s)
+  URL: https://bomayerewards.com/leaderboard/clash
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+bomayerewards.com (3 leaderboards, 71s)
+  URL: https://bomayerewards.com/leaderboard/upgrader
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+bomayerewards.com (3 leaderboards, 71s)
+  URL: https://bomayerewards.com/leaderboard/csgowin
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+bomayerewards.com (3 leaderboards, 71s)
+  URL: https://bomayerewards.com/leaderboard/cases
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+bomayerewards.com (3 leaderboards, 71s)
+  URL: https://bomayerewards.com/leaderboard/acebet
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+bomayerewards.com (3 leaderboards, 71s)
+  URL: https://bomayerewards.com/leaderboard
+  - clash: 4 entries, 76% confidence (markdown)
+  - upgrader: 4 entries, 95% confidence (markdown)
+  - clashgg: 4 entries, 76% confidence (markdown)
+
+boyski.gg (1 leaderboards, 22s)
+  URL: https://boyski.gg/leaderboard
+  - rain: 8 entries, 83% confidence (markdown)
+
+boyski.gg (1 leaderboards, 22s)
+  URL: https://boyski.gg/leaderboard/csgold
+  - rain: 8 entries, 83% confidence (markdown)
+
+boyski.gg (1 leaderboards, 22s)
+  URL: https://boyski.gg/leaderboard/shock
+  - rain: 10 entries, 85% confidence (markdown)
+
+doug.bet (3 leaderboards, 43s)
+  URL: https://doug.bet/leaderboard
+  - roobet: 19 entries, 85% confidence (markdown)
+  - packdraw: 17 entries, 85% confidence (markdown)
+  - csgobig: 7 entries, 83% confidence (markdown)
+
+25logan25.gg (1 leaderboards, 42s)
+  URL: http://25logan25.gg/leaderboards
+  - skinrave: 32 entries, 100% confidence (dom)
+
+25logan25.gg (1 leaderboards, 41s)
+  URL: http://25logan25.gg/leaderboards/roobet
+  - skinrave: 32 entries, 100% confidence (dom)
+
+25logan25.gg (1 leaderboards, 41s)
+  URL: http://25logan25.gg/leaderboards/skinrave
+  - skinrave: 32 entries, 100% confidence (dom)
+
+gldnrewards.com (2 leaderboards, 49s)
+  URL: https://gldnrewards.com/leaderboards
+  - csgogem: 34 entries, 73% confidence (markdown)
+  - packdraw: 13 entries, 85% confidence (markdown)
+
+www.gvrewards.com (1 leaderboards, 15s)
+  URL: https://www.gvrewards.com/leaderboard
+  - stake: 20 entries, 51% confidence (markdown)
+
+gallkrist.gg (3 leaderboards, 33s)
+  URL: http://gallkrist.gg/leaderboard
+  - upgrader: 11 entries, 100% confidence (api)
+  - csgowin: 3 entries, 100% confidence (api)
+  - shuffle: 10 entries, 100% confidence (dom)
+
+gallkrist.gg (3 leaderboards, 33s)
+  URL: http://gallkrist.gg/leaderboard/shuffle
+  - upgrader: 11 entries, 100% confidence (api)
+  - csgowin: 3 entries, 100% confidence (api)
+  - shuffle: 10 entries, 100% confidence (dom)
+
+gallkrist.gg (3 leaderboards, 33s)
+  URL: http://gallkrist.gg/leaderboard/upgrader
+  - upgrader: 11 entries, 100% confidence (api)
+  - csgowin: 3 entries, 100% confidence (api)
+  - shuffle: 10 entries, 100% confidence (dom)
+
+gallkrist.gg (3 leaderboards, 33s)
+  URL: http://gallkrist.gg/leaderboard/csgowin
+  - upgrader: 11 entries, 100% confidence (api)
+  - csgowin: 3 entries, 100% confidence (api)
+  - shuffle: 10 entries, 100% confidence (dom)
+
+prodigyddk.com (3 leaderboards, 91s)
+  URL: https://prodigyddk.com/leaderboard
+  - hunt: 7 entries, 79% confidence (api)
+  - cases: 31 entries, 90% confidence (api)
+  - stake: 8 entries, 100% confidence (markdown)
+
+www.maccyb.com (1 leaderboards, 22s)
+  URL: https://www.maccyb.com/leaderboards/menace
+  - bsite: 13 entries, 100% confidence (markdown)
+
+www.maccyb.com (1 leaderboards, 22s)
+  URL: https://www.maccyb.com/leaderboards/packdraw
+  - bsite: 40 entries, 87% confidence (api)
+
+lobanjica.com (3 leaderboards, 37s)
+  URL: https://lobanjica.com/leaderboard
+  - rain: 7 entries, 85% confidence (markdown)
+  - luxdrop: 10 entries, 85% confidence (markdown)
+  - rainbet: 10 entries, 85% confidence (markdown)
+
+lobanjica.com (3 leaderboards, 37s)
+  URL: https://lobanjica.com/leaderboard/rain
+  - rain: 7 entries, 85% confidence (markdown)
+  - luxdrop: 10 entries, 85% confidence (markdown)
+  - rainbet: 10 entries, 85% confidence (markdown)
+
+lobanjica.com (3 leaderboards, 37s)
+  URL: https://lobanjica.com/leaderboard/rainbet
+  - rain: 7 entries, 85% confidence (markdown)
+  - luxdrop: 10 entries, 85% confidence (markdown)
+  - rainbet: 10 entries, 85% confidence (markdown)
+
+lobanjica.com (3 leaderboards, 37s)
+  URL: https://lobanjica.com/leaderboard/luxdrop
+  - rain: 7 entries, 85% confidence (markdown)
+  - luxdrop: 10 entries, 85% confidence (markdown)
+  - rainbet: 10 entries, 85% confidence (markdown)
+
+zarlezar.com (1 leaderboards, 22s)
+  URL: https://zarlezar.com/leaderboard/acebet
+  - bsite: 5 entries, 75% confidence (api)
+
+wrewards.com (4 leaderboards, 63s)
+  URL: https://wrewards.com/leaderboards
+  - hunt: 50 entries, 100% confidence (api)
+  - gamdom: 30 entries, 100% confidence (api)
+  - packdraw: 25 entries, 100% confidence (api)
+  - lootbox: 25 entries, 100% confidence (api)
+
+wildlines.gg (1 leaderboards, 65s)
+  URL: http://wildlines.gg/leaderboard
+  - gamdom: 19 entries, 85% confidence (markdown)
+
+zoid.gg (7 leaderboards, 148s)
+  URL: https://zoid.gg/leaderboards
+  - hypedrop: 27 entries, 66% confidence (markdown)
+  - rain: 32 entries, 70% confidence (markdown)
+  - csbattle: 27 entries, 67% confidence (markdown)
+  - juice: 27 entries, 65% confidence (markdown)
+  - packdraw: 27 entries, 66% confidence (markdown)
+  - csgobig: 27 entries, 66% confidence (markdown)
+  - csgoroll: 26 entries, 66% confidence (markdown)
+
+rollward.com (1 leaderboards, 73s)
+  URL: https://rollward.com/leaderboard
+  - hunt: 18 entries, 85% confidence (markdown)
+
+fossvip.com (1 leaderboards, 34s)
+  URL: https://fossvip.com/leaderboard
+  - shuffle: 1506 entries, 90% confidence (api)
+
+limerewards.gg (1 leaderboards, 32s)
+  URL: https://limerewards.gg/leaderboards
+  - hunt: 18 entries, 75% confidence (markdown)
+
+newname.vip (2 leaderboards, 48s)
+  URL: https://newname.vip/leaderboard/shuffle
+  - shuffle: 13 entries, 85% confidence (markdown)
+  - packdraw: 13 entries, 85% confidence (markdown)
+
+newname.vip (2 leaderboards, 51s)
+  URL: https://newname.vip/leaderboard
+  - shuffle: 13 entries, 85% confidence (markdown)
+  - packdraw: 13 entries, 85% confidence (markdown)
+
+romix.tv (2 leaderboards, 29s)
+  URL: https://romix.tv/leaderboard
+  - shuffle: 26 entries, 70% confidence (markdown)
+  - clash: 26 entries, 70% confidence (markdown)
+
+peakrewards.gg (7 leaderboards, 70s)
+  URL: https://peakrewards.gg/leaderboard
+  - cases: 29 entries, 84% confidence (dom)
+  - clashgg: 18 entries, 68% confidence (dom)
+  - acebet: 18 entries, 68% confidence (dom)
+  - juice: 18 entries, 68% confidence (dom)
+  - clash: 18 entries, 68% confidence (dom)
+  - rain: 18 entries, 68% confidence (dom)
+  - raingg: 18 entries, 68% confidence (dom)
+
+streffedrewards.com (1 leaderboards, 14s)
+  URL: https://streffedrewards.com/leaderboard
+  - clash: 10 entries, 85% confidence (dom)
+
+liviarewards.com (1 leaderboards, 15s)
+  URL: https://liviarewards.com/leaderboard/shuffle
+  - shuffle: 10 entries, 85% confidence (markdown)
+
+liviarewards.com (1 leaderboards, 15s)
+  URL: https://liviarewards.com/leaderboard
+  - shuffle: 10 entries, 85% confidence (markdown)
+
+cvrsify.com (1 leaderboards, 15s)
+  URL: https://cvrsify.com/leaderboards/
+  - packdraw: 22 entries, 84% confidence (markdown)
+
+zygga.gg (1 leaderboards, 21s)
+  URL: https://zygga.gg/leaderboard
+  - shuffle: 6 entries, 100% confidence (markdown)
+
+devlrewards.com (1 leaderboards, 46s)
+  URL: https://devlrewards.com/leaderboard
+  - packdraw: 80 entries, 77% confidence (markdown)
+
+www.camneverwins.com (2 leaderboards, 26s)
+  URL: https://www.camneverwins.com/leaderboard
+  - rainbet: 10 entries, 51% confidence (markdown)
+  - rain: 10 entries, 51% confidence (markdown)
+
+jez4u.com (1 leaderboards, 21s)
+  URL: https://jez4u.com/leaderboard/csgoroll
+  - csgoroll: 8 entries, 82% confidence (markdown)
+
+jez4u.com (1 leaderboards, 21s)
+  URL: https://jez4u.com/leaderboard
+  - csgoroll: 8 entries, 82% confidence (markdown)
+
+green201.com (1 leaderboards, 30s)
+  URL: https://green201.com/upgrader
+  - upgrader: 3 entries, 76% confidence (markdown)
+
+exodiarewards.com (1 leaderboards, 56s)
+  URL: https://exodiarewards.com/roobet
+  - cases: 11 entries, 85% confidence (markdown)
+
+exodiarewards.com (1 leaderboards, 56s)
+  URL: https://exodiarewards.com/packdraw
+  - cases: 11 entries, 85% confidence (markdown)
+
+www.projecttrewards.in (1 leaderboards, 32s)
+  URL: https://www.projecttrewards.in/
+  - bsite: 29 entries, 90% confidence (api)
+
+memerewards.gg (1 leaderboards, 21s)
+  URL: https://memerewards.gg/leaderboards
+  - bsite: 70 entries, 73% confidence (markdown)
+
+percrewards.com (2 leaderboards, 54s)
+  URL: https://percrewards.com/leaderboards
+  - csgogem: 4 entries, 100% confidence (api)
+  - juice: 4 entries, 100% confidence (markdown)
+
+elfanta.com (1 leaderboards, 79s)
+  URL: https://elfanta.com/daddyskins-com-leaderboard/
+  - daddyskins: 3 entries, 85% confidence (markdown)
+
+elfanta.com (1 leaderboards, 79s)
+  URL: https://elfanta.com/upgrader-leaderboard/
+  - daddyskins: 3 entries, 85% confidence (markdown)
+
+elfanta.com (1 leaderboards, 79s)
+  URL: https://elfanta.com/elfanta-com-csgowin-com-leaderboard/
+  - daddyskins: 3 entries, 85% confidence (markdown)
+
+kupogg.gg (1 leaderboards, 19s)
+  URL: https://kupogg.gg/banditcamp
+  - rain: 7 entries, 82% confidence (markdown)
+
+thepappa.gg (1 leaderboards, 19s)
+  URL: https://thepappa.gg/
+  - rain: 14 entries, 85% confidence (markdown)
+
+thepappa.gg (1 leaderboards, 19s)
+  URL: https://thepappa.gg/shuffle
+  - rain: 20 entries, 85% confidence (markdown)
+
+thepappa.gg (1 leaderboards, 19s)
+  URL: https://thepappa.gg/csgobig
+  - rain: 4 entries, 74% confidence (markdown)
+
+yeeterboards.com (1 leaderboards, 28s)
+  URL: https://yeeterboards.com/leaderboards/4e9bc907-9e47-4247-89dc-374492d56126
+  - bsite: 24 entries, 100% confidence (markdown)
+
+rubixrefs.com (1 leaderboards, 15s)
+  URL: https://rubixrefs.com/
+  - chicken: 7 entries, 85% confidence (dom)
+
+peakrewards.gg (7 leaderboards, 70s)
+  URL: https://peakrewards.gg/leaderboard
+  - cases: 29 entries, 84% confidence (dom)
+  - clashgg: 18 entries, 68% confidence (dom)
+  - acebet: 18 entries, 68% confidence (dom)
+  - juice: 18 entries, 68% confidence (dom)
+  - clash: 18 entries, 68% confidence (dom)
+  - rain: 18 entries, 68% confidence (dom)
+  - raingg: 18 entries, 68% confidence (dom)
+
+siscokidrewards.com (1 leaderboards, 16s)
+  URL: https://siscokidrewards.com/
+  - shuffle: 3963 entries, 70% confidence (dom)
+
+jakerewards.com (1 leaderboards, 19s)
+  URL: https://jakerewards.com/leaderboard/
+  - stake: 43 entries, 75% confidence (markdown)
+
+mercyrewards.com (1 leaderboards, 31s)
+  URL: https://mercyrewards.com/roobet
+  - bsite: 17 entries, 65% confidence (geometric)
+
+mercyrewards.com (1 leaderboards, 31s)
+  URL: https://mercyrewards.com/sports
+  - bsite: 8 entries, 100% confidence (markdown)
+
+mercyrewards.com (1 leaderboards, 31s)
+  URL: https://mercyrewards.com/weekly
+  - bsite: 7 entries, 82% confidence (markdown)
+
+mercyrewards.com (1 leaderboards, 30s)
+  URL: https://mercyrewards.com/csgobig
+  - bsite: 8 entries, 100% confidence (markdown)
+
+dmvdaee.vip (1 leaderboards, 22s)
+  URL: https://dmvdaee.vip/rainbet/leaderboard/
+  - stake: 23 entries, 66% confidence (api)
+
+════════════════════════════════════════════════════════════════════════════════
+❌ FAILED SITES (355)
+════════════════════════════════════════════════════════════════════════════════
+
+crunchyrewards.com
+  URL: http://crunchyrewards.com/leaderboards
+  Elapsed: 75s
+  Error: Click failed for luxdrop: undefined; Click failed for bsite: undefined; No entries for gamdom; No entries for skinfans
+
+jonkennleaderboard.com
+  URL: https://jonkennleaderboard.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+jonkennleaderboard.com
+  URL: https://jonkennleaderboard.com/leaderboard/bcgame
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+jonkennleaderboard.com
+  URL: https://jonkennleaderboard.com/leaderboard/csgobig
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+jonkennleaderboard.com
+  URL: https://jonkennleaderboard.com/leaderboard/csgoroll
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+jonkennleaderboard.com
+  URL: https://jonkennleaderboard.com/leaderboard/rain
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+jonkennleaderboard.com
+  URL: https://jonkennleaderboard.com/leaderboard/chicken
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+jonkennleaderboard.com
+  URL: https://jonkennleaderboard.com/leaderboard/csbattle
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+scrapesgambles.com
+  URL: https://scrapesgambles.com/leaderboard
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+vinnyvh.com
+  URL: https://vinnyvh.com/leaderboard/rostake
+  Elapsed: 20s
+  Error: No entries for rain
+
+ravengambles.com
+  URL: https://ravengambles.com/leaderboard
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+paxgambles.com
+  URL: https://paxgambles.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+paxgambles.com
+  URL: https://paxgambles.com/leaderboard/diceblox
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+paxgambles.com
+  URL: https://paxgambles.com/leaderboard/cases
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+paxgambles.com
+  URL: https://paxgambles.com/leaderboard/acebet
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+paxgambles.com
+  URL: https://paxgambles.com/leaderboard/csbattle
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+wahy.gg
+  URL: https://wahy.gg/leaderboard/rain
+  Elapsed: 21s
+  Error: No entries for rain
+
+wahy.gg
+  URL: https://wahy.gg/leaderboard/csbattle
+  Elapsed: 21s
+  Error: No entries for rain
+
+wahy.gg
+  URL: https://wahy.gg/leaderboard/csgowin
+  Elapsed: 21s
+  Error: No entries for rain
+
+goatgambles.com
+  URL: https://goatgambles.com/leaderboard
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+augustrewards.com
+  URL: https://augustrewards.com/leaderboard/rain
+  Elapsed: 20s
+  Error: No entries for rain
+
+www.dustintfp.com
+  URL: https://www.dustintfp.com/leaderboard
+  Elapsed: 6s
+  Error: No leaderboards discovered
+
+botboibets.com
+  URL: https://botboibets.com/leaderboard
+  Elapsed: 6s
+  Error: No leaderboards discovered
+
+botboibets.com
+  URL: https://botboibets.com/leaderboard/stake-combined
+  Elapsed: 6s
+  Error: No leaderboards discovered
+
+kushbox.vip
+  URL: https://kushbox.vip/leaderboard/royale
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+kushbox.vip
+  URL: https://kushbox.vip/leaderboard/csgowin
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+kushbox.vip
+  URL: https://kushbox.vip/leaderboard/royale/previous
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+kushbox.vip
+  URL: https://kushbox.vip/leaderboard/csgowin/previous
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+www.rywards.gg
+  URL: https://www.rywards.gg/leaderboards
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+www.therosarz.live
+  URL: https://www.therosarz.live/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+www.therosarz.live
+  URL: https://www.therosarz.live/leaderboard/csgowin_onsite
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+www.therosarz.live
+  URL: https://www.therosarz.live/leaderboard/acebet
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+www.therosarz.live
+  URL: https://www.therosarz.live/leaderboard/daddyskins
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+c8ncel.bet
+  URL: https://c8ncel.bet/leaderboards
+  Elapsed: 11s
+  Error: No leaderboards discovered
+
+3dhaxx.com
+  URL: http://3dhaxx.com/leaderboard
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+www.griffrewards.com
+  URL: https://www.griffrewards.com/leaderboards
+  Elapsed: 39s
+  Error: No entries for chicken
+
+htg.bet
+  URL: https://htg.bet/leaderboard/csgowin/monthly
+  Elapsed: 20s
+  Error: No entries for rain
+
+blaffsen.com
+  URL: https://blaffsen.com/leaderboard/chips
+  Elapsed: 20s
+  Error: No entries for rain
+
+blaffsen.com
+  URL: https://blaffsen.com/leaderboard/csgowin/monthly
+  Elapsed: 20s
+  Error: No entries for rain
+
+www.nerogambles.com
+  URL: https://www.nerogambles.com/leaderboards
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.nerogambles.com
+  URL: https://www.nerogambles.com/leaderboard/rain
+  Elapsed: 20s
+  Error: No entries for bsite
+
+www.craaze-leaderboards.com
+  URL: https://www.craaze-leaderboards.com/leaderboards
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.craaze-leaderboards.com
+  URL: https://www.craaze-leaderboards.com/leaderboards/csgostake
+  Elapsed: 24s
+  Error: No entries for bsite
+
+www.craaze-leaderboards.com
+  URL: https://www.craaze-leaderboards.com/leaderboards/csgowin
+  Elapsed: 22s
+  Error: No entries for bsite
+
+www.craaze-leaderboards.com
+  URL: https://www.craaze-leaderboards.com/leaderboards/upgrader
+  Elapsed: 22s
+  Error: No entries for bsite
+
+darkrewards.com
+  URL: https://darkrewards.com/leaderboard/rustmagic
+  Elapsed: 20s
+  Error: No entries for rain
+
+darkrewards.com
+  URL: https://darkrewards.com/leaderboard
+  Elapsed: 20s
+  Error: No entries for rain
+
+www.headed.gg
+  URL: https://www.headed.gg/leaderboards
+  Elapsed: 130s
+  Error: Click failed for bsite: undefined; Click failed for gamba: undefined; Click failed for packdraw: undefined; Click failed for csgowin: undefined; Click failed for daddyskins: undefined; Click failed for juice: undefined; Click failed for acebet: undefined; Click failed for csgobig: undefined; Click failed for rain: undefined; Click failed for clash: undefined
+
+helloryrewards.com
+  URL: https://helloryrewards.com/leaderboard
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+helloryrewards.com
+  URL: https://helloryrewards.com/leaderboard/csgowin
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+fortunate.gg
+  URL: https://fortunate.gg/leaderboards
+  Elapsed: 23s
+  Error: No entries for bsite
+
+www.middlemoonrewards.com
+  URL: https://www.middlemoonrewards.com/leaderboard
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.middlemoonrewards.com
+  URL: https://www.middlemoonrewards.com/leaderboards
+  Elapsed: 21s
+  Error: No entries for bsite
+
+harryrewards.com
+  URL: https://harryrewards.com/leaderboards/clashgg
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+harryrewards.com
+  URL: https://harryrewards.com/leaderboards/csgowin
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+harryrewards.com
+  URL: https://harryrewards.com/leaderboards/csgobig
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+harryrewards.com
+  URL: https://harryrewards.com/leaderboards/csgoroll
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+harryrewards.com
+  URL: https://harryrewards.com/leaderboards/raingg
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+phazecs.com
+  URL: https://phazecs.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+phazecs.com
+  URL: https://phazecs.com/leaderboard/bsite
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+phazecs.com
+  URL: https://phazecs.com/leaderboard/winovo
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+viscorewards.com
+  URL: https://viscorewards.com/leaderboard/clash/
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+viscorewards.com
+  URL: https://viscorewards.com/leaderboard/csgowin/
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+www.rickashay.gg
+  URL: https://www.rickashay.gg/leaderboards
+  Elapsed: 93s
+  Error: No entries for clash; No entries for csgoroll; No entries for rain
+
+xxmika.com
+  URL: https://xxmika.com/leaderboard/csgold
+  Elapsed: 27s
+  Error: Click failed for winovo: undefined; Click failed for csgold: undefined
+
+xxmika.com
+  URL: https://xxmika.com/leaderboard/oasis
+  Elapsed: 27s
+  Error: Click failed for winovo: undefined; Click failed for csgold: undefined
+
+xxmika.com
+  URL: https://xxmika.com/leaderboard/csgold/previous
+  Elapsed: 27s
+  Error: Click failed for winovo: undefined; Click failed for csgold: undefined
+
+vexorewards.com
+  URL: https://vexorewards.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+gcris.gg
+  URL: https://gcris.gg/leaderboards/
+  Elapsed: 24s
+  Error: No entries for chips; No entries for chicken
+
+gcris.gg
+  URL: https://gcris.gg/leaderboards/chips/
+  Elapsed: 24s
+  Error: No entries for chips; No entries for chicken
+
+gcris.gg
+  URL: https://gcris.gg/leaderboards/chicken/
+  Elapsed: 24s
+  Error: No entries for chips; No entries for chicken
+
+solomonrewards.gg
+  URL: https://solomonrewards.gg/leaderboards
+  Elapsed: 5s
+  Error: No leaderboards discovered
+
+boyka.gg
+  URL: https://boyka.gg/leaderboard/rustmagic
+  Elapsed: 20s
+  Error: No entries for rain
+
+gambagambles.com
+  URL: https://gambagambles.com/leaderboard/skinfans
+  Elapsed: 13s
+  Error: No entries for gamba
+
+gambagambles.com
+  URL: https://gambagambles.com/leaderboard/upgrader
+  Elapsed: 13s
+  Error: No entries for gamba
+
+gambagambles.com
+  URL: https://gambagambles.com/leaderboard/daddyskins
+  Elapsed: 13s
+  Error: No entries for gamba
+
+gambagambles.com
+  URL: https://gambagambles.com/leaderboard
+  Elapsed: 14s
+  Error: No entries for gamba
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards/packdraw
+  Elapsed: 19s
+  Error: Click failed for packdraw: undefined
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards/chickengg
+  Elapsed: 18s
+  Error: Click failed for packdraw: undefined
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards/csgogem
+  Elapsed: 18s
+  Error: Click failed for packdraw: undefined
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards/csgoroll
+  Elapsed: 18s
+  Error: Click failed for packdraw: undefined
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards/csgowin
+  Elapsed: 18s
+  Error: Click failed for packdraw: undefined
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards/daddyskins
+  Elapsed: 17s
+  Error: Click failed for packdraw: undefined
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards/goated
+  Elapsed: 17s
+  Error: Click failed for packdraw: undefined
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards/gamba
+  Elapsed: 17s
+  Error: Click failed for packdraw: undefined
+
+www.zen-rewards.com
+  URL: https://www.zen-rewards.com/leaderboards
+  Elapsed: 17s
+  Error: Click failed for packdraw: undefined
+
+zlashyrewards.com
+  URL: https://zlashyrewards.com/leaderboard
+  Elapsed: 18s
+  Error: No entries for rain
+
+drewrewards.com
+  URL: https://drewrewards.com/leaderboard/stake
+  Elapsed: 20s
+  Error: No entries for rain
+
+drewrewards.com
+  URL: https://drewrewards.com/leaderboard/clash
+  Elapsed: 20s
+  Error: No entries for rain
+
+drewrewards.com
+  URL: https://drewrewards.com/leaderboard/csgobig
+  Elapsed: 20s
+  Error: No entries for rain
+
+drewrewards.com
+  URL: https://drewrewards.com/leaderboard/skinrave
+  Elapsed: 20s
+  Error: No entries for rain
+
+soul-stealer.com
+  URL: https://soul-stealer.com/leaderboards
+  Elapsed: 121s
+  Error: No entries for shock; No entries for chicken; No entries for hunt
+
+addicted.gg
+  URL: https://addicted.gg/leaderboard/hypedrop
+  Elapsed: 22s
+  Error: No entries for rain
+
+addicted.gg
+  URL: https://addicted.gg/leaderboard/csgogem
+  Elapsed: 22s
+  Error: No entries for rain
+
+addicted.gg
+  URL: https://addicted.gg/leaderboard/big
+  Elapsed: 22s
+  Error: No entries for rain
+
+addicted.gg
+  URL: https://addicted.gg/leaderboard
+  Elapsed: 21s
+  Error: No entries for rain
+
+julsy.gg
+  URL: https://julsy.gg/leaderboard/packdraw
+  Elapsed: 20s
+  Error: No entries for rain
+
+swz.casino
+  URL: https://swz.casino/leaderboard
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+keekzkliks.com
+  URL: https://keekzkliks.com/leaderboard
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+afterstay.gg
+  URL: https://afterstay.gg/leaderboard/upgrader
+  Elapsed: 20s
+  Error: No entries for rain
+
+afterstay.gg
+  URL: https://afterstay.gg/leaderboard
+  Elapsed: 20s
+  Error: No entries for rain
+
+unc.gg
+  URL: https://unc.gg/leaderboard
+  Elapsed: 26s
+  Error: Click failed for stake: undefined; No entries for hunt
+
+reccho.gg
+  URL: https://reccho.gg/leaderboard/rustclash
+  Elapsed: 20s
+  Error: No entries for rain
+
+beefygambles.gg
+  URL: https://beefygambles.gg/leaderboard/upgrader
+  Elapsed: 19s
+  Error: No entries for rain
+
+beefygambles.gg
+  URL: https://beefygambles.gg/leaderboard
+  Elapsed: 18s
+  Error: No entries for rain
+
+lawrewards.co
+  URL: https://lawrewards.co/leaderboard
+  Elapsed: 29s
+  Error: Click failed for rain: undefined; Click failed for rainbet: undefined
+
+lawrewards.co
+  URL: https://lawrewards.co/leaderboard/rainbet
+  Elapsed: 29s
+  Error: Click failed for rain: undefined; Click failed for rainbet: undefined
+
+icesol.gg
+  URL: https://icesol.gg/leaderboard/bcgame
+  Elapsed: 21s
+  Error: No entries for rain
+
+icesol.gg
+  URL: https://icesol.gg/leaderboard
+  Elapsed: 21s
+  Error: No entries for rain
+
+phibbix.gg
+  URL: https://phibbix.gg/leaderboard/menace
+  Elapsed: 20s
+  Error: No entries for clash
+
+phibbix.gg
+  URL: https://phibbix.gg/leaderboard/trustdice
+  Elapsed: 20s
+  Error: No entries for clash
+
+phibbix.gg
+  URL: https://phibbix.gg/leaderboard
+  Elapsed: 20s
+  Error: No entries for clash
+
+slax.tv
+  URL: https://slax.tv/leaderboard/rain
+  Elapsed: 18s
+  Error: No entries for rain
+
+slax.tv
+  URL: https://slax.tv/leaderboard/csgold
+  Elapsed: 18s
+  Error: No entries for rain
+
+slax.tv
+  URL: https://slax.tv/leaderboard
+  Elapsed: 18s
+  Error: No entries for rain
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboards
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/roobet
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/chips
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/opduel
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/csgobig
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/csgogem
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/upgrader
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/csbattle
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/csgoroll
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/csgowin
+  Elapsed: 140s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+elderbreaks.com
+  URL: https://elderbreaks.com/leaderboard/betbolt
+  Elapsed: 138s
+  Error: No entries for cases; Click failed for chips: undefined; Click failed for duel: undefined; Click failed for csgobig: undefined; Click failed for csgogem: undefined; Click failed for upgrader: undefined; Click failed for csbattle: undefined; Click failed for csgoroll: undefined; Click failed for csgowin: undefined; No entries for clash
+
+savo.gg
+  URL: https://savo.gg/leaderboard/skinrave
+  Elapsed: 20s
+  Error: No entries for rain
+
+savo.gg
+  URL: https://savo.gg/leaderboard/rain
+  Elapsed: 20s
+  Error: No entries for rain
+
+savo.gg
+  URL: https://savo.gg/leaderboard
+  Elapsed: 20s
+  Error: No entries for rain
+
+lame.gg
+  URL: https://lame.gg/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+lame.gg
+  URL: https://lame.gg/leaderboard/rustmagic
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+lame.gg
+  URL: https://lame.gg/leaderboard/shuffle
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+compbros.com
+  URL: https://compbros.com/leaderboard/primedrop
+  Elapsed: 20s
+  Error: No entries for rain
+
+spookygambles.com
+  URL: https://spookygambles.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+spookygambles.com
+  URL: https://spookygambles.com/leaderboard/stake
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+spookygambles.com
+  URL: https://spookygambles.com/leaderboard/packdraw
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+spookygambles.com
+  URL: https://spookygambles.com/leaderboard/rain
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+pingugambles.com
+  URL: https://pingugambles.com/leaderboard/csgoroll
+  Elapsed: 18s
+  Error: No entries for rain
+
+pingugambles.com
+  URL: https://pingugambles.com/leaderboard
+  Elapsed: 18s
+  Error: No entries for rain
+
+zinnrewards.com
+  URL: https://zinnrewards.com/leaderboard/csgoluck
+  Elapsed: 20s
+  Error: No entries for rain
+
+zinnrewards.com
+  URL: https://zinnrewards.com/leaderboard/chicken
+  Elapsed: 20s
+  Error: No entries for rain
+
+zinnrewards.com
+  URL: https://zinnrewards.com/leaderboard/rain
+  Elapsed: 20s
+  Error: No entries for rain
+
+zinnrewards.com
+  URL: https://zinnrewards.com/leaderboard
+  Elapsed: 20s
+  Error: No entries for rain
+
+joshbets.gg
+  URL: https://joshbets.gg/leaderboard/xfun
+  Elapsed: 20s
+  Error: No entries for rain
+
+joshbets.gg
+  URL: https://joshbets.gg/leaderboard
+  Elapsed: 20s
+  Error: No entries for rain
+
+elmo.bet
+  URL: https://elmo.bet/leaderboard
+  Elapsed: 21s
+  Error: No entries for rain
+
+elmo.bet
+  URL: https://elmo.bet/leaderboard/raw365
+  Elapsed: 21s
+  Error: No entries for rain
+
+demongambles.com
+  URL: https://demongambles.com/leaderboard/clash
+  Elapsed: 20s
+  Error: No entries for rain
+
+demongambles.com
+  URL: https://demongambles.com/leaderboard/upgrader
+  Elapsed: 20s
+  Error: No entries for rain
+
+demongambles.com
+  URL: https://demongambles.com/leaderboard/roobet
+  Elapsed: 21s
+  Error: No entries for rain
+
+demongambles.com
+  URL: https://demongambles.com/leaderboard
+  Elapsed: 20s
+  Error: No entries for rain
+
+ayokotarewards.com
+  URL: https://ayokotarewards.com/leaderboard/clash
+  Elapsed: 20s
+  Error: No entries for rain
+
+ayokotarewards.com
+  URL: https://ayokotarewards.com/leaderboard/rorush
+  Elapsed: 20s
+  Error: No entries for rain
+
+ayokotarewards.com
+  URL: https://ayokotarewards.com/leaderboard/upgrader
+  Elapsed: 20s
+  Error: No entries for rain
+
+ayokotarewards.com
+  URL: https://ayokotarewards.com/leaderboard/csgogem
+  Elapsed: 20s
+  Error: No entries for rain
+
+ayokotarewards.com
+  URL: https://ayokotarewards.com/leaderboard
+  Elapsed: 20s
+  Error: No entries for rain
+
+sheppygambles.com
+  URL: https://sheppygambles.com/leaderboard
+  Elapsed: 33s
+  Error: No entries for csgold
+
+sheppygambles.com
+  URL: https://sheppygambles.com/leaderboard/upgrader
+  Elapsed: 33s
+  Error: No entries for csgold
+
+sheppygambles.com
+  URL: https://sheppygambles.com/leaderboard/banditcamp
+  Elapsed: 33s
+  Error: No entries for csgold
+
+sheppygambles.com
+  URL: https://sheppygambles.com/leaderboard/rustclash
+  Elapsed: 33s
+  Error: No entries for csgold
+
+kaoz.gg
+  URL: https://kaoz.gg/leaderboard/csgowin
+  Elapsed: 22s
+  Error: No entries for rain
+
+jooodrewards.com
+  URL: https://jooodrewards.com/leaderboard/rustmagic
+  Elapsed: 21s
+  Error: No entries for rain
+
+jooodrewards.com
+  URL: https://jooodrewards.com/leaderboard/upgrader
+  Elapsed: 21s
+  Error: No entries for rain
+
+jooodrewards.com
+  URL: https://jooodrewards.com/leaderboard/csgold
+  Elapsed: 21s
+  Error: No entries for rain
+
+jooodrewards.com
+  URL: https://jooodrewards.com/leaderboard
+  Elapsed: 21s
+  Error: No entries for rain
+
+sierragambles.com
+  URL: https://sierragambles.com/leaderboard/shuffle
+  Elapsed: 16s
+  Error: Click failed for shuffle: undefined
+
+sierragambles.com
+  URL: https://sierragambles.com/leaderboard
+  Elapsed: 16s
+  Error: Click failed for shuffle: undefined
+
+zigm.gg
+  URL: https://zigm.gg/leaderboard/
+  Elapsed: 5s
+  Error: No leaderboards discovered
+
+zigm.gg
+  URL: https://zigm.gg/leaderboard/daddyskins
+  Elapsed: 5s
+  Error: No leaderboards discovered
+
+zigm.gg
+  URL: https://zigm.gg/leaderboard/roobet
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+zigm.gg
+  URL: https://zigm.gg/leaderboard/packdraw
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+hrislit.com
+  URL: https://hrislit.com/leaderboard/packdraw
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+hrislit.com
+  URL: https://hrislit.com/leaderboard/shock
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+hrislit.com
+  URL: https://hrislit.com/leaderboard
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+bandz.gg
+  URL: https://bandz.gg/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+bandz.gg
+  URL: https://bandz.gg/leaderboard/stake
+  Elapsed: 5s
+  Error: No leaderboards discovered
+
+noel.gg
+  URL: https://noel.gg/leaderboard
+  Elapsed: 5s
+  Error: No leaderboards discovered
+
+hyperefe.com
+  URL: https://hyperefe.com/leaderboard
+  Elapsed: 20s
+  Error: No entries for bsite
+
+luddecs.com
+  URL: https://luddecs.com/leaderboards
+  Elapsed: 54s
+  Error: Click failed for skinrave: undefined; Click failed for stake: undefined; Click failed for csbattle: undefined; Click failed for csgostake: undefined
+
+dapt.weblabs.app
+  URL: https://dapt.weblabs.app/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+dapt.weblabs.app
+  URL: https://dapt.weblabs.app/leaderboard/clashgg
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+dapt.weblabs.app
+  URL: https://dapt.weblabs.app/leaderboard/packdraw
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+malibulive.site
+  URL: http://malibulive.site/leaderboard
+  Elapsed: 20s
+  Error: No entries for clashgg
+
+www.sexyboom.net
+  URL: https://www.sexyboom.net/leaderboards
+  Elapsed: 20s
+  Error: No entries for bsite
+
+www.sexyboom.net
+  URL: https://www.sexyboom.net/leaderboards/clashgg
+  Elapsed: 22s
+  Error: No entries for bsite
+
+www.sexyboom.net
+  URL: https://www.sexyboom.net/leaderboards/csbattle
+  Elapsed: 22s
+  Error: No entries for bsite
+
+www.sexyboom.net
+  URL: https://www.sexyboom.net/leaderboards/banditcamp
+  Elapsed: 22s
+  Error: No entries for bsite
+
+zt-rewards.com
+  URL: https://zt-rewards.com/leaderboard
+  Elapsed: 17s
+  Error: Click failed for rustmagic: page.evaluate: Execution context was destroyed, most likely because of a navigation; No entries for upgrader
+
+zt-rewards.com
+  URL: https://zt-rewards.com/leaderboard/rustmagic
+  Elapsed: 18s
+  Error: Click failed for rustmagic: page.evaluate: Execution context was destroyed, most likely because of a navigation; Click failed for upgrader: undefined
+
+zt-rewards.com
+  URL: https://zt-rewards.com/leaderboard/upgrader
+  Elapsed: 25s
+  Error: No entries for rustmagic; Click failed for upgrader: undefined
+
+zt-rewards.com
+  URL: https://zt-rewards.com/leaderboard/menace
+  Elapsed: 23s
+  Error: No entries for rustmagic; No entries for upgrader
+
+soaked.tv
+  URL: https://soaked.tv/leaderboard/roobet
+  Elapsed: 38s
+  Error: No entries for hunt; Click failed for packdraw: undefined; Click failed for roobet: undefined
+
+soaked.tv
+  URL: https://soaked.tv/leaderboard/packdraw
+  Elapsed: 38s
+  Error: No entries for hunt; Click failed for packdraw: undefined; Click failed for roobet: undefined
+
+hamstersrewards.com
+  URL: https://hamstersrewards.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+hamstersrewards.com
+  URL: https://hamstersrewards.com/leaderboard/csgogem
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+hamstersrewards.com
+  URL: https://hamstersrewards.com/leaderboard/csgobig
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+hamstersrewards.com
+  URL: https://hamstersrewards.com/leaderboard/upgrader
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+hamstersrewards.com
+  URL: https://hamstersrewards.com/leaderboard/csbattle
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+hamstersrewards.com
+  URL: https://hamstersrewards.com/leaderboard/csgowin
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+www.rustgangrewards.com
+  URL: https://www.rustgangrewards.com/leaderboards
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.rustgangrewards.com
+  URL: https://www.rustgangrewards.com/leaderboards/raingg
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.bluebycs.com
+  URL: https://www.bluebycs.com/leaderboards
+  Elapsed: 22s
+  Error: No entries for bsite
+
+alynnushrewards.com
+  URL: https://alynnushrewards.com/leaderboard
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+alynnushrewards.com
+  URL: https://alynnushrewards.com/leaderboard/clashgg
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+cryxan.com
+  URL: http://cryxan.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+cryxan.com
+  URL: http://cryxan.com/leaderboard/upgrader
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+gumbo.gg
+  URL: https://gumbo.gg/leaderboards
+  Elapsed: 52s
+  Error: No entries for stake; No entries for rain
+
+www.princerewards.com
+  URL: https://www.princerewards.com/leaderboards/gamba
+  Elapsed: 53s
+  Error: No entries for rainbet; No entries for rain; No entries for gamba
+
+stianhay.com
+  URL: http://stianhay.com/leaderboard/clash
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+stianhay.com
+  URL: http://stianhay.com/leaderboard/acebet
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+rafaeli.site
+  URL: https://rafaeli.site/leaderboard
+  Elapsed: 16s
+  Error: Click failed for shock: undefined
+
+lazardbonus.com
+  URL: http://lazardbonus.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+lazardbonus.com
+  URL: http://lazardbonus.com/leaderboard/razed
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+lazardbonus.com
+  URL: http://lazardbonus.com/leaderboard/daddyskins
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+www.hypereccentrics.com
+  URL: https://www.hypereccentrics.com/leaderboards
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.lmbrewards.com
+  URL: https://www.lmbrewards.com/leaderboards
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.lmbrewards.com
+  URL: https://www.lmbrewards.com/leaderboards/banditcamp
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.lmbrewards.com
+  URL: https://www.lmbrewards.com/leaderboards/shuffle
+  Elapsed: 21s
+  Error: No entries for bsite
+
+www.lmbrewards.com
+  URL: https://www.lmbrewards.com/leaderboards/empiredrop
+  Elapsed: 21s
+  Error: No entries for bsite
+
+dabbed.gg
+  URL: https://dabbed.gg/leaderboard/rain
+  Elapsed: 1s
+  Error: Click failed for rain: No clickable element found for "rain"
+
+dabbed.gg
+  URL: https://dabbed.gg/leaderboard/csgobig
+  Elapsed: 1s
+  Error: Click failed for rain: No clickable element found for "rain"
+
+www.sodiumsrewards.com
+  URL: https://www.sodiumsrewards.com/leaderboard
+  Elapsed: 5s
+  Error: No leaderboards discovered
+
+www.sodiumsrewards.com
+  URL: https://www.sodiumsrewards.com/leaderboard/rain
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+www.sodiumsrewards.com
+  URL: https://www.sodiumsrewards.com/leaderboard/csgowin
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+www.sodiumsrewards.com
+  URL: https://www.sodiumsrewards.com/leaderboard/packdraw
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+www.sodiumsrewards.com
+  URL: https://www.sodiumsrewards.com/leaderboard/juice
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+plattyy.tv
+  URL: https://plattyy.tv/leaderboards
+  Elapsed: 30s
+  Error: Click failed for hunt: undefined; No entries for roobet
+
+plattyy.tv
+  URL: https://plattyy.tv/leaderboards/roobet
+  Elapsed: 30s
+  Error: Click failed for hunt: undefined; No entries for roobet
+
+apsycho.gg
+  URL: http://apsycho.gg/leaderboards
+  Elapsed: 40s
+  Error: No entries for bsite
+
+www.bcdegens.com
+  URL: https://www.bcdegens.com/leaderboard/rainbet
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+kevinlowroller.com
+  URL: http://kevinlowroller.com/leaderboards
+  Elapsed: 20s
+  Error: Click failed for hypedrop: page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')
+    at eval (eval at evaluate (:290:30), <anonymous>:24:30)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44); Click failed for raingg: page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')
+    at eval (eval at evaluate (:290:30), <anonymous>:24:30)
+    at UtilityScript.evaluate (<anonymous>:292:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44); No entries for rain
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/csgogem
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/clashgg
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/skinrave
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/juice
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/acebet
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/csgogem/last
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/skinrave/last
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/juice/last
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+ognyengamba.com
+  URL: https://ognyengamba.com/leaderboard/acebet/last
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+www.codeml.co
+  URL: https://www.codeml.co/leaderboards
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+metalmonkeycodes.com
+  URL: https://metalmonkeycodes.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+metalmonkeycodes.com
+  URL: https://metalmonkeycodes.com/leaderboard/stake
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+metalmonkeycodes.com
+  URL: https://metalmonkeycodes.com/leaderboard/rain
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+metalmonkeycodes.com
+  URL: https://metalmonkeycodes.com/leaderboard/chicken
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+metalmonkeycodes.com
+  URL: https://metalmonkeycodes.com/leaderboard/lootbox
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+metalmonkeycodes.com
+  URL: https://metalmonkeycodes.com/leaderboard/csgold
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+jaek.gg
+  URL: https://jaek.gg/leaderboard
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+jaek.gg
+  URL: https://jaek.gg/leaderboard/csgobig
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+jaek.gg
+  URL: https://jaek.gg/leaderboard/csgowin
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+jaek.gg
+  URL: https://jaek.gg/leaderboard/clash
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+measterrewards.com
+  URL: https://measterrewards.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+measterrewards.com
+  URL: https://measterrewards.com/leaderboard/raingg
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+measterrewards.com
+  URL: https://measterrewards.com/leaderboard/clashgg
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+measterrewards.com
+  URL: https://measterrewards.com/leaderboard/csgoroll
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+eyyyop.com
+  URL: https://eyyyop.com/leaderboard
+  Elapsed: 5s
+  Error: No leaderboards discovered
+
+mrtreerewards.com
+  URL: http://mrtreerewards.com/leaderboard
+  Elapsed: 5s
+  Error: No leaderboards discovered
+
+www.maccyb.com
+  URL: https://www.maccyb.com/leaderboards
+  Elapsed: 21s
+  Error: No entries for bsite
+
+zarlezar.com
+  URL: https://zarlezar.com/leaderboard/clashgg
+  Elapsed: 22s
+  Error: No entries for bsite
+
+snatchers.gg
+  URL: https://snatchers.gg/leaderboard
+  Elapsed: 39s
+  Error: No leaderboards discovered
+
+snatchers.gg
+  URL: https://snatchers.gg/leaderboard/csgobig/previous
+  Elapsed: 39s
+  Error: No leaderboards discovered
+
+snatchers.gg
+  URL: https://snatchers.gg/leaderboard/csgobig
+  Elapsed: 15s
+  Error: No leaderboards discovered
+
+juicyfruityyy.gg
+  URL: https://juicyfruityyy.gg/leaderboard
+  Elapsed: 13s
+  Error: No leaderboards discovered
+
+www.bonuses.gg
+  URL: https://www.bonuses.gg/leaderboard
+  Elapsed: 26s
+  Error: No entries for stake
+
+ballyrewards.net
+  URL: https://ballyrewards.net/leaderboards
+  Elapsed: 33s
+  Error: No entries for bsite
+
+degenmers.com
+  URL: https://degenmers.com/leaderboard/
+  Elapsed: 29s
+  Error: Click failed for duel: undefined
+
+vgorefs.tv
+  URL: https://vgorefs.tv/leaderboard
+  Elapsed: 16s
+  Error: No entries for shock
+
+roostercat.gg
+  URL: https://roostercat.gg/leaderboard/bandit
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+roostercat.gg
+  URL: https://roostercat.gg/leaderboard/bandit/previous
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+affiliates.gg
+  URL: https://affiliates.gg/leaderboard
+  Elapsed: 51s
+  Error: No entries for stake
+
+lukerewards.com
+  URL: https://lukerewards.com/leaderboard
+  Elapsed: 33s
+  Error: No entries for stake
+
+gk68.gg
+  URL: https://gk68.gg/leaderboard
+  Elapsed: 41s
+  Error: Click failed for roobet: undefined; Click failed for csgoroll: undefined; Click failed for rain: undefined
+
+www.andygambles.gg
+  URL: https://www.andygambles.gg/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+dustintfp.com
+  URL: https://dustintfp.com/leaderboard
+  Elapsed: 6s
+  Error: No leaderboards discovered
+
+pandagamblez.com
+  URL: https://pandagamblez.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+pandagamblez.com
+  URL: https://pandagamblez.com/leaderboard/clash
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+pandagamblez.com
+  URL: https://pandagamblez.com/leaderboard/upgrader
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+codeshib.com
+  URL: https://codeshib.com/leaderboard
+  Elapsed: 9s
+  Error: No leaderboards discovered
+
+www.riskydegens.com
+  URL: https://www.riskydegens.com/leaderboard
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+www.supraboigamezz.com
+  URL: https://www.supraboigamezz.com/leaderboard
+  Elapsed: 45s
+  Error: No entries for hunt
+
+www.radiobtw.com
+  URL: https://www.radiobtw.com/csbattle
+  Elapsed: 13s
+  Error: No leaderboards discovered
+
+www.radiobtw.com
+  URL: https://www.radiobtw.com/winovo
+  Elapsed: 13s
+  Error: No leaderboards discovered
+
+www.radiobtw.com
+  URL: https://www.radiobtw.com/clash
+  Elapsed: 13s
+  Error: No leaderboards discovered
+
+www.radiobtw.com
+  URL: https://www.radiobtw.com/
+  Elapsed: 13s
+  Error: No leaderboards discovered
+
+eboy.gg
+  URL: https://eboy.gg/#leaderboards?tab=roobet
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+eboy.gg
+  URL: https://eboy.gg/#leaderboards?tab=roobetsports
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+eboy.gg
+  URL: https://eboy.gg/#leaderboards?tab=roobettablegames
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+eboy.gg
+  URL: https://eboy.gg/#leaderboards?tab=packdraw
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+eboy.gg
+  URL: https://eboy.gg/#leaderboards?tab=clash
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+eboy.gg
+  URL: https://eboy.gg/#leaderboards?tab=csgowin
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+elliotrewards.gg
+  URL: https://elliotrewards.gg/shuffle
+  Elapsed: 36s
+  Error: No entries for shuffle
+
+green201.com
+  URL: https://green201.com/csgowin
+  Elapsed: 30s
+  Error: No entries for csgowin; No entries for upgrader
+
+kicktomii.com
+  URL: https://kicktomii.com/
+  Elapsed: 11s
+  Error: No leaderboards discovered
+
+yungreal.com
+  URL: https://yungreal.com/#leaderboard
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+flexi7rewards.com
+  URL: https://flexi7rewards.com/
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+justsan.co.uk
+  URL: https://justsan.co.uk/#leaderboard
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+mcchonky.com
+  URL: https://mcchonky.com/daddyskins
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+mcchonky.com
+  URL: https://mcchonky.com/csgowin
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+mcchonky.com
+  URL: https://mcchonky.com/winovo
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+mcchonky.com
+  URL: https://mcchonky.com/
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+huntrez.com
+  URL: https://huntrez.com/acebet
+  Elapsed: 160s
+  Error: No entries for rain; Click failed for clashgg: undefined; Click failed for acebet: undefined; Click failed for csgowin: undefined; No entries for csbattle; Click failed for raingg: undefined; Click failed for clash: undefined; No entries for hunt; No entries for rustclash; No entries for csgold
+
+huntrez.com
+  URL: https://huntrez.com/csgowin
+  Elapsed: 165s
+  Error: No entries for rain; Click failed for clashgg: undefined; Click failed for acebet: undefined; Click failed for csgowin: undefined; No entries for csbattle; Click failed for raingg: undefined; Click failed for clash: undefined; No entries for hunt; No entries for rustclash; No entries for csgold
+
+huntrez.com
+  URL: https://huntrez.com/csbattle
+  Elapsed: 165s
+  Error: No entries for rain; Click failed for clashgg: undefined; Click failed for acebet: undefined; Click failed for csgowin: undefined; No entries for csbattle; Click failed for raingg: undefined; Click failed for clash: undefined; No entries for hunt; No entries for rustclash; No entries for csgold
+
+huntrez.com
+  URL: https://huntrez.com/raingg
+  Elapsed: 165s
+  Error: No entries for rain; Click failed for clashgg: undefined; Click failed for acebet: undefined; Click failed for csgowin: undefined; No entries for csbattle; Click failed for raingg: undefined; Click failed for clash: undefined; No entries for hunt; No entries for rustclash; No entries for csgold
+
+huntrez.com
+  URL: https://huntrez.com/clashgg
+  Elapsed: 165s
+  Error: No entries for rain; Click failed for clashgg: undefined; Click failed for acebet: undefined; Click failed for csgowin: undefined; No entries for csbattle; Click failed for raingg: undefined; Click failed for clash: undefined; No entries for hunt; No entries for rustclash; No entries for csgold
+
+tivawrld.com
+  URL: https://tivawrld.com/chicken
+  Elapsed: 9s
+  Error: No leaderboards discovered
+
+tivawrld.com
+  URL: https://tivawrld.com/shock
+  Elapsed: 9s
+  Error: No leaderboards discovered
+
+yosoykush.fun
+  URL: https://yosoykush.fun/leaderboards.html
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+go192.com
+  URL: https://go192.com/rustclash
+  Elapsed: 165s
+  Error: Click failed for rustclash: undefined; No entries for clash; No entries for cases; No entries for casesgg; No entries for clashgg; No entries for csgold
+
+go192.com
+  URL: https://go192.com/clashgg
+  Elapsed: 165s
+  Error: Click failed for rustclash: undefined; No entries for clash; No entries for cases; No entries for casesgg; No entries for clashgg; No entries for csgold
+
+go192.com
+  URL: https://go192.com/casesgg
+  Elapsed: 165s
+  Error: Click failed for rustclash: undefined; No entries for clash; No entries for cases; No entries for casesgg; No entries for clashgg; No entries for csgold
+
+go192.com
+  URL: https://go192.com/csgold
+  Elapsed: 165s
+  Error: Click failed for rustclash: undefined; No entries for clash; No entries for cases; No entries for casesgg; No entries for clashgg; No entries for csgold
+
+toothrewards.com
+  URL: https://toothrewards.com/leaderboard/diceblox
+  Elapsed: 9s
+  Error: No leaderboards discovered
+
+toothrewards.com
+  URL: https://toothrewards.com/leaderboard/xfun
+  Elapsed: 36s
+  Error: No entries for rain
+
+kupogg.gg
+  URL: https://kupogg.gg/
+  Elapsed: 18s
+  Error: No entries for rain
+
+shmoneyteam.com
+  URL: https://shmoneyteam.com/acebet
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+shmoneyteam.com
+  URL: https://shmoneyteam.com/csgobig
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+shmoneyteam.com
+  URL: https://shmoneyteam.com/luxdrop
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+hustlehouse.bet
+  URL: https://hustlehouse.bet/skinrave/
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+hustlehouse.bet
+  URL: https://hustlehouse.bet/daddyskins/
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+hustlehouse.bet
+  URL: https://hustlehouse.bet/plunder/
+  Elapsed: 3s
+  Error: No leaderboards discovered
+
+qeeetzr.com
+  URL: https://qeeetzr.com/
+  Elapsed: 10s
+  Error: No leaderboards discovered
+
+casanoahh.com
+  URL: https://casanoahh.com/packdraw
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+casanoahh.com
+  URL: https://casanoahh.com/roobet
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+vznrewards.xyz
+  URL: https://vznrewards.xyz/skinfans.html
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+vznrewards.xyz
+  URL: https://vznrewards.xyz/csgobig.html
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+humantripod.bet
+  URL: https://humantripod.bet/
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+humantripod.bet
+  URL: https://humantripod.bet/csbattle/
+  Elapsed: 4s
+  Error: No leaderboards discovered
+
+www.yaqo.net
+  URL: https://www.yaqo.net/
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+meluhdy.com
+  URL: https://meluhdy.com/#leaderboards/rain
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+meluhdy.com
+  URL: https://meluhdy.com/#leaderboards/csbattle
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+meluhdy.com
+  URL: https://meluhdy.com/#leaderboards/juice
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+meluhdy.com
+  URL: https://meluhdy.com/#leaderboards/csgowin
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+meluhdy.com
+  URL: https://meluhdy.com/#leaderboards/packdraw
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+meluhdy.com
+  URL: https://meluhdy.com/#leaderboards/gamba
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+clonerewards.com
+  URL: https://clonerewards.com/leaderboard.php
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+kata.gg
+  URL: https://kata.gg/
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+jamey.gg
+  URL: https://jamey.gg/leaderboard/yeet
+  Elapsed: 16s
+  Error: Click failed for howl: undefined
+
+beastbets.gg
+  URL: https://beastbets.gg/leaderboard/clash
+  Elapsed: 27s
+  Error: Click failed for clash: undefined; No entries for cases
+
+beastbets.gg
+  URL: https://beastbets.gg/leaderboard/roobet
+  Elapsed: 26s
+  Error: Click failed for clash: undefined; No entries for cases
+
+smackdowness.com
+  URL: https://smackdowness.com/shuffle-com-monthly/
+  Elapsed: 30s
+  Error: Click failed for shuffle: undefined; Click failed for luxdrop: undefined
+
+smackdowness.com
+  URL: https://smackdowness.com/luxdrop-com-monthly/
+  Elapsed: 29s
+  Error: Click failed for shuffle: undefined; Click failed for luxdrop: undefined
+
+r20cs.com
+  URL: https://r20cs.com/
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+www.rewardify.gg
+  URL: https://www.rewardify.gg/
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+vervedagoty.com
+  URL: https://vervedagoty.com/
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+vervedagoty.com
+  URL: https://vervedagoty.com/luxdrop/
+  Elapsed: 1s
+  Error: No leaderboards discovered
+
+gamducks.com
+  URL: https://gamducks.com/hypedrop/
+  Elapsed: 6s
+  Error: No leaderboards discovered
+
+bereavednickel7.com
+  URL: https://bereavednickel7.com/clash
+  Elapsed: 10s
+  Error: No leaderboards discovered
+
+bereavednickel7.com
+  URL: https://bereavednickel7.com/cases
+  Elapsed: 10s
+  Error: No leaderboards discovered
+
+bereavednickel7.com
+  URL: https://bereavednickel7.com/roobet
+  Elapsed: 9s
+  Error: No leaderboards discovered
+
+www.prudentgg.com
+  URL: https://www.prudentgg.com/chicken-leaderboard
+  Elapsed: 11s
+  Error: No leaderboards discovered
+
+www.prudentgg.com
+  URL: https://www.prudentgg.com/shock-leaderboard
+  Elapsed: 11s
+  Error: No leaderboards discovered
+
+www.twinrewards.com
+  URL: https://www.twinrewards.com/#leaderboard
+  Elapsed: 11s
+  Error: No leaderboards discovered
+
+floridamanjeff.com
+  URL: https://floridamanjeff.com/shock
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+floridamanjeff.com
+  URL: https://floridamanjeff.com/packdraw
+  Elapsed: 2s
+  Error: No leaderboards discovered
+
+════════════════════════════════════════════════════════════════════════════════
+                           END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

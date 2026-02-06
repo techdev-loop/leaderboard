@@ -1,0 +1,214 @@
+{
+  "domain": "gcris.gg",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.161679,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:46:00.335Z",
+    "lastVerifiedAt": "2026-01-26T13:46:36.287Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "d7aad0af47a72573",
+    "switcherCount": 3,
+    "switcherNames": [
+      "chicken",
+      "chips"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:46:36.289Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://gcris.gg/leaderboards/chicken/",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:36:12.639Z"
+  },
+  "switchers": [
+    {
+      "name": "chips",
+      "selector": "[data-testid='chips-tab'], button[aria-label*='chips']",
+      "coordinates": {
+        "x": 683,
+        "y": 100
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "chips",
+        "CHIPS"
+      ]
+    },
+    {
+      "name": "chicken",
+      "selector": "[data-testid='chicken-tab'], button[aria-label*='chicken']",
+      "coordinates": {
+        "x": 769,
+        "y": 100
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "chicken",
+        "CHICKEN"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container, main",
+    "entrySelector": "tr, .podium-card, [data-testid='leaderboard-entry']",
+    "fields": {
+      "rank": ".rank, .place, [data-testid='rank'], td:first-child",
+      "username": ".username, .user, [data-testid='username'], td:nth-child(2)",
+      "wager": ".wager, .wagered, [data-testid='wager'], td:nth-child(3)",
+      "prize": ".prize, .reward, [data-testid='prize'], td:nth-child(4)"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://gcris.gg/leaderboards/{site}/leaderboard_data.json",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Usernames are properly censored with asterisks",
+      "addedAt": "2026-01-26T13:46:06.068Z"
+    },
+    {
+      "text": "Site uses gcris.gg domain with chips casino active",
+      "addedAt": "2026-01-26T13:46:06.068Z"
+    },
+    {
+      "text": "Clear podium layout with top 3 users in card format",
+      "addedAt": "2026-01-26T13:46:30.391Z"
+    },
+    {
+      "text": "Table below shows ranks 4-12 with proper structure",
+      "addedAt": "2026-01-26T13:46:30.391Z"
+    },
+    {
+      "text": "Two site switcher buttons clearly visible at top",
+      "addedAt": "2026-01-26T13:46:30.391Z"
+    },
+    {
+      "text": "Currency appears to be 'c' (credits) not USD",
+      "addedAt": "2026-01-26T13:46:30.391Z"
+    },
+    {
+      "text": "Winner highlighted with golden border",
+      "addedAt": "2026-01-26T13:46:30.391Z"
+    },
+    {
+      "text": "Countdown timer visible showing active leaderboard",
+      "addedAt": "2026-01-26T13:46:30.391Z"
+    },
+    {
+      "text": "Clear leaderboard structure with podium cards for top 3 and table for ranks 4-10",
+      "addedAt": "2026-01-26T13:46:35.837Z"
+    },
+    {
+      "text": "Two site switcher buttons visible at top: CHIPS and CHICKEN (currently on CHICKEN)",
+      "addedAt": "2026-01-26T13:46:35.837Z"
+    },
+    {
+      "text": "Wager amounts in 'c' currency format (credits/coins)",
+      "addedAt": "2026-01-26T13:46:35.837Z"
+    },
+    {
+      "text": "Timer showing 'ENDING IN — 4D 10:13:43'",
+      "addedAt": "2026-01-26T13:46:35.837Z"
+    },
+    {
+      "text": "Winner highlighted with yellow border (crislover)",
+      "addedAt": "2026-01-26T13:46:35.837Z"
+    },
+    {
+      "text": "API endpoint detected but reported as having no leaderboard data incorrectly",
+      "addedAt": "2026-01-26T13:46:35.837Z"
+    },
+    {
+      "text": "Clear hybrid layout with top 3 winners in podium cards and ranks 4-12 in table format",
+      "addedAt": "2026-01-26T13:46:36.286Z"
+    },
+    {
+      "text": "Two site switcher buttons visible: CHIPS and CHICKEN (currently on chicken)",
+      "addedAt": "2026-01-26T13:46:36.286Z"
+    },
+    {
+      "text": "Wager amounts use 'c' suffix (likely credits/coins)",
+      "addedAt": "2026-01-26T13:46:36.286Z"
+    },
+    {
+      "text": "Prize distribution follows typical pattern: top ranks get rewards, lower ranks get 0.00c",
+      "addedAt": "2026-01-26T13:46:36.286Z"
+    },
+    {
+      "text": "Table has clear column headers: PLACE, USER, WAGERED, REWARD",
+      "addedAt": "2026-01-26T13:46:36.286Z"
+    },
+    {
+      "text": "Podium cards show username, wagered amount, and prize clearly",
+      "addedAt": "2026-01-26T13:46:36.286Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:33:22.800Z",
+  "updatedAt": "2026-01-31T16:36:12.639Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:46:16.052Z"
+}

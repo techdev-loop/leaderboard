@@ -1,0 +1,607 @@
+{
+  "id": "51066e17-8a57-4976-8640-18600d3d11b7",
+  "results": [
+    {
+      "id": "61c575d5-4608-4f4e-af7a-edc2c0de0e51",
+      "extractionId": "51066e17-8a57-4976-8640-18600d3d11b7",
+      "name": "csgobig",
+      "url": "https://dustintfp.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 12,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Player",
+          "wager": 4,
+          "prize": 0,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 1,
+          "username": "Mat*****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 1,
+          "username": "Gig****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 1,
+          "username": "Glo************",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 2,
+          "username": "hwx****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 2,
+          "username": "Gla*****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 3,
+          "username": "vrt*",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 3,
+          "username": "nut******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 4,
+          "username": "✪******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 5,
+          "username": "EVA*******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 6,
+          "username": "Pai*******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        },
+        {
+          "rank": 7,
+          "username": "dus*********",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:23:53.302Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 0,
+      "totalWagered": 4,
+      "confidence": 70,
+      "scrapedAt": "2026-02-03T10:23:53.302Z"
+    },
+    {
+      "id": "461a2a01-281d-49aa-bdc9-e97c3a9b474e",
+      "extractionId": "51066e17-8a57-4976-8640-18600d3d11b7",
+      "name": "shuffle",
+      "url": "https://dustintfp.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 12,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Player",
+          "wager": 4,
+          "prize": 0,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 1,
+          "username": "Mat*****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 1,
+          "username": "Gig****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 1,
+          "username": "Glo************",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 2,
+          "username": "hwx****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 2,
+          "username": "Gla*****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 3,
+          "username": "vrt*",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 3,
+          "username": "nut******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 4,
+          "username": "✪******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 5,
+          "username": "EVA*******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 6,
+          "username": "Pai*******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        },
+        {
+          "rank": 7,
+          "username": "dus*********",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:06.697Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 0,
+      "totalWagered": 4,
+      "confidence": 70,
+      "scrapedAt": "2026-02-03T10:24:06.697Z"
+    },
+    {
+      "id": "e67e80b7-5c24-4b41-8bfa-6945862defcb",
+      "extractionId": "51066e17-8a57-4976-8640-18600d3d11b7",
+      "name": "packdraw",
+      "url": "https://dustintfp.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 12,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Player",
+          "wager": 4,
+          "prize": 0,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 1,
+          "username": "Mat*****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 1,
+          "username": "Gig****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 1,
+          "username": "Glo************",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 2,
+          "username": "hwx****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 2,
+          "username": "Gla*****",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 3,
+          "username": "vrt*",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 3,
+          "username": "nut******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 4,
+          "username": "✪******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 5,
+          "username": "EVA*******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 6,
+          "username": "Pai*******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        },
+        {
+          "rank": 7,
+          "username": "dus*********",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T10:24:19.975Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 0,
+      "totalWagered": 4,
+      "confidence": 70,
+      "scrapedAt": "2026-02-03T10:24:19.975Z"
+    }
+  ],
+  "errors": [
+    "No entries for hunt"
+  ],
+  "metadata": {
+    "domain": "dustintfp.com",
+    "startedAt": "2026-02-03T10:23:37.982Z",
+    "completedAt": "2026-02-03T10:24:31.028Z",
+    "leaderboardsDiscovered": 4,
+    "leaderboardsScraped": 3,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": []
+}

@@ -1,0 +1,269 @@
+{
+  "domain": "qrbet.gg",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csbattle": {
+        "navigation": {
+          "url": "https://qrbet.gg/leaderboard/csbattle",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "url-specified",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.3333333333333333,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:00:47.763Z",
+          "lastUpdatedAt": "2026-02-01T03:00:47.763Z"
+        }
+      },
+      "csgobig": {
+        "navigation": {
+          "url": "https://qrbet.gg/leaderboard/csgobig",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.375,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:01:06.252Z",
+          "lastUpdatedAt": "2026-02-01T03:01:06.252Z"
+        }
+      },
+      "clash": {
+        "navigation": {
+          "url": "https://qrbet.gg/leaderboard/clash",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.375,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:01:24.921Z",
+          "lastUpdatedAt": "2026-02-01T03:01:24.921Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T03:01:24.921Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-02-01T02:58:17.102Z",
+  "updatedAt": "2026-02-01T03:01:24.921Z"
+}

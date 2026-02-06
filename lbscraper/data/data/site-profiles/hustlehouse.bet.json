@@ -1,0 +1,323 @@
+{
+  "domain": "hustlehouse.bet",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "rain": {
+        "navigation": {
+          "url": "https://hustlehouse.bet/daddyskins/#",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 7,
+          "hasPrizes": true,
+          "prizePositions": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:11:02.237Z",
+          "lastUpdatedAt": "2026-02-01T07:11:02.237Z"
+        }
+      },
+      "howl": {
+        "navigation": {
+          "url": "https://hustlehouse.bet/skinrave/#",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 20,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:11:38.785Z",
+          "lastUpdatedAt": "2026-02-01T07:11:38.785Z"
+        }
+      },
+      "daddyskins": {
+        "navigation": {
+          "url": "https://hustlehouse.bet/plunder/#",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 8,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 2,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:08:29.812Z",
+          "lastUpdatedAt": "2026-02-01T07:08:29.812Z"
+        }
+      },
+      "skinrave": {
+        "navigation": {
+          "url": "https://hustlehouse.bet/daddyskins/#",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 7,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:06:05.658Z",
+          "lastUpdatedAt": "2026-02-01T07:06:05.658Z"
+        }
+      },
+      "plunder": {
+        "navigation": {
+          "url": "https://hustlehouse.bet/daddyskins/#",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 7,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:06:15.700Z",
+          "lastUpdatedAt": "2026-02-01T07:06:15.700Z"
+        }
+      },
+      "hunt": {
+        "navigation": {
+          "url": "https://hustlehouse.bet/daddyskins/#",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 7,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:06:25.724Z",
+          "lastUpdatedAt": "2026-02-01T07:06:25.724Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T07:11:38.785Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-02-01T07:02:00.497Z",
+  "updatedAt": "2026-02-01T07:11:38.785Z"
+}

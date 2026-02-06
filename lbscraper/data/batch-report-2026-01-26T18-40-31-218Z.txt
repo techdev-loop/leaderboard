@@ -1,0 +1,90 @@
+════════════════════════════════════════════════════════════════════════════════
+                         BATCH SCRAPE REPORT
+════════════════════════════════════════════════════════════════════════════════
+Run ID: MKVI2C7T
+Completed: 2026-01-26T18:40:31.216Z
+Duration: 13m 1s
+
+SUMMARY:
+  Total Sites: 9
+  Successful: 8
+  Failed: 1
+  Timed Out: 0
+  Total Leaderboards Extracted: 26
+
+════════════════════════════════════════════════════════════════════════════════
+✅ SUCCESSFUL SITES (8)
+════════════════════════════════════════════════════════════════════════════════
+
+wrewards.com (4 leaderboards, 89s)
+  URL: https://wrewards.com
+  DB: 4 snapshots, 130 entries
+  - hunt: 50 entries, 92% confidence (dom)
+  - gamdom: 30 entries, 89% confidence (dom)
+  - packdraw: 25 entries, 92% confidence (dom)
+  - lootbox: 25 entries, 92% confidence (dom)
+
+jonkennleaderboard.com (3 leaderboards, 170s)
+  URL: https://jonkennleaderboard.com
+  DB: 3 snapshots, 35 entries
+  - bcgame: 10 entries, 85% confidence (api)
+  - chicken: 15 entries, 63% confidence (dom)
+  - csbattle: 10 entries, 65% confidence (dom)
+
+betjuicy.com (6 leaderboards, 107s)
+  URL: https://betjuicy.com
+  DB: 6 snapshots, 60 entries
+  - rain: 10 entries, 85% confidence (markdown)
+  - roobet: 10 entries, 85% confidence (markdown)
+  - packdraw: 10 entries, 85% confidence (markdown)
+  - csgoroll: 10 entries, 85% confidence (markdown)
+  - raingg: 10 entries, 85% confidence (markdown)
+  - csgogem: 10 entries, 85% confidence (markdown)
+
+spencerrewards.com (5 leaderboards, 110s)
+  URL: https://spencerrewards.com
+  DB: 5 snapshots, 48 entries
+  - packdraw: 8 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+  - stake: 10 entries, 85% confidence (markdown)
+
+elliotrewards.gg (1 leaderboards, 31s)
+  URL: https://elliotrewards.gg
+  DB: 1 snapshots, 7 entries
+  - shuffle: 7 entries, 62% confidence (markdown)
+
+vinnyvh.com (4 leaderboards, 68s)
+  URL: https://vinnyvh.com
+  DB: 4 snapshots, 22 entries
+  - clash: 3 entries, 80% confidence (markdown)
+  - gamba: 8 entries, 83% confidence (markdown)
+  - csgold: 8 entries, 83% confidence (markdown)
+  - rain: 3 entries, 80% confidence (markdown)
+
+paxgambles.com (1 leaderboards, 53s)
+  URL: https://paxgambles.com
+  DB: 1 snapshots, 5 entries
+  - acebet: 5 entries, 82% confidence (markdown)
+
+prodigyddk.com (2 leaderboards, 93s)
+  URL: https://prodigyddk.com
+  DB: 2 snapshots, 48 entries
+  - hypedrop: 17 entries, 75% confidence (markdown)
+  - cases: 31 entries, 90% confidence (api)
+
+DATABASE TOTALS: 26 snapshots, 355 entries saved
+
+════════════════════════════════════════════════════════════════════════════════
+❌ FAILED SITES (1)
+════════════════════════════════════════════════════════════════════════════════
+
+scrapesgambles.com
+  URL: https://scrapesgambles.com
+  Elapsed: 19s
+  Error: No leaderboards discovered
+
+════════════════════════════════════════════════════════════════════════════════
+                           END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

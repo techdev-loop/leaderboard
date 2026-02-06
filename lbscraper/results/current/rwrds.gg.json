@@ -1,0 +1,715 @@
+{
+  "id": "dddbe87a-2d4e-4441-b7b1-e186e40b7b38",
+  "results": [
+    {
+      "id": "53b511f7-b6d1-47a8-8252-145a178102e2",
+      "extractionId": "dddbe87a-2d4e-4441-b7b1-e186e40b7b38",
+      "name": "upgrader",
+      "url": "https://rwrds.gg/leaderboard/upgrader",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 10,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Christian",
+          "wager": 55119.73,
+          "prize": 600,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 1,
+          "username": "To Claim:",
+          "wager": 28057.77,
+          "prize": 0,
+          "tier": null,
+          "source": "markdown-header",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 2,
+          "username": "ICEVAR ON KICK",
+          "wager": 28057.77,
+          "prize": 350,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 3,
+          "username": "scythe",
+          "wager": 5134.23,
+          "prize": 250,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 4,
+          "username": "Flowy",
+          "wager": 3178.74,
+          "prize": 200,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 5,
+          "username": "Gray",
+          "wager": 2424.44,
+          "prize": 70,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 6,
+          "username": "babberwrds.gg 1.5k",
+          "wager": 2358.27,
+          "prize": 30,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 7,
+          "username": "dboldery",
+          "wager": 1861.96,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 8,
+          "username": "DuckFromHell",
+          "wager": 1575.78,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        },
+        {
+          "rank": 10,
+          "username": "qp.",
+          "wager": 1344.47,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:12:54.918Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 1500,
+      "totalWagered": 129113.16000000002,
+      "confidence": 85,
+      "scrapedAt": "2026-02-01T05:12:54.918Z"
+    },
+    {
+      "id": "074d4812-823d-43d7-806d-aecf09968caa",
+      "extractionId": "dddbe87a-2d4e-4441-b7b1-e186e40b7b38",
+      "name": "cases",
+      "url": "https://rwrds.gg/leaderboard/cases",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 10,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Go*************",
+          "wager": 18864.09,
+          "prize": 700,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "geometric"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 2,
+          "username": "En*************",
+          "wager": 10341.2,
+          "prize": 300,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "geometric"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 3,
+          "username": "ar********",
+          "wager": 668.51,
+          "prize": 200,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "geometric"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 4,
+          "username": "✪ ***",
+          "wager": 626.53,
+          "prize": 100,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 5,
+          "username": "rc***",
+          "wager": 306.66,
+          "prize": 75,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 6,
+          "username": "DN*****",
+          "wager": 282.76,
+          "prize": 35,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 7,
+          "username": "Ap****",
+          "wager": 197.67,
+          "prize": 25,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 8,
+          "username": "mi**********",
+          "wager": 116.29,
+          "prize": 25,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 9,
+          "username": "De****",
+          "wager": 100.08,
+          "prize": 25,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        },
+        {
+          "rank": 10,
+          "username": "fe****",
+          "wager": 88.33,
+          "prize": 20,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:13:15.939Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 1505,
+      "totalWagered": 31592.12,
+      "confidence": 80,
+      "scrapedAt": "2026-02-01T05:13:15.939Z"
+    },
+    {
+      "id": "70d9b681-3415-4546-9a05-1799fcfe13b9",
+      "extractionId": "dddbe87a-2d4e-4441-b7b1-e186e40b7b38",
+      "name": "clashgg",
+      "url": "https://rwrds.gg/leaderboard/clash",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 11,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "ApeBet",
+          "wager": 26489.25,
+          "prize": 650,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.109Z"
+        },
+        {
+          "rank": 1,
+          "username": "To Claim:",
+          "wager": 15130.49,
+          "prize": 0,
+          "tier": null,
+          "source": "markdown-header",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.109Z"
+        },
+        {
+          "rank": 2,
+          "username": "S!ckGod2k †✪★",
+          "wager": 15130.49,
+          "prize": 350,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.109Z"
+        },
+        {
+          "rank": 3,
+          "username": "kick.com/Om3ge",
+          "wager": 5948.41,
+          "prize": 250,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.109Z"
+        },
+        {
+          "rank": 4,
+          "username": "Derrow",
+          "wager": 3388.48,
+          "prize": 100,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.109Z"
+        },
+        {
+          "rank": 5,
+          "username": "JOXZ",
+          "wager": 3286.78,
+          "prize": 50,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.110Z"
+        },
+        {
+          "rank": 6,
+          "username": "ObvSlash",
+          "wager": 1401.76,
+          "prize": 25,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.110Z"
+        },
+        {
+          "rank": 7,
+          "username": "NoobVonNebenAn",
+          "wager": 1022.73,
+          "prize": 25,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.110Z"
+        },
+        {
+          "rank": 8,
+          "username": "Beautiful Lemur",
+          "wager": 793.24,
+          "prize": 25,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.110Z"
+        },
+        {
+          "rank": 9,
+          "username": "Az arab vállalkozó",
+          "wager": 401.25,
+          "prize": 25,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.110Z"
+        },
+        {
+          "rank": 10,
+          "username": "Bø",
+          "wager": 251.28,
+          "prize": 25,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:13:38.110Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 1525,
+      "totalWagered": 73244.15999999999,
+      "confidence": 85,
+      "scrapedAt": "2026-02-01T05:13:38.110Z"
+    }
+  ],
+  "errors": [
+    "No entries for csgowin",
+    "No entries for acebet"
+  ],
+  "metadata": {
+    "domain": "rwrds.gg",
+    "startedAt": "2026-02-01T05:12:41.235Z",
+    "completedAt": "2026-02-01T05:13:38.111Z",
+    "leaderboardsDiscovered": 5,
+    "leaderboardsScraped": 3,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": []
+}

@@ -1,0 +1,129 @@
+{
+  "domain": "boyka.gg",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.08643300000000001,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": "https://boyka.gg/leaderboard/daddyskins",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:48:54.001Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Clear leaderboard structure with podium cards (top 3) and table (ranks 4+)",
+      "addedAt": "2026-01-26T13:47:57.772Z"
+    },
+    {
+      "text": "Top 3 cards show: rank, username, wagered amount, prize",
+      "addedAt": "2026-01-26T13:47:57.772Z"
+    },
+    {
+      "text": "Table shows: place, user, prize, wagered columns",
+      "addedAt": "2026-01-26T13:47:57.772Z"
+    },
+    {
+      "text": "Site switchers visible at top as game images",
+      "addedAt": "2026-01-26T13:47:57.772Z"
+    },
+    {
+      "text": "Currently viewing 'upgrader' leaderboard based on URL",
+      "addedAt": "2026-01-26T13:47:57.772Z"
+    },
+    {
+      "text": "Countdown timer shows 'ENDING IN 5 DAYS 10:12:15'",
+      "addedAt": "2026-01-26T13:47:57.772Z"
+    },
+    {
+      "text": "Need to explore switchers and see full leaderboard length",
+      "addedAt": "2026-01-26T13:47:57.772Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:47:02.642Z",
+  "updatedAt": "2026-01-31T16:48:54.001Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:47:02.641Z"
+}

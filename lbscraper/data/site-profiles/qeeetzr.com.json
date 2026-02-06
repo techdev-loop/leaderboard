@@ -1,0 +1,349 @@
+{
+  "domain": "qeeetzr.com",
+  "status": "verified",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.027879,
+  "verification": {
+    "firstVerifiedAt": "2026-01-24T18:34:12.666Z",
+    "lastVerifiedAt": "2026-01-24T18:34:12.666Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "5676585c6ee46f0b",
+    "switcherCount": 2,
+    "switcherNames": [
+      "shuffle",
+      "csbattle"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-24T18:34:12.672Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://qeeetzr.com/",
+    "authRequired": false,
+    "discoveredAt": "2026-02-01T07:12:02.747Z"
+  },
+  "switchers": [
+    {
+      "name": "shuffle",
+      "selector": "img[alt='shuffle']",
+      "coordinates": {
+        "x": 978,
+        "y": 137
+      },
+      "clickStrategy": "coordinate",
+      "type": "button",
+      "keywords": [
+        "shuffle"
+      ]
+    },
+    {
+      "name": "csbattle",
+      "selector": "img[alt='csbattle']",
+      "coordinates": {
+        "x": 1034,
+        "y": 137
+      },
+      "clickStrategy": "coordinate",
+      "type": "button",
+      "keywords": [
+        "csbattle"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": "none - no leaderboards present",
+    "entrySelector": "none - no leaderboards present",
+    "fields": {
+      "rank": "none",
+      "username": "none",
+      "wager": "none",
+      "prize": "none"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "shuffle": {
+        "navigation": {
+          "url": "https://qeeetzr.com",
+          "urlPattern": null,
+          "baseUrl": "https://qeeetzr.com",
+          "method": "click",
+          "requiresClick": true,
+          "selector": "img[alt='shuffle']"
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "podium-and-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": {
+            "podiumCount": 3,
+            "listCount": 7
+          }
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-24T19:17:00.000Z",
+          "lastUpdatedAt": "2026-01-24T19:17:00.000Z"
+        }
+      },
+      "csbattle": {
+        "navigation": {
+          "url": "https://qeeetzr.com",
+          "urlPattern": null,
+          "baseUrl": "https://qeeetzr.com",
+          "method": "click",
+          "requiresClick": true,
+          "selector": "img[alt='csbattle']"
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "podium-and-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": {
+            "podiumCount": 3,
+            "listCount": 6
+          }
+        },
+        "validation": {
+          "expectedEntries": 9,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-24T19:17:00.000Z",
+          "lastUpdatedAt": "2026-01-24T19:17:00.000Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-01-24T18:29:28.017Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "This is clearly a signup bonuses page showing casino promotional offers",
+      "addedAt": "2026-01-24T18:34:12.665Z"
+    },
+    {
+      "text": "No leaderboard data exists - these are bonus claim cards with promotional text",
+      "addedAt": "2026-01-24T18:34:12.665Z"
+    },
+    {
+      "text": "The scraper incorrectly interpreted bonus promotion data as leaderboard entries",
+      "addedAt": "2026-01-24T18:34:12.665Z"
+    },
+    {
+      "text": "The 'CLAIM BONUS' buttons are for promotional signups, not leaderboard navigation",
+      "addedAt": "2026-01-24T18:34:12.665Z"
+    },
+    {
+      "text": "Page header clearly states 'Signup Bonuses' with promotional text below",
+      "addedAt": "2026-01-24T18:34:12.665Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [
+    {
+      "name": "queetzr",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:24:54.490Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:24:54.490Z"
+    },
+    {
+      "name": "diamond",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:24:55.590Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:24:55.590Z"
+    },
+    {
+      "name": "gamdom",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:24:56.588Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:24:56.588Z"
+    },
+    {
+      "name": "clash",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:24:57.666Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:24:57.666Z"
+    },
+    {
+      "name": "clashgg",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:24:58.820Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:24:58.820Z"
+    },
+    {
+      "name": "csgoempire",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:24:59.929Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:24:59.929Z"
+    },
+    {
+      "name": "empire",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:25:00.840Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:25:00.840Z"
+    },
+    {
+      "name": "csgoluck",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:25:01.881Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:25:01.881Z"
+    },
+    {
+      "name": "rain",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:25:03.110Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:25:03.110Z"
+    },
+    {
+      "name": "skinrave",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:25:04.262Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:25:04.262Z"
+    },
+    {
+      "name": "csgold",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:25:05.359Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:25:05.359Z"
+    },
+    {
+      "name": "bsite",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:25:06.373Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:25:06.373Z"
+    },
+    {
+      "name": "admin",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T19:25:07.450Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T19:25:07.450Z"
+    }
+  ],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": "2026-01-24T18:28:35.537Z",
+  "lastVisualVerification": {
+    "llmSwitcherCount": 2,
+    "llmSwitchers": [
+      "shuffle",
+      "csbattle"
+    ],
+    "domSwitcherCount": 12,
+    "additionalFound": 0,
+    "missingFromLlm": [
+      "gamdom",
+      "clash",
+      "clashgg",
+      "csgoempire",
+      "empire",
+      "csgoluck",
+      "rain",
+      "skinrave",
+      "csgold",
+      "bsite"
+    ],
+    "confidence": 95,
+    "notes": "Found two tab-style site switchers in the upper portion of the page - 'SHUFFLE' (currently selected/highlighted) and 'CSBattle'. These appear as rounded rectangular tabs with casino logos/names. The page shows a $5,000 Wager Leaderboard competition for Shuffle, and the tabs allow switching between different casino site leaderboards."
+  },
+  "createdAt": "2026-01-24T18:28:10.598Z",
+  "updatedAt": "2026-02-01T07:12:02.747Z"
+}

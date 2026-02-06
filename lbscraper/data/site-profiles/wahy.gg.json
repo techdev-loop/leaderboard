@@ -1,0 +1,419 @@
+{
+  "domain": "wahy.gg",
+  "status": "learning",
+  "attempts": 2,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.122718,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:25:46.828Z",
+    "lastVerifiedAt": "2026-01-26T13:25:46.828Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "c4b5fdaddaf60527",
+    "switcherCount": 1,
+    "switcherNames": [
+      "rain"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:25:46.832Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://wahy.gg/leaderboard/csgogem",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T11:18:38.249Z"
+  },
+  "switchers": [
+    {
+      "name": "csgogem",
+      "selector": "a[href*='csgogem']",
+      "coordinates": {
+        "x": 305,
+        "y": 118
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "csgogem",
+        "CSGOGEM"
+      ]
+    },
+    {
+      "name": "raingg",
+      "selector": "a[href*='rain']",
+      "coordinates": {
+        "x": 474,
+        "y": 118
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "rain",
+        "RAIN"
+      ]
+    },
+    {
+      "name": "clashgg",
+      "selector": "a[href*='clash']",
+      "coordinates": {
+        "x": 643,
+        "y": 118
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "clash",
+        "CLASH"
+      ]
+    },
+    {
+      "name": "csbattle",
+      "selector": "a[href*='csbattle']",
+      "coordinates": {
+        "x": 812,
+        "y": 118
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "csbattle",
+        "CSBattle"
+      ]
+    },
+    {
+      "name": "csgowin",
+      "selector": "a[href*='csgowin']",
+      "coordinates": {
+        "x": 981,
+        "y": 118
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "csgowin",
+        "CSGOWIN"
+      ]
+    },
+    {
+      "name": "upgrader",
+      "selector": "a[href*='upgrader']",
+      "coordinates": {
+        "x": 1149,
+        "y": 118
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "upgrader",
+        "Upgrader"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container, .leaderboard-entries",
+    "entrySelector": ".leaderboard-entry, .entry-row",
+    "fields": {
+      "rank": ".rank, .position",
+      "username": ".username, .player",
+      "wager": ".wager, .bet-amount",
+      "prize": ".prize, .reward"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://wahy.gg/api/leaderboard/{casino}",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csgogem": {
+        "navigation": {
+          "url": "https://wahy.gg/leaderboard/csgogem",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "url-specified",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 6,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:18:48.793Z",
+          "lastUpdatedAt": "2026-02-04T11:18:48.793Z"
+        }
+      },
+      "csbattle": {
+        "navigation": {
+          "url": "https://wahy.gg/leaderboard/csbattle",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T05:16:24.438Z",
+          "lastUpdatedAt": "2026-02-01T05:16:24.438Z"
+        }
+      },
+      "clash": {
+        "navigation": {
+          "url": "https://wahy.gg/leaderboard/clash",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 5,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:19:23.873Z",
+          "lastUpdatedAt": "2026-02-04T11:19:23.873Z"
+        }
+      },
+      "upgrader": {
+        "navigation": {
+          "url": "https://wahy.gg/leaderboard/upgrader",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 5,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:19:42.088Z",
+          "lastUpdatedAt": "2026-02-04T11:19:42.088Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T11:19:42.088Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Header clearly indicates this is a 'CODE WAHY BI-WEEKLY LEADERBOARD'",
+      "addedAt": "2026-01-26T13:25:46.826Z"
+    },
+    {
+      "text": "Site switcher navigation clearly visible with 6 casino options at top",
+      "addedAt": "2026-01-26T13:25:46.826Z"
+    },
+    {
+      "text": "Currently on Rain (raingg) leaderboard as indicated by URL",
+      "addedAt": "2026-01-26T13:25:46.826Z"
+    },
+    {
+      "text": "Leaderboard updates every 15min according to displayed text",
+      "addedAt": "2026-01-26T13:25:46.826Z"
+    },
+    {
+      "text": "Previous leaderboard link available suggesting historical data access",
+      "addedAt": "2026-01-26T13:25:46.826Z"
+    },
+    {
+      "text": "Page shows '2,000 CODE WAHY LEADERBOARD!' header",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "Current status appears to be 'Paused!'",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "Multiple casino logos visible at top (CSGOGEM, RAIN.GG, CLASH.GG, CSBattle, CSGOWIN, Upgrader)",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "These logos appear to be switchers for different casino leaderboards",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "Page mentions bets on CSGOWIN under code 'WAHY' count towards score",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "Leaderboard updates every 15 minutes",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "Bonus system: Every 10k wagered gets 100c bonus",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "Has 'PREVIOUS LEADERBOARD' link",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "No actual leaderboard entries visible yet - may be paused or need interaction",
+      "addedAt": "2026-01-26T13:26:04.308Z"
+    },
+    {
+      "text": "Page shows 'Paused!' status instead of leaderboard data",
+      "addedAt": "2026-01-26T13:26:05.749Z"
+    },
+    {
+      "text": "Multiple casino site logos visible in header: CSGOGEM, RAIN.GG, CLASH.GG, CSBattle, CSGOWIN, Upgrader",
+      "addedAt": "2026-01-26T13:26:05.749Z"
+    },
+    {
+      "text": "Three game images in toggle section that appear clickable (all have clash-image class)",
+      "addedAt": "2026-01-26T13:26:05.749Z"
+    },
+    {
+      "text": "URL indicates this is for CSBattle leaderboard specifically",
+      "addedAt": "2026-01-26T13:26:05.749Z"
+    },
+    {
+      "text": "Title shows '2,000 CODE WAHY BI-WEEKLY LEADERBOARD!' with betting information",
+      "addedAt": "2026-01-26T13:26:05.749Z"
+    },
+    {
+      "text": "API responses show countdown data but no leaderboard entries yet",
+      "addedAt": "2026-01-26T13:26:05.749Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:25:32.657Z",
+  "updatedAt": "2026-02-04T11:19:42.088Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:25:32.837Z"
+}

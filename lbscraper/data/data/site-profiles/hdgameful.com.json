@@ -1,0 +1,405 @@
+{
+  "domain": "hdgameful.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csgogem": {
+        "navigation": {
+          "url": "https://hdgameful.com/leaderboardCsgogem",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "markdown"
+            ],
+            "prize": [
+              "geometric"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 3,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.3333333333333333,
+          "sourcesUsed": [
+            "markdown",
+            "geometric"
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T02:44:27.840Z",
+          "lastUpdatedAt": "2026-02-01T02:44:27.840Z"
+        }
+      },
+      "csgowin": {
+        "navigation": {
+          "url": "https://hdgameful.com/leaderboardCsgowin",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "markdown",
+              "none",
+              "api"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 60,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.625,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "geometric"
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T02:44:38.867Z",
+          "lastUpdatedAt": "2026-02-01T02:44:38.867Z"
+        }
+      },
+      "skinrave": {
+        "navigation": {
+          "url": "https://hdgameful.com/leaderboardSkinrave",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "markdown",
+              "none",
+              "api"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 27,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.6875,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "geometric"
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T02:44:49.672Z",
+          "lastUpdatedAt": "2026-02-01T02:44:49.672Z"
+        }
+      },
+      "rustmagic": {
+        "navigation": {
+          "url": "https://hdgameful.com/leaderboardSkinrave",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "markdown"
+            ],
+            "prize": [
+              "markdown"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 3,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.3333333333333333,
+          "sourcesUsed": [
+            "markdown",
+            "geometric"
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T02:45:00.630Z",
+          "lastUpdatedAt": "2026-02-01T02:45:00.630Z"
+        }
+      },
+      "stake": {
+        "navigation": {
+          "url": "https://hdgameful.com/leaderboardSkinrave",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "markdown"
+            ],
+            "prize": [
+              "markdown"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 3,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.3333333333333333,
+          "sourcesUsed": [
+            "markdown",
+            "geometric"
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T02:45:11.227Z",
+          "lastUpdatedAt": "2026-02-01T02:45:11.227Z"
+        }
+      },
+      "chicken": {
+        "navigation": {
+          "url": "https://hdgameful.com/leaderboardSkinrave",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "markdown"
+            ],
+            "prize": [
+              "markdown"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 3,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.3333333333333333,
+          "sourcesUsed": [
+            "markdown",
+            "geometric"
+          ]
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T02:45:22.187Z",
+          "lastUpdatedAt": "2026-02-01T02:45:22.187Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T02:45:22.187Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-02-01T02:43:47.694Z",
+  "updatedAt": "2026-02-01T02:45:22.187Z"
+}

@@ -1,0 +1,254 @@
+{
+  "domain": "www.hydrarewards.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csbattle": {
+        "navigation": {
+          "url": "https://www.hydrarewards.com/leaderboards/csbattle",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "markdown",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 1,
+          "sourcesUsed": [
+            "api",
+            "markdown"
+          ]
+        },
+        "stats": {
+          "successCount": 6,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-31T16:14:48.347Z",
+          "lastUpdatedAt": "2026-01-31T16:14:48.347Z"
+        }
+      },
+      "clashgg": {
+        "navigation": {
+          "url": "https://www.hydrarewards.com/leaderboards/clashgg",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 5,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-31T16:15:06.244Z",
+          "lastUpdatedAt": "2026-01-31T16:15:06.244Z"
+        }
+      },
+      "csgowin": {
+        "navigation": {
+          "url": "https://www.hydrarewards.com/leaderboards/csgowin",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 20,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 2,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-31T16:15:25.388Z",
+          "lastUpdatedAt": "2026-01-31T16:15:25.388Z"
+        }
+      },
+      "csgoroll": {
+        "navigation": {
+          "url": "https://www.hydrarewards.com/leaderboards/csgoroll",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "url-specified",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-31T16:14:30.484Z",
+          "lastUpdatedAt": "2026-01-31T16:14:30.484Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-01-31T16:15:25.388Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-31T16:09:11.611Z",
+  "updatedAt": "2026-01-31T16:15:25.388Z"
+}

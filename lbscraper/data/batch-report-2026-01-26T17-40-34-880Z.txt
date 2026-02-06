@@ -1,0 +1,28 @@
+════════════════════════════════════════════════════════════════════════════════
+                         BATCH SCRAPE REPORT
+════════════════════════════════════════════════════════════════════════════════
+Run ID: MKVGDI3R
+Completed: 2026-01-26T17:40:34.879Z
+Duration: 0m 23s
+
+SUMMARY:
+  Total Sites: 1
+  Successful: 1
+  Failed: 0
+  Timed Out: 0
+  Total Leaderboards Extracted: 1
+
+════════════════════════════════════════════════════════════════════════════════
+✅ SUCCESSFUL SITES (1)
+════════════════════════════════════════════════════════════════════════════════
+
+jonkennleaderboard.com (1 leaderboards, 23s)
+  URL: https://jonkennleaderboard.com/leaderboard/chicken
+  DB: 1 snapshots, 12 entries
+  - chicken: 12 entries, 63% confidence (dom)
+
+DATABASE TOTALS: 1 snapshots, 12 entries saved
+
+════════════════════════════════════════════════════════════════════════════════
+                           END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

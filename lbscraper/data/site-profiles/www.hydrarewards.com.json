@@ -1,0 +1,209 @@
+{
+  "domain": "www.hydrarewards.com",
+  "status": "flagged_for_review",
+  "attempts": 6,
+  "maxAttempts": 3,
+  "llmDisabled": true,
+  "llmCostTotal": 0.203373,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 2,
+    "switcherNames": [
+      "Leaderboards",
+      "Rewards"
+    ],
+    "layoutType": "loading",
+    "generatedAt": "2026-01-26T13:39:00.246Z"
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.hydrarewards.com/leaderboards/csgoroll",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:14:20.732Z"
+  },
+  "switchers": [
+    {
+      "name": "leaderboards_nav",
+      "selector": ".leaderboards-button, [href*='leaderboards']",
+      "coordinates": {
+        "x": 929,
+        "y": 36
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "Leaderboards"
+      ]
+    },
+    {
+      "name": "rewards_nav",
+      "selector": ".rewards-button, [href*='rewards']",
+      "coordinates": {
+        "x": 1030,
+        "y": 36
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "Rewards"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container, .leaderboard-wrapper, [class*='leaderboard']",
+    "entrySelector": ".leaderboard-entry, .leaderboard-row, .user-entry, tr",
+    "fields": {
+      "rank": ".rank, .position, td:first-child",
+      "username": ".username, .player, .user-name, td:nth-child(2)",
+      "wager": ".wager, .wagered, .amount, td:nth-child(3)",
+      "prize": ".prize, .reward, .winnings, td:nth-child(4)"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://www.hydrarewards.com/api/leaderboards/clashgg",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "This is a Hydra rewards leaderboard page for ClashGG gambling site",
+      "addedAt": "2026-01-26T13:39:06.916Z"
+    },
+    {
+      "text": "Page shows '3,000 CODE HYDRA LEADERBOARD!' with countdown timer",
+      "addedAt": "2026-01-26T13:39:06.916Z"
+    },
+    {
+      "text": "Timer shows 00 days, 11 hours, 21 minutes, 03 seconds remaining",
+      "addedAt": "2026-01-26T13:39:06.916Z"
+    },
+    {
+      "text": "There's a 'Participants of the Leaderboard' section that needs exploration",
+      "addedAt": "2026-01-26T13:39:06.916Z"
+    },
+    {
+      "text": "Need to scroll down to see actual leaderboard entries",
+      "addedAt": "2026-01-26T13:39:06.916Z"
+    },
+    {
+      "text": "No site switchers visible in current view - need to explore more",
+      "addedAt": "2026-01-26T13:39:06.916Z"
+    },
+    {
+      "text": "Current page shows ClashGG leaderboard from URL path '/leaderboards/clashgg'",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "Top 3 players visible in card format:",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "- #1: C********en, Wagered: 28,921.73, Reward: 1100.00",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "- #2: A*********ma, Wagered: 18,568.44, Reward: 900.00",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "- #3: b**k!, Wagered: 15,551.47, Reward: 450.00",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "Page title indicates '3,000 CODE HYDRA LEADERBOARD!'",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "Text mentions 'Every BET on ClashGG under Code HYDRA counts towards your score'",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "Need to scroll down to see if there are more entries (ranks 4-10)",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "Need to check for site switchers to access other casino leaderboards",
+      "addedAt": "2026-01-26T13:39:10.000Z"
+    },
+    {
+      "text": "This is a Hydra rewards leaderboard page for ClashGG",
+      "addedAt": "2026-01-26T13:39:36.966Z"
+    },
+    {
+      "text": "Shows a $3,000 prize pool leaderboard with countdown timer",
+      "addedAt": "2026-01-26T13:39:36.966Z"
+    },
+    {
+      "text": "Has a 'Participants of the Leaderboard' section that needs exploration",
+      "addedAt": "2026-01-26T13:39:36.966Z"
+    },
+    {
+      "text": "Page appears to be for a specific leaderboard period that ends soon",
+      "addedAt": "2026-01-26T13:39:36.966Z"
+    },
+    {
+      "text": "URL shows '/leaderboards/clashgg' suggesting this might be one of multiple casino leaderboards",
+      "addedAt": "2026-01-26T13:39:36.966Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:26:22.356Z",
+  "updatedAt": "2026-01-31T16:14:20.732Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:38:46.983Z"
+}

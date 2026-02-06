@@ -1,0 +1,264 @@
+{
+  "domain": "hamstersrewards.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csgobig": {
+        "navigation": {
+          "url": "https://hamstersrewards.com/leaderboard/csgobig",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.4166666666666667,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 6,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:44:05.958Z",
+          "lastUpdatedAt": "2026-02-01T03:44:05.958Z"
+        }
+      },
+      "csbattle": {
+        "navigation": {
+          "url": "https://hamstersrewards.com/leaderboard/csbattle",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.4090909090909091,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 6,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:44:23.875Z",
+          "lastUpdatedAt": "2026-02-01T03:44:23.875Z"
+        }
+      },
+      "csgogem": {
+        "navigation": {
+          "url": "https://hamstersrewards.com/leaderboard/csgogem",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 15,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.38461538461538464,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 5,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:44:41.888Z",
+          "lastUpdatedAt": "2026-02-01T03:44:41.888Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T03:44:41.888Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-02-01T03:37:58.612Z",
+  "updatedAt": "2026-02-01T03:44:41.888Z"
+}

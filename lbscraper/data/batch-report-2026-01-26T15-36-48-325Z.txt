@@ -1,0 +1,41 @@
+════════════════════════════════════════════════════════════════════════════════
+                         BATCH SCRAPE REPORT
+════════════════════════════════════════════════════════════════════════════════
+Run ID: MKVBV35S
+Completed: 2026-01-26T15:36:48.323Z
+Duration: 2m 54s
+
+SUMMARY:
+  Total Sites: 2
+  Successful: 2
+  Failed: 0
+  Timed Out: 0
+  Total Leaderboards Extracted: 10
+
+════════════════════════════════════════════════════════════════════════════════
+✅ SUCCESSFUL SITES (2)
+════════════════════════════════════════════════════════════════════════════════
+
+spencerrewards.com (4 leaderboards, 79s)
+  URL: https://spencerrewards.com
+  DB: 4 snapshots, 38 entries
+  - packdraw: 8 entries, 85% confidence (markdown)
+  - chips: 10 entries, 85% confidence (markdown)
+  - rostake: 10 entries, 85% confidence (markdown)
+  - upgrader: 10 entries, 85% confidence (markdown)
+
+betjuicy.com (6 leaderboards, 90s)
+  URL: https://betjuicy.com
+  DB: 6 snapshots, 41 entries
+  - roobet: 7 entries, 85% confidence (markdown)
+  - packdraw: 7 entries, 85% confidence (markdown)
+  - csgoroll: 6 entries, 85% confidence (markdown)
+  - raingg: 7 entries, 84% confidence (markdown)
+  - csgogem: 7 entries, 85% confidence (markdown)
+  - rain: 7 entries, 84% confidence (markdown)
+
+DATABASE TOTALS: 10 snapshots, 79 entries saved
+
+════════════════════════════════════════════════════════════════════════════════
+                           END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

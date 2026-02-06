@@ -1,0 +1,30 @@
+════════════════════════════════════════════════════════════════════════════════
+                         BATCH SCRAPE REPORT
+════════════════════════════════════════════════════════════════════════════════
+Run ID: MKVHA0R1
+Completed: 2026-01-26T18:08:20.123Z
+Duration: 2m 51s
+
+SUMMARY:
+  Total Sites: 1
+  Successful: 1
+  Failed: 0
+  Timed Out: 0
+  Total Leaderboards Extracted: 3
+
+════════════════════════════════════════════════════════════════════════════════
+✅ SUCCESSFUL SITES (1)
+════════════════════════════════════════════════════════════════════════════════
+
+jonkennleaderboard.com (3 leaderboards, 171s)
+  URL: https://jonkennleaderboard.com
+  DB: 3 snapshots, 29 entries
+  - bcgame: 10 entries, 85% confidence (api)
+  - chicken: 12 entries, 63% confidence (dom)
+  - csbattle: 7 entries, 65% confidence (dom)
+
+DATABASE TOTALS: 3 snapshots, 29 entries saved
+
+════════════════════════════════════════════════════════════════════════════════
+                           END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

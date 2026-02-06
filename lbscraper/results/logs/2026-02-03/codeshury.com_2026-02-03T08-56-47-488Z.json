@@ -1,0 +1,153 @@
+{
+  "id": "487428de-0575-47ee-929c-2b98bedf8188",
+  "results": [
+    {
+      "id": "f32f9c90-e81d-482a-8fe4-4ac513b6f263",
+      "extractionId": "487428de-0575-47ee-929c-2b98bedf8188",
+      "name": "upgrader",
+      "url": "https://codeshury.com/leaderboard/upgrader",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 8,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "scythe",
+          "wager": 4668.03,
+          "prize": 250,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T08:56:47.484Z"
+        },
+        {
+          "rank": 2,
+          "username": "thejunespirit",
+          "wager": 3429.43,
+          "prize": 130,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T08:56:47.484Z"
+        },
+        {
+          "rank": 3,
+          "username": "UseCodeJack",
+          "wager": 1650.95,
+          "prize": 70,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T08:56:47.484Z"
+        },
+        {
+          "rank": 6,
+          "username": "Deivy",
+          "wager": 137.44,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T08:56:47.484Z"
+        },
+        {
+          "rank": 7,
+          "username": "Johan Pihl",
+          "wager": 28.04,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T08:56:47.484Z"
+        },
+        {
+          "rank": 8,
+          "username": "steckom",
+          "wager": 24.76,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T08:56:47.484Z"
+        },
+        {
+          "rank": 9,
+          "username": "Zeichnet",
+          "wager": 9.1,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T08:56:47.484Z"
+        },
+        {
+          "rank": 10,
+          "username": "aliohlyn",
+          "wager": 7.86,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T08:56:47.484Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 450,
+      "totalWagered": 9955.610000000002,
+      "confidence": 84,
+      "scrapedAt": "2026-02-03T08:56:47.485Z"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "domain": "codeshury.com",
+    "startedAt": "2026-02-03T08:56:27.398Z",
+    "completedAt": "2026-02-03T08:56:47.487Z",
+    "leaderboardsDiscovered": 1,
+    "leaderboardsScraped": 1,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": []
+}

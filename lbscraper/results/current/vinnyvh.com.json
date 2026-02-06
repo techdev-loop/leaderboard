@@ -1,0 +1,141 @@
+{
+  "id": "35edcc54-153d-45e4-b5c9-f075ae0d72fd",
+  "results": [
+    {
+      "id": "6c55c3b2-4942-46d1-891b-c2db58d1d5ea",
+      "extractionId": "35edcc54-153d-45e4-b5c9-f075ae0d72fd",
+      "name": "clash",
+      "url": "https://vinnyvh.com/leaderboard/csgold",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 7,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "I8Crypto",
+          "wager": 253.19,
+          "prize": 175,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:07:20.551Z"
+        },
+        {
+          "rank": 2,
+          "username": "Celibracy",
+          "wager": 162.64,
+          "prize": 80,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:07:20.551Z"
+        },
+        {
+          "rank": 3,
+          "username": "subwaytimmy",
+          "wager": 132.08,
+          "prize": 45,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:07:20.551Z"
+        },
+        {
+          "rank": 4,
+          "username": "galaxyWz",
+          "wager": 33.76,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:07:20.551Z"
+        },
+        {
+          "rank": 5,
+          "username": "Trenchez",
+          "wager": 28.13,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:07:20.551Z"
+        },
+        {
+          "rank": 6,
+          "username": "Mavrickq",
+          "wager": 0.54,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:07:20.551Z"
+        },
+        {
+          "rank": 7,
+          "username": "ProperRainbow50",
+          "wager": 0.4,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:07:20.551Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 300,
+      "totalWagered": 610.7399999999999,
+      "confidence": 82,
+      "scrapedAt": "2026-02-01T05:07:20.551Z"
+    }
+  ],
+  "errors": [
+    "Click failed for gamba: page.evaluate: Execution context was destroyed, most likely because of a navigation",
+    "Click failed for csgold: page.evaluate: TypeError: Cannot read properties of null (reading 'innerText')\n    at eval (eval at evaluate (:290:30), <anonymous>:37:26)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ],
+  "metadata": {
+    "domain": "vinnyvh.com",
+    "startedAt": "2026-02-01T05:07:08.992Z",
+    "completedAt": "2026-02-01T05:07:21.970Z",
+    "leaderboardsDiscovered": 3,
+    "leaderboardsScraped": 1,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": []
+}

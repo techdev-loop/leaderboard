@@ -1,0 +1,405 @@
+{
+  "domain": "blaffsen.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.040709999999999996,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:33:58.238Z",
+    "lastVerifiedAt": "2026-01-26T13:35:48.231Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "edc006961e812ad4",
+    "switcherCount": 1,
+    "switcherNames": [
+      "csgowin"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:35:48.233Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://blaffsen.com/leaderboard/rustmagic",
+    "authRequired": false,
+    "discoveredAt": "2026-02-01T02:54:17.662Z"
+  },
+  "switchers": [
+    {
+      "name": "rustmagic",
+      "selector": "img[alt*='rustmagic'], a[href*='rustmagic']",
+      "coordinates": {
+        "x": 472,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "rustmagic",
+        "rust"
+      ]
+    },
+    {
+      "name": "upgrader",
+      "selector": "img[alt*='upgrader'], a[href*='upgrader']",
+      "coordinates": {
+        "x": 642,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "upgrader"
+      ]
+    },
+    {
+      "name": "juice",
+      "selector": "img[alt*='juice'], a[href*='juice']",
+      "coordinates": {
+        "x": 811,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "juice"
+      ]
+    },
+    {
+      "name": "csgowin",
+      "selector": "img[alt*='csgowin'], a[href*='csgowin']",
+      "coordinates": {
+        "x": 979,
+        "y": 116
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "csgowin",
+        "csgo"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container, .leaderboard-entries, [class*='leaderboard']",
+    "entrySelector": ".leaderboard-entry, .rank-item, tr, .player-row",
+    "fields": {
+      "rank": ".rank, .position, td:first-child, [class*='rank']",
+      "username": ".username, .player-name, .name, td:nth-child(2)",
+      "wager": ".wager, .amount, .wagered, td:nth-child(3)",
+      "prize": ".prize, .reward, .payout, td:last-child"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://blaffsen.com/api/leaderboard/{casino}/{period}",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "rustmagic": {
+        "navigation": {
+          "url": null,
+          "method": "vision-learned"
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "visionConfig": {
+            "column_order": "prize_before_wager",
+            "podium_layout": "center_first",
+            "wager_label": "Wagered",
+            "prize_label": "Prize",
+            "rank1_username": "佰露****",
+            "rank1_wager": 21794.5,
+            "rank1_prize": 750,
+            "confidence": 95,
+            "learnedAt": "2026-02-01T07:54:01.234Z"
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 15,
+          "hasPrizes": true,
+          "visionValidated": true
+        },
+        "stats": {
+          "successCount": 13,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:54:01.236Z",
+          "lastUpdatedAt": "2026-02-01T07:54:01.236Z"
+        }
+      },
+      "acebet": {
+        "navigation": {
+          "url": "https://blaffsen.com/leaderboard/acebet",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 11,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:16:22.692Z",
+          "lastUpdatedAt": "2026-02-01T03:16:22.692Z"
+        }
+      },
+      "clash": {
+        "navigation": {
+          "url": "https://blaffsen.com/leaderboard/clash",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 11,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:16:33.353Z",
+          "lastUpdatedAt": "2026-02-01T03:16:33.353Z"
+        }
+      },
+      "juice": {
+        "navigation": {
+          "url": "https://blaffsen.com/leaderboard/juice",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 10,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T03:16:44.426Z",
+          "lastUpdatedAt": "2026-02-01T03:16:44.426Z"
+        }
+      },
+      "upgrader": {
+        "navigation": {
+          "url": "https://blaffsen.com/leaderboard/juice",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 11,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 7,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T02:55:34.014Z",
+          "lastUpdatedAt": "2026-02-01T02:55:34.014Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T07:54:01.236Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows 404 - PAGE NOT FOUND error",
+      "addedAt": "2026-01-26T13:33:58.237Z"
+    },
+    {
+      "text": "The page you are looking for does not exist message displayed",
+      "addedAt": "2026-01-26T13:33:58.237Z"
+    },
+    {
+      "text": "Blaffsen logo visible in top left",
+      "addedAt": "2026-01-26T13:33:58.237Z"
+    },
+    {
+      "text": "LEADERBOARD text visible in header",
+      "addedAt": "2026-01-26T13:33:58.237Z"
+    },
+    {
+      "text": "URL attempted: /leaderboard/chips",
+      "addedAt": "2026-01-26T13:33:58.237Z"
+    },
+    {
+      "text": "No leaderboard content or switchers present on page",
+      "addedAt": "2026-01-26T13:33:58.237Z"
+    },
+    {
+      "text": "Page shows 'Paused!' state indicating leaderboard is not currently active",
+      "addedAt": "2026-01-26T13:35:48.230Z"
+    },
+    {
+      "text": "Four casino switcher logos visible at top: RustMagic, Upgrader, Juice, CSGOWin",
+      "addedAt": "2026-01-26T13:35:48.230Z"
+    },
+    {
+      "text": "Current URL indicates CSGOWin monthly leaderboard but shows paused state",
+      "addedAt": "2026-01-26T13:35:48.230Z"
+    },
+    {
+      "text": "Previous leaderboard button suggests historical data may be available",
+      "addedAt": "2026-01-26T13:35:48.230Z"
+    },
+    {
+      "text": "Site uses Blaffsen branding with affiliate structure",
+      "addedAt": "2026-01-26T13:35:48.230Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:33:50.554Z",
+  "updatedAt": "2026-02-01T07:54:01.236Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:35:33.977Z"
+}

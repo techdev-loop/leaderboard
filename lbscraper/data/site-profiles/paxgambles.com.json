@@ -1,0 +1,248 @@
+{
+  "domain": "paxgambles.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": "https://paxgambles.com/leaderboard/diceblox",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T14:22:50.120Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "cases": {
+        "navigation": {
+          "url": "https://paxgambles.com/leaderboard/cases",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 5,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 29,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:23:23.795Z",
+          "lastUpdatedAt": "2026-02-04T14:23:23.795Z"
+        }
+      },
+      "acebet": {
+        "navigation": {
+          "url": "https://paxgambles.com/leaderboard/acebet",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 2,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 28,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:23:33.841Z",
+          "lastUpdatedAt": "2026-02-04T14:23:33.841Z"
+        }
+      },
+      "diceblox": {
+        "navigation": {
+          "url": "https://paxgambles.com/leaderboard/diceblox",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 34,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:23:13.713Z",
+          "lastUpdatedAt": "2026-02-04T14:23:13.713Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T14:23:33.841Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [
+    {
+      "name": "kick",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:27:53.401Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:27:53.401Z"
+    },
+    {
+      "name": "rain",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:27:54.563Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:27:54.563Z"
+    },
+    {
+      "name": "spade",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:27:55.686Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:27:55.686Z"
+    },
+    {
+      "name": "nofilter",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:27:56.863Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:27:56.863Z"
+    },
+    {
+      "name": "default",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:27:58.013Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:27:58.013Z"
+    },
+    {
+      "name": "tos",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:27:59.160Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:27:59.160Z"
+    }
+  ],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-24T11:25:21.005Z",
+  "updatedAt": "2026-02-04T14:23:33.841Z"
+}

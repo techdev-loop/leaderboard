@@ -1,0 +1,143 @@
+{
+  "domain": "yeeterboards.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 1,
+    "switcherNames": [
+      "disclaimer"
+    ],
+    "layoutType": null,
+    "generatedAt": "2026-01-24T22:31:52.845Z"
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [
+    {
+      "keyword": "disclaimer",
+      "type": "button",
+      "priority": 85,
+      "coordinates": {
+        "x": 1097.4140625,
+        "y": 2483
+      },
+      "source": "text",
+      "isActive": false,
+      "opacity": 1
+    }
+  ],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [
+      {
+        "keyword": "disclaimer",
+        "action": "click",
+        "selector": "[data-site=\"disclaimer\"], [data-load-mode=\"disclaimer\"]",
+        "coordinates": {
+          "x": 1097.4140625,
+          "y": 2483
+        },
+        "type": "button"
+      }
+    ],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "switcherConfig": {
+      "discoveredAt": "2026-01-24T22:31:52.845Z",
+      "mainLeaderboardUrl": "https://yeeterboards.com/leaderboards/4e9bc907-9e47-4247-89dc-374492d56126",
+      "navigationMethod": "click-based",
+      "urlPattern": "/leaderboards/{SITE}",
+      "allSwitchers": [
+        {
+          "keyword": "disclaimer",
+          "type": "button",
+          "selector": null,
+          "coordinates": {
+            "x": 1097.4140625,
+            "y": 2483
+          },
+          "priority": 85,
+          "source": "text",
+          "href": null,
+          "isActive": false
+        }
+      ],
+      "dropdownInfo": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-24T22:31:52.515Z",
+  "updatedAt": "2026-01-24T22:31:52.845Z"
+}

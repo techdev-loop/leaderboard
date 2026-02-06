@@ -1,0 +1,418 @@
+[
+  {
+    "domain": "3dhaxx.com",
+    "leaderboard": "rain",
+    "expected": {
+      "column_order": "wager_only",
+      "podium_layout": "no_podium",
+      "wager_label": "Wagered",
+      "prize_label": "",
+      "rank1_username": "Just-",
+      "rank1_wager": 837.37,
+      "rank1_prize": null,
+      "confidence": 98,
+      "learnedAt": "2026-02-01T07:52:25.500Z"
+    },
+    "actual": {
+      "username": "Just- (1499.08)",
+      "wager": 1,
+      "prize": 0
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "augustrewards.com",
+    "leaderboard": "clash",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Reward",
+      "rank1_username": "Mar***",
+      "rank1_wager": 573200,
+      "rank1_prize": 5000,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:45:53.670Z"
+    },
+    "actual": {
+      "username": "Mar***",
+      "wager": 573200,
+      "prize": 5000
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "betjuicy.com",
+    "leaderboard": "roobet",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "Prize",
+      "rank1_username": "YA****02",
+      "rank1_wager": 295931.24,
+      "rank1_prize": 33000,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:41:31.781Z"
+    },
+    "actual": {
+      "username": "Ya****02",
+      "wager": 26324.31,
+      "prize": 33000
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "birb.bet",
+    "leaderboard": "csgobig",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "Prize",
+      "rank1_username": "j****0",
+      "rank1_wager": 60727.49,
+      "rank1_prize": 1700,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:46:16.291Z"
+    },
+    "actual": {
+      "username": "T****y",
+      "wager": 1589.67,
+      "prize": 1700
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "blaffsen.com",
+    "leaderboard": "rustmagic",
+    "expected": {
+      "column_order": "prize_before_wager",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "佰露****",
+      "rank1_wager": 21794.5,
+      "rank1_prize": 750,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:54:01.234Z"
+    },
+    "actual": null,
+    "status": "failed",
+    "error": null
+  },
+  {
+    "domain": "botboibets.com",
+    "leaderboard": "csgowin",
+    "expected": {
+      "column_order": "wager_only",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": null,
+      "rank1_username": "Lux****",
+      "rank1_wager": 809940.39,
+      "rank1_prize": null,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:49:08.114Z"
+    },
+    "actual": null,
+    "status": "failed",
+    "error": null
+  },
+  {
+    "domain": "c8ncel.bet",
+    "leaderboard": "juice",
+    "expected": {
+      "column_order": "wager_only",
+      "podium_layout": "no_podium",
+      "wager_label": "Wagered",
+      "prize_label": null,
+      "rank1_username": null,
+      "rank1_wager": null,
+      "rank1_prize": null,
+      "confidence": 20,
+      "learnedAt": "2026-02-01T07:52:02.582Z"
+    },
+    "actual": {
+      "username": "0",
+      "wager": 750,
+      "prize": 0
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "camperzzrewards.com",
+    "leaderboard": "upgrader",
+    "expected": {
+      "column_order": "prize_before_wager",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "Biko",
+      "rank1_wager": 2776.46,
+      "rank1_prize": 125,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:53:39.022Z"
+    },
+    "actual": {
+      "username": "Biko",
+      "wager": 2776.46,
+      "prize": 125
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "cheesy.gg",
+    "leaderboard": "chicken",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "XP",
+      "prize_label": "REWARD",
+      "rank1_username": "Babypero",
+      "rank1_wager": 1911,
+      "rank1_prize": 500,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:46:47.375Z"
+    },
+    "actual": null,
+    "status": "failed",
+    "error": null
+  },
+  {
+    "domain": "codeshury.com",
+    "leaderboard": "upgrader",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "code BOAT KiCKimboat",
+      "rank1_wager": 3826.11,
+      "rank1_prize": 250,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:47:10.055Z"
+    },
+    "actual": {
+      "username": "code BOAT KICKimboat",
+      "wager": 3826.11,
+      "prize": 250
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "codesilkk.com",
+    "leaderboard": "csgowin",
+    "expected": {
+      "column_order": "wager_only",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "REWARD",
+      "rank1_username": "Waiting...",
+      "rank1_wager": null,
+      "rank1_prize": 75,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:58:42.313Z"
+    },
+    "actual": {
+      "username": "Waiting...",
+      "wager": 0,
+      "prize": 0
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "craaze-leaderboards.com",
+    "leaderboard": "csgowin",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "Deathbreaker8Ksubs",
+      "rank1_wager": 5048.07,
+      "rank1_prize": 500,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:54:45.305Z"
+    },
+    "actual": null,
+    "status": "failed",
+    "error": null
+  },
+  {
+    "domain": "darkrewards.com",
+    "leaderboard": "rustmagic",
+    "expected": {
+      "column_order": "prize_before_wager",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "wo**",
+      "rank1_wager": 1621.74,
+      "rank1_prize": 550,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:55:10.090Z"
+    },
+    "actual": {
+      "username": "WO**",
+      "wager": 1621.74,
+      "prize": 550
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "dustintfp.com",
+    "leaderboard": "csgobig",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "was*********",
+      "rank1_wager": 28327.04,
+      "rank1_prize": 2500,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:47:37.704Z"
+    },
+    "actual": {
+      "username": "Player",
+      "wager": 4,
+      "prize": 0
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "fortunate.gg",
+    "leaderboard": "csgogem",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "TOTAL WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "l*****e",
+      "rank1_wager": 145591.55,
+      "rank1_prize": 4250,
+      "confidence": 98,
+      "learnedAt": "2026-02-01T07:56:29.703Z"
+    },
+    "actual": {
+      "username": "G****i",
+      "wager": 173.79,
+      "prize": 225
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "frequencybenders.com",
+    "leaderboard": "shuffle",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": "PRIZE",
+      "rank1_username": "UK**************ER",
+      "rank1_wager": 637528.65,
+      "rank1_prize": 2200,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:48:05.229Z"
+    },
+    "actual": {
+      "username": "Au*****dd",
+      "wager": 166820,
+      "prize": 0
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "goatgambles.com",
+    "leaderboard": "rain",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "**u",
+      "rank1_wager": 12785.15,
+      "rank1_prize": 600,
+      "confidence": 95,
+      "learnedAt": "2026-02-01T07:45:13.026Z"
+    },
+    "actual": {
+      "username": "**u",
+      "wager": 13543.46,
+      "prize": 600
+    },
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "griffrewards.com",
+    "leaderboard": "csgogem",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "center_first",
+      "wager_label": "Wagered",
+      "prize_label": "Prize",
+      "rank1_username": "k*****k",
+      "rank1_wager": 3548.23,
+      "rank1_prize": 650,
+      "confidence": 92,
+      "learnedAt": "2026-02-01T07:52:54.541Z"
+    },
+    "actual": null,
+    "status": "failed",
+    "error": null
+  },
+  {
+    "domain": "headed.gg",
+    "leaderboard": "bsite",
+    "expected": {
+      "column_order": "wager_before_prize",
+      "podium_layout": "left_to_right",
+      "wager_label": "WAGERED",
+      "prize_label": "Prize",
+      "rank1_username": "Ev***",
+      "rank1_wager": 415.72,
+      "rank1_prize": 350,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:55:36.481Z"
+    },
+    "actual": null,
+    "status": "failed",
+    "error": null
+  },
+  {
+    "domain": "helloryrewards.com",
+    "leaderboard": "csgowin",
+    "expected": {
+      "column_order": "wager_only",
+      "podium_layout": "center_first",
+      "wager_label": "WAGERED",
+      "prize_label": null,
+      "rank1_username": "****",
+      "rank1_wager": 0,
+      "rank1_prize": null,
+      "confidence": 90,
+      "learnedAt": "2026-02-01T07:56:00.555Z"
+    },
+    "actual": {
+      "username": "****",
+      "wager": 0,
+      "prize": 0
+    },
+    "status": "success",
+    "error": null
+  }
+]

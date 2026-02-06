@@ -1,0 +1,363 @@
+{
+  "id": "3d1bdb12-1307-4e4a-aabf-32798f1376f7",
+  "results": [
+    {
+      "id": "59084e2a-9175-4d21-a580-0b23f4d11ece",
+      "extractionId": "3d1bdb12-1307-4e4a-aabf-32798f1376f7",
+      "name": "stake",
+      "url": "https://scrapesgambles.com/leaderboard",
+      "type": "current",
+      "source": "dom",
+      "entryCount": 10,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "ban*********",
+          "wager": 3748.11,
+          "prize": 2500,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "rank": 2,
+          "username": "pen***********",
+          "wager": 2779.13,
+          "prize": 750,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "rank": 3,
+          "username": "tha***********",
+          "wager": 2337.65,
+          "prize": 500,
+          "_fusion": {
+            "sources": [
+              "markdown",
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "username": "syn**",
+          "wager": 2102.821,
+          "prize": 0,
+          "rank": 5,
+          "source": "dom-list",
+          "_fusion": {
+            "sources": [
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "username": "GGB******",
+          "wager": 1244.709,
+          "prize": 0,
+          "rank": 6,
+          "source": "dom-list",
+          "_fusion": {
+            "sources": [
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "username": "xsm*****",
+          "wager": 593.468,
+          "prize": 0,
+          "rank": 7,
+          "source": "dom-list",
+          "_fusion": {
+            "sources": [
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "username": "eth*********",
+          "wager": 158.517,
+          "prize": 0,
+          "rank": 8,
+          "source": "dom-list",
+          "_fusion": {
+            "sources": [
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "username": "djd********",
+          "wager": 142.956,
+          "prize": 0,
+          "rank": 9,
+          "source": "dom-list",
+          "_fusion": {
+            "sources": [
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "username": "gtr********",
+          "wager": 24.075,
+          "prize": 0,
+          "rank": 10,
+          "source": "dom-list",
+          "_fusion": {
+            "sources": [
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        },
+        {
+          "username": "gok*******",
+          "wager": 5.004,
+          "prize": 0,
+          "rank": 11,
+          "source": "dom-list",
+          "_fusion": {
+            "sources": [
+              "dom"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "dom",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "dom",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-03T06:15:49.935Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 3750,
+      "totalWagered": 13136.440000000002,
+      "confidence": 100,
+      "scrapedAt": "2026-02-03T06:15:49.935Z"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "domain": "scrapesgambles.com",
+    "startedAt": "2026-02-03T06:15:22.320Z",
+    "completedAt": "2026-02-03T06:15:49.936Z",
+    "leaderboardsDiscovered": 1,
+    "leaderboardsScraped": 1,
+    "strategiesUsed": [
+      "dom"
+    ]
+  },
+  "warnings": []
+}

@@ -1,0 +1,322 @@
+{
+  "id": "2358ebbc-34bd-4854-ba27-ef01c67008ab",
+  "results": [
+    {
+      "id": "dfa71ff0-4c8b-4582-b10a-3ca0c889962a",
+      "extractionId": "2358ebbc-34bd-4854-ba27-ef01c67008ab",
+      "name": "roobet",
+      "url": "https://www.betjuicy.com/leaderboard/roobet",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "it****zy",
+          "wager": 273931.51,
+          "prize": 33000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:35:27.615Z"
+        },
+        {
+          "rank": 2,
+          "username": "Se*******94",
+          "wager": 57633.57,
+          "prize": 16500,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:35:27.615Z"
+        },
+        {
+          "rank": 3,
+          "username": "Ha*****23",
+          "wager": 50850.17,
+          "prize": 8250,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:35:27.615Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 57750,
+      "totalWagered": 382415.25,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T11:35:27.615Z"
+    },
+    {
+      "id": "bf558608-e787-45be-8772-0651f0e3e525",
+      "extractionId": "2358ebbc-34bd-4854-ba27-ef01c67008ab",
+      "name": "packdraw",
+      "url": "https://www.betjuicy.com/leaderboard/packdraw",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "re*********to",
+          "wager": 142402.72,
+          "prize": 22000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:35:44.933Z"
+        },
+        {
+          "rank": 2,
+          "username": "be********hu",
+          "wager": 102073.93,
+          "prize": 11000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:35:44.933Z"
+        },
+        {
+          "rank": 3,
+          "username": "Du************14",
+          "wager": 82583.5,
+          "prize": 5500,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:35:44.933Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 38500,
+      "totalWagered": 327060.15,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T11:35:44.933Z"
+    },
+    {
+      "id": "0ff658cd-dde4-4fbb-8615-4aa8904a6b13",
+      "extractionId": "2358ebbc-34bd-4854-ba27-ef01c67008ab",
+      "name": "csgoroll",
+      "url": "https://www.betjuicy.com/leaderboard/csgoroll",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "B☢**_",
+          "wager": 1647180.94,
+          "prize": 4400,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:01.437Z"
+        },
+        {
+          "rank": 2,
+          "username": "Wi************rg",
+          "wager": 158660.6,
+          "prize": 2200,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:01.437Z"
+        },
+        {
+          "rank": 3,
+          "username": "R*x",
+          "wager": 135846.26,
+          "prize": 1100,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:01.437Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 7700,
+      "totalWagered": 1941687.8,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T11:36:01.437Z"
+    },
+    {
+      "id": "60ceb96c-4eaf-4d18-9d65-276170bcf404",
+      "extractionId": "2358ebbc-34bd-4854-ba27-ef01c67008ab",
+      "name": "raingg",
+      "url": "https://www.betjuicy.com/leaderboard/raingg",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "I*n",
+          "wager": 28657.06,
+          "prize": 5000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:17.919Z"
+        },
+        {
+          "rank": 2,
+          "username": "Sw*****ce",
+          "wager": 8611.9,
+          "prize": 3000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:17.919Z"
+        },
+        {
+          "rank": 3,
+          "username": "Ba***an",
+          "wager": 7044.99,
+          "prize": 2000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:17.919Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 10000,
+      "totalWagered": 44313.95,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T11:36:17.919Z"
+    },
+    {
+      "id": "137e9737-4568-46bb-b0fc-7b90b2a9de62",
+      "extractionId": "2358ebbc-34bd-4854-ba27-ef01c67008ab",
+      "name": "csgogem",
+      "url": "https://www.betjuicy.com/leaderboard/csgogem",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "S************k",
+          "wager": 56508.71,
+          "prize": 15000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:34.096Z"
+        },
+        {
+          "rank": 2,
+          "username": "u****1",
+          "wager": 42974.05,
+          "prize": 7000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:34.096Z"
+        },
+        {
+          "rank": 3,
+          "username": "w*******n",
+          "wager": 38765.1,
+          "prize": 3000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T11:36:34.096Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 25000,
+      "totalWagered": 138247.86000000002,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T11:36:34.096Z"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "domain": "betjuicy.com",
+    "startedAt": "2026-02-04T11:35:09.196Z",
+    "completedAt": "2026-02-04T11:36:34.097Z",
+    "leaderboardsDiscovered": 5,
+    "leaderboardsScraped": 5,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": []
+}

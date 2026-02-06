@@ -1,0 +1,461 @@
+{
+  "domain": "spencerrewards.com",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.12512399999999999,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T01:08:08.836Z",
+    "lastVerifiedAt": "2026-01-26T01:08:08.836Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "6d0c43924e2e0ce5",
+    "switcherCount": 1,
+    "switcherNames": [
+      "packdraw"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T01:08:08.840Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://spencerrewards.com/leaderboard/packdraw",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T11:14:16.689Z"
+  },
+  "switchers": [
+    {
+      "name": "packdraw",
+      "selector": "img[alt*='PackDraw'], [class*='packdraw']",
+      "coordinates": {
+        "x": 394,
+        "y": 94
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "packdraw",
+        "PackDraw"
+      ]
+    },
+    {
+      "name": "rustmagic",
+      "selector": "img[alt*='RustMagic'], [class*='rustmagic']",
+      "coordinates": {
+        "x": 561,
+        "y": 94
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "rustmagic",
+        "RustMagic",
+        "RUSTMAGIC"
+      ]
+    },
+    {
+      "name": "upgrader",
+      "selector": "img[alt*='Upgrader'], [class*='upgrader']",
+      "coordinates": {
+        "x": 728,
+        "y": 94
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "upgrader",
+        "Upgrader"
+      ]
+    },
+    {
+      "name": "csgoluck",
+      "selector": "img[alt*='CSGOLuck'], [class*='csgoluck']",
+      "coordinates": {
+        "x": 895,
+        "y": 94
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "csgoluck",
+        "CSGOLuck",
+        "CSGOLUCK"
+      ]
+    },
+    {
+      "name": "juice",
+      "selector": "img[alt*='Juice'], [class*='juice']",
+      "coordinates": {
+        "x": 1062,
+        "y": 94
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "juice",
+        "Juice"
+      ]
+    },
+    {
+      "name": "rostake",
+      "selector": "img[alt*='RoStake'], [class*='rostake']",
+      "coordinates": {
+        "x": 1229,
+        "y": 94
+      },
+      "clickStrategy": "coordinate",
+      "keywords": [
+        "rostake",
+        "RoStake",
+        "ROSTAKE"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".podium-container, .leaderboard-podium, [class*='podium'], [class*='leaderboard']",
+    "entrySelector": ".podium-position, .rank-card, .leaderboard-entry, tr",
+    "fields": {
+      "rank": ".rank, .position, td:first-child, [class*='rank']",
+      "username": ".username, .user, .name, td:nth-child(2), [class*='user']",
+      "wager": ".wager, .wagered, td:nth-child(4), [class*='wager']",
+      "prize": ".prize, .reward, td:nth-child(3), [class*='prize'], [class*='reward']"
+    },
+    "chips": {
+      "entries": [
+        {
+          "rank": "1",
+          "username": "hau***",
+          "wager": "$1,430,746.65",
+          "prize": "$5500"
+        },
+        {
+          "rank": "2",
+          "username": "eth***",
+          "wager": "$2,305,991.43",
+          "prize": "$5500"
+        },
+        {
+          "rank": "3",
+          "username": "osc***",
+          "wager": "$211,712.44",
+          "prize": "$2500"
+        },
+        {
+          "rank": "4",
+          "username": "Ace***",
+          "wager": "$205,070.00",
+          "prize": "$1500"
+        },
+        {
+          "rank": "5",
+          "username": "Plu***",
+          "wager": "$122,038.21",
+          "prize": "$750"
+        },
+        {
+          "rank": "6",
+          "username": "Foh***",
+          "wager": "$87,209.76",
+          "prize": "$500"
+        },
+        {
+          "rank": "7",
+          "username": "Rai***",
+          "wager": "$81,508.37",
+          "prize": "$350"
+        },
+        {
+          "rank": "8",
+          "username": "BIG***",
+          "wager": "$33,317.39",
+          "prize": "$200"
+        },
+        {
+          "rank": "9",
+          "username": "Fgt***",
+          "wager": "$17,909.53",
+          "prize": "$100"
+        }
+      ]
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://spencerrewards.com/api/leaderboard/packdraw",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "packdraw": {
+        "navigation": {
+          "url": "https://spencerrewards.com/leaderboard/packdraw",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 10,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:14:29.203Z",
+          "lastUpdatedAt": "2026-02-04T11:14:29.203Z"
+        }
+      },
+      "chips": {
+        "navigation": {
+          "url": "https://spencerrewards.com/leaderboard/chips",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 9,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:14:39.293Z",
+          "lastUpdatedAt": "2026-02-04T11:14:39.293Z"
+        }
+      },
+      "rostake": {
+        "navigation": {
+          "url": "https://spencerrewards.com/leaderboard/rostake",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 9,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:14:49.359Z",
+          "lastUpdatedAt": "2026-02-04T11:14:49.359Z"
+        }
+      },
+      "upgrader": {
+        "navigation": {
+          "url": "https://spencerrewards.com/leaderboard/upgrader",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 9,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:15:18.732Z",
+          "lastUpdatedAt": "2026-02-04T11:15:18.732Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T11:15:18.732Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Clear podium-style layout with top 3 positions displayed as cards",
+      "addedAt": "2026-01-26T01:08:08.835Z"
+    },
+    {
+      "text": "Fourth position shown in table format below podium",
+      "addedAt": "2026-01-26T01:08:08.835Z"
+    },
+    {
+      "text": "All entries show placeholder usernames (-) and $0.00 wagers, indicating new/empty leaderboard",
+      "addedAt": "2026-01-26T01:08:08.835Z"
+    },
+    {
+      "text": "Prize amounts are clearly visible: $450, $200, $125, $75",
+      "addedAt": "2026-01-26T01:08:08.835Z"
+    },
+    {
+      "text": "Six casino switcher buttons visible in header",
+      "addedAt": "2026-01-26T01:08:08.835Z"
+    },
+    {
+      "text": "Countdown timer shows 29 days remaining for new leaderboard",
+      "addedAt": "2026-01-26T01:08:08.835Z"
+    },
+    {
+      "text": "Clear leaderboard structure with podium + table format",
+      "addedAt": "2026-01-26T01:09:49.234Z"
+    },
+    {
+      "text": "9 entries visible with proper rank/username/wager/prize data",
+      "addedAt": "2026-01-26T01:09:49.234Z"
+    },
+    {
+      "text": "Currently on 'chips' casino site based on URL",
+      "addedAt": "2026-01-26T01:09:49.234Z"
+    },
+    {
+      "text": "Site switcher elements detected but need clearer view",
+      "addedAt": "2026-01-26T01:09:49.234Z"
+    },
+    {
+      "text": "Countdown API shows negative days, suggesting tournament ended",
+      "addedAt": "2026-01-26T01:09:49.234Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T01:07:38.228Z",
+  "updatedAt": "2026-02-04T11:15:18.732Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T01:08:50.084Z"
+}

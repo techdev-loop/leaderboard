@@ -1,0 +1,4693 @@
+{
+  "id": "eaa45e14-fa70-45ee-9ca9-0aa684054435",
+  "results": [
+    {
+      "id": "b2d602aa-c518-4679-821e-50c3fe21d351",
+      "extractionId": "eaa45e14-fa70-45ee-9ca9-0aa684054435",
+      "name": "luxdrop",
+      "url": "https://www.ilovemav.com/leaderboards",
+      "type": "current",
+      "source": "api",
+      "entryCount": 21,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "H***r***",
+          "wager": 63800.51,
+          "prize": 2500,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 2,
+          "username": "M**a***",
+          "wager": 8260.63,
+          "prize": 1000,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 3,
+          "username": "R******d*******",
+          "wager": 2526.67,
+          "prize": 500,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 4,
+          "username": "R**** ****",
+          "wager": 2249.14,
+          "prize": 300,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 5,
+          "username": "m**l***",
+          "wager": 1134.46,
+          "prize": 250,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 6,
+          "username": "Z*c*",
+          "wager": 1097.13,
+          "prize": 150,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 7,
+          "username": "m****n****",
+          "wager": 697.53,
+          "prize": 120,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 8,
+          "username": "h***r****",
+          "wager": 612.07,
+          "prize": 90,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 9,
+          "username": "a***o****",
+          "wager": 350.08,
+          "prize": 60,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 10,
+          "username": "a*o**",
+          "wager": 342.12,
+          "prize": 30,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 11,
+          "username": "B****P****",
+          "wager": 315.39,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 12,
+          "username": "i*****y******",
+          "wager": 268.21,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 13,
+          "username": "k****c*****",
+          "wager": 190.27,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 14,
+          "username": "B***e****",
+          "wager": 175.09,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 15,
+          "username": "L***c***",
+          "wager": 170.03,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 16,
+          "username": "k****k*****",
+          "wager": 100.63,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 17,
+          "username": "i*****m*****",
+          "wager": 67.9,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 18,
+          "username": "S****a*****",
+          "wager": 63.38,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.635Z"
+        },
+        {
+          "rank": 19,
+          "username": "c*****a*****",
+          "wager": 42.54,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.636Z"
+        },
+        {
+          "rank": 20,
+          "username": "a**a**",
+          "wager": 32.84,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.636Z"
+        },
+        {
+          "rank": 50,
+          "username": "SEC",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "rank": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "wager": {
+                "source": "markdown",
+                "confidence": 90
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:09:38.636Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 5000,
+      "totalWagered": 82496.62000000001,
+      "confidence": 100,
+      "scrapedAt": "2026-02-01T05:09:38.636Z"
+    },
+    {
+      "id": "6474332e-d04b-4046-b672-0149627257d6",
+      "extractionId": "eaa45e14-fa70-45ee-9ca9-0aa684054435",
+      "name": "chicken",
+      "url": "https://www.ilovemav.com/leaderboards",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 11,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "imn*********",
+          "wager": 16407,
+          "prize": 525,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 2,
+          "username": "Pep***",
+          "wager": 6852,
+          "prize": 350,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 3,
+          "username": "chi**********",
+          "wager": 3149,
+          "prize": 225,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 4,
+          "username": "Fem*********...",
+          "wager": 3147,
+          "prize": 150,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 5,
+          "username": "Bra******",
+          "wager": 2077,
+          "prize": 100,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 30,
+          "username": "Swa**",
+          "wager": 1732,
+          "prize": 7,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 30,
+          "username": "Zoi******",
+          "wager": 1500,
+          "prize": 8,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 30,
+          "username": "bob*",
+          "wager": 852,
+          "prize": 9,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 30,
+          "username": "104******",
+          "wager": 845,
+          "prize": 10,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 30,
+          "username": "Mav Live",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        },
+        {
+          "rank": 100,
+          "username": "mev***",
+          "wager": 2020,
+          "prize": 6,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-01T05:09:50.001Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 1390,
+      "totalWagered": 38581,
+      "confidence": 85,
+      "scrapedAt": "2026-02-01T05:09:50.001Z"
+    },
+    {
+      "id": "070feef1-e2cc-4207-81d0-0f07d7a4bcaa",
+      "extractionId": "eaa45e14-fa70-45ee-9ca9-0aa684054435",
+      "name": "shock",
+      "url": "https://www.ilovemav.com/leaderboards",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 114,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "wolfy",
+          "wager": 28796.62999622812,
+          "prize": 1750,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 2,
+          "username": "Xsuma67",
+          "wager": 10092.688668778985,
+          "prize": 1000,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 3,
+          "username": "whygod",
+          "wager": 5140.379999224242,
+          "prize": 650,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 4,
+          "username": "Shibuyaaa",
+          "wager": 3845.6799963367603,
+          "prize": 400,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 5,
+          "username": "Phoso1985",
+          "wager": 2520.179942396915,
+          "prize": 300,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 6,
+          "username": "vitandmelo",
+          "wager": 1888.3999741145828,
+          "prize": 180,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 7,
+          "username": "damiungr",
+          "wager": 1444.3,
+          "prize": 180,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 8,
+          "username": "astrowins",
+          "wager": 1166.0999962670376,
+          "prize": 180,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 9,
+          "username": "evulutionl",
+          "wager": 1117.6206644487252,
+          "prize": 180,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 10,
+          "username": "headshot",
+          "wager": 1048.47,
+          "prize": 180,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "markdown",
+                "confidence": 90
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 11,
+          "username": "jordyman",
+          "wager": 849.9999998239355,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 12,
+          "username": "Flightpath1",
+          "wager": 498.03,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 13,
+          "username": "kaiju",
+          "wager": 481.93398009485685,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 14,
+          "username": "Tuco",
+          "wager": 326.88916090311955,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 15,
+          "username": "Brain",
+          "wager": 315.3123301243856,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 16,
+          "username": "hellodark",
+          "wager": 304,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 17,
+          "username": "Unknown67",
+          "wager": 220.09996092872663,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 18,
+          "username": "Knapper",
+          "wager": 94.1541381133394,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 19,
+          "username": "brampton",
+          "wager": 58.013208138230105,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 20,
+          "username": "Potmoses",
+          "wager": 16.21,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 21,
+          "username": "Tofuu",
+          "wager": 12.67,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 22,
+          "username": "Aria05x",
+          "wager": 7,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 23,
+          "username": "missmyex2",
+          "wager": 5.25,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 24,
+          "username": "ryanlovesmav",
+          "wager": 2.4,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 25,
+          "username": "Tj182",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 26,
+          "username": "Berry",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 27,
+          "username": "MAXWINMAV",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 28,
+          "username": "klutchhthat",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 29,
+          "username": "Sway",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 30,
+          "username": "realg1",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 31,
+          "username": "zainthegoat",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 32,
+          "username": "Sorberg1",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 33,
+          "username": "renzz2pro",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 34,
+          "username": "boomxilove",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 35,
+          "username": "kennywoper",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 36,
+          "username": "Pepperwild",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 37,
+          "username": "GoozyGoozer",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 38,
+          "username": "jondywaynes",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 39,
+          "username": "MavsNo1Hater",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 40,
+          "username": "dangolxx7",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 41,
+          "username": "Mavihateu",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 42,
+          "username": "mavsucksass",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 43,
+          "username": "jonathanjoe",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 44,
+          "username": "yuhy999",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 45,
+          "username": "sahmie",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 46,
+          "username": "tsbve1",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 47,
+          "username": "conqueror",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 48,
+          "username": "vexsters",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 49,
+          "username": "KelseyS",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 50,
+          "username": "magnetscrew",
+          "wager": 0,
+          "prize": 0,
+          "_fusion": {
+            "sources": [
+              "api",
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "disputed",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "none",
+                "confidence": 0
+              },
+              "prize": {
+                "source": "none",
+                "confidence": 0
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 51,
+          "username": "Andrew12",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 52,
+          "username": "clankermark",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 53,
+          "username": "sincere",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 54,
+          "username": "matantheboss",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 55,
+          "username": "crossmanting",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 56,
+          "username": "happybird333",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 57,
+          "username": "Ihatemav",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 58,
+          "username": "suitcasing",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 59,
+          "username": "IHeartMav",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 60,
+          "username": "Cationtaper",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 61,
+          "username": "SZNN",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 62,
+          "username": "Oatsenjoy",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 63,
+          "username": "Mikeynics",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 64,
+          "username": "frog",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 65,
+          "username": "mavlikesdick",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 66,
+          "username": "PPJReal",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 67,
+          "username": "perka11",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 68,
+          "username": "Zenimav22",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 69,
+          "username": "papika",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 70,
+          "username": "IlovemavFan",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 71,
+          "username": "Mkhan45",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 72,
+          "username": "mysticjoel",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 73,
+          "username": "testingg",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 74,
+          "username": "Slick",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 75,
+          "username": "Fatwon",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 76,
+          "username": "Kamba_1",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 77,
+          "username": "GohanOP6",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 78,
+          "username": "skechaa",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 79,
+          "username": "Mikeyt",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 80,
+          "username": "salviaTrip",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 81,
+          "username": "seed",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 82,
+          "username": "LotionGod",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 83,
+          "username": "JoeZhePro",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 84,
+          "username": "BICIighter",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 85,
+          "username": "thabestt",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 86,
+          "username": "bahamas",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 87,
+          "username": "YhonJeff",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 88,
+          "username": "thabest",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 89,
+          "username": "sorberg",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 90,
+          "username": "drip",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 91,
+          "username": "Panhanika",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 92,
+          "username": "sirjuilien",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 93,
+          "username": "mayanoreo",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 94,
+          "username": "recetass",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 95,
+          "username": "benjaminkiki",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 96,
+          "username": "mavcback",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 97,
+          "username": "cassian6767",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 98,
+          "username": "fordyford",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 99,
+          "username": "RipRory2025",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 100,
+          "username": "mikox777",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 101,
+          "username": "LukaILOVEMAV",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 102,
+          "username": "Santalovemav",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 103,
+          "username": "IloveKpop",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 104,
+          "username": "aitooth",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 105,
+          "username": "Rubenmav",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 106,
+          "username": "RickyUberEat",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 107,
+          "username": "NobodyLike",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 108,
+          "username": "mevlow",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 109,
+          "username": "devotto",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 110,
+          "username": "xelft",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 111,
+          "username": "metilontop",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 112,
+          "username": "Poopdude1017",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 113,
+          "username": "cassian",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        },
+        {
+          "rank": 114,
+          "username": "KeihanBJ",
+          "wager": 0,
+          "prize": 0,
+          "source": "api",
+          "_fusion": {
+            "sources": [
+              "api"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source",
+            "fieldSources": {
+              "username": {
+                "source": "api",
+                "confidence": 95
+              },
+              "rank": {
+                "source": "api",
+                "confidence": 95
+              },
+              "wager": {
+                "source": "api",
+                "confidence": 95
+              },
+              "prize": {
+                "source": "api",
+                "confidence": 95
+              }
+            }
+          },
+          "extractedAt": "2026-02-01T05:10:01.395Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 5000,
+      "totalWagered": 60252.41201592196,
+      "confidence": 100,
+      "scrapedAt": "2026-02-01T05:10:01.395Z"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "domain": "www.ilovemav.com",
+    "startedAt": "2026-02-01T05:09:25.316Z",
+    "completedAt": "2026-02-01T05:10:01.396Z",
+    "leaderboardsDiscovered": 3,
+    "leaderboardsScraped": 3,
+    "strategiesUsed": [
+      "api",
+      "markdown"
+    ]
+  },
+  "warnings": [
+    {
+      "leaderboard": "chicken",
+      "issues": [
+        "Prize order violation: 3 entries have higher prizes than higher-ranked users"
+      ]
+    }
+  ]
+}

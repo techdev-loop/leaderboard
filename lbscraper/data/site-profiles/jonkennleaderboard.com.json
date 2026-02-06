@@ -1,0 +1,178 @@
+{
+  "domain": "jonkennleaderboard.com",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": "https://jonkennleaderboard.com/leaderboard/bcgame",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T11:08:01.434Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csbattle": {
+        "navigation": {
+          "url": "https://jonkennleaderboard.com/leaderboard/csbattle",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "none",
+              "api"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": false,
+          "prizePositions": []
+        },
+        "crossValidation": {
+          "overallAgreement": 0,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 7,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:08:13.853Z",
+          "lastUpdatedAt": "2026-02-04T11:08:13.853Z"
+        }
+      },
+      "bcgame": {
+        "navigation": {
+          "url": "https://jonkennleaderboard.com/leaderboard/bcgame",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": false,
+          "prizePositions": []
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 6,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:08:23.260Z",
+          "lastUpdatedAt": "2026-02-04T11:08:23.260Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T11:08:23.260Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T17:56:04.715Z",
+  "updatedAt": "2026-02-04T11:08:23.260Z"
+}

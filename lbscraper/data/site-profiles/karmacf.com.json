@@ -1,0 +1,168 @@
+{
+  "domain": "karmacf.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.017529,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:39:07.378Z",
+    "lastVerifiedAt": "2026-01-26T13:39:07.378Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "b48e4e71c4397f46",
+    "switcherCount": 5,
+    "switcherNames": [
+      "csgowin",
+      "hunt",
+      "rain"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:39:07.385Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://karmacf.com/leaderboard",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:15:47.536Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "hunt": {
+        "navigation": {
+          "url": null,
+          "method": "vision-learned"
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "table-only",
+          "visionConfig": {
+            "column_order": "wager_only",
+            "podium_layout": "no_podium",
+            "wager_label": "N/A",
+            "prize_label": "N/A",
+            "rank1_username": "N/A",
+            "rank1_wager": 0,
+            "rank1_prize": 0,
+            "confidence": 85,
+            "learnedAt": "2026-02-01T07:57:38.596Z"
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 11,
+          "hasPrizes": false,
+          "visionValidated": true
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:57:38.597Z",
+          "lastUpdatedAt": "2026-02-01T07:57:38.597Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T07:57:38.597Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "This page shows a single user's Bonus Hunt #30 progress with personal statistics",
+      "addedAt": "2026-01-26T13:39:07.377Z"
+    },
+    {
+      "text": "Displays starting balance ($3,000.00), total winnings ($1,381.83), avg multiplier (80.34x), and break even (0.00x)",
+      "addedAt": "2026-01-26T13:39:07.377Z"
+    },
+    {
+      "text": "Shows individual slot achievements: Highest Multiplier Slot and Biggest Win Slot",
+      "addedAt": "2026-01-26T13:39:07.377Z"
+    },
+    {
+      "text": "Has navigation tabs for Current Hunt, Predictions, and Previous Hunts",
+      "addedAt": "2026-01-26T13:39:07.377Z"
+    },
+    {
+      "text": "Contains a games search section and sidebar with other casino sites",
+      "addedAt": "2026-01-26T13:39:07.377Z"
+    },
+    {
+      "text": "This is personal gambling tracking, not competitive leaderboards",
+      "addedAt": "2026-01-26T13:39:07.377Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:28:13.436Z",
+  "updatedAt": "2026-02-01T07:57:38.597Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:38:57.142Z"
+}

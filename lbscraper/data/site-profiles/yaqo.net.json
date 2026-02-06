@@ -1,0 +1,180 @@
+{
+  "domain": "yaqo.net",
+  "status": "new",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": null,
+    "authRequired": false
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [],
+  "corrections": [],
+  "inactiveLeaderboards": [
+    {
+      "name": "acesbet",
+      "reason": "url_not_found",
+      "lastChecked": "2026-01-24T18:30:52.259Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:30:52.259Z"
+    },
+    {
+      "name": "youtube",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:30:55.487Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:30:55.487Z"
+    },
+    {
+      "name": "kick",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:30:57.675Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:30:57.675Z"
+    },
+    {
+      "name": "tossdaplayer",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:30:58.698Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:30:58.698Z"
+    },
+    {
+      "name": "tiktokdievas",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:30:59.608Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:30:59.608Z"
+    },
+    {
+      "name": "stepbrovic",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:31:00.548Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:31:00.548Z"
+    },
+    {
+      "name": "chevvy",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:31:03.992Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:31:03.992Z"
+    },
+    {
+      "name": "hatedkid",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:31:04.859Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:31:04.859Z"
+    },
+    {
+      "name": "mdk",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:31:07.716Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:31:07.716Z"
+    },
+    {
+      "name": "necropiw",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:31:08.776Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:31:08.776Z"
+    },
+    {
+      "name": "flopsent",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:31:12.577Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:31:12.577Z"
+    },
+    {
+      "name": "bojca",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T18:31:16.808Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T18:31:16.808Z"
+    }
+  ],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-24T18:30:09.922Z",
+  "updatedAt": "2026-01-24T18:31:16.808Z"
+}

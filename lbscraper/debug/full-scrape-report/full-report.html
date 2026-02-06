@@ -1,0 +1,3623 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Full Scrape Report - 15 Sites</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0; padding: 20px;
+      background: #0d1117; color: #c9d1d9;
+    }
+    h1 { color: #58a6ff; margin-bottom: 5px; }
+    .subtitle { color: #8b949e; margin-bottom: 20px; }
+
+    .summary {
+      display: flex; gap: 20px; margin-bottom: 30px; flex-wrap: wrap;
+    }
+    .summary-card {
+      background: #161b22; padding: 20px 30px;
+      border-radius: 10px; border: 1px solid #30363d;
+      text-align: center; min-width: 150px;
+    }
+    .summary-card .value { font-size: 2.2em; font-weight: bold; color: #58a6ff; }
+    .summary-card .label { color: #8b949e; margin-top: 5px; }
+
+    .site-card {
+      background: #161b22; border-radius: 10px;
+      border: 1px solid #30363d; margin-bottom: 30px;
+      overflow: hidden;
+    }
+    .site-card.success { border-left: 4px solid #3fb950; }
+    .site-card.failed { border-left: 4px solid #f85149; }
+
+    .site-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 15px 20px; background: #21262d;
+      border-bottom: 1px solid #30363d;
+    }
+    .site-info h2 { margin: 0; color: #58a6ff; font-size: 1.3em; }
+    .site-url { color: #8b949e; font-size: 0.85em; text-decoration: none; }
+    .site-url:hover { text-decoration: underline; }
+    .status { padding: 6px 14px; border-radius: 20px; font-size: 0.9em; background: #21262d; }
+
+    .screenshot {
+      width: 100%; max-height: 250px;
+      object-fit: cover; object-position: top;
+      border-bottom: 1px solid #30363d;
+    }
+
+    .error { padding: 15px 20px; background: rgba(248, 81, 73, 0.1); color: #f85149; }
+
+    .leaderboards { padding: 15px 20px; }
+
+    .leaderboard {
+      background: #0d1117; border-radius: 8px;
+      margin-bottom: 15px; overflow: hidden;
+      border: 1px solid #21262d;
+    }
+    .lb-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 15px; background: #161b22;
+      border-bottom: 1px solid #21262d;
+    }
+    .lb-name { color: #58a6ff; font-weight: 600; font-size: 1.1em; }
+    .lb-stats { color: #8b949e; font-size: 0.85em; }
+    .lb-summary { padding: 8px 15px; background: #1c2128; color: #8b949e; font-size: 0.85em; }
+
+    .entries-table {
+      width: 100%; border-collapse: collapse;
+    }
+    .entries-table th {
+      background: #161b22; padding: 8px 12px;
+      text-align: left; font-weight: 600;
+      color: #8b949e; font-size: 0.8em;
+      text-transform: uppercase;
+    }
+    .entries-table td {
+      padding: 8px 12px; border-top: 1px solid #21262d;
+      font-size: 0.9em;
+    }
+    .entries-table tr:hover { background: #1c2128; }
+    .entries-table tr.top3 { background: rgba(56, 139, 253, 0.1); }
+    .entries-table tr.top3:first-child { background: rgba(255, 215, 0, 0.15); }
+
+    .rank { width: 50px; font-weight: bold; color: #8b949e; }
+    .username { color: #c9d1d9; }
+    .wager { color: #3fb950; font-family: monospace; }
+    .prize { color: #f0883e; font-family: monospace; }
+
+    .truncated { padding: 10px 15px; color: #8b949e; font-style: italic; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>📊 Full Scrape Report</h1>
+  <p class="subtitle">All leaderboards and entries from 15 sites</p>
+
+  <div class="summary">
+    <div class="summary-card">
+      <div class="value">14</div>
+      <div class="label">Sites Successful</div>
+    </div>
+    <div class="summary-card">
+      <div class="value">1</div>
+      <div class="label">Sites Failed</div>
+    </div>
+    <div class="summary-card">
+      <div class="value">48</div>
+      <div class="label">Leaderboards</div>
+    </div>
+    <div class="summary-card">
+      <div class="value">370</div>
+      <div class="label">Total Entries</div>
+    </div>
+  </div>
+
+  
+      <div class="site-card failed">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>crunchyrewards.com</h2>
+            <a href="http://crunchyrewards.com/leaderboards" target="_blank" class="site-url">http://crunchyrewards.com/leaderboards</a>
+          </div>
+          <span class="status">❌ No entries for stake; Click failed for bsite: undefined</span>
+        </div>
+        <img class="screenshot" src="crunchyrewards.com.png" />
+        <div class="error">No entries for stake; Click failed for bsite: undefined</div>
+        <div class="leaderboards"></div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>jonkennleaderboard.com</h2>
+            <a href="https://jonkennleaderboard.com/leaderboard" target="_blank" class="site-url">https://jonkennleaderboard.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 2 leaderboards</span>
+        </div>
+        <img class="screenshot" src="jonkennleaderboard.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csbattle</span>
+            <span class="lb-stats">10 entries | dom | 74%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $25.32 | Prize Pool: $5,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">j****</td>
+          <td class="wager">$10.39</td>
+          <td class="prize">$1,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">n***********</td>
+          <td class="wager">$7</td>
+          <td class="prize">$1,250</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">a*****</td>
+          <td class="wager">$5.74</td>
+          <td class="prize">$750</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">G****</td>
+          <td class="wager">$0.84</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">p***</td>
+          <td class="wager">$0.5</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">G******</td>
+          <td class="wager">$0.46</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">****************</td>
+          <td class="wager">$0.18</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">S**********</td>
+          <td class="wager">$0.09</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">A*</td>
+          <td class="wager">$0.09</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">n******</td>
+          <td class="wager">$0.03</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">bcgame</span>
+            <span class="lb-stats">10 entries | api | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $244,306.66 | Prize Pool: $10,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">gerdox</td>
+          <td class="wager">$114,664.45</td>
+          <td class="prize">$4,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Fohmogwfnwcc</td>
+          <td class="wager">$67,245.1</td>
+          <td class="prize">$2,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Lukkeman</td>
+          <td class="wager">$23,681.06</td>
+          <td class="prize">$1,250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">henkish</td>
+          <td class="wager">$18,574.42</td>
+          <td class="prize">$750</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Theo Djockovich</td>
+          <td class="wager">$5,318.72</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Wwfxfhonqxcc</td>
+          <td class="wager">$4,350.99</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">MRGz</td>
+          <td class="wager">$3,201.03</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Srjfbhphcxcc</td>
+          <td class="wager">$3,154.49</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Don Lutweig</td>
+          <td class="wager">$2,310.12</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">leon2049</td>
+          <td class="wager">$1,806.28</td>
+          <td class="prize">$250</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>betjuicy.com</h2>
+            <a href="http://betjuicy.com/leaderboard" target="_blank" class="site-url">http://betjuicy.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 5 leaderboards</span>
+        </div>
+        <img class="screenshot" src="betjuicy.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">roobet</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $382,415.26 | Prize Pool: $57,750
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">it****zy</td>
+          <td class="wager">$273,931.51</td>
+          <td class="prize">$33,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Se*******94</td>
+          <td class="wager">$57,633.57</td>
+          <td class="prize">$16,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Ha*****23</td>
+          <td class="wager">$50,850.18</td>
+          <td class="prize">$8,250</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">packdraw</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $327,060.15 | Prize Pool: $38,500
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">re*********to</td>
+          <td class="wager">$142,402.72</td>
+          <td class="prize">$22,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">be********hu</td>
+          <td class="wager">$102,073.93</td>
+          <td class="prize">$11,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Du************14</td>
+          <td class="wager">$82,583.5</td>
+          <td class="prize">$5,500</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgoroll</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $1,937,035.78 | Prize Pool: $7,700
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">B☢**_</td>
+          <td class="wager">$1,647,180.94</td>
+          <td class="prize">$4,400</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Wi************rg</td>
+          <td class="wager">$154,008.58</td>
+          <td class="prize">$2,200</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">R*x</td>
+          <td class="wager">$135,846.26</td>
+          <td class="prize">$1,100</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">raingg</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $44,313.95 | Prize Pool: $10,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">I*n</td>
+          <td class="wager">$28,657.06</td>
+          <td class="prize">$5,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Sw*****ce</td>
+          <td class="wager">$8,611.9</td>
+          <td class="prize">$3,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Ba***an</td>
+          <td class="wager">$7,044.99</td>
+          <td class="prize">$2,000</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgogem</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $136,947.32 | Prize Pool: $25,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">S************k</td>
+          <td class="wager">$56,508.71</td>
+          <td class="prize">$15,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">u****1</td>
+          <td class="wager">$41,673.51</td>
+          <td class="prize">$7,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">w*******n</td>
+          <td class="wager">$38,765.1</td>
+          <td class="prize">$3,000</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>scrapesgambles.com</h2>
+            <a href="https://scrapesgambles.com/leaderboard" target="_blank" class="site-url">https://scrapesgambles.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 1 leaderboards</span>
+        </div>
+        <img class="screenshot" src="scrapesgambles.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">stake</span>
+            <span class="lb-stats">10 entries | dom | 100%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $23,459.9 | Prize Pool: $3,750
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">ban*********</td>
+          <td class="wager">$8,768.62</td>
+          <td class="prize">$2,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">djd********</td>
+          <td class="wager">$3,558.13</td>
+          <td class="prize">$750</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">pen***********</td>
+          <td class="wager">$2,779.13</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">tha***********</td>
+          <td class="wager">$2,337.651</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">syn**</td>
+          <td class="wager">$2,106.679</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">xri********</td>
+          <td class="wager">$1,525.008</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">GGB******</td>
+          <td class="wager">$1,245.807</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">xsm*****</td>
+          <td class="wager">$593.506</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">tho*********</td>
+          <td class="wager">$384.355</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">11</td>
+          <td class="username">Nha*******</td>
+          <td class="wager">$161.014</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>vinnyvh.com</h2>
+            <a href="https://vinnyvh.com/leaderboard" target="_blank" class="site-url">https://vinnyvh.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 1 leaderboards</span>
+        </div>
+        <img class="screenshot" src="vinnyvh.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">clash</span>
+            <span class="lb-stats">6 entries | markdown | 82%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $1,608.09 | Prize Pool: $340
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">AnalysisEvoke76</td>
+          <td class="wager">$1,507.46</td>
+          <td class="prize">$175</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">I8Crypto</td>
+          <td class="wager">$59.28</td>
+          <td class="prize">$80</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">CattleFrighten50</td>
+          <td class="wager">$15.5</td>
+          <td class="prize">$45</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">Celibracy</td>
+          <td class="wager">$10.11</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">subwaytimmy</td>
+          <td class="wager">$5.74</td>
+          <td class="prize">$15</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">[hidden]</td>
+          <td class="wager">$10</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>ravengambles.com</h2>
+            <a href="https://ravengambles.com/leaderboard" target="_blank" class="site-url">https://ravengambles.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 5 leaderboards</span>
+        </div>
+        <img class="screenshot" src="ravengambles.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgobig</span>
+            <span class="lb-stats">6 entries | markdown | 84%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $26,036.91 | Prize Pool: $4,650
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">en</td>
+          <td class="wager">$16,474.7</td>
+          <td class="prize">$2,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">***us</td>
+          <td class="wager">$6,329.94</td>
+          <td class="prize">$1,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">********ᵉ⚡</td>
+          <td class="wager">$1,725.74</td>
+          <td class="prize">$600</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">***********ka</td>
+          <td class="wager">$1,242.11</td>
+          <td class="prize">$450</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">*******yy</td>
+          <td class="wager">$168.41</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">is</td>
+          <td class="wager">$96.01</td>
+          <td class="prize">$250</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgowin</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $6,663.39 | Prize Pool: $1,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">maxeman261</td>
+          <td class="wager">$1,721.74</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Oxygen</td>
+          <td class="wager">$1,581.23</td>
+          <td class="prize">$300</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Suka Cups</td>
+          <td class="wager">$1,193.89</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">User188032</td>
+          <td class="wager">$552.5</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">snipeex</td>
+          <td class="wager">$544.33</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Esdeath</td>
+          <td class="wager">$292.41</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Fony</td>
+          <td class="wager">$279.46</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">asx777xer</td>
+          <td class="wager">$256.69</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Berry</td>
+          <td class="wager">$125.34</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Assington</td>
+          <td class="wager">$115.8</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">packdraw</span>
+            <span class="lb-stats">10 entries | api | 100%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $11,966.55 | Prize Pool: $1,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">was***********</td>
+          <td class="wager">$3,440.23</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Hol*</td>
+          <td class="wager">$2,193.62</td>
+          <td class="prize">$300</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">aff******************</td>
+          <td class="wager">$1,732.38</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">His*****</td>
+          <td class="wager">$1,712.29</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">ind***********</td>
+          <td class="wager">$1,322.15</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">dis</td>
+          <td class="wager">$1,285.27</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">nlu*</td>
+          <td class="wager">$114.39</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">aog*</td>
+          <td class="wager">$84.15</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Mau********</td>
+          <td class="wager">$49.64</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Geo</td>
+          <td class="wager">$32.43</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">shock</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $535,385.51 | Prize Pool: $3,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">ye*******</td>
+          <td class="wager">$170,258.54</td>
+          <td class="prize">$1,400</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">lo***</td>
+          <td class="wager">$147,414.15</td>
+          <td class="prize">$800</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">ea*****</td>
+          <td class="wager">$105,240.35</td>
+          <td class="prize">$450</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">lo****</td>
+          <td class="wager">$60,621.57</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Ho**</td>
+          <td class="wager">$19,611.32</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Co*********</td>
+          <td class="wager">$12,840.1</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Dr********</td>
+          <td class="wager">$8,891.09</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Cj****</td>
+          <td class="wager">$5,457.31</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">he********</td>
+          <td class="wager">$3,402.18</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">di**</td>
+          <td class="wager">$1,648.9</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">empire</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $535,385.51 | Prize Pool: $3,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">ye*******</td>
+          <td class="wager">$170,258.54</td>
+          <td class="prize">$1,400</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">lo***</td>
+          <td class="wager">$147,414.15</td>
+          <td class="prize">$800</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">ea*****</td>
+          <td class="wager">$105,240.35</td>
+          <td class="prize">$450</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">lo****</td>
+          <td class="wager">$60,621.57</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Ho**</td>
+          <td class="wager">$19,611.32</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Co*********</td>
+          <td class="wager">$12,840.1</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Dr********</td>
+          <td class="wager">$8,891.09</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Cj****</td>
+          <td class="wager">$5,457.31</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">he********</td>
+          <td class="wager">$3,402.18</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">di**</td>
+          <td class="wager">$1,648.9</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>ilovemav.com</h2>
+            <a href="https://www.ilovemav.com/leaderboards" target="_blank" class="site-url">https://www.ilovemav.com/leaderboards</a>
+          </div>
+          <span class="status">✅ 3 leaderboards</span>
+        </div>
+        <img class="screenshot" src="ilovemav.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">luxdrop</span>
+            <span class="lb-stats">20 entries | api | 100%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $102,137.84 | Prize Pool: $4,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">H***r***</td>
+          <td class="wager">$79,599.72</td>
+          <td class="prize">$2,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">M**a***</td>
+          <td class="wager">$11,453.04</td>
+          <td class="prize">$1,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">R******d*******</td>
+          <td class="wager">$2,531.67</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">R**** ****</td>
+          <td class="wager">$2,249.14</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">m**l***</td>
+          <td class="wager">$1,163.91</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Z*c*</td>
+          <td class="wager">$1,125.59</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">m****n****</td>
+          <td class="wager">$697.53</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">h***r****</td>
+          <td class="wager">$612.75</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">B****P****</td>
+          <td class="wager">$456.38</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">i*****y******</td>
+          <td class="wager">$434.61</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">11</td>
+          <td class="username">a***o****</td>
+          <td class="wager">$406.53</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">12</td>
+          <td class="username">a*o**</td>
+          <td class="wager">$342.12</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">13</td>
+          <td class="username">B***e****</td>
+          <td class="wager">$291.32</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">14</td>
+          <td class="username">k****c*****</td>
+          <td class="wager">$241.71</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">15</td>
+          <td class="username">L***c***</td>
+          <td class="wager">$170.5</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">16</td>
+          <td class="username">k****k*****</td>
+          <td class="wager">$144.94</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">17</td>
+          <td class="username">i*****m*****</td>
+          <td class="wager">$68.23</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">18</td>
+          <td class="username">S****a*****</td>
+          <td class="wager">$63.8</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">19</td>
+          <td class="username">c*****a*****</td>
+          <td class="wager">$42.54</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">20</td>
+          <td class="username">w**f***</td>
+          <td class="wager">$41.81</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">chicken</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $13,588 | Prize Pool: $1,100
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Pep***</td>
+          <td class="wager">$6,838</td>
+          <td class="prize">$525</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Doo******</td>
+          <td class="wager">$4,966</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Zoi******</td>
+          <td class="wager">$1,784</td>
+          <td class="prize">$225</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">shock</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $69,632.13 | Prize Pool: $3,400
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">wolfy</td>
+          <td class="wager">$45,347.48</td>
+          <td class="prize">$1,750</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Xsuma67</td>
+          <td class="wager">$12,572.42</td>
+          <td class="prize">$1,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Shibuyaaa</td>
+          <td class="wager">$11,712.23</td>
+          <td class="prize">$650</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>spencerrewards.com</h2>
+            <a href="https://spencerrewards.com/leaderboard" target="_blank" class="site-url">https://spencerrewards.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 4 leaderboards</span>
+        </div>
+        <img class="screenshot" src="spencerrewards.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">packdraw</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $6,268.71 | Prize Pool: $1,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Unt************</td>
+          <td class="wager">$2,501.75</td>
+          <td class="prize">$450</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">col***********</td>
+          <td class="wager">$819.99</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">web********</td>
+          <td class="wager">$770.81</td>
+          <td class="prize">$125</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">The***************</td>
+          <td class="wager">$690.38</td>
+          <td class="prize">$75</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Ban*************</td>
+          <td class="wager">$485.97</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Spe*****</td>
+          <td class="wager">$284.89</td>
+          <td class="prize">$35</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">pic***</td>
+          <td class="wager">$272.83</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Bea***</td>
+          <td class="wager">$219.51</td>
+          <td class="prize">$15</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">rat***</td>
+          <td class="wager">$111.34</td>
+          <td class="prize">$15</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">unw***********</td>
+          <td class="wager">$111.24</td>
+          <td class="prize">$10</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">chips</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $4,593,303.78 | Prize Pool: $15,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">eth***</td>
+          <td class="wager">$2,385,991.43</td>
+          <td class="prize">$5,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">hay***</td>
+          <td class="wager">$1,438,746.65</td>
+          <td class="prize">$3,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">osc**********</td>
+          <td class="wager">$211,712.44</td>
+          <td class="prize">$2,500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">Ace********</td>
+          <td class="wager">$205,070</td>
+          <td class="prize">$1,500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Plu*******</td>
+          <td class="wager">$122,038.21</td>
+          <td class="prize">$750</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Fel****</td>
+          <td class="wager">$87,209.76</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Rel********</td>
+          <td class="wager">$81,508.37</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">BIG********</td>
+          <td class="wager">$33,317.39</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Fat***********</td>
+          <td class="wager">$17,909.53</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">qua*****</td>
+          <td class="wager">$9,800</td>
+          <td class="prize">$100</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">rostake</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $11,431,788.67 | Prize Pool: $500,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">sw****</td>
+          <td class="wager">$3,713,310.17</td>
+          <td class="prize">$225,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">di********</td>
+          <td class="wager">$2,906,918.4</td>
+          <td class="prize">$100,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Li******</td>
+          <td class="wager">$2,502,564.7</td>
+          <td class="prize">$62,500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">Co***</td>
+          <td class="wager">$526,553.45</td>
+          <td class="prize">$37,500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">fl*******</td>
+          <td class="wager">$514,062.67</td>
+          <td class="prize">$25,000</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Sa**</td>
+          <td class="wager">$379,281.65</td>
+          <td class="prize">$17,500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Zh**</td>
+          <td class="wager">$367,860.8</td>
+          <td class="prize">$12,500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">ki**</td>
+          <td class="wager">$314,093.39</td>
+          <td class="prize">$7,500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">su*********</td>
+          <td class="wager">$121,741.44</td>
+          <td class="prize">$7,500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Ba**********</td>
+          <td class="wager">$85,402</td>
+          <td class="prize">$5,000</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">upgrader</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $12,237.56 | Prize Pool: $500
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">PROBIGBOSSMANLIKETOEATRICH12K</td>
+          <td class="wager">$6,827.59</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">ZackWinzOnKick</td>
+          <td class="wager">$1,450.75</td>
+          <td class="prize">$125</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">fl8shbang</td>
+          <td class="wager">$1,135.32</td>
+          <td class="prize">$75</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">cookstar</td>
+          <td class="wager">$949.65</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Viper</td>
+          <td class="wager">$749.66</td>
+          <td class="prize">$20</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Subway Timmy</td>
+          <td class="wager">$569.11</td>
+          <td class="prize">$15</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">carl wheezer</td>
+          <td class="wager">$221.23</td>
+          <td class="prize">$10</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Ikea</td>
+          <td class="wager">$166.34</td>
+          <td class="prize">$10</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">24/7 maluma maluma</td>
+          <td class="wager">$84.37</td>
+          <td class="prize">$10</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Darkguardian scammer</td>
+          <td class="wager">$83.54</td>
+          <td class="prize">$10</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>paxgambles.com</h2>
+            <a href="https://paxgambles.com/leaderboard" target="_blank" class="site-url">https://paxgambles.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 3 leaderboards</span>
+        </div>
+        <img class="screenshot" src="paxgambles.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">diceblox</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $11,398,477.2 | Prize Pool: $1,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Magqing</td>
+          <td class="wager">$6,311,617.2</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Lurker_99YT</td>
+          <td class="wager">$3,608,487.2</td>
+          <td class="prize">$300</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Jkgr5777</td>
+          <td class="wager">$680,473.6</td>
+          <td class="prize">$160</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">CLAUploader6983</td>
+          <td class="wager">$536,958</td>
+          <td class="prize">$20</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">foxzaayy</td>
+          <td class="wager">$105,517.4</td>
+          <td class="prize">$20</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">scsdsddsds3</td>
+          <td class="wager">$60,465</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">iwonyourmother</td>
+          <td class="wager">$35,419.2</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">rUcHAnKokropkaexe</td>
+          <td class="wager">$20,766</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">a7ay3m</td>
+          <td class="wager">$19,715</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">vnixsab</td>
+          <td class="wager">$19,058.6</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">cases</span>
+            <span class="lb-stats">5 entries | markdown | 74%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $59.34 | Prize Pool: $300
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Br*********</td>
+          <td class="wager">$42.95</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">[hidden]</td>
+          <td class="wager">$12.39</td>
+          <td class="prize">$90</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">zi****</td>
+          <td class="wager">$4</td>
+          <td class="prize">$60</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">RO***</td>
+          <td class="wager">$0</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Ga******</td>
+          <td class="wager">$0</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">acebet</span>
+            <span class="lb-stats">2 entries | markdown | 73%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $0.14 | Prize Pool: $240
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">L*******</td>
+          <td class="wager">$0.1</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">S*****</td>
+          <td class="wager">$0.04</td>
+          <td class="prize">$90</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>rwrds.gg</h2>
+            <a href="https://rwrds.gg/leaderboard/clash" target="_blank" class="site-url">https://rwrds.gg/leaderboard/clash</a>
+          </div>
+          <span class="status">✅ 3 leaderboards</span>
+        </div>
+        <img class="screenshot" src="rwrds.gg.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">clash</span>
+            <span class="lb-stats">11 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $136,981.76 | Prize Pool: $1,525
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Derrow</td>
+          <td class="wager">$52,168.98</td>
+          <td class="prize">$650</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">To Claim:</td>
+          <td class="wager">$26,489.25</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">ApeBet</td>
+          <td class="wager">$26,489.25</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">3</td>
+          <td class="username">S!ckGod2k †✪★</td>
+          <td class="wager">$17,292.08</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">kick.com/Om3ge</td>
+          <td class="wager">$6,981.31</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">JOXZ</td>
+          <td class="wager">$3,290.7</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">ObvSlash</td>
+          <td class="wager">$1,401.76</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Beautiful Lemur</td>
+          <td class="wager">$1,056.23</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">NoobVonNebenAn</td>
+          <td class="wager">$1,022.73</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Az arab vállalkozó</td>
+          <td class="wager">$406.63</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Bø</td>
+          <td class="wager">$382.84</td>
+          <td class="prize">$25</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">cases</span>
+            <span class="lb-stats">10 entries | markdown | 80%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $67,262.05 | Prize Pool: $1,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Go*************</td>
+          <td class="wager">$38,212.08</td>
+          <td class="prize">$450</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">De****</td>
+          <td class="wager">$13,688.97</td>
+          <td class="prize">$220</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">En*************</td>
+          <td class="wager">$10,471.11</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">✪ ***</td>
+          <td class="wager">$2,182.36</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">ar********</td>
+          <td class="wager">$700.41</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">mi**********</td>
+          <td class="wager">$665.04</td>
+          <td class="prize">$30</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Ap****</td>
+          <td class="wager">$465.65</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">DN*****</td>
+          <td class="wager">$370.16</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">rc***</td>
+          <td class="wager">$324.74</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">ᵇᵘ********</td>
+          <td class="wager">$181.53</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">clashgg</span>
+            <span class="lb-stats">11 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $136,981.76 | Prize Pool: $1,525
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Derrow</td>
+          <td class="wager">$52,168.98</td>
+          <td class="prize">$650</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">To Claim:</td>
+          <td class="wager">$26,489.25</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">ApeBet</td>
+          <td class="wager">$26,489.25</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">3</td>
+          <td class="username">S!ckGod2k †✪★</td>
+          <td class="wager">$17,292.08</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">kick.com/Om3ge</td>
+          <td class="wager">$6,981.31</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">JOXZ</td>
+          <td class="wager">$3,290.7</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">ObvSlash</td>
+          <td class="wager">$1,401.76</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Beautiful Lemur</td>
+          <td class="wager">$1,056.23</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">NoobVonNebenAn</td>
+          <td class="wager">$1,022.73</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Az arab vállalkozó</td>
+          <td class="wager">$406.63</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Bø</td>
+          <td class="wager">$382.84</td>
+          <td class="prize">$25</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>tanskidegen.com</h2>
+            <a href="https://www.tanskidegen.com/leaderboards" target="_blank" class="site-url">https://www.tanskidegen.com/leaderboards</a>
+          </div>
+          <span class="status">✅ 4 leaderboards</span>
+        </div>
+        <img class="screenshot" src="tanskidegen.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgowin</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $28,907.55 | Prize Pool: $1,900
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">P********es</td>
+          <td class="wager">$13,101.91</td>
+          <td class="prize">$1,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">e**********er</td>
+          <td class="wager">$8,545.03</td>
+          <td class="prize">$550</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">v****g0</td>
+          <td class="wager">$7,260.61</td>
+          <td class="prize">$350</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgogem</span>
+            <span class="lb-stats">20 entries | api | 73%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $3,696,499 | Prize Pool: $1,375
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">S******s</td>
+          <td class="wager">$1,218,676</td>
+          <td class="prize">$700</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">y*********8</td>
+          <td class="wager">$820,898</td>
+          <td class="prize">$400</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">h*************c</td>
+          <td class="wager">$518,542</td>
+          <td class="prize">$275</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">W***Y</td>
+          <td class="wager">$458,719</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">O****************i</td>
+          <td class="wager">$288,940</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">2******s</td>
+          <td class="wager">$73,325</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">R*******T</td>
+          <td class="wager">$62,533</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">d******p</td>
+          <td class="wager">$59,184</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">j******k</td>
+          <td class="wager">$47,630</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">S******e</td>
+          <td class="wager">$25,658</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">11</td>
+          <td class="username">q***s</td>
+          <td class="wager">$22,195</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">12</td>
+          <td class="username">f*****o</td>
+          <td class="wager">$20,861</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">13</td>
+          <td class="username">P*******l</td>
+          <td class="wager">$15,012</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">14</td>
+          <td class="username">S*****s</td>
+          <td class="wager">$12,300</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">15</td>
+          <td class="username">J*************r</td>
+          <td class="wager">$10,712</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">16</td>
+          <td class="username">F****o</td>
+          <td class="wager">$9,949</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">17</td>
+          <td class="username">O******n</td>
+          <td class="wager">$8,773</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">18</td>
+          <td class="username">G***z</td>
+          <td class="wager">$8,326</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">19</td>
+          <td class="username">Y***G</td>
+          <td class="wager">$7,363</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">20</td>
+          <td class="username">h******1</td>
+          <td class="wager">$6,903</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">acebet</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $105,994.04 | Prize Pool: $3,500
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">K*************...</td>
+          <td class="wager">$66,253.6</td>
+          <td class="prize">$2,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">C*********ew</td>
+          <td class="wager">$25,146.2</td>
+          <td class="prize">$1,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">A************e...</td>
+          <td class="wager">$14,594.24</td>
+          <td class="prize">$500</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">banditcamp</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $119,569.72 | Prize Pool: $3,100
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">p*************...</td>
+          <td class="wager">$77,385.97</td>
+          <td class="prize">$1,600</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">D***********my</td>
+          <td class="wager">$23,778.93</td>
+          <td class="prize">$900</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">J**********ve</td>
+          <td class="wager">$18,404.82</td>
+          <td class="prize">$600</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>wahy.gg</h2>
+            <a href="https://wahy.gg/leaderboard/csgogem" target="_blank" class="site-url">https://wahy.gg/leaderboard/csgogem</a>
+          </div>
+          <span class="status">✅ 3 leaderboards</span>
+        </div>
+        <img class="screenshot" src="wahy.gg.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgogem</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $120,082.26 | Prize Pool: $5,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">t*******</td>
+          <td class="wager">$41,190.03</td>
+          <td class="prize">$2,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">I**</td>
+          <td class="wager">$22,504.26</td>
+          <td class="prize">$1,250</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">B*****</td>
+          <td class="wager">$17,594.89</td>
+          <td class="prize">$750</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">D*****</td>
+          <td class="wager">$8,536.76</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">B**********</td>
+          <td class="wager">$8,241.19</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">M**</td>
+          <td class="wager">$8,150.1</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">2****</td>
+          <td class="wager">$5,022.79</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">T*****</td>
+          <td class="wager">$4,163.58</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">B***</td>
+          <td class="wager">$3,592.74</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">C**********</td>
+          <td class="wager">$1,085.92</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">clash</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $198,805.15 | Prize Pool: $1,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Smule</td>
+          <td class="wager">$170,016.56</td>
+          <td class="prize">$650</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Onepixel</td>
+          <td class="wager">$10,268.24</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Inn</td>
+          <td class="wager">$7,634.35</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">botman</td>
+          <td class="wager">$3,466.02</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Unpredictable 777</td>
+          <td class="wager">$2,433.75</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Playful Gopher</td>
+          <td class="wager">$2,158.91</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Doraemon</td>
+          <td class="wager">$1,437.7</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Lucius</td>
+          <td class="wager">$524.51</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">ZaZhiMi</td>
+          <td class="wager">$490</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">【MyGO!!!!!】Talivik Chihaya</td>
+          <td class="wager">$375.11</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">upgrader</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $2,977.7 | Prize Pool: $1,500
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Mel</td>
+          <td class="wager">$1,550.79</td>
+          <td class="prize">$750</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Hyers</td>
+          <td class="wager">$529.68</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Kaze</td>
+          <td class="wager">$485.14</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">Snixer34</td>
+          <td class="wager">$249.58</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Minh Đinh</td>
+          <td class="wager">$51.38</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">twofried</td>
+          <td class="wager">$51.17</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">dandadan21</td>
+          <td class="wager">$27.32</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Baljeet</td>
+          <td class="wager">$21.04</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Osmar</td>
+          <td class="wager">$6.61</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Life of 9013</td>
+          <td class="wager">$4.99</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>goatgambles.com</h2>
+            <a href="https://goatgambles.com/leaderboard" target="_blank" class="site-url">https://goatgambles.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 6 leaderboards</span>
+        </div>
+        <img class="screenshot" src="goatgambles.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">rain</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $27,309.51 | Prize Pool: $1,200
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">**u</td>
+          <td class="wager">$13,543.81</td>
+          <td class="prize">$600</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">***iv2</td>
+          <td class="wager">$11,730.4</td>
+          <td class="prize">$400</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">*******ken_DK</td>
+          <td class="wager">$2,035.3</td>
+          <td class="prize">$200</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">roobet</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $495,111.09 | Prize Pool: $8,800
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">******loth</td>
+          <td class="wager">$277,223.22</td>
+          <td class="prize">$5,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">******ntra</td>
+          <td class="wager">$137,568.55</td>
+          <td class="prize">$2,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">*****etti</td>
+          <td class="wager">$80,319.32</td>
+          <td class="prize">$1,300</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">clash</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $11,554.77 | Prize Pool: $625
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">*****nlund</td>
+          <td class="wager">$7,256.17</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">***nyo</td>
+          <td class="wager">$2,750.45</td>
+          <td class="prize">$175</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">*****ysnwc</td>
+          <td class="wager">$1,548.15</td>
+          <td class="prize">$100</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgowin</span>
+            <span class="lb-stats">3 entries | markdown | 81%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $18,292.48 | Prize Pool: $820
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">LD</td>
+          <td class="wager">$9,718.69</td>
+          <td class="prize">$450</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">******atters</td>
+          <td class="wager">$5,218.73</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">****enK</td>
+          <td class="wager">$3,355.06</td>
+          <td class="prize">$120</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgoluck</span>
+            <span class="lb-stats">3 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $3,055.58 | Prize Pool: $820
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">*****nlund</td>
+          <td class="wager">$1,836.3</td>
+          <td class="prize">$450</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">****ang</td>
+          <td class="wager">$890.99</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">***ky</td>
+          <td class="wager">$328.29</td>
+          <td class="prize">$120</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgogem</span>
+            <span class="lb-stats">3 entries | markdown | 81%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $30,009.22 | Prize Pool: $1,200
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">******9</td>
+          <td class="wager">$15,274.09</td>
+          <td class="prize">$600</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">********X</td>
+          <td class="wager">$7,390.58</td>
+          <td class="prize">$400</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">****t</td>
+          <td class="wager">$7,344.55</td>
+          <td class="prize">$200</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>adukes.com</h2>
+            <a href="https://adukes.com/leaderboard" target="_blank" class="site-url">https://adukes.com/leaderboard</a>
+          </div>
+          <span class="status">✅ 2 leaderboards</span>
+        </div>
+        <img class="screenshot" src="adukes.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">chips</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $382,737.32 | Prize Pool: $2,500
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Nic*****</td>
+          <td class="wager">$139,754.63</td>
+          <td class="prize">$800</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Deg*******</td>
+          <td class="wager">$81,523.05</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Hxt*******</td>
+          <td class="wager">$68,387.43</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">che**</td>
+          <td class="wager">$29,483.95</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Tru**</td>
+          <td class="wager">$26,557.63</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Dad*****</td>
+          <td class="wager">$20,419.02</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Duu**********</td>
+          <td class="wager">$6,178.13</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">max***</td>
+          <td class="wager">$4,980.94</td>
+          <td class="prize">$75</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">i9D****</td>
+          <td class="wager">$2,803.19</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Bka**</td>
+          <td class="wager">$2,649.35</td>
+          <td class="prize">$25</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">packdraw</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $9,299.94 | Prize Pool: $3,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">LeeGambles</td>
+          <td class="wager">$2,243.85</td>
+          <td class="prize">$1,250</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Duuuuuuudethe</td>
+          <td class="wager">$1,890.4</td>
+          <td class="prize">$700</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Landonbroke</td>
+          <td class="wager">$1,797.4</td>
+          <td class="prize">$450</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">raiboot</td>
+          <td class="wager">$1,558.94</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">DukesKingdom</td>
+          <td class="wager">$857.68</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">vVivid32</td>
+          <td class="wager">$315.37</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">rubenwin</td>
+          <td class="wager">$304.19</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Spoons69xadukes</td>
+          <td class="wager">$167.94</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">boring</td>
+          <td class="wager">$107.91</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Foxtrout</td>
+          <td class="wager">$56.26</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+      <div class="site-card success">
+        <div class="site-header">
+          <div class="site-info">
+            <h2>augustrewards.com</h2>
+            <a href="https://augustrewards.com/leaderboard/yeet" target="_blank" class="site-url">https://augustrewards.com/leaderboard/yeet</a>
+          </div>
+          <span class="status">✅ 6 leaderboards</span>
+        </div>
+        <img class="screenshot" src="augustrewards.com.png" />
+        
+        <div class="leaderboards">
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgoroll</span>
+            <span class="lb-stats">12 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $4,112.66 | Prize Pool: $4,500
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">4</td>
+          <td class="username">200*******</td>
+          <td class="wager">$650</td>
+          <td class="prize">$1,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">5</td>
+          <td class="username">Tw3***</td>
+          <td class="wager">$500</td>
+          <td class="prize">$1,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">6</td>
+          <td class="username">rou***</td>
+          <td class="wager">$497.34</td>
+          <td class="prize">$750</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">FR3*****</td>
+          <td class="wager">$400</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">eli*******</td>
+          <td class="wager">$337.4</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">KIM*</td>
+          <td class="wager">$335.71</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Don*******</td>
+          <td class="wager">$315.91</td>
+          <td class="prize">$150</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">11</td>
+          <td class="username">Jef****</td>
+          <td class="wager">$290</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">12</td>
+          <td class="username">Plo****</td>
+          <td class="wager">$230</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">13</td>
+          <td class="username">Bac******</td>
+          <td class="wager">$200</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">14</td>
+          <td class="username">oca</td>
+          <td class="wager">$200</td>
+          <td class="prize">$0</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">15</td>
+          <td class="username">DA_*********</td>
+          <td class="wager">$156.3</td>
+          <td class="prize">$0</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgowin</span>
+            <span class="lb-stats">9 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $211,646.48 | Prize Pool: $9,900
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">fenn 2.0</td>
+          <td class="wager">$88,013.09</td>
+          <td class="prize">$5,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">zirqon</td>
+          <td class="wager">$34,268.4</td>
+          <td class="prize">$2,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">Yarrie</td>
+          <td class="wager">$26,533.38</td>
+          <td class="prize">$1,250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">melC</td>
+          <td class="wager">$20,150.71</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">Moose015078</td>
+          <td class="wager">$18,609.33</td>
+          <td class="prize">$300</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Watermelon</td>
+          <td class="wager">$12,369.45</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">swipe</td>
+          <td class="wager">$5,173.34</td>
+          <td class="prize">$75</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Bobrovs</td>
+          <td class="wager">$4,023.07</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">KushKaptain</td>
+          <td class="wager">$2,505.71</td>
+          <td class="prize">$25</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">upgrader</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $119,574.53 | Prize Pool: $7,500
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">wwwwww</td>
+          <td class="wager">$83,538.48</td>
+          <td class="prize">$3,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Fizz</td>
+          <td class="wager">$11,254.32</td>
+          <td class="prize">$2,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">KICKimboat</td>
+          <td class="wager">$9,385.93</td>
+          <td class="prize">$1,000</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">TARKOXXYZ</td>
+          <td class="wager">$8,993.95</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">fish</td>
+          <td class="wager">$1,312.25</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">ren</td>
+          <td class="wager">$1,295.22</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">yarriemultiplalover</td>
+          <td class="wager">$1,109.45</td>
+          <td class="prize">$175</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">dv1</td>
+          <td class="wager">$971.69</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Dogs.</td>
+          <td class="wager">$888.83</td>
+          <td class="prize">$75</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Conner</td>
+          <td class="wager">$824.41</td>
+          <td class="prize">$50</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">csgogem</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $205,536.56 | Prize Pool: $5,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">R*******</td>
+          <td class="wager">$62,909.61</td>
+          <td class="prize">$2,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">M*******</td>
+          <td class="wager">$41,066.39</td>
+          <td class="prize">$1,250</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">H*******</td>
+          <td class="wager">$40,487.33</td>
+          <td class="prize">$750</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">B************</td>
+          <td class="wager">$21,877.17</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">F*****</td>
+          <td class="wager">$9,801.28</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">b********</td>
+          <td class="wager">$7,183.3</td>
+          <td class="prize">$75</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">B********</td>
+          <td class="wager">$6,705.83</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">r*****</td>
+          <td class="wager">$6,603.09</td>
+          <td class="prize">$30</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">D****</td>
+          <td class="wager">$5,317.97</td>
+          <td class="prize">$25</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">t*****</td>
+          <td class="wager">$3,584.59</td>
+          <td class="prize">$20</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">rain</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $26,703.61 | Prize Pool: $7,500
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">✔c*****</td>
+          <td class="wager">$11,962.65</td>
+          <td class="prize">$3,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">GAN******</td>
+          <td class="wager">$4,967.7</td>
+          <td class="prize">$2,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">XES********</td>
+          <td class="wager">$4,133.09</td>
+          <td class="prize">$1,000</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">cad******</td>
+          <td class="wager">$1,471.03</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">aee***</td>
+          <td class="wager">$1,377.28</td>
+          <td class="prize">$350</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Pop**</td>
+          <td class="wager">$840.98</td>
+          <td class="prize">$250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Dea******</td>
+          <td class="wager">$643.9</td>
+          <td class="prize">$175</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">Har***</td>
+          <td class="wager">$514.19</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">Isa******************</td>
+          <td class="wager">$397.05</td>
+          <td class="prize">$75</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Ant*********</td>
+          <td class="wager">$395.74</td>
+          <td class="prize">$50</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      
+        <div class="leaderboard">
+          <div class="lb-header">
+            <span class="lb-name">clash</span>
+            <span class="lb-stats">10 entries | markdown | 85%</span>
+          </div>
+          <div class="lb-summary">
+            Total Wagered: $1,304,932.83 | Prize Pool: $10,000
+          </div>
+          <table class="entries-table">
+            <thead><tr><th>Rank</th><th>Username</th><th>Wager</th><th>Prize</th></tr></thead>
+            <tbody>
+        <tr class="top3">
+          <td class="rank">1</td>
+          <td class="username">Mar***</td>
+          <td class="wager">$573,200</td>
+          <td class="prize">$5,000</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">2</td>
+          <td class="username">Qyl****</td>
+          <td class="wager">$308,790</td>
+          <td class="prize">$2,500</td>
+        </tr>
+      
+        <tr class="top3">
+          <td class="rank">3</td>
+          <td class="username">clo***</td>
+          <td class="wager">$251,108</td>
+          <td class="prize">$1,250</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">4</td>
+          <td class="username">hid***</td>
+          <td class="wager">$94,819</td>
+          <td class="prize">$500</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">5</td>
+          <td class="username">hid***</td>
+          <td class="wager">$51,313.21</td>
+          <td class="prize">$300</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">6</td>
+          <td class="username">Mid***********</td>
+          <td class="wager">$12,100.55</td>
+          <td class="prize">$200</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">7</td>
+          <td class="username">Reo*</td>
+          <td class="wager">$3,920.57</td>
+          <td class="prize">$100</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">8</td>
+          <td class="username">fle***</td>
+          <td class="wager">$3,460.56</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">9</td>
+          <td class="username">yur*****</td>
+          <td class="wager">$3,258.44</td>
+          <td class="prize">$50</td>
+        </tr>
+      
+        <tr class="">
+          <td class="rank">10</td>
+          <td class="username">Bel*******</td>
+          <td class="wager">$2,962.5</td>
+          <td class="prize">$50</td>
+        </tr>
+      </tbody>
+          </table>
+          
+        </div>
+      </div>
+      </div>
+    
+</body>
+</html>

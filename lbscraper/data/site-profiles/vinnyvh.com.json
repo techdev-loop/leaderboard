@@ -1,0 +1,160 @@
+{
+  "domain": "vinnyvh.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.015729,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:19:59.545Z",
+    "lastVerifiedAt": "2026-01-26T13:19:59.545Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 100
+  },
+  "layoutFingerprint": {
+    "hash": "a5a5970b398d0ba5",
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:19:59.550Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://vinnyvh.com/leaderboard/csgold",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T11:11:38.887Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "clash": {
+        "navigation": {
+          "url": "https://vinnyvh.com/leaderboard/csgold",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 6,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 7,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T11:11:50.308Z",
+          "lastUpdatedAt": "2026-02-04T11:11:50.308Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T11:11:50.308Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows 404 - PAGE NOT FOUND error",
+      "addedAt": "2026-01-26T13:19:59.543Z"
+    },
+    {
+      "text": "URL vinnyvh.com/leaderboard/rostake does not exist",
+      "addedAt": "2026-01-26T13:19:59.543Z"
+    },
+    {
+      "text": "Site has VinnyVH branding and LEADERBOARD header but no content",
+      "addedAt": "2026-01-26T13:19:59.543Z"
+    },
+    {
+      "text": "This appears to be a dead/invalid URL for rostake leaderboard",
+      "addedAt": "2026-01-26T13:19:59.543Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:19:52.095Z",
+  "updatedAt": "2026-02-04T11:11:50.308Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:19:52.095Z"
+}

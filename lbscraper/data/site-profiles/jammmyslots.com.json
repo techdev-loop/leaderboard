@@ -1,0 +1,231 @@
+{
+  "domain": "jammmyslots.com",
+  "status": "flagged_for_review",
+  "attempts": 5,
+  "maxAttempts": 3,
+  "llmDisabled": true,
+  "llmCostTotal": 0.180864,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "podium-table",
+    "generatedAt": "2026-01-26T13:28:20.730Z"
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.jammmyslots.com/leaderboard/csgowin",
+    "authRequired": false,
+    "discoveredAt": "2026-02-03T07:54:52.389Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": "[class*='podium'], [class*='leaderboard'], .rank-cards",
+    "entrySelector": "[class*='rank'], [class*='position'], [class*='player']",
+    "fields": {
+      "rank": "text content of rank number or position indicator",
+      "username": "text content matching pattern like 'Await***layer'",
+      "wager": "large dollar amount if visible",
+      "prize": "smaller dollar amount if visible"
+    },
+    "leaderboards": [
+      {
+        "siteName": "upgrader",
+        "entries": [],
+        "selector": null,
+        "isEmpty": true,
+        "reason": "API endpoint returns empty data array"
+      }
+    ]
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://www.jammmyslots.com/api/leaderboard/upgrader",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csgowin": {
+        "navigation": {
+          "url": "https://www.jammmyslots.com/leaderboard/csgowin",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "url-specified",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 23,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 3,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T07:55:09.805Z",
+          "lastUpdatedAt": "2026-02-03T07:55:09.805Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-03T07:55:09.805Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Visible podium positions show placeholder 'Await***layer' usernames",
+      "addedAt": "2026-01-26T13:28:28.140Z"
+    },
+    {
+      "text": "Need to scroll to see full leaderboard table and potential switchers",
+      "addedAt": "2026-01-26T13:28:28.140Z"
+    },
+    {
+      "text": "This is the Upgrader leaderboard page on jammmyslots.com",
+      "addedAt": "2026-01-26T13:28:28.728Z"
+    },
+    {
+      "text": "Page shows competition period Jan 26, 2026 → Feb 9, 2026",
+      "addedAt": "2026-01-26T13:28:28.728Z"
+    },
+    {
+      "text": "Podium shows positions 1, 2, 3 with placeholder usernames 'Await***layer'",
+      "addedAt": "2026-01-26T13:28:28.728Z"
+    },
+    {
+      "text": "API endpoint /api/leaderboard/upgrader returns empty data array",
+      "addedAt": "2026-01-26T13:28:28.728Z"
+    },
+    {
+      "text": "API response includes error: 'API failed'",
+      "addedAt": "2026-01-26T13:28:28.728Z"
+    },
+    {
+      "text": "Need to scroll down to see full page structure and check for site switchers",
+      "addedAt": "2026-01-26T13:28:28.728Z"
+    },
+    {
+      "text": "This is the Upgrader leaderboard page on jammmyslots.com",
+      "addedAt": "2026-01-26T13:28:29.444Z"
+    },
+    {
+      "text": "Page shows competition period Jan 26 - Feb 9, 2026 with countdown timer",
+      "addedAt": "2026-01-26T13:28:29.444Z"
+    },
+    {
+      "text": "Top 3 positions visible as cards with placeholder usernames 'Await***layer'",
+      "addedAt": "2026-01-26T13:28:29.444Z"
+    },
+    {
+      "text": "API responses show empty data array with 'API failed' error",
+      "addedAt": "2026-01-26T13:28:29.444Z"
+    },
+    {
+      "text": "Page appears to be showing fallback/placeholder content due to API failure",
+      "addedAt": "2026-01-26T13:28:29.444Z"
+    },
+    {
+      "text": "Need to scroll down to see if there are more leaderboard entries or site switchers",
+      "addedAt": "2026-01-26T13:28:29.444Z"
+    },
+    {
+      "text": "Page shows Upgrader leaderboard with countdown timer (13 days, 10 hours remaining)",
+      "addedAt": "2026-01-26T13:28:29.582Z"
+    },
+    {
+      "text": "Period runs from Jan 26, 2026 to Feb 9, 2026",
+      "addedAt": "2026-01-26T13:28:29.582Z"
+    },
+    {
+      "text": "API endpoint /api/leaderboard/upgrader returns empty data array",
+      "addedAt": "2026-01-26T13:28:29.582Z"
+    },
+    {
+      "text": "Three placeholder podium positions visible (ranks 1, 2, 3) but no actual data",
+      "addedAt": "2026-01-26T13:28:29.582Z"
+    },
+    {
+      "text": "Need to check for site switchers to see if other casinos are available",
+      "addedAt": "2026-01-26T13:28:29.582Z"
+    },
+    {
+      "text": "Current page shows 'Await***layer' placeholders in podium positions",
+      "addedAt": "2026-01-26T13:28:29.582Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:11:32.430Z",
+  "updatedAt": "2026-02-03T07:55:09.805Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:28:08.007Z"
+}

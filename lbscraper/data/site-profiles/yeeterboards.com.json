@@ -1,0 +1,193 @@
+{
+  "domain": "yeeterboards.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.018441,
+  "verification": {
+    "firstVerifiedAt": "2026-01-24T23:37:23.566Z",
+    "lastVerifiedAt": "2026-01-24T23:37:23.566Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "a5a5970b398d0ba5",
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-24T23:37:23.571Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://yeeterboards.com/leaderboards",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T03:14:53.274Z"
+  },
+  "switchers": [
+    {
+      "name": "bsite",
+      "selector": null,
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "clickStrategy": "none",
+      "keywords": [
+        "bsite"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".leaderboard-container",
+    "entrySelector": ".leaderboard-entry",
+    "fields": {
+      "rank": ".rank",
+      "username": ".username",
+      "wager": ".wager",
+      "prize": ".prize"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://admin.yeeterboards.com/api/leaderboards/{site}/",
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "4e9bc907-9e47-4247-89dc-374492d56126": {
+        "navigation": {
+          "url": "https://yeeterboards.com/leaderboards/4e9bc907-9e47-4247-89dc-374492d56126",
+          "urlPattern": "/leaderboards/{SITE}",
+          "baseUrl": "https://yeeterboards.com",
+          "method": "url",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "consensus-verified",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "stats": {
+          "successCount": 7,
+          "failCount": 0,
+          "lastSuccessAt": "2026-01-25T01:11:37.692Z",
+          "lastUpdatedAt": "2026-01-25T01:11:37.692Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-01-25T01:11:37.692Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows 'Unknown Community' header with 'U' avatar",
+      "addedAt": "2026-01-24T23:37:23.565Z"
+    },
+    {
+      "text": "Displays 'Community Leaderboard' subtitle",
+      "addedAt": "2026-01-24T23:37:23.565Z"
+    },
+    {
+      "text": "Shows leaderboard period timeframe (Jan 20-27)",
+      "addedAt": "2026-01-24T23:37:23.565Z"
+    },
+    {
+      "text": "Contains search box but no actual leaderboard entries",
+      "addedAt": "2026-01-24T23:37:23.565Z"
+    },
+    {
+      "text": "API endpoint exists but returned no data",
+      "addedAt": "2026-01-24T23:37:23.565Z"
+    },
+    {
+      "text": "This appears to be an empty state or placeholder page",
+      "addedAt": "2026-01-24T23:37:23.565Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [
+    {
+      "name": "disclaimer",
+      "reason": "switcher_not_found",
+      "lastChecked": "2026-01-24T22:32:05.451Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T22:32:05.451Z"
+    }
+  ],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": "2026-01-24T23:36:40.304Z",
+  "lastVisualVerification": {
+    "llmSwitcherCount": 0,
+    "llmSwitchers": [],
+    "domSwitcherCount": 1,
+    "additionalFound": 0,
+    "missingFromLlm": [
+      "bsite"
+    ],
+    "confidence": 95,
+    "notes": "This appears to be a landing/hero page for the leaderboards section rather than the actual leaderboard interface. No site switching mechanisms are visible - only promotional buttons to play or apply. The actual leaderboard with site switchers would likely be accessible after clicking through from this page."
+  },
+  "createdAt": "2026-01-24T22:32:04.524Z",
+  "updatedAt": "2026-01-31T03:14:53.274Z"
+}

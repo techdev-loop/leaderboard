@@ -1,0 +1,383 @@
+{
+  "id": "5d3e13c7-4a01-4049-babf-c11df0abc55b",
+  "results": [
+    {
+      "id": "05688d13-588b-4ab8-a177-49164569e3ac",
+      "extractionId": "5d3e13c7-4a01-4049-babf-c11df0abc55b",
+      "name": "rain",
+      "url": "https://www.goatgambles.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "**u",
+          "wager": 13543.81,
+          "prize": 600,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:20:52.963Z"
+        },
+        {
+          "rank": 2,
+          "username": "***iv2",
+          "wager": 11730.4,
+          "prize": 400,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:20:52.963Z"
+        },
+        {
+          "rank": 3,
+          "username": "*******ken_DK",
+          "wager": 2035.3,
+          "prize": 200,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:20:52.963Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 1200,
+      "totalWagered": 27309.51,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T10:20:52.963Z"
+    },
+    {
+      "id": "c120a398-c939-4f1e-9733-2b378d1264b3",
+      "extractionId": "5d3e13c7-4a01-4049-babf-c11df0abc55b",
+      "name": "roobet",
+      "url": "https://www.goatgambles.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "******loth",
+          "wager": 272283.78,
+          "prize": 5000,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:04.265Z"
+        },
+        {
+          "rank": 2,
+          "username": "******ntra",
+          "wager": 137567.39,
+          "prize": 2500,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:04.265Z"
+        },
+        {
+          "rank": 3,
+          "username": "*****etti",
+          "wager": 78622.3,
+          "prize": 1300,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:04.265Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 8800,
+      "totalWagered": 488473.47000000003,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T10:21:04.265Z"
+    },
+    {
+      "id": "4e392c4e-ba16-4f53-9c62-3b6f36a5da55",
+      "extractionId": "5d3e13c7-4a01-4049-babf-c11df0abc55b",
+      "name": "clash",
+      "url": "https://www.goatgambles.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "*****nlund",
+          "wager": 7256.17,
+          "prize": 350,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:14.797Z"
+        },
+        {
+          "rank": 2,
+          "username": "***nyo",
+          "wager": 2750.45,
+          "prize": 175,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:14.797Z"
+        },
+        {
+          "rank": 3,
+          "username": "*****ysnwc",
+          "wager": 1548.15,
+          "prize": 100,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:14.797Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 625,
+      "totalWagered": 11554.769999999999,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T10:21:14.797Z"
+    },
+    {
+      "id": "499a44e7-a350-4889-96a8-0696697961ef",
+      "extractionId": "5d3e13c7-4a01-4049-babf-c11df0abc55b",
+      "name": "csgowin",
+      "url": "https://www.goatgambles.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "LD",
+          "wager": 9718.69,
+          "prize": 450,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:26.387Z"
+        },
+        {
+          "rank": 2,
+          "username": "******atters",
+          "wager": 5218.73,
+          "prize": 250,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:26.387Z"
+        },
+        {
+          "rank": 3,
+          "username": "****enK",
+          "wager": 3355.06,
+          "prize": 120,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:26.387Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 820,
+      "totalWagered": 18292.48,
+      "confidence": 81,
+      "scrapedAt": "2026-02-04T10:21:26.387Z"
+    },
+    {
+      "id": "a00cbe7a-847e-46ed-a99a-8f99b213b850",
+      "extractionId": "5d3e13c7-4a01-4049-babf-c11df0abc55b",
+      "name": "csgoluck",
+      "url": "https://www.goatgambles.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "*****nlund",
+          "wager": 1836.3,
+          "prize": 450,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:36.567Z"
+        },
+        {
+          "rank": 2,
+          "username": "****ang",
+          "wager": 890.99,
+          "prize": 250,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:36.567Z"
+        },
+        {
+          "rank": 3,
+          "username": "***ky",
+          "wager": 328.29,
+          "prize": 120,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:36.567Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 820,
+      "totalWagered": 3055.58,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T10:21:36.567Z"
+    },
+    {
+      "id": "114d4fc1-7d83-4b38-a80b-c18734b36701",
+      "extractionId": "5d3e13c7-4a01-4049-babf-c11df0abc55b",
+      "name": "csgogem",
+      "url": "https://www.goatgambles.com/leaderboard",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "******9",
+          "wager": 15274.09,
+          "prize": 600,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:49.223Z"
+        },
+        {
+          "rank": 2,
+          "username": "********X",
+          "wager": 7390.58,
+          "prize": 400,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:49.223Z"
+        },
+        {
+          "rank": 3,
+          "username": "****t",
+          "wager": 7344.55,
+          "prize": 200,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:21:49.223Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 1200,
+      "totalWagered": 30009.219999999998,
+      "confidence": 81,
+      "scrapedAt": "2026-02-04T10:21:49.223Z"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "domain": "goatgambles.com",
+    "startedAt": "2026-02-04T10:20:39.953Z",
+    "completedAt": "2026-02-04T10:21:49.223Z",
+    "leaderboardsDiscovered": 6,
+    "leaderboardsScraped": 6,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": []
+}

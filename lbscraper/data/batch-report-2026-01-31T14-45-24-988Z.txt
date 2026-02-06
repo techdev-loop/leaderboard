@@ -1,0 +1,44 @@
+════════════════════════════════════════════════════════════════════════════════
+                         BATCH SCRAPE REPORT
+════════════════════════════════════════════════════════════════════════════════
+Run ID: ML2F9KPZ
+Completed: 2026-01-31T14:45:24.987Z
+Duration: 1m 52s
+
+SUMMARY:
+  Total Sites: 1
+  Successful: 1
+  Failed: 0
+  Timed Out: 0
+  Total Leaderboards Extracted: 2
+
+════════════════════════════════════════════════════════════════════════════════
+✅ SUCCESSFUL SITES (1)
+════════════════════════════════════════════════════════════════════════════════
+
+devlrewards.com (2 leaderboards, 112s)
+  URL: https://devlrewards.com
+  DB ERROR: 
+Invalid `prisma.leaderboardSite.findUnique()` invocation in
+/Users/cj/Desktop/ARGUS/lbscraper/shared/db-save.js:52:43
+
+  49  */
+  50 async function saveToDatabase(domain, result) {
+  51   // 1. Find or create LeaderboardSite
+→ 52   let site = await prisma.leaderboardSite.findUnique(
+error: Environment variable not found: DATABASE_URL.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "postgresql"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+  - packdraw: 101 entries, 63% confidence (api)
+  - rainbet: 51 entries, 85% confidence (markdown)
+
+DATABASE TOTALS: 0 snapshots, 0 entries saved
+
+════════════════════════════════════════════════════════════════════════════════
+                           END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

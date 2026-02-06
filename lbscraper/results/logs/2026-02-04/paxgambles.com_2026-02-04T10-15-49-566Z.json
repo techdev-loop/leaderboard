@@ -1,0 +1,276 @@
+{
+  "id": "93315b87-675b-4344-8ea8-cc5eb871e9c5",
+  "results": [
+    {
+      "id": "0095e38a-fd92-4816-aee1-e7f206574e21",
+      "extractionId": "93315b87-675b-4344-8ea8-cc5eb871e9c5",
+      "name": "diceblox",
+      "url": "https://paxgambles.com/leaderboard/diceblox",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 10,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Magqing",
+          "wager": 6311617.2,
+          "prize": 500,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 2,
+          "username": "Lurker_99YT",
+          "wager": 3608487.2,
+          "prize": 300,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 3,
+          "username": "Jkgr5777",
+          "wager": 680473.6,
+          "prize": 160,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 4,
+          "username": "CLAUploader6983",
+          "wager": 536958,
+          "prize": 20,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 5,
+          "username": "foxzaayy",
+          "wager": 88919.4,
+          "prize": 20,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 6,
+          "username": "scsdsddsds3",
+          "wager": 60465,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 7,
+          "username": "iwonyourmother",
+          "wager": 35419.2,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 8,
+          "username": "rUcHAnKokropkaexe",
+          "wager": 20766,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 9,
+          "username": "a7ay3m",
+          "wager": 19715,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        },
+        {
+          "rank": 10,
+          "username": "vnixsab",
+          "wager": 19058.6,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:29.447Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 1000,
+      "totalWagered": 11381879.2,
+      "confidence": 85,
+      "scrapedAt": "2026-02-04T10:15:29.447Z"
+    },
+    {
+      "id": "52d9f0b9-e69f-47c6-88bc-1c72cec6237c",
+      "extractionId": "93315b87-675b-4344-8ea8-cc5eb871e9c5",
+      "name": "cases",
+      "url": "https://paxgambles.com/leaderboard/cases",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 5,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Br*********",
+          "wager": 42.95,
+          "prize": 150,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:39.533Z"
+        },
+        {
+          "rank": 2,
+          "username": "[hidden]",
+          "wager": 12.39,
+          "prize": 90,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:39.533Z"
+        },
+        {
+          "rank": 3,
+          "username": "zi****",
+          "wager": 4,
+          "prize": 60,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:39.533Z"
+        },
+        {
+          "rank": 4,
+          "username": "RO***",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:39.533Z"
+        },
+        {
+          "rank": 5,
+          "username": "Ga******",
+          "wager": 0,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-04T10:15:39.533Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 300,
+      "totalWagered": 59.34,
+      "confidence": 74,
+      "scrapedAt": "2026-02-04T10:15:39.533Z"
+    }
+  ],
+  "errors": [
+    "No entries for acebet"
+  ],
+  "metadata": {
+    "domain": "paxgambles.com",
+    "startedAt": "2026-02-04T10:15:05.848Z",
+    "completedAt": "2026-02-04T10:15:49.565Z",
+    "leaderboardsDiscovered": 3,
+    "leaderboardsScraped": 2,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": []
+}

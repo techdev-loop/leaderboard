@@ -1,0 +1,170 @@
+{
+  "domain": "www.rickashay.gg",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.099786,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:43:59.157Z",
+    "lastVerifiedAt": "2026-01-26T13:43:59.157Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 100
+  },
+  "layoutFingerprint": {
+    "hash": "6401eb9f1401b076",
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:43:59.160Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://www.rickashay.gg/leaderboards",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:28:52.201Z"
+  },
+  "switchers": [
+    {
+      "name": "RAIN",
+      "selector": "button[data-game='rain']",
+      "isActive": true
+    },
+    {
+      "name": "CLASH",
+      "selector": "button[data-game='clash']",
+      "isActive": false
+    },
+    {
+      "name": "CSGOGEM",
+      "selector": "button[data-game='csgogem']",
+      "isActive": false
+    },
+    {
+      "name": "PACKDRAW",
+      "selector": "button[data-game='packdraw']",
+      "isActive": false
+    },
+    {
+      "name": "CSGOWIN",
+      "selector": "button[data-game='csgowin']",
+      "isActive": false
+    }
+  ],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    }
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows '404 - This page could not be found' error message",
+      "addedAt": "2026-01-26T13:43:59.155Z"
+    },
+    {
+      "text": "URL attempted: https://www.rickashay.gg/leaderboard/clash",
+      "addedAt": "2026-01-26T13:43:59.155Z"
+    },
+    {
+      "text": "Site appears to be Rickashay Rewards based on header branding",
+      "addedAt": "2026-01-26T13:43:59.155Z"
+    },
+    {
+      "text": "Navigation shows 'Leaderboards' menu item but specific clash leaderboard doesn't exist",
+      "addedAt": "2026-01-26T13:43:59.155Z"
+    },
+    {
+      "text": "No leaderboard content is present on this error page",
+      "addedAt": "2026-01-26T13:43:59.155Z"
+    },
+    {
+      "text": "Page shows Rickashay leaderboards with 5 game switchers: RAIN, CLASH, CSGOGEM, PACKDRAW, CSGOWIN",
+      "addedAt": "2026-01-26T13:45:15.897Z"
+    },
+    {
+      "text": "Currently on RAIN leaderboard showing 7,500 coin prize pool",
+      "addedAt": "2026-01-26T13:45:15.897Z"
+    },
+    {
+      "text": "Top 3 positions shown as podium with crowns and avatars",
+      "addedAt": "2026-01-26T13:45:15.897Z"
+    },
+    {
+      "text": "Need to scroll down to see full leaderboard table",
+      "addedAt": "2026-01-26T13:45:15.897Z"
+    },
+    {
+      "text": "API shows leaderboard config data available",
+      "addedAt": "2026-01-26T13:45:15.897Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:43:51.101Z",
+  "updatedAt": "2026-01-31T16:28:52.201Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:44:28.543Z"
+}

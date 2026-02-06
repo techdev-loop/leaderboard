@@ -1,0 +1,261 @@
+{
+  "domain": "muta.bet",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.049965,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:29:37.129Z",
+    "lastVerifiedAt": "2026-01-26T13:31:13.173Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 100
+  },
+  "layoutFingerprint": {
+    "hash": "434b929cab7231d9",
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:31:13.176Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://muta.bet/leaderboard/shuffle",
+    "authRequired": false,
+    "discoveredAt": "2026-02-03T11:58:12.201Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "shuffle": {
+        "navigation": {
+          "url": "https://muta.bet/leaderboard/shuffle",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 20,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 10,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T11:58:25.904Z",
+          "lastUpdatedAt": "2026-02-03T11:58:25.904Z"
+        }
+      },
+      "packdraw": {
+        "navigation": {
+          "url": "https://muta.bet/leaderboard/packdraw",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "detected-name",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 6,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T11:58:36.674Z",
+          "lastUpdatedAt": "2026-02-03T11:58:36.674Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-03T11:58:36.674Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows 404 error with 'PAGE NOT FOUND' message",
+      "addedAt": "2026-01-26T13:29:37.128Z"
+    },
+    {
+      "text": "URL attempted: https://muta.bet/leaderboard/clash",
+      "addedAt": "2026-01-26T13:29:37.128Z"
+    },
+    {
+      "text": "Header shows 'LEADERBOARD' text, indicating this should be a leaderboard page",
+      "addedAt": "2026-01-26T13:29:37.128Z"
+    },
+    {
+      "text": "Page has purple space theme with owl-like mascot characters",
+      "addedAt": "2026-01-26T13:29:37.128Z"
+    },
+    {
+      "text": "No leaderboard content or casino switchers visible due to 404 error",
+      "addedAt": "2026-01-26T13:29:37.128Z"
+    },
+    {
+      "text": "Page displays a 404 error with text '404 - PAGE NOT FOUND'",
+      "addedAt": "2026-01-26T13:29:37.893Z"
+    },
+    {
+      "text": "Navigation shows 'LEADERBOARD' in header indicating this should be a leaderboard page",
+      "addedAt": "2026-01-26T13:29:37.893Z"
+    },
+    {
+      "text": "URL indicates this should show clash leaderboard data",
+      "addedAt": "2026-01-26T13:29:37.893Z"
+    },
+    {
+      "text": "Site uses space theme with purple/dark styling and owl mascots",
+      "addedAt": "2026-01-26T13:29:37.893Z"
+    },
+    {
+      "text": "No leaderboard content or switchers are present due to 404 error",
+      "addedAt": "2026-01-26T13:29:37.893Z"
+    },
+    {
+      "text": "Page shows 404 error - 'PAGE NOT FOUND'",
+      "addedAt": "2026-01-26T13:31:13.172Z"
+    },
+    {
+      "text": "URL attempted: https://muta.bet/leaderboard/clash",
+      "addedAt": "2026-01-26T13:31:13.172Z"
+    },
+    {
+      "text": "Site appears to be Muta with purple owl mascots on both sides",
+      "addedAt": "2026-01-26T13:31:13.172Z"
+    },
+    {
+      "text": "Navigation shows 'LEADERBOARD' in header but content is 404",
+      "addedAt": "2026-01-26T13:31:13.172Z"
+    },
+    {
+      "text": "No leaderboard content, switchers, or data visible",
+      "addedAt": "2026-01-26T13:31:13.172Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:14:45.411Z",
+  "updatedAt": "2026-02-03T11:58:36.674Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:31:04.876Z"
+}

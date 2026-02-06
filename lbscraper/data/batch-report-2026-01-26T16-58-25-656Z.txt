@@ -1,0 +1,33 @@
+════════════════════════════════════════════════════════════════════════════════
+                         BATCH SCRAPE REPORT
+════════════════════════════════════════════════════════════════════════════════
+Run ID: MKVETX2P
+Completed: 2026-01-26T16:58:25.655Z
+Duration: 1m 27s
+
+SUMMARY:
+  Total Sites: 1
+  Successful: 1
+  Failed: 0
+  Timed Out: 0
+  Total Leaderboards Extracted: 6
+
+════════════════════════════════════════════════════════════════════════════════
+✅ SUCCESSFUL SITES (1)
+════════════════════════════════════════════════════════════════════════════════
+
+betjuicy.com (6 leaderboards, 87s)
+  URL: https://betjuicy.com
+  DB: 6 snapshots, 60 entries
+  - roobet: 10 entries, 85% confidence (markdown)
+  - packdraw: 10 entries, 85% confidence (markdown)
+  - csgoroll: 10 entries, 85% confidence (markdown)
+  - raingg: 10 entries, 85% confidence (markdown)
+  - csgogem: 10 entries, 85% confidence (markdown)
+  - rain: 10 entries, 85% confidence (markdown)
+
+DATABASE TOTALS: 6 snapshots, 60 entries saved
+
+════════════════════════════════════════════════════════════════════════════════
+                           END OF REPORT
+════════════════════════════════════════════════════════════════════════════════

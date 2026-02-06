@@ -1,0 +1,211 @@
+{
+  "domain": "fortunate.gg",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.026904,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:39:15.367Z",
+    "lastVerifiedAt": "2026-01-26T13:39:15.367Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 95
+  },
+  "layoutFingerprint": {
+    "hash": "331bc663bb2bb633",
+    "switcherCount": 4,
+    "switcherNames": [
+      "csbattle",
+      "csgogem",
+      "packdraw"
+    ],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:39:15.377Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://fortunate.gg/leaderboards",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:08:40.271Z"
+  },
+  "switchers": [
+    {
+      "name": "csgogem",
+      "selector": "[class*='csgogem'], button:contains('CSGOGEM')",
+      "coordinates": {
+        "x": 596,
+        "y": 160
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "csgogem",
+        "csgo",
+        "gem"
+      ]
+    },
+    {
+      "name": "packdraw",
+      "selector": "[class*='packdraw'], button:contains('PACKDRAW')",
+      "coordinates": {
+        "x": 727,
+        "y": 160
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "packdraw",
+        "pack",
+        "draw"
+      ]
+    },
+    {
+      "name": "csbattle",
+      "selector": "[class*='csbattle'], button:contains('CSBattle')",
+      "coordinates": {
+        "x": 858,
+        "y": 160
+      },
+      "clickStrategy": "selector",
+      "keywords": [
+        "csbattle",
+        "cs",
+        "battle"
+      ]
+    }
+  ],
+  "extraction": {
+    "containerSelector": ".wager-leaderboard-podium, [class*='podium'], .leaderboard-container",
+    "entrySelector": ".podium-card, .leaderboard-entry, [class*='card']",
+    "fields": {
+      "rank": ".rank, [class*='position']",
+      "username": ".username, [class*='name'], [class*='user']",
+      "wager": ".wager, [class*='wagered'], .total-wagered",
+      "prize": ".prize, [class*='reward']"
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": "https://fortunate.gg/api/leaderboard/entries",
+    "prizesEndpoint": "https://fortunate.gg/api/leaderboard/prizes",
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csgogem": {
+        "navigation": {
+          "url": null,
+          "method": "vision-learned"
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "visionConfig": {
+            "column_order": "wager_before_prize",
+            "podium_layout": "center_first",
+            "wager_label": "TOTAL WAGERED",
+            "prize_label": "PRIZE",
+            "rank1_username": "l*****e",
+            "rank1_wager": 145591.55,
+            "rank1_prize": 4250,
+            "confidence": 98,
+            "learnedAt": "2026-02-01T07:56:29.703Z"
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 13,
+          "hasPrizes": true,
+          "visionValidated": true
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:56:29.704Z",
+          "lastUpdatedAt": "2026-02-01T07:56:29.704Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T07:56:29.704Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Clear podium-style leaderboard with 3 visible entries showing usernames, wager amounts, and prizes",
+      "addedAt": "2026-01-26T13:39:15.364Z"
+    },
+    {
+      "text": "Site switcher buttons clearly visible at top with CSGOGEM (highlighted/active), PACKDRAW, and CSBattle",
+      "addedAt": "2026-01-26T13:39:15.365Z"
+    },
+    {
+      "text": "Prize pool shown as 10,000 with code FORTUNATE",
+      "addedAt": "2026-01-26T13:39:15.365Z"
+    },
+    {
+      "text": "All wager amounts are realistic (20k-60k range)",
+      "addedAt": "2026-01-26T13:39:15.365Z"
+    },
+    {
+      "text": "Usernames are properly censored with asterisks",
+      "addedAt": "2026-01-26T13:39:15.365Z"
+    },
+    {
+      "text": "Clear hierarchy with 1st place in center, 2nd left, 3rd right",
+      "addedAt": "2026-01-26T13:39:15.365Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T13:38:57.779Z",
+  "updatedAt": "2026-02-01T07:56:29.704Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:38:57.779Z"
+}

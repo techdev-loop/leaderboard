@@ -1,0 +1,237 @@
+{
+  "domain": "codeshury.com",
+  "status": "verified",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.049668,
+  "verification": {
+    "firstVerifiedAt": "2026-01-26T13:27:35.318Z",
+    "lastVerifiedAt": "2026-01-26T13:27:36.297Z",
+    "verifiedByLlm": true,
+    "llmConfidence": 100
+  },
+  "layoutFingerprint": {
+    "hash": "a5a5970b398d0ba5",
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": "unknown",
+    "generatedAt": "2026-01-26T13:27:36.299Z",
+    "entryCount": 0,
+    "hasPodium": false,
+    "hasTable": false
+  },
+  "navigation": {
+    "leaderboardPath": "https://codeshury.com/leaderboard/csgold",
+    "authRequired": false,
+    "discoveredAt": "2026-02-03T11:54:47.644Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "upgrader": {
+        "navigation": {
+          "url": "https://codeshury.com/leaderboard/upgrader",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "profile-known",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 20,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T11:55:16.704Z",
+          "lastUpdatedAt": "2026-02-03T11:55:16.704Z"
+        }
+      },
+      "csgold": {
+        "navigation": {
+          "url": "https://codeshury.com/leaderboard/csgold",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "url-specified",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": null,
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 10,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "crossValidation": null,
+        "stats": {
+          "successCount": 13,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-03T11:54:57.741Z",
+          "lastUpdatedAt": "2026-02-03T11:54:57.741Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-03T11:55:16.704Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows 404 - PAGE NOT FOUND error",
+      "addedAt": "2026-01-26T13:27:35.318Z"
+    },
+    {
+      "text": "The requested URL /leaderboard/clash does not exist",
+      "addedAt": "2026-01-26T13:27:35.318Z"
+    },
+    {
+      "text": "Site header shows 'SHURY' and 'LEADERBOARD' navigation",
+      "addedAt": "2026-01-26T13:27:35.318Z"
+    },
+    {
+      "text": "No leaderboard content or switchers visible",
+      "addedAt": "2026-01-26T13:27:35.318Z"
+    },
+    {
+      "text": "Page displays a clear 404 error: 'PAGE NOT FOUND'",
+      "addedAt": "2026-01-26T13:27:35.815Z"
+    },
+    {
+      "text": "Header shows 'SHURY' branding with 'LEADERBOARD' text",
+      "addedAt": "2026-01-26T13:27:35.815Z"
+    },
+    {
+      "text": "URL path suggests this should be a clash casino leaderboard",
+      "addedAt": "2026-01-26T13:27:35.815Z"
+    },
+    {
+      "text": "The page you are looking for does not exist message is displayed",
+      "addedAt": "2026-01-26T13:27:35.815Z"
+    },
+    {
+      "text": "No leaderboard content or switchers are visible on this error page",
+      "addedAt": "2026-01-26T13:27:35.815Z"
+    },
+    {
+      "text": "Page shows 404 - PAGE NOT FOUND error",
+      "addedAt": "2026-01-26T13:27:36.297Z"
+    },
+    {
+      "text": "No leaderboard content is visible on this page",
+      "addedAt": "2026-01-26T13:27:36.297Z"
+    },
+    {
+      "text": "The URL suggests this should be a clash leaderboard but the page doesn't exist",
+      "addedAt": "2026-01-26T13:27:36.297Z"
+    },
+    {
+      "text": "Header shows 'SHURY' branding and 'LEADERBOARD' navigation",
+      "addedAt": "2026-01-26T13:27:36.297Z"
+    },
+    {
+      "text": "Page content only shows error message: 'The page you are looking for does not exist'",
+      "addedAt": "2026-01-26T13:27:36.297Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:10:27.026Z",
+  "updatedAt": "2026-02-03T11:55:16.704Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:27:28.087Z"
+}

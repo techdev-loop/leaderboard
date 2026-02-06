@@ -1,0 +1,455 @@
+{
+  "id": "ad178a4d-8461-4684-bd89-717cf6459d06",
+  "results": [
+    {
+      "id": "07bba743-eb90-404c-afa4-576affd983ee",
+      "extractionId": "ad178a4d-8461-4684-bd89-717cf6459d06",
+      "name": "upgrader",
+      "url": "https://codeshury.com/leaderboard/upgrader",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 8,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "scythe",
+          "wager": 4668.03,
+          "prize": 250,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:43:46.032Z"
+        },
+        {
+          "rank": 2,
+          "username": "thejunespirit",
+          "wager": 3429.43,
+          "prize": 130,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:43:46.032Z"
+        },
+        {
+          "rank": 3,
+          "username": "UseCodeJack",
+          "wager": 1650.95,
+          "prize": 70,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:43:46.032Z"
+        },
+        {
+          "rank": 6,
+          "username": "Deivy",
+          "wager": 137.44,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:43:46.032Z"
+        },
+        {
+          "rank": 7,
+          "username": "Johan Pihl",
+          "wager": 28.04,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:43:46.032Z"
+        },
+        {
+          "rank": 8,
+          "username": "steckom",
+          "wager": 24.76,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:43:46.032Z"
+        },
+        {
+          "rank": 9,
+          "username": "Zeichnet",
+          "wager": 9.1,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:43:46.032Z"
+        },
+        {
+          "rank": 10,
+          "username": "aliohlyn",
+          "wager": 7.86,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:43:46.032Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 450,
+      "totalWagered": 9955.610000000002,
+      "confidence": 84,
+      "scrapedAt": "2026-02-03T09:43:46.032Z"
+    },
+    {
+      "id": "33c704e6-5a9f-4eb4-80e7-9d0580128018",
+      "extractionId": "ad178a4d-8461-4684-bd89-717cf6459d06",
+      "name": "clash",
+      "url": "https://codeshury.com/leaderboard/upgrader",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 8,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "scythe",
+          "wager": 4668.03,
+          "prize": 250,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:12.506Z"
+        },
+        {
+          "rank": 2,
+          "username": "thejunespirit",
+          "wager": 3429.43,
+          "prize": 130,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:12.506Z"
+        },
+        {
+          "rank": 3,
+          "username": "UseCodeJack",
+          "wager": 1650.95,
+          "prize": 70,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:12.506Z"
+        },
+        {
+          "rank": 6,
+          "username": "Deivy",
+          "wager": 137.44,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:12.506Z"
+        },
+        {
+          "rank": 7,
+          "username": "Johan Pihl",
+          "wager": 28.04,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:12.506Z"
+        },
+        {
+          "rank": 8,
+          "username": "steckom",
+          "wager": 24.76,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:12.506Z"
+        },
+        {
+          "rank": 9,
+          "username": "Zeichnet",
+          "wager": 9.1,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:12.506Z"
+        },
+        {
+          "rank": 10,
+          "username": "aliohlyn",
+          "wager": 7.86,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:12.506Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 450,
+      "totalWagered": 9955.610000000002,
+      "confidence": 84,
+      "scrapedAt": "2026-02-03T09:44:12.506Z"
+    },
+    {
+      "id": "02295017-3316-44d2-99f9-399d311c5ece",
+      "extractionId": "ad178a4d-8461-4684-bd89-717cf6459d06",
+      "name": "csgold",
+      "url": "https://codeshury.com/leaderboard/csgold",
+      "type": "current",
+      "source": "markdown",
+      "entryCount": 10,
+      "entries": [
+        {
+          "rank": 1,
+          "username": "Blunkss",
+          "wager": 800.35,
+          "prize": 300,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 2,
+          "username": "Swerko",
+          "wager": 167.1,
+          "prize": 165,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 3,
+          "username": "VectorasDaGoat",
+          "wager": 95.04,
+          "prize": 75,
+          "source": "markdown-podium",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 4,
+          "username": "Rebelboy",
+          "wager": 49.79,
+          "prize": 40,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 5,
+          "username": "henri31",
+          "wager": 33.89,
+          "prize": 20,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 6,
+          "username": "Srinstax",
+          "wager": 15.81,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 7,
+          "username": "HoLeeRodo",
+          "wager": 11.57,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 8,
+          "username": "aliohlyn",
+          "wager": 11.12,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 9,
+          "username": "GAYMALAMA",
+          "wager": 3.41,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        },
+        {
+          "rank": 10,
+          "username": "CRACKEDITYO",
+          "wager": 1.74,
+          "prize": 0,
+          "source": "markdown-list",
+          "_fusion": {
+            "sources": [
+              "markdown"
+            ],
+            "agreementScore": 0,
+            "verificationStatus": "single_source"
+          },
+          "extractedAt": "2026-02-03T09:44:23.383Z"
+        }
+      ],
+      "prizes": [],
+      "totalPrizePool": 600,
+      "totalWagered": 1189.82,
+      "confidence": 85,
+      "scrapedAt": "2026-02-03T09:44:23.383Z"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "domain": "codeshury.com",
+    "startedAt": "2026-02-03T09:43:33.523Z",
+    "completedAt": "2026-02-03T09:44:23.384Z",
+    "leaderboardsDiscovered": 3,
+    "leaderboardsScraped": 3,
+    "strategiesUsed": [
+      "markdown"
+    ]
+  },
+  "warnings": []
+}

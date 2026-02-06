@@ -1,0 +1,434 @@
+{
+  "domain": "wrewards.com",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.090477,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": "https://wrewards.com/leaderboards",
+    "authRequired": false,
+    "discoveredAt": "2026-02-04T14:27:35.167Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "hunt": {
+        "navigation": {
+          "url": "https://wrewards.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "dom",
+              "api",
+              "none"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 50,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.45714285714285713,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 9,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:27:52.503Z",
+          "lastUpdatedAt": "2026-02-04T14:27:52.503Z"
+        }
+      },
+      "gamdom": {
+        "navigation": {
+          "url": "https://wrewards.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api",
+              "none",
+              "dom"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 30,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.8888888888888888,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 9,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:28:07.051Z",
+          "lastUpdatedAt": "2026-02-04T14:28:07.051Z"
+        }
+      },
+      "packdraw": {
+        "navigation": {
+          "url": "https://wrewards.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "dom",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api",
+              "none",
+              "dom"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "dom"
+        },
+        "validation": {
+          "expectedEntries": 25,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            17
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.8666666666666667,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 7,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:28:20.671Z",
+          "lastUpdatedAt": "2026-02-04T14:28:20.671Z"
+        }
+      },
+      "lootbox": {
+        "navigation": {
+          "url": "https://wrewards.com/leaderboards",
+          "urlPattern": null,
+          "baseUrl": null,
+          "method": "switcher-click",
+          "requiresClick": false,
+          "selector": null
+        },
+        "extraction": {
+          "method": "api",
+          "layoutType": "table-only",
+          "textParseConfig": null,
+          "apiConfig": null,
+          "geometricConfig": null,
+          "fieldMappings": {
+            "wager": [
+              "api"
+            ],
+            "prize": [
+              "api"
+            ],
+            "username": [],
+            "rank": []
+          },
+          "preferredSource": "api"
+        },
+        "validation": {
+          "expectedEntries": 15,
+          "hasPrizes": true,
+          "prizePositions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        "crossValidation": {
+          "overallAgreement": 0.9555555555555556,
+          "sourcesUsed": [
+            "api",
+            "markdown",
+            "dom"
+          ]
+        },
+        "stats": {
+          "successCount": 7,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-04T14:28:33.664Z",
+          "lastUpdatedAt": "2026-02-04T14:28:33.664Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-04T14:28:33.664Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "This appears to be a promotional/bonus claiming page rather than leaderboards",
+      "addedAt": "2026-01-24T06:26:08.468Z"
+    },
+    {
+      "text": "Can see Gamdom and PackDraw promotional cards with bonus offers",
+      "addedAt": "2026-01-24T06:26:08.468Z"
+    },
+    {
+      "text": "Sidebar shows 'Leaderboards $179K' suggesting leaderboard section exists",
+      "addedAt": "2026-01-24T06:26:08.468Z"
+    },
+    {
+      "text": "Previous scraper findings show data for gamdom, packdraw, and lootbox but may be from wrong page",
+      "addedAt": "2026-01-24T06:26:08.468Z"
+    },
+    {
+      "text": "Need to navigate to actual leaderboard page to verify data structure",
+      "addedAt": "2026-01-24T06:26:08.468Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [
+    {
+      "name": "hunt",
+      "reason": "url_not_found",
+      "lastChecked": "2026-01-24T06:46:32.161Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T06:46:32.161Z"
+    },
+    {
+      "name": "rain",
+      "reason": "url_not_found",
+      "lastChecked": "2026-01-24T06:46:32.163Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T06:46:32.163Z"
+    },
+    {
+      "name": "lootbox",
+      "reason": "url_not_found",
+      "lastChecked": "2026-01-24T07:10:39.297Z",
+      "failCount": 1,
+      "firstMarkedAt": "2026-01-24T07:10:39.297Z"
+    }
+  ],
+  "pathScanResults": {
+    "bestPath": "https://wrewards.com/leaderboards",
+    "lastScannedAt": "2026-01-24T07:51:13.021Z",
+    "pathResults": [
+      {
+        "path": "/",
+        "name": "original",
+        "switchersFound": 4
+      },
+      {
+        "path": "/leaderboard",
+        "name": "leaderboard",
+        "switchersFound": 0
+      },
+      {
+        "path": "/leaderboards",
+        "name": "leaderboards",
+        "switchersFound": 5
+      }
+    ]
+  },
+  "urlPattern": {
+    "pattern": "/leaderboards/{keyword}",
+    "baseUrl": "https://wrewards.com",
+    "discoveredAt": "2026-01-24T07:51:13.021Z",
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": "2026-01-24T06:15:19.185Z",
+  "lastVisualVerification": {
+    "llmSwitcherCount": 3,
+    "llmSwitchers": [
+      "Gamdom",
+      "PackDraw",
+      "Lootbox"
+    ],
+    "domSwitcherCount": 5,
+    "additionalFound": 0,
+    "missingFromLlm": [
+      "hunt",
+      "rain"
+    ],
+    "confidence": 95,
+    "notes": "Found a horizontal slider/carousel with casino site logos in the center of the page. Currently showing Gamdom (selected/highlighted), PackDraw, and Lootbox with navigation arrows on both sides indicating more options may be available by sliding. There's also a 'G-POINTS' button on the right side of the slider. The Gamdom option appears to be currently selected based on its highlighting."
+  },
+  "createdAt": "2026-01-24T06:14:32.640Z",
+  "updatedAt": "2026-02-04T14:28:33.664Z",
+  "lastValidationIssues": [
+    "packdraw: Found 1 anomaly/anomalies in prize data",
+    "lootbox: Found 1 anomaly/anomalies in prize data"
+  ],
+  "lastValidationAt": "2026-01-24T06:25:11.254Z"
+}

@@ -1,0 +1,210 @@
+{
+  "domain": "codesilkk.com",
+  "status": "learning",
+  "attempts": 1,
+  "maxAttempts": 3,
+  "llmDisabled": false,
+  "llmCostTotal": 0.106848,
+  "verification": {
+    "firstVerifiedAt": null,
+    "lastVerifiedAt": null,
+    "verifiedByLlm": false,
+    "llmConfidence": 0
+  },
+  "layoutFingerprint": {
+    "hash": null,
+    "switcherCount": 0,
+    "switcherNames": [],
+    "layoutType": null,
+    "generatedAt": null
+  },
+  "navigation": {
+    "leaderboardPath": "https://codesilkk.com/leaderboards",
+    "authRequired": false,
+    "discoveredAt": "2026-01-31T16:19:04.257Z"
+  },
+  "switchers": [],
+  "extraction": {
+    "containerSelector": null,
+    "entrySelector": null,
+    "fields": {
+      "rank": null,
+      "username": null,
+      "wager": null,
+      "prize": null
+    },
+    "currentLeaderboard": {
+      "site": "unknown",
+      "entries": [
+        {
+          "rank": "#1",
+          "username": "Waiting...",
+          "wager": "N/A",
+          "prize": "70"
+        },
+        {
+          "rank": "#2",
+          "username": "Waiting...",
+          "wager": "N/A",
+          "prize": "40"
+        },
+        {
+          "rank": "#3",
+          "username": "Waiting...",
+          "wager": "N/A",
+          "prize": "25"
+        },
+        {
+          "rank": "#4",
+          "username": "?",
+          "wager": "N/A",
+          "prize": "10"
+        },
+        {
+          "rank": "#5",
+          "username": "?",
+          "wager": "N/A",
+          "prize": "5"
+        },
+        {
+          "rank": "#6",
+          "username": "?",
+          "wager": "N/A",
+          "prize": "0"
+        },
+        {
+          "rank": "#7",
+          "username": "?",
+          "wager": "N/A",
+          "prize": "0"
+        },
+        {
+          "rank": "#8",
+          "username": "?",
+          "wager": "N/A",
+          "prize": "0"
+        }
+      ]
+    }
+  },
+  "apiPatterns": {
+    "entriesEndpoint": null,
+    "prizesEndpoint": null,
+    "siteParamFormat": null
+  },
+  "extractionConfig": {
+    "method": null,
+    "discoveredAt": null,
+    "discoveredBy": null,
+    "apiConfig": {
+      "baseUrl": null,
+      "endpoints": {
+        "providers": null,
+        "leaderboardList": null,
+        "leaderboardDetails": null,
+        "historical": null
+      },
+      "substitutionRules": {},
+      "authRequired": false,
+      "headers": {}
+    },
+    "domConfig": {
+      "containerSelector": null,
+      "entrySelector": null,
+      "fields": {
+        "rank": null,
+        "username": null,
+        "wager": null,
+        "prize": null
+      }
+    },
+    "clickSequence": [],
+    "knownProviders": [],
+    "historicalConfig": {
+      "supported": false,
+      "minYear": 2025,
+      "minMonth": 1,
+      "method": null
+    },
+    "leaderboards": {
+      "csgowin": {
+        "navigation": {
+          "url": null,
+          "method": "vision-learned"
+        },
+        "extraction": {
+          "method": "markdown",
+          "layoutType": "podium-plus-table",
+          "visionConfig": {
+            "column_order": "wager_only",
+            "podium_layout": "center_first",
+            "wager_label": "WAGERED",
+            "prize_label": "REWARD",
+            "rank1_username": "Waiting...",
+            "rank1_wager": null,
+            "rank1_prize": 75,
+            "confidence": 90,
+            "learnedAt": "2026-02-01T07:58:42.313Z"
+          },
+          "preferredSource": "markdown"
+        },
+        "validation": {
+          "expectedEntries": 3,
+          "hasPrizes": true,
+          "visionValidated": true
+        },
+        "stats": {
+          "successCount": 1,
+          "failCount": 0,
+          "lastSuccessAt": "2026-02-01T07:58:42.314Z",
+          "lastUpdatedAt": "2026-02-01T07:58:42.314Z"
+        }
+      }
+    },
+    "lastUpdatedAt": "2026-02-01T07:58:42.314Z"
+  },
+  "dataSourcePreference": {},
+  "llmObservations": [
+    {
+      "text": "Page shows leaderboard structure with podium-style top 3 and table for ranks 4-8",
+      "addedAt": "2026-01-26T13:42:49.678Z"
+    },
+    {
+      "text": "All data appears to be placeholder/loading state",
+      "addedAt": "2026-01-26T13:42:49.678Z"
+    },
+    {
+      "text": "Countdown timer suggests this may be a periodic/scheduled leaderboard",
+      "addedAt": "2026-01-26T13:42:49.678Z"
+    },
+    {
+      "text": "API response shows csgowin endpoint is disabled",
+      "addedAt": "2026-01-26T13:42:49.678Z"
+    },
+    {
+      "text": "Need to scroll to see if there are site switchers or more content below",
+      "addedAt": "2026-01-26T13:42:49.678Z"
+    }
+  ],
+  "corrections": [],
+  "inactiveLeaderboards": [],
+  "pathScanResults": {
+    "bestPath": null,
+    "lastScannedAt": null,
+    "pathResults": []
+  },
+  "urlPattern": {
+    "pattern": null,
+    "baseUrl": null,
+    "discoveredAt": null,
+    "examples": []
+  },
+  "lastScreenshotVerifyAt": null,
+  "lastVisualVerification": null,
+  "createdAt": "2026-01-26T06:30:00.153Z",
+  "updatedAt": "2026-02-01T07:58:42.314Z",
+  "lastValidationIssues": [
+    "No results to validate"
+  ],
+  "lastValidationAt": "2026-01-26T13:41:37.572Z"
+}
