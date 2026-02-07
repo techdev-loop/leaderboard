@@ -1,0 +1,83 @@
+// Prisma schema for Leaderboard Scraper + Creator Analytics
+// Database: PostgreSQL (use DATABASE_URL in .env)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model LeaderboardSite {
+  id               String   @id @default(cuid())
+  domain           String   @unique
+  name             String?
+  isActive         Boolean  @default(true)
+  refreshInterval  Int?     // milliseconds
+  useGlobalInterval Boolean @default(true)
+  lastScrapedAt    DateTime?
+  lastError        String?
+  errorCount       Int      @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  cycles LeaderboardCycle[]
+}
+
+model LeaderboardCycle {
+  id            String   @id @default(cuid())
+  siteId        String
+  siteName      String
+  cycleNumber   Int      @default(1)
+  startedAt     DateTime @default(now())
+  endedAt       DateTime?
+  timerDuration Int?
+  prizePool     Decimal? @db.Decimal(18, 2)
+
+  site     LeaderboardSite    @relation(fields: [siteId], references: [id], onDelete: Cascade)
+  snapshots LeaderboardSnapshot[]
+
+  @@index([siteId, siteName])
+}
+
+model LeaderboardSnapshot {
+  id               String   @id @default(cuid())
+  cycleId          String
+  confidence       Int?
+  extractionMethod String?
+  totalWager       Decimal? @db.Decimal(18, 2)
+  prizePool        Decimal? @db.Decimal(18, 2)
+  apiValidated     Boolean  @default(false)
+  scrapedAt        DateTime @default(now())
+
+  cycle   LeaderboardCycle   @relation(fields: [cycleId], references: [id], onDelete: Cascade)
+  entries LeaderboardEntry[]
+
+  @@index([cycleId])
+  @@index([scrapedAt])
+}
+
+model LeaderboardEntry {
+  id         String   @id @default(cuid())
+  snapshotId String
+  rank       Int
+  username   String
+  wager      Decimal  @db.Decimal(18, 2)
+  prize      Decimal  @db.Decimal(18, 2)
+  verified   Boolean  @default(false)
+  scrapedAt  DateTime @default(now())
+
+  snapshot LeaderboardSnapshot @relation(fields: [snapshotId], references: [id], onDelete: Cascade)
+
+  @@index([snapshotId])
+  @@index([username, scrapedAt])
+}
+
+model ScraperConfig {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     String
+  updatedAt DateTime @updatedAt
+}
