@@ -1,0 +1,179 @@
+*   [HOME](/)
+*     [![coin](/_nuxt/coin.BDp9440m.svg)  RUSTMAGIC LEADERBOARD](/leaderboard)
+*     [![coin](/_nuxt/upgrader-icon.BOt6Cflk.png)  UPGRADER LEADERBOARD](/leaderboardUpgrader)
+*     [![coin](/_nuxt/csgogem.DvVIpVbI.png)  CSGOGEM LEADERBOARD](/leaderboardCsgogem)
+*     [![csgowin](https://cdn.csgowin.com/img/logos/logo_csgowin.svg)  CSGOWIN LEADERBOARD](/leaderboardCsgowin)
+*     [![csdrop](data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2055%2055'%3e%3cpath%20d='M20.6621%2054.1295C35.3691%2057.9059%2050.353%2049.045%2054.1295%2034.3379C57.9059%2019.6309%2049.045%204.64701%2034.3379%200.870537C19.6309%20-2.90594%204.64701%205.95504%200.870537%2020.6621C-2.90593%2035.3691%205.95504%2050.353%2020.6621%2054.1295Z'%20fill='%23146EFF'/%3e%3cpath%20d='M22.884%2010.3158C24.3749%2010.6987%2025.2606%2012.0266%2025.6618%2013.4493C26.0717%2014.9031%2026.0615%2016.6887%2025.6005%2018.484C25.1395%2020.2793%2024.2881%2021.8489%2023.2286%2022.9253C22.1916%2023.9788%2020.7757%2024.7157%2019.2847%2024.3329C17.7937%2023.95%2016.9078%2022.6221%2016.5066%2021.1993C16.0968%2019.7455%2016.1072%2017.96%2016.5682%2016.1647C17.0293%2014.3694%2017.8803%2012.7997%2018.9399%2011.7233C19.9769%2010.6698%2021.3931%209.93296%2022.884%2010.3158Z'%20fill='%2306080E'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M39.47%2014.5747C40.9609%2014.9576%2041.8466%2016.2855%2042.2478%2017.7083C42.6576%2019.162%2042.6475%2020.9476%2042.1865%2022.7429C41.7255%2024.5383%2040.8741%2026.1078%2039.8145%2027.1843C38.7775%2028.2378%2037.3617%2028.9747%2035.8707%2028.5918C34.3798%2028.2089%2033.4937%2026.881%2033.0926%2025.4582C32.6827%2024.0045%2032.6932%2022.2189%2033.1542%2020.4236C33.6152%2018.6283%2034.4663%2017.0586%2035.5258%2015.9822C36.5628%2014.9287%2037.979%2014.192%2039.47%2014.5747Z'%20fill='%2306080E'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M14.0046%2029.9208L12.4102%2030.1946C12.6992%2031.2934%2013.215%2032.8244%2014.1076%2034.4365L14.323%2034.8146C16.5864%2038.6801%2020.0133%2041.2236%2024.5544%2042.3896L24.5672%2042.3929L24.5747%2042.3952L24.6205%2042.4077L24.6363%2042.4125C24.6738%2042.4231%2026.9585%2043.0803%2029.9853%2042.7209L30.2852%2042.6824C34.0162%2042.1617%2037.1896%2040.3535%2039.7541%2037.2566L38.4424%2036.2114L40.6705%2033.4147L46.0244%2037.6798L43.7961%2040.4768L42.5497%2039.483C38.6338%2044.226%2034.0089%2045.7915%2030.6765%2046.2377C27.3353%2046.6843%2024.6996%2046.1222%2023.8677%2045.9086C23.7833%2045.887%2023.7077%2045.8659%2023.6505%2045.8492C16.5716%2044.0269%2012.8242%2039.5325%2010.9349%2036.0867C9.81376%2034.0415%209.20051%2032.1321%208.87201%2030.8028L7.25825%2031.0802L6.65173%2027.5557L13.3995%2026.3966L14.0046%2029.9208Z'%20fill='%2306080E'/%3e%3c/svg%3e)  CSDROP LEADERBOARD](/leaderboardCsdrop)
+*     [![coin](data:image/png;base64,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)  DEGEN LEADERBOARD](/leaderboardDegen)
+
+# CSGOGEM LEADERBOARD
+
+![](https://imagedelivery.net/o4t4FylJPoWj4ZRxwBuX2A/bde6f134-dba3-491e-48b9-2ba86b089600/public)
+
+#### ![](https://i.postimg.cc/HWPbcwS2/two.png)  
+ C\*\*\*\*y
+
+###### Wagered:  
+21,459.75
+
+ ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png) 750 + FREE BATTLE
+
+![](https://imagedelivery.net/o4t4FylJPoWj4ZRxwBuX2A/793766be-759f-460e-976d-4449bb3f6f00/public)
+
+#### ![](https://i.postimg.cc/FH4GPbj4/one.png)  
+ S\*\*\*\*\*R
+
+###### Wagered:  
+24,133.78
+
+ ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png) 1250 + FREE BATTLE
+
+![](https://imagedelivery.net/o4t4FylJPoWj4ZRxwBuX2A/bde6f134-dba3-491e-48b9-2ba86b089600/public)
+
+#### ![](https://i.postimg.cc/HWPbcwS2/two.png)  
+ C\*\*\*\*y
+
+###### Wagered:  
+21,459.75
+
+ ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png) 750 + FREE BATTLE
+
+![](https://imagedelivery.net/o4t4FylJPoWj4ZRxwBuX2A/36431468-adb6-48bb-894c-acdd95669c00/public)
+
+#### ![](https://i.postimg.cc/gj5hCpw5/three.png)  
+ N\*\*\*\*\*\*\*\*d
+
+###### Wagered:  
+17,486.43
+
+ ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png) 500 + FREE BATTLE
+
+## Countdown
+
+Every bet on CSGOGEM under Code HDG counts towards your score.
+
+0 days
+
+18 hours
+
+18 min
+
+35 sec
+
+CSGOGEM Leaderboard
+
+[Previous Leaderboard](/previousCsgogem)
+
+CSGOGEM Leaderboard  
+Update every 20 Min. | Last update: 07.02.2026, 03:41
+
+[Previous Leaderboard](/previousCsgogem)
+
+###### 4. t\*\*\*\*y
+
+![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)
+
+###### 200
+
+_Wagered_  
+11,581.03
+
+###### 5. P\*\*\*y
+
+![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)
+
+###### 100
+
+_Wagered_  
+6,946.54
+
+###### 6. x\*\*\*\*\*\*t
+
+![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)
+
+###### 50
+
+_Wagered_  
+6,742.76
+
+###### 7. S\*\*\*\*\*\*\*\*\*\*\*t
+
+![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)
+
+###### 50
+
+_Wagered_  
+3,781.32
+
+###### 8. M\*\*\*\*u
+
+![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)
+
+###### 50
+
+_Wagered_  
+3,118.18
+
+###### 9. L\*\*\*\*t
+
+![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)
+
+###### 25
+
+_Wagered_  
+2,569.38
+
+###### 10. M\*\*\*i
+
+![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)
+
+###### 25
+
+_Wagered_  
+2,133.80
+
+| # | User | Prize | Wagered |
+
+| 4 | t\*\*\*\*y | ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)200 | 11,581.03 |
+| 5 | P\*\*\*y | ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)100 | 6,946.54 |
+| 6 | x\*\*\*\*\*\*t | ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)50 | 6,742.76 |
+| 7 | S\*\*\*\*\*\*\*\*\*\*\*t | ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)50 | 3,781.32 |
+| 8 | M\*\*\*\*u | ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)50 | 3,118.18 |
+| 9 | L\*\*\*\*t | ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)25 | 2,569.38 |
+| 10 | M\*\*\*i | ![coin](https://hdgameful.com/_nuxt/csgogem.DvVIpVbI.png)25 | 2,133.80 |
+
+![](https://i.postimg.cc/26kJS1mP/HDG-Logo-Mesa-de-trabajo-1-Mesa-de-trabajo-1.png)
+
+#### About me
+
+John from Germany, has a passion for gaming and enjoys gambling, playing CS:GO , and engaging with many other classic games.
+
+*   [](https://twitch.tv/hdgameful)
+*   [](https://discord.gg/YpsQKky4EP)
+*   [](https://kick.com/hdgameful)
+*   [](https://www.youtube.com/@HDGameful)
+
+[![](https://i.postimg.cc/TYGY964s/Rustmagic-HDGameful.png)](https://rustmagic.com/r/hdg)
+
+[
+
+![](https://cdn.csgowin.com/img/leaderboard/place1.webp)
+
+![CSGOWIN](/_nuxt/csgowin-logo-full.sZKjEH-M.svg)Free Deposit BonusUSE CODE "HDG"
+
+](https://csgowin.com/r/HDG)
+
+#### More Partners
+
+##### [Upgrader.com](https://upgrader.com/r/HDG)
+
+##### [Csgogem.com](https://csgogem.com/r/hdg)
+
+##### [Stake.com](https://stake.com/?c=89745de032)
+
+##### [Degen.com](https://degen.com/r/HDG)
+
+##### [chicken.gg](https://chicken.gg/r/HDGameful)
+
+Made with ❤️ by  
+[Mega-Leaderboards.com](https://www.mega-leaderboards.com/) / [develojo.com](https://develojo.com/)

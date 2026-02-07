@@ -1,0 +1,336 @@
+[
+
+](/)
+
+Login
+
+Register
+
+[OFFERS](/)[STORE](/shop)[VIP TRANSFER](/vip-transfer) [LEADERBOARD](/leaderboard)
+
+![en](data:image/png;base64,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)
+
+Login
+
+Register
+
+![fichier](/static/media/fichier.b07d795da62ec318a561.png)
+
+![fichier2](/static/media/fichier2.72f4205c7ced1b83c5d2.png)
+
+![bgRad](/static/media/bgRad.7b6cccfb14634cac20ed.png)
+
+![coins](/static/media/coins.6124b54a91e5194e9119.png)
+
+![el1](/static/media/flag_us 2.019046b2f65db7611bdd.png)
+
+![el2](/static/media/el2.94bf79628be23ebcd18f.png)
+
+![el3](/static/media/el3.6e37afdd9a7589977b8d.png)
+
+![el4](/static/media/el4.975c1bec35700a7e129a.png)
+
+![el5](/static/media/el5.507fb16ebe2a7dee1f12.png)
+
+![el6](/static/media/flag_us 1.c05e554382a7f1598e65.png)
+
+![prize_image](/static/media/prize-image-shuffle.8589fc692467d6a869c2.png)
+
+# MONTHLY LEADERBOARD
+
+[](/leaderboard)[![shuffleGradUs](/static/media/shuffleGradUs.1cfda2c87f6d09ecc177e5c19209b89b.svg)
+
+](/leaderboard-shuffle)
+
+[CODE : FOSS](https://shuffle.us?r=foss)
+
+![ctaBg1](/static/media/ctaBg3.60cb36e38637b2432360.png)
+
+![ctaChar](/static/media/ctaChar.f473cabcc4fdf9e54f97.png)
+
+![ctaEl](/static/media/ctaEl.24aabcc086a8dda78817.png)
+
+![quoteBg](data:image/png;base64,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)
+
+## USE CODE “[FOSS](https://shuffle.us?r=foss)” ON SHUFFLE.US
+
+to join the Monthly Leaderboard
+
+![placeBg](/static/media/placeBg.3e924326b25cf8ad8951.png)
+
+1
+
+### t8\*\*\*te
+
+WAGERED
+
+#### $69,898
+
+$7,000
+
+![placeBg](/static/media/placeBg.3e924326b25cf8ad8951.png)
+
+2
+
+### Jm\*\*\*fs
+
+WAGERED
+
+#### $13,501
+
+$1,500
+
+![placeBg](/static/media/placeBg.3e924326b25cf8ad8951.png)
+
+3
+
+### ma\*\*\*de
+
+WAGERED
+
+#### $10,289
+
+$700
+
+LEADERBOARD ENDS IN
+
+###### 21 days
+
+###### 21 hrs
+
+###### 49 min
+
+## TOP 20 PLAYERS
+
+User
+
+Wagered
+
+Prize
+
+4
+
+Tu\*\*\*sk
+
+##### Wagered
+
+**$**10,000
+
+##### Prize
+
+**$**200.00
+
+5
+
+Th\*\*\*nk
+
+##### Wagered
+
+**$**2,764
+
+##### Prize
+
+**$**100.00
+
+6
+
+Ty\*\*\*46
+
+##### Wagered
+
+**$**2,690
+
+##### Prize
+
+**$**75.00
+
+7
+
+Sa\*\*\*90
+
+##### Wagered
+
+**$**2,539
+
+##### Prize
+
+**$**35.00
+
+8
+
+Wh\*\*\*es
+
+##### Wagered
+
+**$**934
+
+##### Prize
+
+**$**30.00
+
+9
+
+Un\*\*\*it
+
+##### Wagered
+
+**$**926
+
+##### Prize
+
+**$**30.00
+
+10
+
+Ma\*\*\*50
+
+##### Wagered
+
+**$**653
+
+##### Prize
+
+**$**30.00
+
+11
+
+De\*\*\*13
+
+##### Wagered
+
+**$**519
+
+##### Prize
+
+**$**30.00
+
+12
+
+ra\*\*\*tt
+
+##### Wagered
+
+**$**387
+
+##### Prize
+
+**$**30.00
+
+13
+
+ta\*\*\*er
+
+##### Wagered
+
+**$**360
+
+##### Prize
+
+**$**30.00
+
+14
+
+Bi\*\*\*32
+
+##### Wagered
+
+**$**309
+
+##### Prize
+
+**$**30.00
+
+15
+
+Di\*\*\*er
+
+##### Wagered
+
+**$**199
+
+##### Prize
+
+**$**30.00
+
+16
+
+Ki\*\*\*ka
+
+##### Wagered
+
+**$**164
+
+##### Prize
+
+**$**30.00
+
+17
+
+bl\*\*\*26
+
+##### Wagered
+
+**$**140
+
+##### Prize
+
+**$**30.00
+
+18
+
+da\*\*\*47
+
+##### Wagered
+
+**$**53
+
+##### Prize
+
+**$**30.00
+
+19
+
+ja\*\*\*zy
+
+##### Wagered
+
+**$**9
+
+##### Prize
+
+**$**30.00
+
+20
+
+Xr\*\*\*us
+
+##### Wagered
+
+**$**3
+
+##### Prize
+
+**$**30.00
+
+[![Footer Logo](/static/media/footer-logo.8b2f89e0fa3f52bfdb51a82786dc4d0f.svg)](/)[
+
+Contact Us
+
+](https://x.com/foss_vip)
+
+[](https://x.com/foss_vip)[](https://www.instagram.com/fosscasino)[](https://discord.com/invite/GfM6P9k46J)
+
+###### Legals
+
+[Terms of Service](/terms-of-service)[Privacy Policy](/privacy-policy)[Responsible Gambling](https://www.gambleaware.org/)
+
+###### Languages
+
+![en](data:image/png;base64,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)
+
+Responsible Gambling We are not responsible for any losses on casino sites linked to any of our bonus offers. The player is responsible for the amount they are willing and able to play with. Do not gamble with money you cannot afford to lose. Do not chase your losses. Players have a responsibility to check the gambling laws in their country or jurisdiction, and they should do so before gambling at any online gambling site.
+
+Please note: Offers on our site are subject to change or cancellation. We always recommend that the player review the terms and conditions and verify the bonus directly on the casino/betting company website.  
+18 years and older, new customers only, T&C Apply, play responsibly [www.begambleaware.org](https://www.gambleaware.org/)
+
+2025 Copyrights © fossvip.com All rights reserved.
