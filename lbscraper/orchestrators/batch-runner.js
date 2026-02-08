@@ -108,7 +108,7 @@ function filterDueSites(sites) {
 // TEMPORARY: Site timeout to prevent infinite loops during batch runs
 // Remove this after debugging is complete
 // ============================================================================
-const SITE_TIMEOUT_MS = 5 * 60 * 1000; // 5 minutes max per site
+const SITE_TIMEOUT_MS = 2 * 60 * 1000; // 2 minutes max per site
 
 /**
  * Wrap a promise with a timeout
@@ -440,7 +440,7 @@ async function runBatch(options = {}) {
     for (const site of timedOutSites) {
       report += `\n${site.domain}\n`;
       report += `  URL: ${site.url}\n`;
-      report += `  Elapsed: ${Math.round(site.elapsedMs / 1000)}s (hit 5min timeout)\n`;
+      report += `  Elapsed: ${Math.round(site.elapsedMs / 1000)}s (hit timeout)\n`;
     }
   }
 
