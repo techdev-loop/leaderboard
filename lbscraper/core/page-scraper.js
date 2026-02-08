@@ -230,7 +230,7 @@ async function scrollToLoadContent(page, options = {}) {
  * @returns {Promise<{stableCount: number, scrolls: number}>}
  */
 async function scrollUntilStable(page, options = {}) {
-  const { maxScrolls = 20, scrollDelay = 400, stablePolls = 3, pollDelay = 500 } = options;
+  const { maxScrolls = 25, scrollDelay = 500, stablePolls = 3, pollDelay = 600 } = options;
 
   let lastCount = 0;
   let stableRuns = 0;
@@ -243,10 +243,23 @@ async function scrollUntilStable(page, options = {}) {
       await page.waitForTimeout(scrollDelay);
 
       const count = await page.evaluate(() => {
-        const rows = document.querySelectorAll(
-          'tr[class*="row"], tr[class*="entry"], [class*="leaderboard"] tbody tr, [class*="ranking"] tbody tr, [class*="entry"], [class*="player-row"], [class*="leaderboard"] [class*="row"]'
-        );
-        return rows.length;
+        // Broad selectors to capture various leaderboard layouts
+        const rowSelectors = [
+          'tr[class*="row"]', 'tr[class*="entry"]', 'tr[class*="player"]', 'tr[class*="item"]',
+          '[class*="leaderboard"] tbody tr', '[class*="ranking"] tbody tr', '[class*="leaders"] tbody tr',
+          '[class*="leaderboard"] [class*="row"]', '[class*="leaderboard"] [class*="entry"]',
+          '[class*="leaderboard"] [class*="player"]', '[class*="ranking"] [class*="entry"]',
+          '[class*="leaderboard-entry"]', '[class*="leaderboard-row"]',
+          'table[class*="leaderboard"] tr', 'table[class*="ranking"] tr',
+          'li[class*="entry"]', 'li[class*="player"]', '[data-rank]', '[data-position]'
+        ];
+        const seen = new Set();
+        for (const sel of rowSelectors) {
+          try {
+            document.querySelectorAll(sel).forEach(el => seen.add(el));
+          } catch (e) {}
+        }
+        return seen.size;
       });
 
       if (count === lastCount && count > 0) {

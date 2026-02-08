@@ -45,18 +45,21 @@ async function generateContentFingerprint(page) {
     
     let container = null;
     for (const selector of contentSelectors) {
-      const el = document.querySelector(selector);
-      if (el && el.innerText.length > 100) {
-        container = el;
-        break;
-      }
+      try {
+        const el = document.querySelector(selector);
+        const text = el ? (el.innerText ?? el.textContent ?? '') : '';
+        if (el && text && text.length > 100) {
+          container = el;
+          break;
+        }
+      } catch (e) {}
     }
     
     if (!container) {
       container = document.body;
     }
     
-    let text = container.innerText || '';
+    let text = (container && (container.innerText ?? container.textContent)) || '';
     text = text
       .replace(/\d{1,2}:\d{2}(:\d{2})?\s*(AM|PM)?/gi, '')
       .replace(/\d+\s*(seconds?|minutes?|hours?|days?)\s*(ago|left|remaining)?/gi, '')
@@ -82,8 +85,8 @@ async function generateContentFingerprint(page) {
     // Skip first few entries as they might be "featured" users that don't change
     let skippedEntries = 0;
     for (const entry of entries) {
-      const entryText = entry.innerText || '';
-      if (entryText.length > 500 || entryText.length < 10) continue;
+      const entryText = (entry && (entry.innerText ?? entry.textContent ?? '')) || '';
+      if (!entryText || entryText.length > 500 || entryText.length < 10) continue;
 
       // Skip first 3 entries (often featured/top users that stay the same)
       if (skippedEntries < 3) {
@@ -131,7 +134,7 @@ async function generateContentFingerprint(page) {
           continue;
         }
 
-        if (el.children.length <= 1) {
+        if (el && el.children && el.children.length <= 1) {
           usernameElements.push(elText);
         }
         if (usernameElements.length >= 10) break;
@@ -172,7 +175,7 @@ async function waitForContentChange(page, previousFingerprint, maxWaitMs = 12000
     const hashChanged = currentFingerprint.hash !== previousFingerprint.hash;
     
     // Count username changes
-    const prevNames = new Set(previousFingerprint.potentialUsernames.map(n => n.toLowerCase()));
+    const prevNames = new Set((previousFingerprint.potentialUsernames || []).map(n => String(n || '').toLowerCase()));
     const currNames = currentFingerprint.potentialUsernames;
     let usernameChanges = 0;
     
@@ -230,11 +233,12 @@ function validateCoordinates(coords, viewportWidth = 1920, viewportHeight = 1080
     return { valid: false, reason: 'off_screen', coords };
   }
   
-  // Reject if too close to edge (likely hidden/overflow element)
-  if (coords.y < 50) {
-    return { valid: false, reason: 'too_close_to_top', coords };
+  // Reject if too close to top edge (likely hidden/overflow) - but allow y >= 0
+  // Many sites have tabs at y=20-40; only reject clearly off-screen (y < 0)
+  if (coords.y < 0) {
+    return { valid: false, reason: 'above_viewport', coords };
   }
-  
+
   return { valid: true };
 }
 
@@ -379,13 +383,6 @@ function findBestSwitcherForKeyword(switchers, keyword, referenceCoords = null) 
  */
 async function findSiteSwitchers(page, keywords) {
   log('CLICK', 'Looking for site switcher buttons/cards/tabs...');
-  
-  // #region agent log
-  // DEBUG: Log keywords being used for detection
-  const hasRainbet = keywords.some(k => k.toLowerCase() === 'rainbet');
-  const hasPackdraw = keywords.some(k => k.toLowerCase() === 'packdraw');
-  fetch('http://127.0.0.1:7242/ingest/7521052c-69e1-4481-924e-59fc0e639e59',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'detection.js:365',message:'Keywords for detection',data:{keywordCount:keywords.length,hasRainbet,hasPackdraw,sampleKeywords:keywords.slice(0,20)},timestamp:Date.now(),sessionId:'debug-session',hypothesisId:'B'})}).catch(()=>{});
-  // #endregion
   
   // Phase 1: Open any dropdown menus that might contain switchers
   // This handles sites like jonkennleaderboard.com where leaderboard links are in dropdowns
@@ -883,24 +880,8 @@ async function findSiteSwitchers(page, keywords) {
     
     // General buttons
     const buttons = document.querySelectorAll('button, [role="button"]');
-    // DEBUG: Collect button debug info
-    const buttonDebug = [];
     for (const btn of buttons) {
       const match = getKeywordsFromElement(btn, kws);
-      // DEBUG: Log button info
-      const imgs = btn.querySelectorAll('img');
-      const imgInfo = [];
-      for (const img of imgs) {
-        imgInfo.push({ src: img.src?.substring(0, 80), alt: img.alt });
-      }
-      buttonDebug.push({
-        hasMatch: !!match,
-        matchKeyword: match?.keyword,
-        matchSource: match?.source,
-        textContent: (btn.textContent || '').trim().substring(0, 50),
-        imgCount: imgs.length,
-        imgs: imgInfo
-      });
       if (match && !seenKeywords.has(match.keyword)) {
         const rect = btn.getBoundingClientRect();
         if (rect.width > 20 && rect.height > 20) {
@@ -920,22 +901,14 @@ async function findSiteSwitchers(page, keywords) {
         }
       }
     }
-    // DEBUG: Log button debug info to console for post-fetch
-    window.__buttonDebugInfo = buttonDebug;
-    
+
     // Images with site names
     const allImages = document.querySelectorAll('img');
-    // DEBUG: Collect image debug info
-    const imageDebug = [];
     for (const img of allImages) {
       const src = (img.src || '').toLowerCase();
       const srcset = (img.srcset || '').toLowerCase();
       const alt = (img.alt || '').toLowerCase();
-      // DEBUG: Check if this image has rainbet or packdraw
-      if (src.includes('rainbet') || src.includes('packdraw') || alt.includes('rainbet') || alt.includes('packdraw')) {
-        imageDebug.push({ src: img.src?.substring(0, 80), alt: img.alt, parentTag: img.parentElement?.tagName });
-      }
-      
+
       for (const kw of kws) {
         if ((src.includes(kw) || srcset.includes(kw)) && !seenKeywords.has(kw)) {
           let clickable = null;
@@ -980,9 +953,7 @@ async function findSiteSwitchers(page, keywords) {
         }
       }
     }
-    // DEBUG: Store image debug info
-    window.__imageDebugInfo = imageDebug;
-    
+
     // SVG elements
     const allSvgs = document.querySelectorAll('svg');
     for (const svg of allSvgs) {
@@ -1111,25 +1082,7 @@ async function findSiteSwitchers(page, keywords) {
     });
     return found;
   }, keywords);
-  
-  // #region agent log
-  // DEBUG: Log what was found by the main detection
-  fetch('http://127.0.0.1:7242/ingest/7521052c-69e1-4481-924e-59fc0e639e59',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'detection.js:920',message:'Main detection results',data:{switcherCount:switchers.length,switchers:switchers.map(s=>({keyword:s.keyword,type:s.type,priority:s.priority,source:s.source}))},timestamp:Date.now(),sessionId:'debug-session',hypothesisId:'A'})}).catch(()=>{});
-  // #endregion
-  
-  // #region agent log
-  // DEBUG: Retrieve button debug info from browser context
-  const buttonDebugInfo = await page.evaluate(() => window.__buttonDebugInfo || []);
-  const buttonsWithImages = buttonDebugInfo.filter(b => b.imgCount > 0);
-  fetch('http://127.0.0.1:7242/ingest/7521052c-69e1-4481-924e-59fc0e639e59',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'detection.js:930',message:'Button debug info',data:{totalButtons:buttonDebugInfo.length,buttonsWithImages:buttonsWithImages.length,buttonsWithMatch:buttonDebugInfo.filter(b=>b.hasMatch).length,sampleButtonsWithImages:buttonsWithImages.slice(0,10)},timestamp:Date.now(),sessionId:'debug-session',hypothesisId:'C'})}).catch(()=>{});
-  // #endregion
-  
-  // #region agent log
-  // DEBUG: Retrieve image debug info
-  const imageDebugInfo = await page.evaluate(() => window.__imageDebugInfo || []);
-  fetch('http://127.0.0.1:7242/ingest/7521052c-69e1-4481-924e-59fc0e639e59',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'detection.js:937',message:'Image debug info - rainbet/packdraw images found',data:{imagesWithKeywords:imageDebugInfo.length,images:imageDebugInfo},timestamp:Date.now(),sessionId:'debug-session',hypothesisId:'A'})}).catch(()=>{});
-  // #endregion
-  
+
   // Additional deep scan: check script content and all HTML for keywords not found in DOM elements
   const existingKeywords = new Set(switchers.map(s => s.keyword.toLowerCase()));
   
@@ -1286,11 +1239,6 @@ async function findSiteSwitchers(page, keywords) {
     }
     return !isSubstringOfAnother;
   });
-
-  // #region agent log
-  // DEBUG: Final switchers before return
-  fetch('http://127.0.0.1:7242/ingest/7521052c-69e1-4481-924e-59fc0e639e59',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'detection.js:1080',message:'Final switchers returned',data:{count:dedupedSwitchers.length,switchers:dedupedSwitchers.map(s=>({keyword:s.keyword,type:s.type,priority:s.priority,source:s.source,hasCoords:!!s.coordinates}))},timestamp:Date.now(),sessionId:'debug-session',hypothesisId:'E'})}).catch(()=>{});
-  // #endregion
 
   return dedupedSwitchers;
 }

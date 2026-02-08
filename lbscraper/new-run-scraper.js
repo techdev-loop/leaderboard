@@ -185,11 +185,14 @@ async function main() {
 
   if (batchMode) {
     // Batch mode - use batch runner
+    // Pass URL args if provided (e.g. node new-run-scraper.js --batch https://site1.com https://site2.com)
+    const urlArgs = args.filter(a => a.startsWith('http'));
     await runBatch({
       configDir: path.join(__dirname, 'orchestrators'),
       production: productionMode,
       maxWorkers: 1,
-      delayBetweenSitesMs: 5000
+      delayBetweenSitesMs: 5000,
+      filterUrls: urlArgs.length > 0 ? urlArgs : null
     });
   } else {
     // Single URL mode
@@ -203,6 +206,7 @@ async function main() {
       console.log('  node new-run-scraper.js <url>            # Single site');
       console.log('  node new-run-scraper.js <url> -p         # Single site (production)');
       console.log('  node new-run-scraper.js --batch          # Batch from websites.txt');
+      console.log('  node new-run-scraper.js --batch <url...> # Batch specific URLs only');
       console.log('  node new-run-scraper.js --batch -p       # Batch (production)');
       console.log('');
       console.log('Examples:');

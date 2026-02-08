@@ -378,18 +378,21 @@ function calculateConfidenceAdjustment(report) {
     adjustment += 5;
   }
 
-  // Low agreement penalty
-  if (report.overallAgreement < 0.5) {
+  // Low agreement penalty - but be conservative when we have few comparisons
+  // (e.g., one source has 50 entries, another has 10 - we only compare the 10)
+  const totalComparisons = report.discrepancies?.length + 
+    (report.entryAgreement ? Object.values(report.entryAgreement).filter(e => e?.status === 'agreed').length : 0);
+  if (report.overallAgreement < 0.5 && totalComparisons >= 5) {
     adjustment -= 10;
   }
-  if (report.overallAgreement < 0.3) {
+  if (report.overallAgreement < 0.3 && totalComparisons >= 10) {
     adjustment -= 15;
   }
 
-  // Discrepancy penalty
-  if (report.discrepancies.length > 10) {
+  // Discrepancy penalty - only if we have many discrepancies
+  if (report.discrepancies && report.discrepancies.length > 10) {
     adjustment -= 10;
-  } else if (report.discrepancies.length > 5) {
+  } else if (report.discrepancies && report.discrepancies.length > 5) {
     adjustment -= 5;
   }
 

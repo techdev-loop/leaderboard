@@ -238,10 +238,18 @@ async function waitForLeaderboardReady(page, options = {}) {
   for (let i = 0; i < rowStablePolls; i++) {
     await page.waitForTimeout(rowStableDelayMs);
     const count = await page.evaluate(() => {
-      const rows = document.querySelectorAll(
-        'tr[class*="row"], tr[class*="entry"], [class*="leaderboard"] tr, [class*="ranking"] tbody tr, [class*="entry"], [class*="player-row"]'
-      );
-      return rows.length;
+      const rowSelectors = [
+        'tr[class*="row"]', 'tr[class*="entry"]', 'tr[class*="player"]',
+        '[class*="leaderboard"] tr', '[class*="ranking"] tbody tr', '[class*="leaderboard"] [class*="entry"]',
+        '[class*="leaderboard-entry"]', '[class*="player-row"]', '[data-rank]'
+      ];
+      const seen = new Set();
+      for (const sel of rowSelectors) {
+        try {
+          document.querySelectorAll(sel).forEach(el => seen.add(el));
+        } catch (e) {}
+      }
+      return seen.size;
     });
     rowCount = count;
     if (count === lastCount && count > 0) {

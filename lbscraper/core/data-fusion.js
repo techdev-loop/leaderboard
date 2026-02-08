@@ -420,6 +420,18 @@ function fuseResults(strategyResults, crossValidation) {
     effectiveMaxRank = maxDomRank;
   }
 
+  // If geometric strategy found significantly more entries with high confidence,
+  // extend the range (geometric can detect structure when others fail)
+  const geometricResult = strategyResults.geometric;
+  if (geometricResult?.entries?.length > 0) {
+    const geometricConfidence = geometricResult.confidence || 0;
+    const maxGeometricRank = Math.max(...geometricResult.entries.map(e => e.rank || 0));
+    if (geometricConfidence >= 80 && maxGeometricRank > effectiveMaxRank && maxGeometricRank >= 10) {
+      log('FUSION', `Trusting high-confidence geometric source (${geometricConfidence}%): max rank ${maxGeometricRank}`);
+      effectiveMaxRank = maxGeometricRank;
+    }
+  }
+
   const cleanedEntries = fusedEntries.filter(entry => {
     // Keep multi-source entries (they're verified)
     if (entry._fusion?.sources?.length > 1) return true;

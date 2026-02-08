@@ -223,8 +223,14 @@ async function clickSwitcher(page, keyword, switcherData = null, options = {}) {
   log('CRAWLER', `Clicking switcher for "${keyword}"...`);
 
   try {
-    // Get pre-click fingerprint
-    const preFingerprint = await generateContentFingerprint(page);
+    // Get pre-click fingerprint (with error handling - fingerprint can fail on some DOM structures)
+    let preFingerprint;
+    try {
+      preFingerprint = await generateContentFingerprint(page);
+    } catch (fpErr) {
+      log('CRAWLER', `Fingerprint failed (continuing): ${fpErr.message}`);
+      preFingerprint = { hash: 'unknown', potentialUsernames: [] };
+    }
     const clickTimestamp = Date.now();
 
     // Validate coordinates if provided
@@ -334,12 +340,18 @@ async function clickSwitcher(page, keyword, switcherData = null, options = {}) {
     }
 
     // Wait for content change
-    const changeResult = await waitForContentChange(
-      page,
-      preFingerprint,
-      timeout,
-      { minUsernameChanges }
-    );
+    let changeResult;
+    try {
+      changeResult = await waitForContentChange(
+        page,
+        preFingerprint,
+        timeout,
+        { minUsernameChanges }
+      );
+    } catch (changeErr) {
+      log('CRAWLER', `Content change detection failed: ${changeErr.message}`);
+      changeResult = { changed: false, newFingerprint: null, usernameChanges: 0 };
+    }
 
     return {
       success: changeResult.changed,

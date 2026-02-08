@@ -37,7 +37,9 @@ function validateDatasetCompleteness(entries, options = {}) {
     issues.push(`below_min_rows: ${rowCount} < ${minRows}`);
   }
 
-  if (maxRank > 0 && rowCount > 0 && maxRank !== rowCount) {
+  // Only flag rank_count_mismatch when the gap is significant (>2)
+  // Small gaps (1-2) can occur from valid partial extractions or deduplication
+  if (maxRank > 0 && rowCount > 0 && Math.abs(maxRank - rowCount) > 2) {
     issues.push(`rank_count_mismatch: max(rank)=${maxRank} != row_count=${rowCount} (dataset_incomplete)`);
   }
 
@@ -135,7 +137,8 @@ function validateDataset(entries, options = {}) {
 
   const completeness = validateDatasetCompleteness(entries, { minRows });
   const sanity = validateDataSanity(entries);
-  const strategyAgreement = checkStrategyAgreement(crossValidation, 0.7);
+  // Use 0.6 threshold - avoid over-penalizing when strategies partially agree
+  const strategyAgreement = checkStrategyAgreement(crossValidation, 0.6);
 
   let confidencePenalty = 0;
   if (!completeness.valid) confidencePenalty += 15;
