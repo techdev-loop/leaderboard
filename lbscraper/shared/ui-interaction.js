@@ -30,9 +30,13 @@ const ROW_SELECTOR_PATTERNS = [
   /\bshow\b/i,
   /\bentries?\b/i,
   /\brows?\b/i,
+  /\busers?\b/i,           // BetJuicy: "Show X users"
   /\bper\s*page\b/i,
   /\bdisplay\b/i,
-  /\bview\s*\d+/i
+  /\bview\s*\d+/i,
+  /\bamount\s*of\b/i,      // "amount of users"
+  /\bpage\s*size\b/i,
+  /\blimit\b/i
 ];
 
 const PAGINATION_PATTERNS = [
@@ -127,7 +131,8 @@ async function detectRowCountDropdown(page) {
       for (const opt of select.querySelectorAll('option')) {
         const val = opt.value;
         const num = parseInt(val, 10);
-        if (!isNaN(num) && num > 0 && num <= 500) options.push(num);
+        // Allow up to 1000 (some sites show 50/100/250/500/1000)
+        if (!isNaN(num) && num > 0 && num <= 1000) options.push(num);
       }
       if (options.length > 0) {
         return {
@@ -173,27 +178,38 @@ async function selectMaxRows(page, options = {}) {
   const maxOption = Math.max(...dropdown.options);
   if (maxOption <= 0) return { success: false, method: 'no_valid_options' };
 
+  // Pass patterns so we target the SAME dropdown that detectRowCountDropdown found
+  // (avoids setting wrong select when page has multiple dropdowns)
+  const patternSources = ROW_SELECTOR_PATTERNS.map(p => p.source);
+
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
-      const selected = await page.evaluate((maxVal) => {
+      const selected = await page.evaluate(({ maxVal, patterns }) => {
+        const regexes = patterns.map(s => new RegExp(s, 'i'));
         const selects = document.querySelectorAll('select');
         for (const select of selects) {
+          // Only target selects that match row-count patterns (same logic as detection)
+          const label = (select.getAttribute('aria-label') || select.name || '').toLowerCase();
+          const parentText = (select.closest('label')?.textContent || select.parentElement?.textContent || '').toLowerCase();
+          const combined = `${label} ${parentText}`;
+          if (!regexes.some(r => r.test(combined))) continue;
+
           const opts = Array.from(select.querySelectorAll('option'));
           const values = opts.map(o => parseInt(o.value, 10)).filter(n => !isNaN(n) && n > 0);
           if (values.length === 0) continue;
           const maxAvailable = Math.max(...values);
-          if (maxAvailable < maxVal) continue;
           const targetVal = values.includes(maxVal) ? maxVal : maxAvailable;
           select.value = String(targetVal);
           select.dispatchEvent(new Event('change', { bubbles: true }));
+          select.dispatchEvent(new Event('input', { bubbles: true }));
           return { success: true, value: targetVal };
         }
         return { success: false };
-      }, maxOption);
+      }, { maxVal: maxOption, patterns: patternSources });
 
       if (selected.success) {
         log('UI', `Selected max rows: ${selected.value} (attempt ${attempt})`);
-        await page.waitForTimeout(800);
+        await page.waitForTimeout(1200); // Wait for content to reload after selection
         return { success: true, selectedValue: selected.value, method: 'dropdown' };
       }
     } catch (e) {

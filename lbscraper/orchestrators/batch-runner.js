@@ -108,7 +108,7 @@ function filterDueSites(sites) {
 // TEMPORARY: Site timeout to prevent infinite loops during batch runs
 // Remove this after debugging is complete
 // ============================================================================
-const SITE_TIMEOUT_MS = 2 * 60 * 1000; // 2 minutes max per site
+const SITE_TIMEOUT_MS = 90 * 1000; // 1.5 minutes max per site
 
 /**
  * Wrap a promise with a timeout
