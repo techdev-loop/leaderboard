@@ -105,10 +105,10 @@ function filterDueSites(sites) {
 // ============================================================================
 
 // ============================================================================
-// TEMPORARY: Site timeout to prevent infinite loops during batch runs
-// Remove this after debugging is complete
+// Per-site timeout: allows multi-leaderboard sites (e.g. 5+ tabs) to complete.
+// Override with SITE_TIMEOUT_MS in .env (e.g. 600000 for 10 min).
 // ============================================================================
-const SITE_TIMEOUT_MS = parseInt(process.env.SITE_TIMEOUT_MS, 10) || 90 * 1000; // 1.5 min default; set SITE_TIMEOUT_MS=300000 for 5 min
+const SITE_TIMEOUT_MS = parseInt(process.env.SITE_TIMEOUT_MS, 10) || 5 * 60 * 1000; // 5 min default for accurate scraping
 
 /**
  * Wrap a promise with a timeout
