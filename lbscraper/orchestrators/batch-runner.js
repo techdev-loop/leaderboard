@@ -108,7 +108,7 @@ function filterDueSites(sites) {
 // TEMPORARY: Site timeout to prevent infinite loops during batch runs
 // Remove this after debugging is complete
 // ============================================================================
-const SITE_TIMEOUT_MS = 90 * 1000; // 1.5 minutes max per site
+const SITE_TIMEOUT_MS = parseInt(process.env.SITE_TIMEOUT_MS, 10) || 90 * 1000; // 1.5 min default; set SITE_TIMEOUT_MS=300000 for 5 min
 
 /**
  * Wrap a promise with a timeout
@@ -281,7 +281,8 @@ async function runBatch(options = {}) {
     production = false,
     maxWorkers = 1,
     delayBetweenSitesMs = 5000,
-    filterUrls = null  // Array of URLs to filter to, or null for all
+    filterUrls = null,  // Array of URLs to filter to, or null for all
+    limit = null        // Max number of sites to process (e.g. 50 for first 50 from websites.txt)
   } = options;
 
   setupShutdownHandlers();
@@ -309,7 +310,11 @@ async function runBatch(options = {}) {
     sites = await loadSitesToScrape(config);
   }
 
-  const dueSites = filterDueSites(sites);
+  let dueSites = filterDueSites(sites);
+  if (limit != null && limit > 0) {
+    dueSites = dueSites.slice(0, limit);
+    log('BATCH', `Limited to first ${dueSites.length} sites (--limit ${limit})`);
+  }
 
   log('BATCH', `Found ${dueSites.length}/${sites.length} sites due for scraping`);
 

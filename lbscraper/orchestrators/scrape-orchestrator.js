@@ -26,6 +26,7 @@ const { validateAndCleanEntries, clearGlobalEntriesTracker } = require('../share
 const { navigateWithBypass, navigateToLeaderboardSection } = require('../shared/page-navigation');
 const { clearNetworkData } = require('../shared/network-capture');
 const {
+  selectMaximumEntries,
   selectMaxRows,
   waitForLeaderboardReady,
   withUiRetry
@@ -181,6 +182,40 @@ async function orchestrateScrape(input) {
 
     // Clear global entries tracker for clean slate
     clearGlobalEntriesTracker();
+
+    // BetJuicy: Intercept API requests and force limit=50 (matches site dropdown max)
+    const BETJUICY_API_LIMIT = 50;
+    const isBetJuicy = /betjuicy\.com$/i.test(domain);
+    let unrouteBetJuicy = () => {}; // no-op; set when route is active
+    if (isBetJuicy) {
+      unrouteBetJuicy = await page.route(/api\.betjuicy\.com/, async (route) => {
+        const request = route.request();
+        let url = request.url();
+        const limitParams = ['limit', 'take', 'pageSize', 'size', 'per_page'];
+        let modified = false;
+        for (const param of limitParams) {
+          const regex = new RegExp(`([?&])${param}=\\d+`, 'i');
+          if (regex.test(url)) {
+            url = url.replace(regex, `$1${param}=${BETJUICY_API_LIMIT}`);
+            modified = true;
+            break;
+          }
+        }
+        if (!modified && (url.includes('?') || url.includes('&'))) {
+          url += (url.includes('?') ? '&' : '?') + `limit=${BETJUICY_API_LIMIT}`;
+          modified = true;
+        } else if (!modified) {
+          url += (url.includes('?') ? '&' : '?') + `limit=${BETJUICY_API_LIMIT}`;
+          modified = true;
+        }
+        if (modified) {
+          log('ORCHESTRATE', `BetJuicy: Rewriting API limit to ${BETJUICY_API_LIMIT}`);
+          await route.continue({ url });
+        } else {
+          await route.continue();
+        }
+      });
+    }
 
     // =========================================================================
     // STEP 0: NAVIGATE TO LEADERBOARD SECTION
@@ -452,6 +487,14 @@ async function orchestrateScrape(input) {
 
         // Wait for content to load - need longer wait for SPA frameworks
         await page.waitForTimeout(config.waitAfterClick || 3000);
+        // BetJuicy: extra wait after tab switch so "Show X users" dropdown is ready before we select 50
+        if (isBetJuicy) await page.waitForTimeout(1500);
+
+        // REQUIRED: Select maximum entries BEFORE waiting for readiness
+        // Otherwise we only capture partial data (e.g. 10 of 500 users).
+        // Tries: native select → custom dropdown → Show All button.
+        await withUiRetry(async () => selectMaximumEntries(page, { maxRetries: 3 }), { maxRetries: 3 });
+        await page.waitForTimeout(1200);
 
         // Leaderboard readiness: stable DOM, optional network idle
         await waitForLeaderboardReady(page, {
@@ -459,10 +502,6 @@ async function orchestrateScrape(input) {
           rowStablePolls: 3,
           rowStableDelayMs: 500
         });
-
-        // Max-rows selection: select largest "show N entries" option if dropdown present (e.g. BetJuicy)
-        await withUiRetry(async () => selectMaxRows(page, { maxRetries: 2 }), { maxRetries: 2 });
-        await page.waitForTimeout(800);
 
         // Try to wait for any loading spinners to disappear
         try {
@@ -475,7 +514,7 @@ async function orchestrateScrape(input) {
         // Many sites paginate with a "load more" button that needs to be clicked multiple times
         try {
           let loadMoreClicks = 0;
-          const maxLoadMoreClicks = 10; // Prevent infinite loops
+          const maxLoadMoreClicks = 25; // Allow more clicks for large leaderboards (500+ entries)
 
           while (loadMoreClicks < maxLoadMoreClicks) {
             const showMoreBtn = await page.$('button:has-text("Show More"), button:has-text("Load More"), button:has-text("View All"), button:has-text("Show all"), [class*="load-more"], [class*="show-more"]');
@@ -755,6 +794,8 @@ async function orchestrateScrape(input) {
     log('ERR', `Orchestration failed for ${domain}: ${error.message}`);
     result.errors.push(error.message);
     circuitBreaker.recordFailure(domain);
+  } finally {
+    if (typeof unrouteBetJuicy === 'function') unrouteBetJuicy();
   }
 
   // =========================================================================

@@ -54,7 +54,7 @@
 
 | Requirement | Status | Implementation |
 |-------------|--------|----------------|
-| Always select maximum entries | ✅ | `selectMaxRows()` in `ui-interaction.js` |
+| Always select maximum entries | ✅ | `selectMaximumEntries()` - native select → custom dropdown → Show All |
 | Target correct dropdown (not filters) | ✅ | Pattern matching: show, entries, rows, users, per page, limit |
 | Run per leaderboard after tab switch | ✅ | Called in `scrape-orchestrator.js` per leaderboard |
 | BetJuicy-style "Show X users" | ✅ | `users` and `amount of` in ROW_SELECTOR_PATTERNS |
