@@ -463,6 +463,9 @@ async function selectMaxRowsCustom(page, options = {}) {
   const openTrigger = async () => {
     await scrollToDropdownArea();
 
+    // PDF: wait for dropdown to be visible before clicking
+    await page.waitForSelector('[class*="challenger"], [class*="Challenger"], [class*="leaderboard"], [class*="select"], [class*="dropdown"]', { state: 'visible', timeout: 2000 }).catch(() => {});
+
     // Prefer parent container click for BetJuicy-style dropdowns (opens the actual trigger, not just the value)
     const coordsToUse = dropdown.triggerParentCoords && dropdown.triggerParentCoords.x > 0
       ? dropdown.triggerParentCoords
@@ -563,7 +566,12 @@ async function selectMaxRowsCustom(page, options = {}) {
   };
 
   const selectMaxOption = async () => {
-    await page.waitForTimeout(500);
+    // PDF: wait for dropdown options to appear before clicking
+    try {
+      await page.waitForSelector('[role="listbox"], [role="menu"], [role="option"], [class*="dropdown"] [role="option"], [class*="menu"]', { state: 'visible', timeout: 2000 });
+    } catch (e) {
+      await page.waitForTimeout(500);
+    }
 
     // First: try role=option (dropdown option) for max value – most reliable for Radix/custom selects
     try {

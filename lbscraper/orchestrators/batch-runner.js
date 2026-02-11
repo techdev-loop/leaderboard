@@ -19,6 +19,7 @@ const stealth = require('puppeteer-extra-plugin-stealth');
 const { log, initLogging, getRunId, loadWebsites, loadKeywords } = require('../shared/utils');
 const { buildLegacyConfig } = require('../shared/config');
 const { setupNetworkCapture } = require('../shared/network-capture');
+const { applyResourceBlocking } = require('../shared/resource-blocking');
 const { orchestrateScrape, circuitBreaker } = require('./scrape-orchestrator');
 const { clearGlobalEntriesTracker } = require('../shared/entry-validation');
 
@@ -180,6 +181,7 @@ async function processSite(site, config, keywords) {
     });
 
     const page = await context.newPage();
+    applyResourceBlocking(page);
     const networkData = await setupNetworkCapture(page);
 
     // Initialize challenge bypass (Cloudflare, hCaptcha, etc.)
@@ -276,10 +278,12 @@ async function processSite(site, config, keywords) {
  * @returns {Promise<Object>} - Batch summary
  */
 async function runBatch(options = {}) {
+  // PDF: use 3-5 parallel pages; configurable via SCRAPER_MAX_WORKERS (default 3)
+  const defaultWorkers = Math.min(5, Math.max(1, parseInt(process.env.SCRAPER_MAX_WORKERS, 10) || 3));
   const {
     configDir = __dirname,
     production = false,
-    maxWorkers = 1,
+    maxWorkers = defaultWorkers,
     delayBetweenSitesMs = 5000,
     filterUrls = null,  // Array of URLs to filter to, or null for all
     limit = null        // Max number of sites to process (e.g. 50 for first 50 from websites.txt)

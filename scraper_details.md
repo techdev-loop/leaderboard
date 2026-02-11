@@ -760,6 +760,19 @@ await runBatch({
 });
 ```
 
+### Scalable Scraper Architecture (PDF) Alignment
+
+The project implements recommendations from the *Scalable Scraper Architecture* PDF:
+
+| PDF recommendation | Implementation |
+|--------------------|----------------|
+| **Resource blocking** | `shared/resource-blocking.js`: blocks images, fonts, media, trackers. Toggle: `SCRAPER_BLOCK_RESOURCES` (default true). |
+| **domcontentloaded + selector wait** | `page-navigation.js` `navigateWithBypass()`: uses `waitUntil: 'domcontentloaded'`, then waits for leaderboard-like selector (table, .leaderboard, .ranking, .challenger) with 10s timeout before proceeding. |
+| **Parallel execution** | Batch mode uses `SCRAPER_MAX_WORKERS` (default 3). Multiple sites run in parallel via `Promise.all` in `batch-runner.js`. |
+| **Wait for dropdown/options** | `ui-interaction.js`: before clicking custom dropdown, waits for trigger to be visible; before selecting option, waits for `[role="listbox"]` / options to appear. |
+| **Wait for new rows after "Show More"** | `scrape-orchestrator.js`: after each "Show More" click, waits for table/row selector (3s) instead of blind sleep only. |
+| **Retries, timeouts, error handling** | Existing: `withRetry`, circuit breaker, per-site errors logged; batch continues on failure. |
+
 ### Periodic Re-Discovery
 
 Sites may add new leaderboards at any time. The scraper should periodically re-run discovery even for sites with existing configurations:
@@ -796,6 +809,7 @@ The crawler's `findLeaderboardPage()` function should check all these patterns.
 | `json-logger.js` | Debug JSON logging | Timestamped files with auto-cleanup |
 | `network-capture.js` | Intercept network requests | Playwright-specific |
 | `page-navigation.js` | Navigate with bypass | Handles Cloudflare |
+| `resource-blocking.js` | Block images/fonts/media/trackers | PDF perf; toggle via SCRAPER_BLOCK_RESOURCES |
 | `site-detection.js` | Find switchers/buttons | Word boundary matching for keywords |
 | `entry-validation.js` | Clean/validate entries | Confidence scoring |
 | `extraction.js` | Currency parsing, markdown helpers | Multi-currency support |

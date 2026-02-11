@@ -42,6 +42,7 @@ const {
   getLearnedPatterns,
   recordSuccessfulExtraction
 } = require('../shared/learned-patterns');
+const { isHeadedGg, fetchAllHeadedGgLeaderboards } = require('../shared/site-adapters/headed-gg');
 
 // ============================================================================
 // TYPES (JSDoc for clarity)
@@ -352,6 +353,8 @@ async function orchestrateScrape(input) {
     // Track which leaderboard we're currently on to avoid unnecessary navigation
     let currentLeaderboard = null;
     let isFirstLeaderboard = true; // Track if this is the first leaderboard (likely default view)
+    // Headed.gg: fetch all leaderboards via API (site= param) for full coverage without tab clicks
+    let headedGgApiMap = null;
 
     for (const leaderboard of toScrape) {
       try {
@@ -510,26 +513,30 @@ async function orchestrateScrape(input) {
           // No loading indicator found, continue
         }
 
-        // Click "Show More" / "Load More" buttons repeatedly until all entries are loaded
-        // Many sites paginate with a "load more" button that needs to be clicked multiple times
+        // Click "Show More" / "Load More" buttons repeatedly until all entries are loaded (PDF: wait for new rows)
         try {
           let loadMoreClicks = 0;
           const maxLoadMoreClicks = 25; // Allow more clicks for large leaderboards (500+ entries)
+          const newRowSelector = 'table tbody tr, [class*="leaderboard"] [class*="row"], [class*="row"]';
 
           while (loadMoreClicks < maxLoadMoreClicks) {
             const showMoreBtn = await page.$('button:has-text("Show More"), button:has-text("Load More"), button:has-text("View All"), button:has-text("Show all"), [class*="load-more"], [class*="show-more"]');
             if (!showMoreBtn) break;
 
-            // Check if button is visible and clickable
             const isVisible = await showMoreBtn.isVisible();
             if (!isVisible) break;
 
             await showMoreBtn.click();
             loadMoreClicks++;
             log('ORCHESTRATE', `Clicked "Show More" for ${leaderboard.name} (${loadMoreClicks}x)`);
-            await page.waitForTimeout(1000);
+            // PDF: wait for new rows to appear instead of blind sleep
+            try {
+              await page.waitForSelector(newRowSelector, { timeout: 3000 });
+            } catch (e) {
+              // no table/row selector found, use short wait
+            }
+            await page.waitForTimeout(500);
 
-            // Check if the button is still present (might disappear after loading all)
             const stillPresent = await page.$('button:has-text("Show More"), button:has-text("Load More"), button:has-text("View All"), button:has-text("Show all")');
             if (!stillPresent) break;
           }
@@ -561,6 +568,20 @@ async function orchestrateScrape(input) {
 
         // Debug logging for raw data sizes (helps diagnose extraction issues)
         log('ORCHESTRATE', `Raw data for ${leaderboard.name}: markdown=${rawData.markdown?.length || 0}b, apis=${rawData.apiCalls?.length || 0}, html=${rawData.html?.length || 0}b`);
+
+        // Headed.gg: after first scrape we have API URL; fetch all leaderboards via API for correct results
+        if (isHeadedGg(domain)) {
+          if (!headedGgApiMap && rawData.rawJsonResponses?.length > 0) {
+            headedGgApiMap = await fetchAllHeadedGgLeaderboards(
+              page,
+              rawData.rawJsonResponses,
+              toScrape.map(lb => lb.name)
+            );
+          }
+          if (headedGgApiMap && headedGgApiMap.has(leaderboard.name)) {
+            rawData.rawJsonResponses = [headedGgApiMap.get(leaderboard.name)];
+          }
+        }
 
         // Check for paginated APIs and fetch additional pages
         // Detects patterns like: ?limit=50&page=1, ?page=1&limit=100, etc.

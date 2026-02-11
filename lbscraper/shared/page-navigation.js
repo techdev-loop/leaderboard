@@ -98,9 +98,13 @@ async function navigateWithBypass(page, url, options = {}) {
     timeout = 15000,
     maxRetries = 3,
     retryDelayMs = 2000,
-    waitAfterLoad = 3000  // Extra wait time for JS rendering after page load
+    waitAfterLoad = 3000,  // Extra wait time for JS rendering after page load
+    waitForSelector = null  // Optional: proceed as soon as this selector appears (PDF: waitForSelector on key element)
   } = options;
-  
+
+  // PDF: use domcontentloaded then wait for key element to proceed as soon as possible
+  const leaderboardSelectors = waitForSelector || 'table, [class*="leaderboard"], [class*="ranking"], [class*="challenger"], [class*="table"]';
+
   log('CLICK', `Navigating to: ${url}`);
   
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
@@ -116,8 +120,14 @@ async function navigateWithBypass(page, url, options = {}) {
         }
       }
       
-      // Initial wait for page to start rendering
-      await page.waitForTimeout(2000);
+      // PDF: short initial wait, then wait for leaderboard-like element (proceed as soon as possible)
+      await page.waitForTimeout(800);
+      try {
+        await page.waitForSelector(leaderboardSelectors, { timeout: 10000 });
+        log('CLICK', 'Leaderboard content detected, proceeding');
+      } catch (e) {
+        // No matching element; continue with challenge check and network wait
+      }
       
       const challengeResult = await handleChallenge(page);
       
@@ -134,7 +144,6 @@ async function navigateWithBypass(page, url, options = {}) {
         }
         
         // Extra wait for JavaScript rendering (React, Vue, etc. SPA content)
-        // This gives dynamic content time to render after API responses are received
         await page.waitForTimeout(waitAfterLoad);
         log('CLICK', `Page loaded, waited ${waitAfterLoad}ms for content rendering`);
         

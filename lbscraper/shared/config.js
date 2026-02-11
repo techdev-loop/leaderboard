@@ -245,6 +245,8 @@ function buildLegacyConfig(basePath = __dirname) {
   
   return {
     paths: {
+      // Root of lbscraper (for orchestrator, teacher, learned patterns, site-profiles)
+      basePath: path.resolve(basePath),
       // Data files (cache, patterns, OCR data)
       dataDir: path.join(basePath, 'data'),
       cache: path.join(basePath, 'data', 'leaderboard-cache.json'),

@@ -31,6 +31,7 @@ chromium.use(stealth());
 const { orchestrateScrape } = require('./orchestrators/scrape-orchestrator');
 const { runBatch } = require('./orchestrators/batch-runner');
 const { setupNetworkCapture } = require('./shared/network-capture');
+const { applyResourceBlocking } = require('./shared/resource-blocking');
 const { log, initLogging, getRunId, loadKeywords } = require('./shared/utils');
 const { buildLegacyConfig, getJsonLoggingConfig } = require('./shared/config');
 const { saveDebugLog, cleanupOldLogs } = require('./shared/json-logger');
@@ -70,6 +71,7 @@ async function scrapeSingleSite(url, config) {
     });
 
     const page = await context.newPage();
+    applyResourceBlocking(page);
     const networkData = await setupNetworkCapture(page);
     const keywords = loadKeywords(config.paths.keywords);
 
@@ -194,7 +196,6 @@ async function main() {
     await runBatch({
       configDir: path.join(__dirname, 'orchestrators'),
       production: productionMode,
-      maxWorkers: 1,
       delayBetweenSitesMs: 5000,
       filterUrls: urlArgs.length > 0 ? urlArgs : null,
       limit: Number.isFinite(limit) && limit > 0 ? limit : null
