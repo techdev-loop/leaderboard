@@ -627,21 +627,22 @@ function fuseEntry(entriesForUser, crossValidation) {
  * @returns {Array} - Fused prize table with _totalPrizePool if available
  */
 function fusePrizes(strategyResults) {
-  // Find source with most complete prize data
+  // Find source with most *non-zero* prizes (so we don't pick a table of zeros over podium)
   let bestPrizes = [];
-  let bestCount = 0;
+  let bestNonZeroCount = 0;
   let totalPrizePool = 0;
 
+  const nonZeroCount = (arr) => (arr && Array.isArray(arr) ? arr.filter(p => p && p.prize > 0).length : 0);
+
   for (const [name, result] of Object.entries(strategyResults)) {
-    if (result.prizes && result.prizes.length > bestCount) {
-      bestPrizes = result.prizes;
-      bestCount = result.prizes.length;
-      // Preserve _totalPrizePool from best source
-      if (result.prizes._totalPrizePool) {
+    const n = nonZeroCount(result.prizes);
+    if (n > bestNonZeroCount) {
+      bestPrizes = result.prizes || [];
+      bestNonZeroCount = n;
+      if (result.prizes?._totalPrizePool) {
         totalPrizePool = result.prizes._totalPrizePool;
       }
     }
-    // Also capture totalPrizePool even if it's not the best prize source
     if (result.prizes?._totalPrizePool && result.prizes._totalPrizePool > totalPrizePool) {
       totalPrizePool = result.prizes._totalPrizePool;
     }
@@ -653,9 +654,21 @@ function fusePrizes(strategyResults) {
       .filter(e => e._prizeInjected && e.prize > 0)
       .map(e => ({ rank: e.rank, prize: e.prize }));
 
-    if (injectedPrizes.length > bestCount) {
+    if (injectedPrizes.length > bestNonZeroCount) {
       bestPrizes = injectedPrizes;
-      bestCount = injectedPrizes.length;
+      bestNonZeroCount = injectedPrizes.length;
+    }
+  }
+
+  // Build prize table from any strategy's entries that have prize > 0 (e.g. markdown podium)
+  for (const [name, result] of Object.entries(strategyResults)) {
+    const fromEntries = (result.entries || [])
+      .filter(e => e.prize > 0 && e.rank >= 1)
+      .map(e => ({ rank: e.rank, prize: e.prize }))
+      .sort((a, b) => a.rank - b.rank);
+    if (fromEntries.length > bestNonZeroCount) {
+      bestPrizes = fromEntries;
+      bestNonZeroCount = fromEntries.length;
     }
   }
 

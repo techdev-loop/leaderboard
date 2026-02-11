@@ -488,12 +488,16 @@ function getLearnedPatterns(basePath, domain, leaderboardName) {
     return null;
   }
 
+  const columnOrder = config.extraction?.visionConfig?.column_order;
+  const prizeBeforeWager = columnOrder === 'prize_before_wager';
+
   return {
     fieldMappings: config.extraction?.fieldMappings || null,
     preferredSource: config.extraction?.preferredSource || null,
     expectedEntries: config.validation?.expectedEntries || null,
     hasPrizes: config.validation?.hasPrizes || false,
-    apiConfig: config.extraction?.apiConfig || null
+    apiConfig: config.extraction?.apiConfig || null,
+    prizeBeforeWager: prizeBeforeWager || undefined
   };
 }
 

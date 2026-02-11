@@ -1,0 +1,47 @@
+![Tactical Map Background](/_next/image?url=%2Fplaceholder.svg%3Fheight%3D1080%26width%3D1920&w=3840&q=75)
+
+#### Active Leaderboards
+
+# RustGangLeaderboards
+
+Compete against the best players, climb the ranks, and earn exclusive rewards. Track your progress and dominate the battlefield.
+
+## All Leaderboards
+
+Bi-Weekly Leaderboards
+
+![Rain.gg Leaderboard](/_next/image?url=%2Fimages%2Fsites%2Frain.png&w=3840&q=75)
+
+### Rain.gg Leaderboard
+
+550 Coins
+
+Weekly
+
+[View Leaderboard](/leaderboards/raingg)
+
+![CSGOEmpire Leaderboard](/_next/image?url=%2Fimages%2Fsites%2Fcsgoempire.png&w=3840&q=75)
+
+### CSGOEmpire Leaderboard
+
+250 Coins
+
+Bi-Weekly
+
+[View Leaderboard](/leaderboards/csgoempire)
+
+![CSGOGem Leaderboard](/_next/image?url=%2Fimages%2Fsites%2Fcsgogem.png&w=3840&q=75)
+
+### CSGOGem Leaderboard
+
+150 Coins
+
+Weekly
+
+[View Leaderboard](/leaderboards/csgogem)
+
+### Ready to Compete?
+
+Join thousands of players and put your skills to the test. Sign up now to start climbing the ranks.
+
+[START COMPETING](/)

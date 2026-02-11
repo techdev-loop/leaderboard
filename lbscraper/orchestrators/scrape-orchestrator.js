@@ -587,6 +587,25 @@ async function orchestrateScrape(input) {
         // Detects patterns like: ?limit=50&page=1, ?page=1&limit=100, etc.
         await fetchPaginatedApiPages(page, rawData, leaderboard.name);
 
+        // ilovemav.com: when no API was captured (e.g. shock tab), try direct API fetch
+        if (domain === 'www.ilovemav.com' && (!rawData.rawJsonResponses || rawData.rawJsonResponses.length === 0)) {
+          const { fetchApiInBrowser } = require('../core/page-scraper');
+          const apiSlug = leaderboard.name === 'chicken' ? 'chickengg' : leaderboard.name;
+          const currentUrl = page.url();
+          const origin = currentUrl ? new URL(currentUrl).origin : 'https://www.ilovemav.com';
+          const apiUrl = `${origin}/api/${apiSlug}`;
+          try {
+            const res = await fetchApiInBrowser(page, apiUrl, { timeout: 8000 });
+            if (res.success && res.data) {
+              if (!rawData.rawJsonResponses) rawData.rawJsonResponses = [];
+              rawData.rawJsonResponses.push({ url: apiUrl, timestamp: Date.now(), data: res.data });
+              log('ORCHESTRATE', `Fetched ${leaderboard.name} API fallback: ${apiUrl} (${Array.isArray(res.data) ? res.data.length : typeof res.data === 'object' ? Object.keys(res.data).length : 0} items)`);
+            }
+          } catch (e) {
+            log('ORCHESTRATE', `API fallback fetch failed for ${leaderboard.name}: ${e.message}`);
+          }
+        }
+
         // Load learned patterns for this site/leaderboard
         // Note: getLearnedPatterns expects basePath (lbscraper root), not dataDir
         const learnedPatterns = getLearnedPatterns(basePath, domain, leaderboard.name);
@@ -606,12 +625,15 @@ async function orchestrateScrape(input) {
           screenshot: rawData.screenshot,
           page,
           siteName: leaderboard.name,
+          _domain: domain,
+          _basePath: basePath,
           config: {
             minConfidence: config.minConfidence || 50,
             useFusion: true,  // Enable hybrid extraction
             siteName: leaderboard.name,
             learnedPatterns,  // Pass learned patterns to extractor
-            knownKeywords     // Pass all known leaderboard names for API filtering
+            knownKeywords,   // Pass all known leaderboard names for API filtering
+            prizeBeforeWager: learnedPatterns?.prizeBeforeWager  // Column order (e.g. ilovemav.com)
           }
         });
 
@@ -621,29 +643,40 @@ async function orchestrateScrape(input) {
         const hasValidData = extraction.entries.length >= 2;
 
         if (hasValidData) {
-          // Build prize lookup map for validation
+          // Build prize lookup map: from extraction.prizes table and from entries that have prize > 0
+          // So we never lose top-N prizes (e.g. from markdown fusion) when prize table is missing
           const prizeLookup = new Map();
           let maxPrizeRank = 0;
           if (extraction.prizes && Array.isArray(extraction.prizes)) {
             for (const p of extraction.prizes) {
-              if (p.rank && p.prize >= 0) {
-                prizeLookup.set(p.rank, p.prize);
+              if (p && p.rank != null && p.prize >= 0) {
+                prizeLookup.set(Number(p.rank), Number(p.prize));
                 if (p.rank > maxPrizeRank) maxPrizeRank = p.rank;
+              }
+            }
+          }
+          // Fallback: build from entries that already have prize (e.g. fused from markdown podium)
+          for (const e of extraction.entries) {
+            if (e.rank >= 1 && e.prize > 0) {
+              const r = Number(e.rank);
+              if (!prizeLookup.has(r) || prizeLookup.get(r) === 0) {
+                prizeLookup.set(r, Number(e.prize));
+                if (r > maxPrizeRank) maxPrizeRank = r;
               }
             }
           }
 
           // Add timestamps, validate prizes, then normalize to standard schema
-          // Only allow prizes for ranks that have explicit prize data
+          // Apply prize by rank so top-N get correct prizes even when only some entries had prize from fusion
           const entriesWithTimestamps = extraction.entries.map(entry => {
             let validatedPrize = entry.prize || 0;
 
-            // If we have a prize table, validate the prize
-            if (maxPrizeRank > 0) {
-              if (entry.rank > maxPrizeRank) {
+            if (prizeLookup.size > 0) {
+              const r = entry.rank != null ? Number(entry.rank) : 0;
+              if (r > maxPrizeRank) {
                 validatedPrize = 0;
-              } else if (prizeLookup.has(entry.rank)) {
-                validatedPrize = prizeLookup.get(entry.rank);
+              } else if (prizeLookup.has(r)) {
+                validatedPrize = prizeLookup.get(r);
               }
             }
 

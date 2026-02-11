@@ -36,14 +36,16 @@
  */
 
 const api = require('./api-extraction');
+const xpath = require('./xpath-extraction');
 const markdown = require('./markdown-extraction');
 const dom = require('./dom-extraction');
 const geometric = require('./geometric-extraction');
 const ocr = require('./ocr-extraction');
 
-// All strategies
+// All strategies (XPath runs first when site config exists - priority 0.5)
 const strategies = {
   api,
+  xpath,
   markdown,
   dom,
   geometric,
@@ -53,6 +55,7 @@ const strategies = {
 // Default strategy order (sorted by priority)
 const DEFAULT_STRATEGIES = [
   api.strategy,
+  xpath.strategy,
   markdown.strategy,
   dom.strategy,
   geometric.strategy,
@@ -97,6 +100,7 @@ module.exports = {
 
   // Direct exports for convenience
   apiStrategy: api.strategy,
+  xpathStrategy: xpath.strategy,
   markdownStrategy: markdown.strategy,
   domStrategy: dom.strategy,
   geometricStrategy: geometric.strategy,

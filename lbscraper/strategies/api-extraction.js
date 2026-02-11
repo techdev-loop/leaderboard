@@ -101,25 +101,30 @@ function findLeaderboardInResponse(data, siteName = null) {
   // Handle array of entries directly
   if (Array.isArray(data)) {
     const entries = extractEntriesFromArray(data);
-    if (entries.length >= 3) {
-      return { entries, prizes: [] };
+    if (entries.length >= 2) {
+      let prizes = extractPrizeTable(data);
+      const fromEntries = buildPrizeTableFromEntries(entries);
+      if (fromEntries.length > 0) prizes = mergePrizeTables(prizes, fromEntries);
+      return { entries, prizes };
     }
   }
 
   // Handle object with leaderboard property
   if (typeof data === 'object') {
-    // Check for split format: top_three + rest_of_users (dustintfp.com and similar)
-    // These need to be combined into a single entries array
-    if (data.top_three && Array.isArray(data.top_three) && data.rest_of_users && Array.isArray(data.rest_of_users)) {
-      const topEntries = extractEntriesFromArray(data.top_three);
-      const restEntries = extractEntriesFromArray(data.rest_of_users);
-      // Assign ranks: top_three get 1-3, rest_of_users get 4+
+    // Check for split format: top_three + rest_of_users (dustintfp.com) or topThree + rest (ilovemav-style)
+    const topKey = data.top_three ? 'top_three' : (data.topThree ? 'topThree' : null);
+    const restKey = data.rest_of_users ? 'rest_of_users' : (data.rest ? 'rest' : (data.restOfUsers ? 'restOfUsers' : null));
+    if (topKey && restKey && Array.isArray(data[topKey]) && Array.isArray(data[restKey])) {
+      const topEntries = extractEntriesFromArray(data[topKey]);
+      const restEntries = extractEntriesFromArray(data[restKey]);
       topEntries.forEach((e, i) => { if (!e.rank) e.rank = i + 1; });
       restEntries.forEach((e, i) => { if (!e.rank) e.rank = i + 4; });
       const combined = [...topEntries, ...restEntries];
-      if (combined.length >= 3) {
-        const prizes = extractPrizeTable(data);
-        log('API-EXTRACT', `Found split format (top_three + rest_of_users): ${combined.length} entries`);
+      if (combined.length >= 2) {
+        let prizes = extractPrizeTable(data);
+        const fromEntries = buildPrizeTableFromEntries(combined);
+        if (fromEntries.length > 0) prizes = mergePrizeTables(prizes, fromEntries);
+        log('API-EXTRACT', `Found split format (${topKey} + ${restKey}): ${combined.length} entries`);
         return { entries: combined, prizes };
       }
     }
@@ -137,8 +142,24 @@ function findLeaderboardInResponse(data, siteName = null) {
     for (const key of leaderboardKeys) {
       if (data[key] && Array.isArray(data[key])) {
         const entries = extractEntriesFromArray(data[key]);
-        if (entries.length >= 3) {
-          const prizes = extractPrizeTable(data);
+        if (entries.length >= 2) {
+          let prizes = extractPrizeTable(data);
+          const fromEntries = buildPrizeTableFromEntries(entries);
+          if (fromEntries.length > 0) prizes = mergePrizeTables(prizes, fromEntries);
+          return { entries, prizes };
+        }
+      }
+    }
+
+    // Fallback: try ANY top-level array (e.g. ilovemav.com/api/chickengg with unknown key)
+    for (const [key, value] of Object.entries(data)) {
+      if (Array.isArray(value) && value.length >= 2) {
+        const entries = extractEntriesFromArray(value);
+        if (entries.length >= 2) {
+          let prizes = extractPrizeTable(data);
+          const fromEntries = buildPrizeTableFromEntries(entries);
+          if (fromEntries.length > 0) prizes = mergePrizeTables(prizes, fromEntries);
+          log('API-EXTRACT', `Found leaderboard array at key "${key}": ${entries.length} entries`);
           return { entries, prizes };
         }
       }
@@ -148,7 +169,7 @@ function findLeaderboardInResponse(data, siteName = null) {
     for (const [key, value] of Object.entries(data)) {
       if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
         const result = findLeaderboardInResponse(value, siteName);
-        if (result && result.entries.length >= 3) {
+        if (result && result.entries.length >= 2) {
           return result;
         }
       }
@@ -186,7 +207,9 @@ function extractEntriesFromArray(arr) {
   ];
   const prizeFields = [
     'prize', 'reward', 'payout', 'winnings', 'bonus',
-    'prizeAmount', 'prize_amount', 'rewards'
+    'prizeAmount', 'prize_amount', 'rewards', 'rewardAmount',
+    'payoutAmount', 'winningsAmount', 'bonusAmount',
+    'rankPrize', 'positionPrize', 'prizeValue', 'rewardValue'
   ];
   const rankFields = [
     'rank', 'position', 'place', 'index', 'pos',
@@ -318,22 +341,26 @@ function extractPrizeTable(data) {
 
   const prizeKeys = [
     'prizes', 'prizeTable', 'rewards', 'payouts',
-    'prizePool', 'prize_table', 'reward_table'
+    'prizePool', 'prize_table', 'reward_table',
+    'topPrizes', 'top_three_prizes', 'rewardTiers', 'prizeTiers',
+    'prizeBreakdown', 'leaderboardPrizes', 'prizeStructure'
   ];
 
   for (const key of prizeKeys) {
     const value = data[key];
 
     if (Array.isArray(value)) {
-      return value.map((item, index) => {
+      const table = value.map((item, index) => {
         if (typeof item === 'number') {
-          return { rank: index + 1, prize: item };
+          return { rank: index + 1, prize: parseNum(item) };
         }
         return {
           rank: item.rank || item.position || index + 1,
           prize: parseNum(item.prize || item.reward || item.amount || item)
         };
-      }).filter(p => p.prize > 0);
+      });
+      // Include all ranks (even 0) so rank 4+ get correct value when API provides it
+      return table.filter(p => p.rank >= 1).sort((a, b) => a.rank - b.rank);
     }
 
     if (typeof value === 'object' && value !== null) {
@@ -351,7 +378,64 @@ function extractPrizeTable(data) {
     }
   }
 
+  // Fallback: any top-level array of numbers (rank = index + 1), e.g. [525, 350, 225, 100, ...]
+  for (const [k, value] of Object.entries(data)) {
+    if (Array.isArray(value) && value.length >= 4 && value.length <= 150) {
+      const allNumbers = value.every(v => typeof v === 'number' && v >= 0);
+      if (allNumbers) {
+        const table = value.map((prize, index) => ({ rank: index + 1, prize: parseNum(prize) }));
+        return table.filter(p => p.rank >= 1).sort((a, b) => a.rank - b.rank);
+      }
+    }
+  }
+
   return [];
+}
+
+/**
+ * Build prize table from entries that have rank and prize > 0 only.
+ * We only include ranks with non-zero prize so we don't overwrite fused podium prizes
+ * (e.g. from markdown) with a full table of zeros when the API has no prize per entry.
+ * When the API does provide prize for rank 4+, those are included.
+ * @param {Array} entries - Extracted entries
+ * @returns {Array} - Prize table [{rank, prize}] for ranks with prize > 0
+ */
+function buildPrizeTableFromEntries(entries) {
+  if (!entries || entries.length === 0) return [];
+  const table = [];
+  for (const e of entries) {
+    const r = e.rank != null ? Number(e.rank) : 0;
+    const p = e.prize != null ? parseNum(e.prize) : 0;
+    if (r >= 1 && p > 0) {
+      table.push({ rank: r, prize: p });
+    }
+  }
+  return table.sort((a, b) => a.rank - b.rank);
+}
+
+/**
+ * Merge two prize tables; prefer non-zero values so we don't overwrite podium with zeros.
+ * @param {Array} fromData - From extractPrizeTable(data)
+ * @param {Array} fromEntries - From buildPrizeTableFromEntries(entries) (only ranks with prize > 0)
+ * @returns {Array} - Merged table
+ */
+function mergePrizeTables(fromData, fromEntries) {
+  if (!fromEntries || fromEntries.length === 0) return fromData || [];
+  if (!fromData || fromData.length === 0) return fromEntries;
+  const maxRank = Math.max(
+    Math.max(...fromData.map(p => p.rank), 0),
+    Math.max(...fromEntries.map(p => p.rank), 0)
+  );
+  const merged = [];
+  for (let r = 1; r <= maxRank; r++) {
+    const fromD = fromData.find(p => p.rank === r);
+    const fromE = fromEntries.find(p => p.rank === r);
+    const prizeD = fromD && fromD.prize != null ? fromD.prize : 0;
+    const prizeE = fromE && fromE.prize != null ? fromE.prize : 0;
+    const prize = prizeE > 0 ? prizeE : (prizeD > 0 ? prizeD : prizeD || prizeE);
+    merged.push({ rank: r, prize });
+  }
+  return merged;
 }
 
 // ============================================================================

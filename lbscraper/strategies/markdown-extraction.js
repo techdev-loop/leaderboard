@@ -74,11 +74,14 @@ const strategy = {
     }
 
     // Try multiple parsing methods since sites vary in format
+    const listOptions = input._prizeBeforeWager !== undefined
+      ? { prizeBeforeWager: !!input._prizeBeforeWager }
+      : {};
     const methods = [
-      { name: 'tables', fn: parseMarkdownTables },
-      { name: 'list', fn: parseMarkdownList },
-      { name: 'podium', fn: parseMarkdownPodium },
-      { name: 'headers', fn: parseMarkdownHeaderEntries }
+      { name: 'tables', fn: (md) => parseMarkdownTables(md) },
+      { name: 'list', fn: (md) => parseMarkdownList(md, listOptions) },
+      { name: 'podium', fn: (md) => parseMarkdownPodium(md) },
+      { name: 'headers', fn: (md) => parseMarkdownHeaderEntries(md) }
     ];
 
     let allEntries = [];

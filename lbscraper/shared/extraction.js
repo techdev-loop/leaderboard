@@ -781,8 +781,8 @@ function mapMarkdownCellsToEntry(cells, headers) {
     }
   }
   
-  // Validate entry
-  if (entry.username && entry.username.length >= 2 && entry.wager > 0) {
+  // Validate entry: need username and at least wager or prize (so rank 4+ with prize-only column are kept)
+  if (entry.username && entry.username.length >= 2 && (entry.wager > 0 || entry.prize > 0)) {
     return entry;
   }
   
@@ -1232,7 +1232,7 @@ function parseMarkdownPodium(markdown) {
  * @param {string} markdown - Markdown content
  * @returns {Array} - Array of entry objects
  */
-function parseMarkdownList(markdown) {
+function parseMarkdownList(markdown, options) {
   const entries = [];
   const lines = markdown.split('\n').map(l => l.trim()).filter(l => l);
 
@@ -1248,19 +1248,23 @@ function parseMarkdownList(markdown) {
   // Detect column order from table header: "Prize" then "Wagered" vs "Wagered" then "Prize"
   // This handles sites like blaffsen.com where Prize column comes before Wagered column
   // Look for the SPECIFIC pattern: "Place" then "User" then "Prize" then "Wagered" (table header)
-  // This avoids matching podium section "Wagered:" labels
-  let prizeBeforeWager = false;
-  // Pattern 1: Look for table header row "Place...User...Prize/Reward...Wagered" or "Place...User...Wagered...Prize/Reward"
-  // Note: Some sites use "Reward" instead of "Prize" (e.g., spencerrewards.com)
-  const tableHeaderMatch = markdown.match(/\bPlace\b[\s\S]{0,30}\bUser\b[\s\S]{0,30}\b(Prize|Reward|Wagered)\b[\s\S]{0,30}\b(Prize|Reward|Wagered)\b/i);
-  if (tableHeaderMatch) {
-    const first = tableHeaderMatch[1].toLowerCase();
-    const second = tableHeaderMatch[2].toLowerCase();
-    // "prize" or "reward" before "wagered" means prize column comes first
-    if ((first === 'prize' || first === 'reward') && second === 'wagered') {
-      prizeBeforeWager = true;
-      log('MARKDOWN', 'Detected column order: Prize/Reward before Wagered (from table header)');
+  // This avoids matching podium section "Wagered:" labels. Can be overridden by options.prizeBeforeWager (e.g. ilovemav.com).
+  let prizeBeforeWager = options && options.prizeBeforeWager === true;
+  if (!prizeBeforeWager) {
+    // Pattern 1: Look for table header row "Place...User...Prize/Reward...Wagered" or "Place...User...Wagered...Prize/Reward"
+    // Note: Some sites use "Reward" instead of "Prize" (e.g., spencerrewards.com)
+    const tableHeaderMatch = markdown.match(/\bPlace\b[\s\S]{0,30}\bUser\b[\s\S]{0,30}\b(Prize|Reward|Wagered)\b[\s\S]{0,30}\b(Prize|Reward|Wagered)\b/i);
+    if (tableHeaderMatch) {
+      const first = tableHeaderMatch[1].toLowerCase();
+      const second = tableHeaderMatch[2].toLowerCase();
+      // "prize" or "reward" before "wagered" means prize column comes first
+      if ((first === 'prize' || first === 'reward') && second === 'wagered') {
+        prizeBeforeWager = true;
+        log('MARKDOWN', 'Detected column order: Prize/Reward before Wagered (from table header)');
+      }
     }
+  } else {
+    log('MARKDOWN', 'Using column order hint: Prize before Wagered (from learned config)');
   }
 
   // Pattern for rank like "#4", "**#4**", "4." (requires # prefix OR . suffix)
